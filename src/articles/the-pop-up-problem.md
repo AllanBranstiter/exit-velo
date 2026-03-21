@@ -69,42 +69,30 @@ A pop-up is a hitter getting *under* the ball instead of *through* it.
 
 <figure class="diagram" style="margin: 2rem 0; text-align: center;">
 <svg viewBox="0 0 560 250" width="100%" style="max-width: 540px; display: inline-block;" xmlns="http://www.w3.org/2000/svg">
-  <!-- Divider -->
+  <defs><linearGradient id="bat-motion" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#92400e" stop-opacity="0.2"/><stop offset="60%" stop-color="#92400e" stop-opacity="0.8"/><stop offset="100%" stop-color="#7c3a1e" stop-opacity="1"/></linearGradient></defs>
   <line x1="280" y1="10" x2="280" y2="238" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <!-- LEFT PANEL: Through the Ball -->
   <text x="135" y="20" text-anchor="middle" font-size="12" font-weight="600" fill="#166534" font-family="system-ui,-apple-system,sans-serif">Through the Ball</text>
-  <!-- Ball -->
+  <polygon points="30,157 30,153 164,122 166,134" fill="url(#bat-motion)"/>
+  <circle cx="30" cy="155" r="5" fill="#92400e" opacity="0.25"/>
   <circle cx="135" cy="130" r="24" fill="#f8fafc" stroke="#475569" stroke-width="2"/>
   <line x1="111" y1="130" x2="159" y2="130" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3,2"/>
-  <!-- Bat: attack angle ~11°, passes through ball center -->
-  <line x1="30" y1="155" x2="250" y2="111" stroke="#92400e" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
-  <polygon points="250,111 238,117 237,108" fill="#92400e" opacity="0.85"/>
-  <!-- Contact dot at ball center -->
   <circle cx="135" cy="130" r="5" fill="#166534"/>
-  <!-- Result: fly ball ~25° -->
-  <line x1="135" y1="130" x2="248" y2="62" stroke="#166534" stroke-width="2"/>
-  <polygon points="248,62 239,73 234,64" fill="#166534"/>
-  <text x="253" y="67" font-size="11" fill="#166534" font-family="system-ui,-apple-system,sans-serif">~25°</text>
-  <text x="253" y="81" font-size="11" fill="#166534" font-family="system-ui,-apple-system,sans-serif">fly ball</text>
-  <!-- Bottom labels -->
+  <line x1="135" y1="130" x2="220" y2="60" stroke="#166534" stroke-width="2"/>
+  <polygon points="220,60 215,70 209,62" fill="#166534"/>
+  <text x="225" y="58" font-size="11" fill="#166534" font-family="system-ui,-apple-system,sans-serif">~25°</text>
+  <text x="225" y="72" font-size="11" fill="#166534" font-family="system-ui,-apple-system,sans-serif">fly ball</text>
   <text x="135" y="196" text-anchor="middle" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">Attack angle: ~10–15°</text>
   <text x="135" y="211" text-anchor="middle" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">Bat path through center</text>
-  <!-- RIGHT PANEL: Under the Ball -->
   <text x="420" y="20" text-anchor="middle" font-size="12" font-weight="600" fill="#dc2626" font-family="system-ui,-apple-system,sans-serif">Under the Ball</text>
-  <!-- Ball -->
+  <polygon points="320,158 320,154 490,147 490,159" fill="url(#bat-motion)"/>
+  <circle cx="320" cy="156" r="5" fill="#92400e" opacity="0.25"/>
   <circle cx="420" cy="130" r="24" fill="#f8fafc" stroke="#475569" stroke-width="2"/>
   <line x1="396" y1="130" x2="444" y2="130" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3,2"/>
-  <!-- Bat: nearly flat, passes below ball center (y=154) -->
-  <line x1="320" y1="155" x2="530" y2="153" stroke="#92400e" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
-  <polygon points="530,153 518,158 518,148" fill="#92400e" opacity="0.85"/>
-  <!-- Contact dot below ball center -->
   <circle cx="420" cy="154" r="5" fill="#dc2626"/>
-  <!-- Result: pop-up, nearly straight up -->
   <line x1="420" y1="130" x2="420" y2="32" stroke="#dc2626" stroke-width="2"/>
   <polygon points="420,32 426,47 414,47" fill="#dc2626"/>
   <text x="432" y="50" font-size="11" fill="#dc2626" font-family="system-ui,-apple-system,sans-serif">Pop-up</text>
   <text x="432" y="64" font-size="11" fill="#dc2626" font-family="system-ui,-apple-system,sans-serif">(85°+)</text>
-  <!-- Bottom labels -->
   <text x="420" y="196" text-anchor="middle" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">Attack angle: ~0–3°</text>
   <text x="420" y="211" text-anchor="middle" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">Bat path under center</text>
 </svg>
