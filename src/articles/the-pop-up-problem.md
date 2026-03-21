@@ -1,4 +1,3 @@
-
 ---
 layout: article.njk
 title: The Pop-Up Problem
@@ -8,6 +7,7 @@ date: 2026-03-20
 excerpt: "There is a hitter who put more than half of his fly balls straight up into the infield this spring. He hit .103. One week before Opening Day, the Washington Nationals sent him to Triple-A. The batting average is noise. The pop-up rate is not."
 description: "What Dylan Crews's infield fly ball rate reveals about swing mechanics and what it means for fantasy drafters at his current ADP."
 permalink: /articles/the-pop-up-problem.html
+author: Allan Branstiter
 ---
 
 Nothing deflates a ballpark quite like an infield fly ball. While fly balls to the outfield create momentary hope and hard-hit grounders spark with electricity, the infield fly simply climbs skyward and hangs there on a lazy arc that screams "routine out" before gravity takes over.

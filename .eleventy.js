@@ -17,9 +17,12 @@ module.exports = function(eleventyConfig) {
     return `<span class="term" data-term="${key}">${content}</span>`;
   });
 
-  // Articles collection sorted by date descending
+  // Articles collection sorted by date descending — excludes drafts in production
+  const isProduction = process.env.NODE_ENV === "production";
   eleventyConfig.addCollection("articles", (api) =>
-    api.getFilteredByGlob("src/articles/*.md").reverse()
+    api.getFilteredByGlob("src/articles/*.md")
+      .filter(item => isProduction ? !item.data.draft : true)
+      .reverse()
   );
 
   return {
