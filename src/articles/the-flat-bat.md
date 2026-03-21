@@ -25,10 +25,6 @@ If you wanted to know how good a hitter was for most of baseball's history, you 
 
 In 2015, Major League Baseball installed a system called <span class="term" data-term="statcast">Statcast</span> in every stadium. It uses radar and high-speed cameras to track, in real time, every ball in play. It knows how fast the ball came off the bat, exit velocity measured in miles per hour, and at what vertical angle it left, called <span class="term" data-term="launch angle">launch angle</span>. From these two numbers, and a few others, it can calculate what *should* have happened, separate from what actually did.
 
-Think of exit velocity as the strength of the hit and launch angle as the direction. Exit velocity alone doesn't win you anything. If you hit a ball at 110 miles per hour directly into the ground, it's a routine grounder, maybe a single if you're fast. But hit that same ball at 15 degrees off the ground and it clears the fence. The difference between those two outcomes is not power. It's angle.
-
-When a ball is hit with both sufficient speed and the right launch angle, roughly between 10 and 30 degrees, hard enough that the outfielder can't reach it, Statcast calls it a <span class="term" data-term="barrel">barrel</span>. Barrels almost always become extra-base hits. Every hitter in baseball has a <span class="term" data-term="barrel rate">barrel rate</span>, and the best hover around 15 to 20 percent: one in every five or six balls they put in play is essentially guaranteed to do damage.
-
 <figure class="diagram" style="margin: 2rem 0; text-align: center;">
 <svg viewBox="0 0 560 270" width="100%" style="max-width: 540px; display: inline-block;" xmlns="http://www.w3.org/2000/svg">
   <!-- Home Run Zone sector fill (10°–30°) -->
@@ -57,8 +53,12 @@ When a ball is hit with both sufficient speed and the right launch angle, roughl
   <!-- Pop-up label -->
   <text x="202" y="56" font-size="13" fill="#dc2626" font-family="system-ui,-apple-system,sans-serif">Pop-Up (45°+)</text>
 </svg>
-<figcaption style="font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; font-style: italic;">The home run sweet spot sits between 10 and 30 degrees of launch angle. Everything above 45 degrees is a pop-up. Guerrero Jr.'s average contact in 2025 came in at 7.8 degrees.</figcaption>
+<figcaption style="font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; font-style: italic;">The home run sweet spot sits between 10 and 30 degrees of launch angle. Many balls hit below 10 degrees are hit into the ground. Guerrero Jr.'s average contact in 2025 came in at 7.8 degrees.</figcaption>
 </figure>
+
+Think of exit velocity as the strength of the hit and launch angle as the direction. Exit velocity alone doesn't win you anything. If you hit a ball at 110 miles per hour directly into the ground, it's a routine grounder, maybe a single if you're fast. But hit that same ball at 15 degrees off the ground and it clears the fence. The difference between those two outcomes is not power. It's angle.
+
+When a ball is hit with both sufficient speed and the right launch angle, roughly between 10 and 30 degrees, hard enough that the outfielder can't reach it, Statcast calls it a <span class="term" data-term="barrel">barrel</span>. Barrels almost always become extra-base hits. Every hitter in baseball has a <span class="term" data-term="barrel rate">barrel rate</span>, and the best hover around 15 to 20 percent: one in every five or six balls they put in play is essentially guaranteed to do damage.
 
 Hold those numbers. We'll need them.
 
