@@ -71,7 +71,6 @@ A pop-up is a hitter getting *under* the ball instead of *through* it.
 <svg viewBox="0 0 560 250" width="100%" style="max-width: 540px; display: inline-block;" xmlns="http://www.w3.org/2000/svg">
   <!-- Divider -->
   <line x1="280" y1="10" x2="280" y2="238" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="4,3"/>
-
   <!-- LEFT PANEL: Through the Ball -->
   <text x="135" y="20" text-anchor="middle" font-size="12" font-weight="600" fill="#166534" font-family="system-ui,-apple-system,sans-serif">Through the Ball</text>
   <!-- Ball -->
@@ -90,7 +89,6 @@ A pop-up is a hitter getting *under* the ball instead of *through* it.
   <!-- Bottom labels -->
   <text x="135" y="196" text-anchor="middle" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">Attack angle: ~10–15°</text>
   <text x="135" y="211" text-anchor="middle" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">Bat path through center</text>
-
   <!-- RIGHT PANEL: Under the Ball -->
   <text x="420" y="20" text-anchor="middle" font-size="12" font-weight="600" fill="#dc2626" font-family="system-ui,-apple-system,sans-serif">Under the Ball</text>
   <!-- Ball -->
