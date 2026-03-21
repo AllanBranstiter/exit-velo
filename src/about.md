@@ -14,25 +14,25 @@ permalink: /about.html
 
       <div class="article-body">
 
-        <p>Exit Velo is a baseball publication for people who are just starting to care about the data — fans who know what a batting average is but have started to wonder if it's telling the whole story, and fantasy players who want to draft better without needing a statistics degree.</p>
+        <p>Exit Velo is for fans who know what a batting average is but have started to wonder if it's telling the whole story, and for fantasy players who want to draft better without needing a statistics degree.</p>
 
-        <p>The short answer to both questions is: the traditional numbers aren't enough anymore. Baseball has spent the last decade building a measurement system that captures things box scores never could. How hard the ball was hit. At what angle it left the bat. How fast the swing was. The gap between the hit a player deserved and the hit he got.</p>
+        <p>The traditional numbers aren't enough anymore. Baseball has spent the last decade building a measurement system that captures things box scores never could: how hard the ball was hit, at what angle it left the bat, how fast the swing was, and the gap between the hit a player deserved and the hit he got.</p>
 
         <p>Most coverage of these metrics assumes you already know what they mean. Exit Velo doesn't.</p>
 
         <h2>What you'll find here</h2>
 
-        <p>Each piece starts with a player — a real situation, a real question — and uses that as the entry point into the data. Why does a player hit the ball harder than almost anyone in baseball and still not hit that many home runs? What does a spike in ground ball rate in spring training actually tell you about a hitter's swing? When a player's production looks off, is it bad luck or a real problem?</p>
+        <p>Each piece starts with a player and a real question. Why does a hitter with a 92-mile-per-hour exit velocity still leave so many home runs on the field? What does a pop-up rate spike in spring training tell you before the team announces anything? When a player's numbers look off, is it bad luck or something the cameras already caught?</p>
 
-        <p>The statistics get explained as they come up. Every underlined term in an article can be tapped or clicked for a plain-English definition. You shouldn't have to have a second tab open to follow along.</p>
+        <p>The statistics get explained as they come up. Every underlined term can be tapped or clicked for a plain-English definition. You shouldn't have to have a second tab open to follow along.</p>
 
         <h2>The name</h2>
 
-        <p>Exit velocity is the speed of the ball off the bat — one of the first things Statcast taught us to pay attention to. It's a clean, physical measurement: how hard did he actually hit it? The name felt right for a publication that tries to get underneath the surface of what's happening on the field.</p>
+        <p>Exit velocity is the speed of the ball off the bat, one of the first things Statcast taught us to pay attention to. A clean, physical number: how hard did he actually hit it? The name felt right.</p>
 
         <h2>Who writes it</h2>
 
-        <p>Exit Velo is written by Allan Branstiter, a baseball fan and fantasy player who got interested in Statcast data and found that most explanations of it were written for people who were already experts. These articles are an attempt to fix that.</p>
+        <p>Allan Branstiter writes Exit Velo. He's a baseball fan and fantasy player who went deep into Statcast and found that most of the writing about it was aimed at people who were already experts. These are the pieces he wished existed when he started.</p>
 
       </div>
 

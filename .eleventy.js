@@ -5,7 +5,7 @@ module.exports = function(eleventyConfig) {
 
   // Date formatting filters
   eleventyConfig.addFilter("dateDisplay", (date) => {
-    return new Date(date).toLocaleDateString("en-US", { month: "long", year: "numeric" });
+    return new Date(date).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
   });
   eleventyConfig.addFilter("dateYearMonth", (date) => {
     const d = new Date(date);

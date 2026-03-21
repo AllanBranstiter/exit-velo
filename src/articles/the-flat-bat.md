@@ -72,11 +72,15 @@ His attack angle is 1.2 degrees.
 
 Attack angle measures the path of the bat through the hitting zone, not where the ball goes, but the slope of the swing itself. Zero degrees is a perfectly flat bat, traveling parallel to the ground. A steep uppercut is 15 to 20 degrees. Vladimir Guerrero Jr. swings at 1.2 degrees. He is skimming the bat through the zone, barely tilted off the horizontal, like a man trying to brush crumbs off a table rather than swing a bat. The result is what geometry predicts: balls that go hard and low. Ground balls. Line drives that skip off the infield turf. The occasional rocket that finds a gap, but not the arcing fly balls that clear fences in right-center.
 
+From the third-base seats, the swing looks almost effortless — controlled, level, the barrel arriving flat through the zone. It doesn't look like a problem. That's part of why it has persisted for five seasons.
+
 His average launch angle across all 2025 contact was 7.8 degrees. The barrel sweet spot begins at 10. He spends most of his swings below the range where home runs live.
 
-This is where it becomes genuinely strange. Statcast can calculate, from the quality of Guerrero's contact alone, what his slugging percentage *should* have been in 2025. That number, called expected slugging or xSLG, is .506. His actual slugging percentage was .467, a 39-point gap. He should have been slugging .500. He slugged .467. And this has happened every year for five consecutive seasons. He has, for half a decade, been one of the best contact-quality hitters in baseball while hitting for less power than that contact deserves. The flat swing defeats him every time.
+Statcast can calculate, from the quality of Guerrero's contact alone, what his slugging percentage *should* have been in 2025. That number, called expected slugging or xSLG, is .506. His actual slugging percentage was .467, a 39-point gap. He should have been slugging .500. He slugged .467. And this has happened every year for five consecutive seasons. He has, for half a decade, been one of the best contact-quality hitters in baseball while hitting for less power than that contact deserves. The flat swing defeats him every time.
 
 For the fantasy player, this creates a specific problem. Guerrero will be drafted in the top 20 picks of most 2026 drafts, with projections around 28 to 29 home runs. But his underlying mechanics, the attack angle that hasn't moved in five years and the launch angle that keeps missing the sweet spot, say he's been a 23-home-run hitter with the raw tools for 30. Until that angle changes, and there is no evidence it's about to, the projection is hope dressed up as math.
+
+His father, Vladimir Guerrero Sr., swung like someone was trying to take the bat away from him. The elder Guerrero had a violent, lurching uppercut — he would offer at pitches in the dirt, off the plate, occasionally above his shoulders — and he made it work for nearly two decades. Whether the son's controlled, level approach is a deliberate correction built up through years of coaching, or simply how he moves through the zone, nobody in the Blue Jays organization is saying publicly. The cameras see what they see.
 
 ## Nick Kurtz Is Not Vladimir Guerrero Jr.
 
@@ -92,7 +96,7 @@ There is a cost to the steep attack angle. Swinging sharply upward through the z
 
 Guerrero is the safer, more famous name. Kurtz is the one the cameras like.
 
-## Why Spring Training Matters More Than You Think
+## The Alonso Problem
 
 Most baseball people will tell you to ignore spring training statistics. They're mostly right. A .450 batting average in March against a mix of regulars and minor-league call-ups means almost nothing. But there is a specific category of spring training data worth paying attention to: batted ball rates. Where a player is hitting the ball, on the ground versus in the air, reflects the mechanics of his swing, not the quality of the competition. Mechanics don't change based on who's pitching.
 
@@ -141,5 +145,3 @@ The instruction manual is simple enough. Exit velocity tells you how hard. Launc
 Baseball has spent the last decade building the tools to see the game more clearly. The cameras are in every stadium. The data is publicly available. All of it is geometry, the same geometry that explains why a 26-year-old with a half-billion-dollar contract and a 92-mile-per-hour exit velocity can leave so many home runs on the field.
 
 His swing is too flat. The cameras know it. The box score has been trying to say so for five years.
-
-Now you know how to read it.
