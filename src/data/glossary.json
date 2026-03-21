@@ -1,0 +1,74 @@
+{
+  "statcast": {
+    "term": "Statcast",
+    "definition": "A tracking system installed in every MLB stadium that uses radar and high-speed cameras to measure everything that happens on the field — how fast the ball moves, at what angle, and where every player is at every moment. Installed league-wide in 2015, it gave baseball its first truly objective layer of measurement."
+  },
+  "exit velocity": {
+    "term": "Exit Velocity (EV)",
+    "definition": "How fast the ball travels off the bat, measured in miles per hour. A higher exit velocity means the ball was hit harder. The best hitters in baseball average 92–95 mph or above. It measures the strength of contact, independent of where the ball ends up."
+  },
+  "launch angle": {
+    "term": "Launch Angle",
+    "definition": "The vertical angle at which the ball leaves the bat. Zero degrees is a flat line drive. Negative is a ground ball. Between roughly 10 and 30 degrees is the sweet spot for home runs and extra-base hits. Above 45 degrees is a pop-up. Same power, different angle — completely different outcome."
+  },
+  "barrel": {
+    "term": "Barrel",
+    "definition": "A ball hit both hard enough (at least 98 mph exit velocity) and at the right launch angle (roughly 26–30 degrees) to almost guarantee an extra-base hit. A barrel is essentially a perfect collision between bat and ball."
+  },
+  "barrel rate": {
+    "term": "Barrel Rate",
+    "definition": "The percentage of a hitter's balls in play that qualify as barrels — hit hard enough and at the right angle to almost guarantee extra bases. Elite hitters have barrel rates of 15–20% or higher, meaning at least one in every five balls they put in play is a near-certain extra-base hit."
+  },
+  "attack angle": {
+    "term": "Attack Angle",
+    "definition": "The slope of the bat's path through the hitting zone at the moment of contact. A flat swing is near zero degrees; a steep uppercut is 15–20 degrees. Attack angle directly determines launch angle — a flat swing sends the ball forward and down; an upward swing sends it airborne. It's the hidden geometry behind every home run."
+  },
+  "xslg": {
+    "term": "Expected Slugging (xSLG)",
+    "definition": "What a player's slugging percentage should have been, based purely on the quality of their contact — how hard they hit the ball and at what angle — regardless of where it actually landed. Think of it as a second opinion on a hitter's true power, separate from luck or bad timing."
+  },
+  "expected slugging": {
+    "term": "Expected Slugging (xSLG)",
+    "definition": "What a player's slugging percentage should have been, based purely on the quality of their contact — how hard they hit the ball and at what angle — regardless of where it actually landed. Think of it as a second opinion on a hitter's true power, separate from luck or bad timing."
+  },
+  "bat speed": {
+    "term": "Bat Speed",
+    "definition": "How fast the barrel of the bat is moving at the moment of contact, measured in miles per hour. Faster bat speed gives a hitter more power and more time to wait on a pitch before committing to a swing. Elite bat speed is generally 75 mph or above. It tends to decline gradually as players age through their thirties."
+  },
+  "hard-hit rate": {
+    "term": "Hard-Hit Rate (HH%)",
+    "definition": "The percentage of a hitter's balls in play that are struck at 95 mph or harder. A higher hard-hit rate means a hitter is consistently making strong contact, regardless of whether those hits showed up in the box score. It's one of the most stable measures of a hitter's quality of contact."
+  },
+  "ground ball rate": {
+    "term": "Ground Ball Rate (GB%)",
+    "definition": "The percentage of a hitter's balls in play that go on the ground. Power hitters generally have lower ground ball rates — the ball needs to be in the air to clear a fence. A sudden spike in ground ball rate often signals a swing problem worth investigating before drafting a player."
+  },
+  "fly ball rate": {
+    "term": "Fly Ball Rate (FB%)",
+    "definition": "The percentage of a hitter's balls in play that go in the air. Home runs can only happen on fly balls, so hitters with higher fly ball rates — combined with good exit velocity — tend to hit for more power. It's one of the first numbers to check when a power hitter's home run total looks off."
+  },
+  "iso": {
+    "term": "ISO (Isolated Power)",
+    "definition": "A clean measure of a hitter's raw power: slugging percentage minus batting average. By subtracting batting average, it removes singles from the equation and focuses only on extra-base production. A .200+ ISO is considered strong; .250+ is elite. ISO tells you how much damage a hitter does when he makes contact."
+  },
+  "isolated power": {
+    "term": "ISO (Isolated Power)",
+    "definition": "A clean measure of a hitter's raw power: slugging percentage minus batting average. By subtracting batting average, it removes singles from the equation and focuses only on extra-base production. A .200+ ISO is considered strong; .250+ is elite."
+  },
+  "adp": {
+    "term": "ADP (Average Draft Position)",
+    "definition": "The average spot in which a player gets selected across thousands of fantasy baseball drafts. ADP is essentially the market price for a player — what the crowd believes he's worth. When underlying data disagrees with ADP, that's where value hides."
+  },
+  "slugging percentage": {
+    "term": "Slugging Percentage",
+    "definition": "A traditional hitting stat measuring total bases per at-bat. A single counts as 1, a double as 2, a triple as 3, a home run as 4. Unlike batting average, it rewards extra-base hits. A .500 slugging percentage is considered excellent; the MLB average is usually around .400."
+  },
+  "batting average": {
+    "term": "Batting Average",
+    "definition": "The most traditional hitting stat: hits divided by at-bats. A .300 average is considered excellent; .250 is roughly league average. Its main limitation is that it treats all hits equally — a bloop single counts the same as a 450-foot home run."
+  },
+  "fantasy baseball": {
+    "term": "Fantasy Baseball",
+    "definition": "A game where participants draft real MLB players and compete based on those players' actual statistics during the season. Most formats score traditional stats like home runs, batting average, RBIs, stolen bases, wins, and ERA — though scoring systems vary widely."
+  }
+}

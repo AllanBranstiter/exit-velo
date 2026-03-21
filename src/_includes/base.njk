@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}{% if title %} — {% endif %}Exit Velo</title>
+  <meta name="description" content="{{ description if description else 'For new baseball fans and fantasy players who want to understand what the numbers actually mean. Statcast data, advanced analytics, and draft strategy—explained through player stories, without the jargon.' }}">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo">Exit<span>Velo</span></a>
+      <ul class="nav__links">
+        <li><a href="/about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  {{ content | safe }}
+
+  <footer class="footer">
+    <p>&copy; 2026 Exit Velo &mdash; <a href="/about.html">About</a></p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+---
+layout: base.njk
+---
+  <main class="page">
+    <div class="article-wrap">
+
+      <header class="article-header">
+        <div class="article-header__meta">
+          <span class="article-header__category">{{ category }}</span>
+          <time class="article-header__date" datetime="{{ date | dateYearMonth }}">{{ date | dateDisplay }}</time>
+        </div>
+        <h1 class="article-header__title">{{ title }}</h1>
+        {% if subtitle %}<p class="article-header__subtitle">{{ subtitle }}</p>{% endif %}
+        <p class="article-header__byline">By Exit Velo</p>
+      </header>
+
+      <p class="glossary-hint">Tap or click any <span class="term" data-term="statcast" style="pointer-events:none; border-bottom: 1px dotted #e05c1a;">underlined term</span> to see its definition.</p>
+
+      <article class="article-body">
+        {{ content | safe }}
+      </article>
+
+    </div>
+  </main>
+
+  <script src="/js/glossary.js"></script>
