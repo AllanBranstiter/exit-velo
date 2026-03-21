@@ -34,9 +34,9 @@ Something fundamental had changed in his swing. The spring training numbers were
 
 To understand why IFFB% carries signal when batting average doesn't, start with <span class="term" data-term="launch angle">launch angle</span>.
 
-Launch angle is the trajectory at which the ball leaves the bat after contact. Zero degrees is a "flat" line drive. Negative angles pound the ball into the ground and often lead to easy ground ball outs. Any ball hit at a positive angle is a fly ball, meaning it travels up into the air rather than along the turf.
+Launch angle is the trajectory at which the ball leaves the bat after contact. Zero degrees is a "flat" <span class="term" data-term="line drive">line drive</span>. Negative angles pound the ball into the ground and often lead to easy ground ball outs. Any ball hit at a positive angle is a fly ball, meaning it travels up into the air rather than along the turf.
 
-**Somewhere between 10 and 30 degrees is where home runs and extra-base hits live.** The ball gets high enough that outfielders can't reach it, but not so high that it loses distance.
+**Somewhere between 10 and 30 degrees is where home runs and <span class="term" data-term="extra-base hit">extra-base hits</span> live.** The ball gets high enough that outfielders can't reach it, but not so high that it loses distance.
 
 A ball hit above 45 degrees goes nearly straight up. It rotates slowly. It stays in the infield. **A launch angle of 45 degrees or more means something went wrong with the batter's swing.**
 
@@ -52,17 +52,17 @@ A typical IFFB% for a major league hitter runs somewhere between **8 and 12 perc
 
 The spring didn't come out of nowhere.
 
-In 2025, Crews played 85 games for Washington, his first real opportunity after a late-August call-up the year before. He batted .208, posted a .631 <span class="term" data-term="ops">OPS</span>, and hit 10 home runs. The box score was discouraging. The underlying data was more complicated.
+In 2025, Crews played 85 games for Washington, his first real opportunity after a late-August call-up the year before. He batted .208, posted a .631 <span class="term" data-term="ops">OPS</span>, and hit 10 home runs. The <span class="term" data-term="box score">box score</span> was discouraging. The underlying data was more complicated.
 
 His <span class="term" data-term="exit velocity">exit velocity</span> was 89.7 miles per hour, which is functional. His <span class="term" data-term="hard-hit rate">hard-hit rate</span> was 38.7 percent, and his <span class="term" data-term="barrel rate">barrel rate</span> was 9.7 percent.
 
 **The contact quality wasn't the problem; the shape of the contact was.**
 
-His ground ball rate in 2025 was 50.7 percent. The typical power-profile hitter tends to be closer to 35 to 40 percent. Half of everything Crews put in play went on the ground, forward and low, like a man trying to hit the ball into the dirt on purpose.
+His <span class="term" data-term="ground ball rate">ground ball rate</span> in 2025 was 50.7 percent. The typical power-profile hitter tends to be closer to 35 to 40 percent. Half of everything Crews put in play went on the ground, forward and low, like a man trying to hit the ball into the dirt on purpose.
 
 His <span class="term" data-term="attack angle">attack angle</span> was 6.6 degrees: a modest upward tilt, well below the 10 to 15 degrees that tend to generate home runs.
 
-His <span class="term" data-term="expected slugging">expected slugging percentage</span> was .393, but his actual slugging was .352. In other words, Crews ran 28 points worse in slugging than his underlying contact deserved, meaning some bad luck was in the mix. But even the expected number isn't the number rebuilding franchises like the Nats look for in their cornerstone players.
+His <span class="term" data-term="expected slugging">expected slugging percentage</span> was .393, but his actual <span class="term" data-term="slugging percentage">slugging</span> was .352. In other words, Crews ran 28 points worse in slugging than his underlying contact deserved, meaning some bad luck was in the mix. But even the expected number isn't the number rebuilding franchises like the Nats look for in their cornerstone players.
 
 Crews is 6-foot-3, built for center field, quick in the outfield gaps. At the plate he's quiet — controlled stance, small stride, the approach of a player who has been told to stay within himself. In 2025, that approach kept the ball on the ground.
 
@@ -166,7 +166,7 @@ Dylan Crews's current <span class="term" data-term="adp">ADP</span> in <span cla
 
 ATC, the consensus average of multiple projection models, had Crews down for 563 plate appearances with 16 home runs, 25 stolen bases, and a .236 AVG in 2026. Steamer was less bullish on his playing time. That model had him good for only 407 plate appearances, 13 home runs, 18 stolen bases, and a .243 average. That's a useful fantasy contributor, particularly in formats where stolen bases matter: Crews is a plus runner who stole five bases in 85 games in 2025.
 
-His 2025 contact data told a more favorable story. <span class="term" data-term="woba">wOBA</span>, weighted on-base average, is the most honest single-number read on a hitter's offensive value. Unlike batting average, it weights each outcome by its actual run value: a home run counts for more than a single, a walk counts for something. Crews's actual wOBA was .279, a below-average mark. His <span class="term" data-term="xwoba">expected wOBA</span>, based purely on the quality of his contact and independent of where the balls actually landed, was .307. He hit the ball better than the results showed. Some of that gap tends to close over time, and the projection systems are counting on it.
+His 2025 contact data told a more favorable story. <span class="term" data-term="woba">wOBA</span>, weighted on-base average, is the most honest single-number read on a hitter's offensive value. Unlike batting average, it weights each outcome by its actual run value: a home run counts for more than a single, a walk counts for something. Crews's actual wOBA was .279, a below-average mark. His <span class="term" data-term="xwoba">expected wOBA</span>, based purely on the quality of his contact and independent of where the balls actually landed, was .307. He hit the ball better than the results showed. Some of that gap tends to close over time, and the <span class="term" data-term="projection systems">projection systems</span> are counting on it.
 
 But know what you're drafting. The IFFB% spike isn't noise across twelve games. It's a mechanical pattern showing up in the most reliable signal spring training produces. It has an identifiable cause, and the Nationals are treating it as correctable: daily communication from the big-league staff, specific adjustments laid out for Crews before he left for Rochester. A 24-year-old with real tools, working through a specific mechanical problem in a lower-pressure environment, is a reasonable bet at a near-zero price.
 

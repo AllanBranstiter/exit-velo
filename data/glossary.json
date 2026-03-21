@@ -138,5 +138,17 @@
   "xwoba": {
     "term": "Expected wOBA (xwOBA)",
     "definition": "What a hitter's wOBA should have been based purely on the quality of his contact — how hard and at what angle he hit the ball — regardless of where those balls actually landed. When a hitter's xwOBA is significantly higher than his actual wOBA, it suggests bad luck: he hit the ball well and didn't get the outcomes to show for it. The gap between xwOBA and wOBA is one of the clearest signals of whether a hitter is due for a bounce-back."
+  },
+  "babip": {
+    "term": "BABIP (Batting Average on Balls in Play)",
+    "definition": "A hitter's batting average on balls that are actually put in play — home runs and strikeouts excluded. The MLB average BABIP is around .300. A mark well above .300 often reflects good luck: balls finding gaps, hitting in front of fielders. A mark well below .300 often reflects bad luck. Over time, BABIP tends to regress toward a player's career baseline, which is why a hitter with a .380 BABIP in April probably isn't hitting .380 in September."
+  },
+  "wrc+": {
+    "term": "wRC+ (Weighted Runs Created Plus)",
+    "definition": "A park- and league-adjusted measure of a hitter's total offensive value, scaled so that 100 is exactly league average. A wRC+ of 120 means a hitter is 20 percent more productive than the average player; a wRC+ of 80 means 20 percent below average. Unlike batting average or home runs, wRC+ accounts for all offensive contributions — hits, extra-base hits, walks — and adjusts for the park a hitter plays in and the run-scoring environment of his era. It is one of the most complete single-number measures of a hitter's value."
+  },
+  "hr/fb": {
+    "term": "HR/FB Rate (Home Run to Fly Ball Rate)",
+    "definition": "The percentage of a hitter's fly balls that go over the fence for home runs. The MLB average HR/FB rate is around 13 percent; the best power hitters sustain 20 to 25 percent over a full season. A sudden spike in HR/FB rate — especially in a small sample like spring training — often reflects luck rather than a genuine power increase, since the rate is partly determined by where fly balls land, which varies with wind, park dimensions, and ballpark depth. It is one of the least stable metrics in a hitter's profile."
   }
 }
