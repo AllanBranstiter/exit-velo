@@ -25,6 +25,14 @@ module.exports = function(eleventyConfig) {
       .reverse()
   );
 
+  // Prevent draft article pages from being built in production
+  eleventyConfig.addGlobalData("eleventyComputed", {
+    permalink: (data) => {
+      if (isProduction && data.draft) return false;
+      return data.permalink;
+    }
+  });
+
   return {
     dir: { input: "src", output: "_site" },
     markdownTemplateEngine: "njk",
