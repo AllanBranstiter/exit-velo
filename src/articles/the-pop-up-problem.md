@@ -67,7 +67,95 @@ When a hitter falls behind — 0-1, 0-2, 1-2 — the dynamics shift. The pitcher
 
 A pop-up is a hitter getting *under* the ball instead of *through* it.
 
+<figure class="diagram" style="margin: 2rem 0; text-align: center;">
+<svg viewBox="0 0 560 250" width="100%" style="max-width: 540px; display: inline-block;" xmlns="http://www.w3.org/2000/svg">
+  <!-- Divider -->
+  <line x1="280" y1="10" x2="280" y2="238" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- LEFT PANEL: Through the Ball -->
+  <text x="135" y="20" text-anchor="middle" font-size="12" font-weight="600" fill="#166534" font-family="system-ui,-apple-system,sans-serif">Through the Ball</text>
+  <!-- Ball -->
+  <circle cx="135" cy="130" r="24" fill="#f8fafc" stroke="#475569" stroke-width="2"/>
+  <line x1="111" y1="130" x2="159" y2="130" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <!-- Bat: attack angle ~11°, passes through ball center -->
+  <line x1="30" y1="155" x2="250" y2="111" stroke="#92400e" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+  <polygon points="250,111 238,117 237,108" fill="#92400e" opacity="0.85"/>
+  <!-- Contact dot at ball center -->
+  <circle cx="135" cy="130" r="5" fill="#166534"/>
+  <!-- Result: fly ball ~25° -->
+  <line x1="135" y1="130" x2="248" y2="62" stroke="#166534" stroke-width="2"/>
+  <polygon points="248,62 239,73 234,64" fill="#166534"/>
+  <text x="253" y="67" font-size="11" fill="#166534" font-family="system-ui,-apple-system,sans-serif">~25°</text>
+  <text x="253" y="81" font-size="11" fill="#166534" font-family="system-ui,-apple-system,sans-serif">fly ball</text>
+  <!-- Bottom labels -->
+  <text x="135" y="196" text-anchor="middle" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">Attack angle: ~10–15°</text>
+  <text x="135" y="211" text-anchor="middle" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">Bat path through center</text>
+
+  <!-- RIGHT PANEL: Under the Ball -->
+  <text x="420" y="20" text-anchor="middle" font-size="12" font-weight="600" fill="#dc2626" font-family="system-ui,-apple-system,sans-serif">Under the Ball</text>
+  <!-- Ball -->
+  <circle cx="420" cy="130" r="24" fill="#f8fafc" stroke="#475569" stroke-width="2"/>
+  <line x1="396" y1="130" x2="444" y2="130" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <!-- Bat: nearly flat, passes below ball center (y=154) -->
+  <line x1="320" y1="155" x2="530" y2="153" stroke="#92400e" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+  <polygon points="530,153 518,158 518,148" fill="#92400e" opacity="0.85"/>
+  <!-- Contact dot below ball center -->
+  <circle cx="420" cy="154" r="5" fill="#dc2626"/>
+  <!-- Result: pop-up, nearly straight up -->
+  <line x1="420" y1="130" x2="420" y2="32" stroke="#dc2626" stroke-width="2"/>
+  <polygon points="420,32 426,47 414,47" fill="#dc2626"/>
+  <text x="432" y="50" font-size="11" fill="#dc2626" font-family="system-ui,-apple-system,sans-serif">Pop-up</text>
+  <text x="432" y="64" font-size="11" fill="#dc2626" font-family="system-ui,-apple-system,sans-serif">(85°+)</text>
+  <!-- Bottom labels -->
+  <text x="420" y="196" text-anchor="middle" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">Attack angle: ~0–3°</text>
+  <text x="420" y="211" text-anchor="middle" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">Bat path under center</text>
+</svg>
+<figcaption style="font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; font-style: italic;">The difference between a fly ball and a pop-up is where the bat barrel contacts the ball. A slight upswing finds the center and sends the ball upward at a useful angle. A flat bat slides under the equator and sends the ball nearly straight up.</figcaption>
+</figure>
+
 Crews's <span class="term" data-term="strikeout rate">strikeout rate</span> jumped from 23.6 percent in 2025 to 31.3 percent this spring. His line drive rate, the percentage of contact that goes sharp and flat, the kind that leads to hits, fell from 15.2 percent to 5.3 percent. And his IFFB% went from 6.8 percent to 55.6 percent. These three numbers, together, describe a hitter whose swing lost its path under pressure.
+
+<figure class="diagram" style="margin: 2rem 0; text-align: center;">
+<svg viewBox="0 0 560 295" width="100%" style="max-width: 540px; display: inline-block;" xmlns="http://www.w3.org/2000/svg">
+  <!-- Grid lines -->
+  <line x1="60" y1="220" x2="520" y2="220" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="60" y1="157" x2="520" y2="157" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="60" y1="93" x2="520" y2="93" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="60" y1="30" x2="520" y2="30" stroke="#e2e8f0" stroke-width="1"/>
+  <!-- Y-axis labels -->
+  <text x="52" y="224" text-anchor="end" font-size="11" fill="#94a3b8" font-family="system-ui,-apple-system,sans-serif">0%</text>
+  <text x="52" y="161" text-anchor="end" font-size="11" fill="#94a3b8" font-family="system-ui,-apple-system,sans-serif">20%</text>
+  <text x="52" y="97" text-anchor="end" font-size="11" fill="#94a3b8" font-family="system-ui,-apple-system,sans-serif">40%</text>
+  <text x="52" y="34" text-anchor="end" font-size="11" fill="#94a3b8" font-family="system-ui,-apple-system,sans-serif">60%</text>
+  <!-- IFFB% group (center x=137) -->
+  <rect x="90" y="199" width="42" height="21" fill="#94a3b8" rx="2"/>
+  <rect x="142" y="44" width="42" height="176" fill="#ef4444" rx="2"/>
+  <text x="111" y="195" text-anchor="middle" font-size="10" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">6.8%</text>
+  <text x="163" y="40" text-anchor="middle" font-size="10" fill="#dc2626" font-weight="600" font-family="system-ui,-apple-system,sans-serif">55.6%</text>
+  <text x="137" y="240" text-anchor="middle" font-size="12" font-weight="600" fill="#1e293b" font-family="system-ui,-apple-system,sans-serif">IFFB%</text>
+  <text x="137" y="254" text-anchor="middle" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">Pop-Up Rate</text>
+  <!-- K% group (center x=290) -->
+  <rect x="243" y="145" width="42" height="75" fill="#94a3b8" rx="2"/>
+  <rect x="295" y="121" width="42" height="99" fill="#ef4444" rx="2"/>
+  <text x="264" y="141" text-anchor="middle" font-size="10" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">23.6%</text>
+  <text x="316" y="117" text-anchor="middle" font-size="10" fill="#dc2626" font-weight="600" font-family="system-ui,-apple-system,sans-serif">31.3%</text>
+  <text x="290" y="240" text-anchor="middle" font-size="12" font-weight="600" fill="#1e293b" font-family="system-ui,-apple-system,sans-serif">K%</text>
+  <text x="290" y="254" text-anchor="middle" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">Strikeout Rate</text>
+  <!-- LD% group (center x=443) -->
+  <rect x="396" y="172" width="42" height="48" fill="#94a3b8" rx="2"/>
+  <rect x="448" y="203" width="42" height="17" fill="#ef4444" rx="2"/>
+  <text x="417" y="168" text-anchor="middle" font-size="10" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">15.2%</text>
+  <text x="469" y="199" text-anchor="middle" font-size="10" fill="#dc2626" font-weight="600" font-family="system-ui,-apple-system,sans-serif">5.3%</text>
+  <text x="443" y="240" text-anchor="middle" font-size="12" font-weight="600" fill="#1e293b" font-family="system-ui,-apple-system,sans-serif">LD%</text>
+  <text x="443" y="254" text-anchor="middle" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">Line Drive Rate</text>
+  <!-- Legend -->
+  <rect x="175" y="270" width="12" height="12" fill="#94a3b8" rx="2"/>
+  <text x="193" y="281" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">2025 Season</text>
+  <rect x="290" y="270" width="12" height="12" fill="#ef4444" rx="2"/>
+  <text x="308" y="281" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">2026 Spring</text>
+</svg>
+<figcaption style="font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; font-style: italic;">Three mechanical indicators from Crews's 2025 season (gray) vs. 2026 spring training (red). The IFFB% spike from 6.8 to 55.6 percent is the clearest signal of a broken swing path.</figcaption>
+</figure>
 
 This is why the spring batting average doesn't tell you the thing you actually need to know. The batting average says he went 3-for-29. The batted ball data says his swing was failing in a specific, identifiable way, and that the Nationals sent him to Triple-A to fix it in an environment where 40,000 people aren't watching every at-bat.
 
