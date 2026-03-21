@@ -122,5 +122,21 @@
   "projection systems": {
     "term": "Projection Systems",
     "definition": "Statistical models — such as Steamer, ZiPS, and ATC — that use a player's historical performance to forecast what he'll produce in the upcoming season. Projection systems form the foundation of most fantasy rankings and draft prices. Their main limitation: they tend to weight recent results more heavily than underlying contact quality, which means players with large gaps between their actual and expected statistics are often mispriced relative to what the data suggests they deserve."
+  },
+  "iffb%": {
+    "term": "Infield Fly Ball Rate (IFFB%)",
+    "definition": "The percentage of a hitter's fly balls that land in the infield rather than in the outfield or for hits. A ball hit above roughly 45 degrees of launch angle goes nearly vertical and becomes a pop-up — an automatic out with no luck involved. Unlike batting average, infield fly ball rate cannot be influenced by where fielders are positioned. A high IFFB% is a mechanical signal: the bat is catching the bottom of the ball instead of driving through it. Even in small spring training samples, a spike in IFFB% reflects swing path problems rather than the quality of the competition."
+  },
+  "ops": {
+    "term": "OPS (On-Base Plus Slugging)",
+    "definition": "A traditional stat that combines on-base percentage (how often a hitter reaches base) and slugging percentage (how many total bases he accumulates per at-bat) into a single number. A .800 OPS is considered solid; .900+ is excellent. It's one step beyond batting average because it rewards walks and extra-base hits, but it still tells you what happened rather than what the underlying contact quality deserved."
+  },
+  "woba": {
+    "term": "wOBA (Weighted On-Base Average)",
+    "definition": "A more precise measure of a hitter's offensive value per plate appearance. Unlike OPS, wOBA assigns each outcome — single, double, home run, walk — its actual run value rather than treating them as equal. A .320 wOBA is roughly league average; .370+ is excellent. It is one of the most accurate single-number measures of a hitter's true contribution at the plate."
+  },
+  "xwoba": {
+    "term": "Expected wOBA (xwOBA)",
+    "definition": "What a hitter's wOBA should have been based purely on the quality of his contact — how hard and at what angle he hit the ball — regardless of where those balls actually landed. When a hitter's xwOBA is significantly higher than his actual wOBA, it suggests bad luck: he hit the ball well and didn't get the outcomes to show for it. The gap between xwOBA and wOBA is one of the clearest signals of whether a hitter is due for a bounce-back."
   }
 }
