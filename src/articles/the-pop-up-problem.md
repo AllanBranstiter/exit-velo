@@ -1,3 +1,4 @@
+
 ---
 layout: article.njk
 title: The Pop-Up Problem
@@ -9,37 +10,43 @@ description: "What Dylan Crews's infield fly ball rate reveals about swing mecha
 permalink: /articles/the-pop-up-problem.html
 ---
 
-Nothing deflates a ballpark quite like an infield fly ball. While fly balls to the outfield create momentary hope while hard-hit grounders spark with electricity, the infield fly simply climbs skyward and hangs there on a lazy arc that screams "routine out" before gravity takes over.
+Nothing deflates a ballpark quite like an infield fly ball. While fly balls to the outfield create momentary hope and hard-hit grounders spark with electricity, the infield fly simply climbs skyward and hangs there on a lazy arc that screams "routine out" before gravity takes over.
 
 The crowd sighs. The fielder camps underneath. The game moves on.
 
-This spring, one hitter turned more than half his fly balls into exactly that kind of disappointment. His .103 batting average told part of the story. His inability to get ahead in counts told another.
+This spring, one hitter turned more than half his fly balls into exactly that kind of disappointment.
 
-That hitter was Dylan Crews, 24 years old, second overall pick in the 2023 draft, and supposed cornerstone of Washington's rebuilding project. But seven days before Opening Day, his team shipped him to Triple-A.
+That hitter was Dylan Crews. His pedigree is unquestionable: a former star at powerhouse LSU, the second overall pick in the 2023 draft, and prospect so hot that he spent less than a season in the minors. Many saw and still see Crews as a cornerstone of Washington's rebuilding project. But seven days before Opening Day this season, his team shipped him off to Triple-A.
 
-When the Nationals demoted their prized prospect, headlines followed. The batting average seemed to explain everything.
+When the Nationals demoted their prized prospect, headlines followed. His underwhelming performance in 2025 combined with a .103 batting average this spring seemed to explain everything.
 
 And yet didn't tell the whole story.
 
-<span class="term" data-term="batting average">Batting average</span> in <span class="term" data-term="spring training">spring training</span> is statistical white noise. The pitching quality varies wildly, samples stay small, and circumstances feel artificial. A .400 March means little. A .103 March means even less. But pop-up rate, formally called infield fly ball percentage or <span class="term" data-term="iffb%">IFFB%</span>, reveals something deeper. It reveals something about a player's swing mechanics, and swing mechanics don't shift based on who's throwing.
+<span class="term" data-term="batting average">Batting average</span> in <span class="term" data-term="spring training">spring training</span> is statistical white noise. The pitching quality varies wildly, sample sizes are small, and circumstances feel artificial. A .400 average in March means little. A .103 average in March can mean even less.
 
-Crews's pop-up rate jumped from 6.8 percent in 2025 to 55.6 percent this spring.
+But pop-up rate, often called infield fly ball percentage or <span class="term" data-term="iffb%">IFFB%</span>, reveals something deeper. It reveals something about a player's swing mechanics, and swing mechanics don't shift based on who's throwing.
 
-Something fundamental had changed in his swing. The spring training numbers weren't telling us about his talent. They were telling us about his mechanics. And the Nationals, publicly at least, weren't talking.
+Crews's pop-up rate jumped from **6.8 percent** in 2025 to **55.6 percent** this spring. Let that sink in for a minute.
+
+Something fundamental had changed in his swing. The spring training numbers weren't telling us about his talent. They were telling us about his mechanics. And the Nationals, publicly at least, weren't talking about it.
 
 ## The Most Honest Number in Spring Training
 
-To understand why IFFB% carries signal when batting average doesn't, start with <span class="term" data-term="launch angle">launch angle</span>, the vertical angle at which the ball leaves the bat after contact. Zero degrees is a flat line drive. Negative angles are ground balls. Any ball hit at a positive angle is a fly ball, meaning it travels up into the air rather than along the turf. Somewhere between 10 and 30 degrees is where home runs and extra-base hits live. The ball gets high enough that outfielders can't reach it, but not so high that it loses distance.
+To understand why IFFB% carries signal when batting average doesn't, start with <span class="term" data-term="launch angle">launch angle</span>.
 
-Above 45 degrees, something has gone wrong.
+Launch angle is the trajectory at which the ball leaves the bat after contact. Zero degrees is a "flat" line drive. Negative angles pound the ball into the ground and often lead to easy ground ball outs. Any ball hit at a positive angle is a fly ball, meaning it travels up into the air rather than along the turf.
 
-A ball hit above 45 degrees goes nearly straight up. It rotates slowly. It stays in the infield. It lands in a glove. Infield fly ball rate measures exactly this: the percentage of a hitter's <span class="term" data-term="fly ball rate">fly balls</span> that land in the infield. There is no luck involved. No version of a pop-up falls for a hit. An infield fly ball is an automatic out, every time, and unlike batting average, which can rise or fall based on where fielders happen to be standing, IFFB% reflects contact quality alone. Pop-ups go up. They come down. They get caught.
+**Somewhere between 10 and 30 degrees is where home runs and extra-base hits live.** The ball gets high enough that outfielders can't reach it, but not so high that it loses distance.
+
+A ball hit above 45 degrees goes nearly straight up. It rotates slowly. It stays in the infield. **A launch angle of 45 degrees or more means something went wrong with the batter's swing.**
+
+Infield fly ball rate measures the percentage of a hitter's <span class="term" data-term="fly ball rate">fly balls</span> that land in the infield. There is no luck involved. No version of a pop-up falls for a hit without a defensive error. An infield fly ball is an automatic out, every time, and unlike batting average, which can rise or fall based on where fielders happen to be standing, IFFB% reflects contact quality alone.
+
+Pop-ups go up. They come down. They get caught.
 
 A hitter can look terrible against a Triple-A slider in March and fine against the same pitch in April. The competition gap is real. But a hitter whose swing is producing launch angles above 45 degrees is producing them because of *how he's swinging*, not because of who's throwing. IFFB% is the clearest mechanical fingerprint the batted ball data produces.
 
-Pete Alonso's <span class="term" data-term="ground ball rate">ground ball rate</span> jumped from 38 percent to 55 percent in spring training this year. Different metric, same principle. Batted ball shape reflects mechanics. It shows up in the data before it shows up anywhere else.
-
-A typical IFFB% for a major league hitter runs somewhere between 8 and 12 percent. Dylan Crews's IFFB% this spring was 55.6 percent.
+A typical IFFB% for a major league hitter runs somewhere between **8 and 12 percent**. Dylan Crews's IFFB% this spring was **55.6 percent**.
 
 ## What the 2025 Numbers Said First
 
@@ -47,25 +54,29 @@ The spring didn't come out of nowhere.
 
 In 2025, Crews played 85 games for Washington, his first real opportunity after a late-August call-up the year before. He batted .208, posted a .631 <span class="term" data-term="ops">OPS</span>, and hit 10 home runs. The box score was discouraging. The underlying data was more complicated.
 
-His <span class="term" data-term="exit velocity">exit velocity</span>, how hard he actually hit the ball, was 89.7 miles per hour, which is functional. His <span class="term" data-term="hard-hit rate">hard-hit rate</span>, the percentage of balls struck at 95 mph or harder, was 38.7 percent. His <span class="term" data-term="barrel rate">barrel rate</span> was 9.7 percent. The contact quality wasn't the problem.
+His <span class="term" data-term="exit velocity">exit velocity</span> was 89.7 miles per hour, which is functional. His <span class="term" data-term="hard-hit rate">hard-hit rate</span> was 38.7 percent, and his <span class="term" data-term="barrel rate">barrel rate</span> was 9.7 percent.
 
-The shape of the contact was.
+**The contact quality wasn't the problem; the shape of the contact was.**
 
 His ground ball rate in 2025 was 50.7 percent. The typical power-profile hitter tends to be closer to 35 to 40 percent. Half of everything Crews put in play went on the ground, forward and low, like a man trying to hit the ball into the dirt on purpose.
 
-His <span class="term" data-term="attack angle">attack angle</span>, the path of the bat through the hitting zone, was 6.6 degrees: a modest upward tilt, well below the 10 to 15 degrees that tend to generate home runs.
+His <span class="term" data-term="attack angle">attack angle</span> was 6.6 degrees: a modest upward tilt, well below the 10 to 15 degrees that tend to generate home runs.
 
-His <span class="term" data-term="expected slugging">expected slugging percentage</span>, what <span class="term" data-term="statcast">Statcast</span> calculated his slugging *should* have been based on the quality of his contact and independent of where the balls happened to land, was .393. His actual slugging was .352. He ran 28 points worse than his underlying contact deserved, meaning some bad luck was in the mix. But even the expected number isn't the number of a franchise cornerstone.
-
-The honest read on 2025: a young hitter who arrived with limited professional experience. The Nationals called him up after just 652 plate appearances in the minor leagues. He lost three months to an oblique injury and was still working out his approach at the highest level. The tools were present. The development wasn't finished.
+His <span class="term" data-term="expected slugging">expected slugging percentage</span> was .393, but his actual slugging was .352. In other words, Crews ran 28 points worse in slugging than his underlying contact deserved, meaning some bad luck was in the mix. But even the expected number isn't the number rebuilding franchises like the Nats look for in their cornerstone players.
 
 Crews is 6-foot-3, built for center field, quick in the outfield gaps. At the plate he's quiet — controlled stance, small stride, the approach of a player who has been told to stay within himself. In 2025, that approach kept the ball on the ground.
+
+The honest read on 2025 was that the Nats took a young hitter who arrived with limited professional experience and rushed him to the majors. The Nationals called him up after just 652 plate appearances in the minor leagues, and he lost three months to an oblique injury and was still working out his approach at the highest level. The tools were present but his development wasn't finished.
 
 ## The Count, the Swing, and the Ball That Goes Straight Up
 
 Blake Butera, the Nationals' manager, was unusually specific about the diagnosis: Crews kept falling behind in the count. That's a mechanical observation dressed up as a strategic one. It connects directly to the IFFB% spike.
 
-When a hitter falls behind — 0-1, 0-2, 1-2 — the dynamics shift. The pitcher has the advantage. He can expand the zone, throw pitches at the edges, force the hitter to protect the plate with less-than-ideal swings. In that situation, most hitters shorten the stroke, pulling their hands through the zone faster, trying to make contact before the ball gets too deep. Done well, this is survivable. Done poorly, especially by a young hitter pressing in March with coaches watching every swing, the path gets short and steep. Instead of the bat driving through the ball on a slight upward path, it comes down and through on a compressed arc, catching the bottom half of the baseball and sending it skyward.
+When a hitter falls behind — 0-1, 0-2, 1-2 — the dynamics shift. The pitcher has the advantage. He can expand the zone, throw pitches at the edges, force the hitter to protect the plate with less-than-ideal swings. In that situation, most hitters shorten the stroke, pulling their hands through the zone faster, trying to make contact before the ball gets too deep.
+
+Done well, this is survivable. Done poorly, especially by a young hitter pressing in March with coaches watching every swing, the path gets short and steep.
+
+Instead of the bat driving through the ball on a slight upward path, it comes down and through on a compressed arc, catching the bottom half of the baseball and sending it skyward.
 
 A pop-up is a hitter getting *under* the ball instead of *through* it.
 
@@ -145,15 +156,15 @@ Crews's <span class="term" data-term="strikeout rate">strikeout rate</span> jump
 <figcaption style="font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; font-style: italic;">Three mechanical indicators from Crews's 2025 season (gray) vs. 2026 spring training (red). The IFFB% spike from 6.8 to 55.6 percent is the clearest signal of a broken swing path.</figcaption>
 </figure>
 
-This is why the spring batting average doesn't tell you the thing you actually need to know. The batting average says he went 3-for-29. The batted ball data says his swing was failing in a specific, identifiable way, and that the Nationals sent him to Triple-A to fix it in an environment where 40,000 people aren't watching every at-bat.
+This is why the spring batting average doesn't tell you the thing you actually need to know. The batting average says he went 3-for-29. The batted ball data says his swing was failing in a specific, identifiable way.
+
+So why was he demoted? The underlying stats tell me that the Nationals want him to fix his swing mechanics in an environment where 40,000 people aren't watching every at-bat.
 
 ## The Draft Argument for a Player Going Nowhere Fast
 
-Dylan Crews's current <span class="term" data-term="adp">ADP</span> in <span class="term" data-term="fantasy baseball">fantasy baseball</span> drafts is 172.9, roughly the fifteenth round in a standard league, a late-round dart rather than a core piece. The market has almost fully written him off.
+Dylan Crews's current <span class="term" data-term="adp">ADP</span> in <span class="term" data-term="fantasy baseball">fantasy baseball</span> drafts is 172.9, roughly the fifteenth round in a standard league, a late-round dart rather than a core piece. The market has almost fully written him off, but there's still reason to think he could return to the Show and be productive this season.
 
-When the Nationals sent Crews to Rochester, they sent the second overall pick in the 2023 draft to Triple-A for a mechanical tune-up. That doesn't happen quietly. The beat writers covered it, the prospect rankers updated their boards, and a segment of the fantasy community that was already skeptical got louder. In a draft room full of people reacting to headlines, Crews is now the player nobody wants to explain.
-
-The <span class="term" data-term="projection systems">projection systems</span> haven't. ATC, the consensus average of multiple projection models, sees 16 home runs, 25 stolen bases, and a .236 batting average over a full season. All four major systems cluster around those numbers. That's a useful fantasy contributor, particularly in formats where stolen bases matter: Crews is a plus runner who stole five bases in 85 games in 2025.
+ATC, the consensus average of multiple projection models, had Crews down for 563 plate appearances with 16 home runs, 25 stolen bases, and a .236 AVG in 2026. Steamer was less bullish on his playing time. That model had him good for only 407 plate appearances, 13 home runs, 18 stolen bases, and a .243 average. That's a useful fantasy contributor, particularly in formats where stolen bases matter: Crews is a plus runner who stole five bases in 85 games in 2025.
 
 His 2025 contact data told a more favorable story. <span class="term" data-term="woba">wOBA</span>, weighted on-base average, is the most honest single-number read on a hitter's offensive value. Unlike batting average, it weights each outcome by its actual run value: a home run counts for more than a single, a walk counts for something. Crews's actual wOBA was .279, a below-average mark. His <span class="term" data-term="xwoba">expected wOBA</span>, based purely on the quality of his contact and independent of where the balls actually landed, was .307. He hit the ball better than the results showed. Some of that gap tends to close over time, and the projection systems are counting on it.
 
@@ -165,4 +176,4 @@ At 172.9 ADP, you are paying for uncertainty. The data says the tools are real. 
 
 Through roughly 1,200 plate appearances across his professional career, Dylan Crews has shown he can run, field, and hit the ball hard enough to deserve better outcomes than the box score gave him. His spring statistics were a mechanical problem, not a talent diagnosis. The infield fly ball rate said the swing lost its path. It does not say the swing can't find it again.
 
-He is 24. He will be back in Washington before the end of the year, almost certainly. The number worth watching when he does: his line drive rate. The spring broke it to 5.3 percent. A healthy Crews runs closer to 15. If that number comes back, the home runs and stolen bases follow. If it doesn't, the pop-up rate was the diagnosis, not just a symptom.
+He is 24. He will be back in Washington before the end of the year, almost certainly. **The number worth watching when he does: his line drive rate.** This spring it was only 5.3 percent. A healthy Crews runs closer to 15. If that number comes back, the home runs and stolen bases follow. If it doesn't, the pop-up rate was the diagnosis, not just a symptom.
