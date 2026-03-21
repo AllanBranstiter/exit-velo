@@ -70,5 +70,57 @@
   "fantasy baseball": {
     "term": "Fantasy Baseball",
     "definition": "A game where participants draft real MLB players and compete based on those players' actual statistics during the season. Most formats score traditional stats like home runs, batting average, RBIs, stolen bases, wins, and ERA — though scoring systems vary widely."
+  },
+  "rbi": {
+    "term": "RBI (Runs Batted In)",
+    "definition": "A traditional counting stat that credits a batter when his at-bat causes a run to score. RBIs are heavily dependent on lineup position and how many baserunners are ahead of a hitter — making them as much a measure of opportunity as of skill. Two hitters with identical contact quality can have very different RBI totals based purely on where they bat in the order."
+  },
+  "rbis": {
+    "term": "RBI (Runs Batted In)",
+    "definition": "A traditional counting stat that credits a batter when his at-bat causes a run to score. RBIs are heavily dependent on lineup position and how many baserunners are ahead of a hitter — making them as much a measure of opportunity as of skill."
+  },
+  "strikeout rate": {
+    "term": "Strikeout Rate (K%)",
+    "definition": "The percentage of a batter's plate appearances that end in a strikeout. A high strikeout rate costs a hitter batting average and can hurt his value in traditional fantasy formats. It is also the most common trade-off for a steep attack angle — swinging sharply upward through the zone generates lift, but makes low pitches harder to square up. Elite contact hitters are below 15%; aggressive power hitters often exceed 25–30%."
+  },
+  "k%": {
+    "term": "Strikeout Rate (K%)",
+    "definition": "The percentage of a batter's plate appearances that end in a strikeout. A high strikeout rate costs a hitter batting average and can hurt his value in traditional fantasy formats. It is also the most common trade-off for a steep attack angle."
+  },
+  "walk rate": {
+    "term": "Walk Rate (BB%)",
+    "definition": "The percentage of a batter's plate appearances that result in a walk. A high walk rate is a sign of plate discipline — the ability to identify and lay off pitches outside the strike zone. Walk rate tends to hold up during slumps and is one of the most stable predictors of future on-base percentage. For power hitters with high strikeout rates, a strong walk rate suggests they're being selective rather than simply struggling."
+  },
+  "bb%": {
+    "term": "Walk Rate (BB%)",
+    "definition": "The percentage of a batter's plate appearances that result in a walk. A high walk rate is a sign of plate discipline — the ability to identify and lay off pitches outside the strike zone."
+  },
+  "box score": {
+    "term": "Box Score",
+    "definition": "The traditional statistical summary of a baseball game: at-bats, hits, runs, RBIs, home runs, and so on. Box scores tell you what happened, but not why — they can't distinguish a hard-hit ball that found a fielder from a lucky bloop that fell in. Statcast metrics exist specifically to capture what the box score cannot: the quality of the contact behind the result."
+  },
+  "fast-swing rate": {
+    "term": "Fast Swing Rate",
+    "definition": "The percentage of a batter's swings in which the bat reaches 75 mph or more of bat speed. A high fast-swing rate means a hitter is consistently generating genuine power — not just occasionally. A declining fast-swing rate is often one of the earliest signs of aging in a power hitter, showing up in Statcast data before traditional statistics begin to reflect it."
+  },
+  "spring training": {
+    "term": "Spring Training",
+    "definition": "The pre-season practice period in February and March when teams play exhibition games before Opening Day. Most spring statistics — batting average, ERA, home runs — are considered unreliable because rosters include minor leaguers and competition is uneven. The exception: batted-ball shape metrics like ground ball rate, which reflect swing mechanics rather than results. Mechanics don't change based on who's pitching, which is why a spike in ground ball rate in spring is worth paying attention to even when the sample size is small."
+  },
+  "line drive": {
+    "term": "Line Drive",
+    "definition": "A ball hit sharply and relatively flat — typically between 10 and 25 degrees of launch angle — that travels hard and direct rather than arcing upward. Line drives have the highest batting average of any batted ball type. They are the result of a bat path that squares up the ball cleanly, and a high line drive rate is generally a sign of above-average contact quality."
+  },
+  "breaking ball": {
+    "term": "Breaking Ball",
+    "definition": "A pitch that curves or breaks as it travels to the plate rather than traveling in a straight line. Curveballs and sliders are the most common types. Breaking balls are thrown slower than fastballs and designed to change location at the last moment, making them difficult to square up — especially for hitters with steep attack angles who are committed to swinging upward through the zone."
+  },
+  "extra-base hit": {
+    "term": "Extra-Base Hit",
+    "definition": "Any hit that allows the batter to reach second base or beyond — a double, triple, or home run. Extra-base hits are the primary currency of run production and the main thing slugging percentage measures. Statcast metrics like barrel rate and expected slugging are built to predict a hitter's ability to generate them based on the quality of his contact, independent of luck."
+  },
+  "projection systems": {
+    "term": "Projection Systems",
+    "definition": "Statistical models — such as Steamer, ZiPS, and ATC — that use a player's historical performance to forecast what he'll produce in the upcoming season. Projection systems form the foundation of most fantasy rankings and draft prices. Their main limitation: they tend to weight recent results more heavily than underlying contact quality, which means players with large gaps between their actual and expected statistics are often mispriced relative to what the data suggests they deserve."
   }
 }
