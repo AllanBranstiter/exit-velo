@@ -1,10 +1,10 @@
 ---
 layout: article.njk
-title: The Flat Bat
-subtitle: "What baseball's best new statistics reveal about the most surprising position in fantasy, and why it matters"
+title: Why the Best Contact Quality at First Base Doesn't Always Mean the Most Home Runs
+subtitle: "Attack angle explains the gap between what first basemen should be doing and what they actually do — and most fantasy drafters aren't pricing it."
 category: Fantasy Baseball
 date: 2026-03-19
-excerpt: "There is a player in Major League Baseball who hits the ball harder than almost anyone alive. His maximum exit velocity last season was 120.4 miles per hour, a career high. He is paid roughly half a billion dollars to hit a baseball. He hit 23 home runs. This is the story of why, and what it means for your fantasy draft."
+excerpt: "Vladimir Guerrero Jr. hit the ball harder than almost anyone in baseball last season. His maximum exit velocity was 120.4 miles per hour, a career high. He hit 23 home runs — roughly 15 fewer than his contact quality said he deserved. The reason is attack angle, and it changes how you should be drafting first base in 2026."
 description: "What Statcast reveals about first base and what it means for your fantasy draft."
 permalink: /articles/the-flat-bat.html
 author: Allan Branstiter
