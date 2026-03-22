@@ -138,5 +138,17 @@
   "xwoba": {
     "term": "Expected wOBA (xwOBA)",
     "definition": "An estimate of what a hitter's wOBA would have been based on the quality of his contact, specifically exit velocity and launch angle, without regard to where batted balls actually landed. League average xwOBA is roughly .320; elite hitters typically exceed .370. A significant gap between xwOBA and actual wOBA can indicate that a hitter's results were affected by luck or sequencing. When xwOBA exceeds wOBA by a wide margin, it is often cited as evidence of a potential bounce-back."
+  },
+  "babip": {
+    "term": "BABIP (Batting Average on Balls in Play)",
+    "definition": "Batting average calculated only on balls put in play, excluding home runs and strikeouts. League average is around .300; a sustained rate above .340 is generally considered above average. BABIP fluctuates more than most hitting statistics and tends to regress toward a player's career baseline over time."
+  },
+  "wrc+": {
+    "term": "wRC+ (Weighted Runs Created Plus)",
+    "definition": "A park- and league-adjusted measure of a hitter's total offensive production, scaled so that 100 is league average. A wRC+ of 120 means a hitter produced 20 percent more offense than an average player in the same conditions; 80 means 20 percent below average."
+  },
+  "hr/fb": {
+    "term": "HR/FB Rate (Home Run to Fly Ball Rate)",
+    "definition": "The percentage of a hitter's fly balls that result in home runs. League average is around 13 percent; the best power hitters sustain 20 to 25 percent over a full season. HR/FB rate fluctuates considerably from year to year and is among the less stable metrics in a hitter's profile."
   }
 }
