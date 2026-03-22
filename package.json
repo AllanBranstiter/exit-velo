@@ -1,12 +1,22 @@
 {
   "name": "exit-velo",
   "version": "1.0.0",
+  "type": "module",
   "description": "Exit Velo — baseball analytics publication",
   "scripts": {
     "build": "eleventy",
-    "dev": "eleventy --serve"
+    "dev": "eleventy --serve",
+    "lint": "eslint . && stylelint \"src/css/**/*.css\"",
+    "lint:js": "eslint .",
+    "lint:css": "stylelint \"src/css/**/*.css\""
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "stylelint": "^16.0.0",
+    "stylelint-config-standard": "^36.0.0"
   }
 }

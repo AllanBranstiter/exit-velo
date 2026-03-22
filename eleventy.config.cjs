@@ -2,6 +2,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/data");
+  eleventyConfig.addPassthroughCopy("src/images");
 
   // Date formatting filters
   eleventyConfig.addFilter("dateDisplay", (date) => {

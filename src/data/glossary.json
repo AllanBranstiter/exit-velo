@@ -139,6 +139,22 @@
     "term": "Expected wOBA (xwOBA)",
     "definition": "An estimate of what a hitter's wOBA would have been based on the quality of his contact, specifically exit velocity and launch angle, without regard to where batted balls actually landed. League average xwOBA is roughly .320; elite hitters typically exceed .370. A significant gap between xwOBA and actual wOBA can indicate that a hitter's results were affected by luck or sequencing. When xwOBA exceeds wOBA by a wide margin, it is often cited as evidence of a potential bounce-back."
   },
+  "xera": {
+    "term": "xERA (Expected ERA)",
+    "definition": "An estimate of what a pitcher's ERA would have been based on the quality of contact allowed, specifically exit velocity and launch angle on balls put in play, without regard to sequencing or batted ball luck. League average xERA is typically around 4.00 to 4.20; below 3.50 is considered strong; below 3.00 is elite. A large gap between xERA and actual ERA often indicates that a pitcher's results were influenced by luck or defense."
+  },
+  "whiff%": {
+    "term": "Whiff Rate (Whiff%)",
+    "definition": "The percentage of a pitcher's individual pitches that produce a swinging strike. Unlike strikeout rate, which is measured per plate appearance, whiff rate is measured per pitch thrown. League average is approximately 24 to 25 percent; elite swing-and-miss pitchers typically exceed 30 percent. Whiff rate is one of the most reliable indicators of a pitcher's ability to miss bats regardless of how counts or at-bats ultimately resolve."
+  },
+  "ivb": {
+    "term": "Induced Vertical Break (IVB)",
+    "definition": "The vertical movement of a pitch caused by spin, measured independently of gravity. IVB is calculated by comparing how far a pitch actually moves vertically to how far a theoretical spinless pitch traveling the same speed on the same initial trajectory would move. A four-seam fastball with high IVB does not literally rise; it falls less than expected, creating the appearance of rising. A curveball with negative IVB falls more than gravity alone would produce. League average IVB for a four-seam fastball is approximately 14 to 15 inches; elite fastballs exceed 18 to 20 inches."
+  },
+  "induced vertical break": {
+    "term": "Induced Vertical Break (IVB)",
+    "definition": "The vertical movement of a pitch caused by spin, measured independently of gravity. IVB is calculated by comparing how far a pitch actually moves vertically to how far a theoretical spinless pitch traveling the same speed on the same initial trajectory would move. A four-seam fastball with high IVB does not literally rise; it falls less than expected, creating the appearance of rising. A curveball with negative IVB falls more than gravity alone would produce. League average IVB for a four-seam fastball is approximately 14 to 15 inches; elite fastballs exceed 18 to 20 inches."
+  },
   "babip": {
     "term": "BABIP (Batting Average on Balls in Play)",
     "definition": "Batting average calculated only on balls put in play, excluding home runs and strikeouts. League average is around .300; a sustained rate above .340 is generally considered above average. BABIP fluctuates more than most hitting statistics and tends to regress toward a player's career baseline over time."

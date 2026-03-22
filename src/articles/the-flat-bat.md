@@ -1,10 +1,10 @@
 ---
 layout: article.njk
 title: Why the Best Contact Quality at First Base Doesn't Always Mean the Most Home Runs
-subtitle: "Attack angle explains the gap between what first basemen should be doing and what they actually do — and most fantasy drafters aren't pricing it."
+subtitle: "Attack angle explains the gap between what first basemen should be doing and what they actually do, and most fantasy drafters aren't pricing it."
 category: Fantasy Baseball
 date: 2026-03-19
-excerpt: "Vladimir Guerrero Jr. hit the ball harder than almost anyone in baseball last season. His maximum exit velocity was 120.4 miles per hour, a career high. He hit 23 home runs — roughly 15 fewer than his contact quality said he deserved. The reason is attack angle, and it changes how you should be drafting first base in 2026."
+excerpt: "Vladimir Guerrero Jr. hit the ball harder than almost anyone in baseball last season. His maximum exit velocity was 120.4 miles per hour, a career high. He hit 23 home runs, roughly 15 fewer than his contact quality said he deserved. The reason is attack angle, and it changes how you should be drafting first base in 2026."
 description: "What Statcast reveals about first base and what it means for your fantasy draft."
 permalink: /articles/the-flat-bat.html
 author: Allan Branstiter
@@ -16,9 +16,9 @@ He hit 23 home runs, roughly 15 fewer than his contact quality said he deserved.
 
 His name is Vladimir Guerrero Jr. He is the consensus best first baseman in baseball. And somewhere in the gap between what the cameras say he should be doing and what the box score says he actually does, there is a story worth understanding, not just about him, but about how the fantasy draft market prices players when it's working from incomplete information.
 
-This is that story. It starts with a number called <span class="term" data-term="attack angle">attack angle</span>, winds through exit velocity and <span class="term" data-term="expected slugging">expected slugging</span> and <span class="term" data-term="hard-hit rate">hard-hit rates</span>, and ends at a draft board. Which first basemen in 2026 are being priced correctly, and which are being over- or under-valued because the market hasn't caught up to what the cameras already know?
+The number at the center of that gap is called <span class="term" data-term="attack angle">attack angle</span>. Which first basemen in 2026 are being priced correctly, and which are being over- or under-valued because the market hasn't caught up to what the cameras already know?
 
-You don't need a statistics degree for any of this. You need a feel for geometry and a willingness to think about what a baseball actually does when it gets hit.
+You don't need a statistics degree for any of this. A feel for geometry is enough.
 
 ## What the Cameras See
 
@@ -67,21 +67,21 @@ Hold those numbers. We'll need them.
 
 Here is what the cameras see when Vladimir Guerrero Jr. swings a baseball bat.
 
-His exit velocity is excellent: 92.0 mph on average, which ranks among the game's better hitters. His hard-hit rate, the percentage of balls he strikes at 95 mph or harder, is 50.7%, meaning half his contact is genuinely hard. His barrel rate is 12.2%. These are the numbers of a legitimate power threat.
+His exit velocity is excellent: 92.0 mph on average, which ranks among the game's better hitters. His <span class="term" data-term="hard-hit rate">hard-hit rate</span>, the percentage of balls he strikes at 95 mph or harder, is 50.7%, meaning half his contact is genuinely hard. His barrel rate is 12.2%. These are the numbers of a legitimate power threat.
 
 His attack angle is 1.2 degrees.
 
 Attack angle measures the path of the bat through the hitting zone, not where the ball goes, but the slope of the swing itself. Zero degrees is a perfectly flat bat, traveling parallel to the ground. A steep uppercut is 15 to 20 degrees. Vladimir Guerrero Jr. swings at 1.2 degrees. He is skimming the bat through the zone, barely tilted off the horizontal, like a man trying to brush crumbs off a table rather than swing a bat. The result is what geometry predicts: balls that go hard and low. Ground balls. Line drives that skip off the infield turf. The occasional rocket that finds a gap, but not the arcing fly balls that clear fences in right-center.
 
-From the third-base seats, the swing looks almost effortless — controlled, level, the barrel arriving flat through the zone. It doesn't look like a problem. That's part of why it has persisted for five seasons.
+From the third-base seats, the swing looks almost effortless: controlled, level, the barrel arriving flat through the zone. It doesn't look like a problem. That's part of why it has persisted for five seasons.
 
 His average launch angle across all 2025 contact was 7.8 degrees. The barrel sweet spot begins at 10. He spends most of his swings below the range where home runs live.
 
-Statcast can calculate, from the quality of Guerrero's contact alone, what his slugging percentage *should* have been in 2025. That number, called expected slugging or xSLG, is .506. His actual slugging percentage was .467, a 39-point gap. He should have been slugging .500. He slugged .467. And this has happened every year for five consecutive seasons. He has, for half a decade, been one of the best contact-quality hitters in baseball while hitting for less power than that contact deserves. The flat swing defeats him every time.
+Statcast can calculate, from the quality of Guerrero's contact alone, what his slugging percentage *should* have been in 2025. That number, called <span class="term" data-term="expected slugging">expected slugging</span> or xSLG, is .506. His actual slugging percentage was .467, a 39-point gap. He should have been slugging .500. He slugged .467. And this has happened every year for five consecutive seasons. He has, for half a decade, been one of the best contact-quality hitters in baseball while hitting for less power than that contact deserves. The flat swing defeats him every time.
 
 For the fantasy player, this creates a specific problem. Guerrero will be drafted in the top 20 picks of most 2026 drafts, with projections around 28 to 29 home runs. But his underlying mechanics, the attack angle that hasn't moved in five years and the launch angle that keeps missing the sweet spot, say he's been a 23-home-run hitter with the raw tools for 30. Until that angle changes, and there is no evidence it's about to, the projection is hope dressed up as math.
 
-His father, Vladimir Guerrero Sr., swung like someone was trying to take the bat away from him. The elder Guerrero had a violent, lurching uppercut — he would offer at pitches in the dirt, off the plate, occasionally above his shoulders — and he made it work for nearly two decades. Whether the son's controlled, level approach is a deliberate correction built up through years of coaching, or simply how he moves through the zone, nobody in the Blue Jays organization is saying publicly. The cameras see what they see.
+His father, Vladimir Guerrero Sr., swung like someone was trying to take the bat away from him. The elder Guerrero had a violent, lurching uppercut. He would offer at pitches in the dirt, off the plate, occasionally above his shoulders, and he made it work for nearly two decades. Whether the son's controlled, level approach is a deliberate correction built up through years of coaching, or simply how he moves through the zone, nobody in the Blue Jays organization is saying publicly. The cameras see what they see.
 
 ## Nick Kurtz Is Not Vladimir Guerrero Jr.
 
@@ -131,17 +131,17 @@ Freddie Freeman hit .295 with 24 home runs in 2025. He is 36 years old, a future
 
 His bat speed was 69.9 miles per hour, among the lowest at the position, and nearly seven miles per hour slower than Kurtz. His <span class="term" data-term="fast-swing rate">fast-swing rate</span>, the percentage of swings where he generated genuine bat speed, was 8.4 percent. He almost never loads up anymore. He has become a timing and contact hitter, threading pitches through the defense with precision and experience rather than overwhelming them with force. That's not a failure. Plenty of players age this way and remain useful for years. But his expected slugging in 2025 was .467, and his actual slugging was .502. He outperformed what his contact quality deserved. Some of those 24 home runs were fortunate. At 36, with declining bat speed, the conservative projection is the honest one.
 
-The lesson here is portable: bat speed doesn't stay constant over a career. It declines, usually beginning in a player's early thirties, often gradually enough that it doesn't register in traditional statistics until it's already well underway. Statcast sees it earlier than the box score does. Freeman is still producing. He's just no longer the player who will outperform his metrics, and you shouldn't draft him as though he is.
+Bat speed doesn't stay constant over a career. It declines, usually beginning in a player's early thirties, often gradually enough that it doesn't register in traditional statistics until it's already well underway. Statcast sees it earlier than the box score does. Freeman is still producing. He's just no longer the player who will outperform his metrics, and you shouldn't draft him as though he is.
 
 ## How to Use Any of This
 
 <span class="term" data-term="fantasy baseball">Fantasy baseball</span> drafts organize themselves around a concept called <span class="term" data-term="adp">ADP</span>, the average spot where a player gets selected across thousands of mock and real drafts. ADP is a crowd-sourced price. Like most crowd-sourced prices, it responds to reputation, recent results, and name recognition faster than it responds to underlying contact data. That gap, when it exists, is where value hides.
 
-The picture at first base in 2026 looks like this. The position has been declining collectively for years, with fewer dominant power hitters and more players who do some things well but don't overwhelm you in any single category. The traditional statistics haven't fully communicated that shift. Guerrero's reputation still commands a top-20 price despite five years of evidence that his contact quality doesn't convert to power. Michael Busch hit 34 home runs in 2025 and is being priced as a repeat performer. His bat speed is 69.6 mph, nearly identical to Freeman's aging profile. His spring strikeout rate was 35 percent. That season may have been a high-water mark rather than a baseline.
+The position has been declining collectively for years, with fewer dominant power hitters and more players who do some things well but don't overwhelm you in any single category. The traditional statistics haven't fully communicated that shift. Guerrero's reputation still commands a top-20 price despite five years of evidence that his contact quality doesn't convert to power. Michael Busch hit 34 home runs in 2025 and is being priced as a repeat performer. His bat speed is 69.6 mph, nearly identical to Freeman's aging profile. His spring strikeout rate was 35 percent. That season may have been a high-water mark rather than a baseline.
 
 The players the data actually prefers: Kurtz, whose power comes from mechanics rather than luck and whose spring profile held up; Alonso, conditionally, if the spring ground ball rate resolves before Opening Day; Rice, as the player most likely to outperform his draft price based on the gap between what he deserves and what the market is paying for.
 
-The instruction manual is simple enough. Exit velocity tells you how hard. Launch angle tells you where the ball goes. Attack angle tells you where the swing is headed before contact even happens. Bat speed tells you whether the power is aging in or aging out. Expected slugging tells you whether the box score is lying, and in which direction. None of these numbers is perfect. Together, they're a better picture of a hitter than batting average has ever been.
+Exit velocity tells you how hard. Launch angle tells you where the ball goes. Attack angle tells you where the swing is headed before contact even happens. Bat speed tells you whether the power is aging in or aging out. Expected slugging tells you whether the box score is lying, and in which direction. None of these numbers is perfect. Together, they're a better picture of a hitter than batting average has ever been.
 
 Baseball has spent the last decade building the tools to see the game more clearly. The cameras are in every stadium. The data is publicly available. All of it is geometry, the same geometry that explains why a 26-year-old with a half-billion-dollar contract and a 92-mile-per-hour exit velocity can leave so many home runs on the field.
 
