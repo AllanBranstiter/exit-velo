@@ -5,7 +5,7 @@
   },
   "exit velocity": {
     "term": "Exit Velocity (EV)",
-    "definition": "The speed of the ball off the bat, measured in miles per hour. A higher exit velocity means the ball was hit harder. The best hitters in baseball average 92–95 mph or above."
+    "definition": "The speed of the ball off the bat, measured in miles per hour. League average is approximately 88 to 89 mph; the best hitters in baseball average 92 to 95 mph or above."
   },
   "launch angle": {
     "term": "Launch Angle",
@@ -17,43 +17,43 @@
   },
   "barrel rate": {
     "term": "Barrel Rate",
-    "definition": "The percentage of a hitter's balls in play that qualify as barrels. Elite hitters have barrel rates of 15–20% or higher; league average is around 6–8%."
+    "definition": "The percentage of a hitter's balls in play that qualify as barrels. League average is around 6 to 8 percent; elite hitters have barrel rates of 15 to 20 percent or higher."
   },
   "attack angle": {
     "term": "Attack Angle",
-    "definition": "The slope of the bat's path through the hitting zone at the moment of contact, measured in degrees. A flat swing is near zero degrees; a steep uppercut is 15–20 degrees. Attack angle directly influences launch angle: a flat swing produces ground balls and low line drives, while an upward swing sends the ball airborne."
+    "definition": "The slope of the bat's path through the hitting zone at the moment of contact, measured in degrees. A flat swing is near zero degrees; a steep uppercut is 15 to 20 degrees. Attack angle directly influences launch angle: a flat swing produces ground balls and low line drives, while an upward swing sends the ball airborne."
   },
   "xslg": {
     "term": "Expected Slugging (xSLG)",
-    "definition": "A Statcast metric estimating what a player's slugging percentage should have been based on contact quality — exit velocity and launch angle — independent of where balls actually landed. Differences between xSLG and actual slugging percentage reflect luck, good or bad."
+    "definition": "A Statcast metric estimating what a player's slugging percentage would have been based on contact quality, specifically exit velocity and launch angle, without regard to where balls actually landed. League average xSLG is roughly .390 to .400; elite hitters typically exceed .500. Differences between xSLG and actual slugging percentage can indicate luck or park effects."
   },
   "expected slugging": {
     "term": "Expected Slugging (xSLG)",
-    "definition": "A Statcast metric estimating what a player's slugging percentage should have been based on contact quality — exit velocity and launch angle — independent of where balls actually landed. Differences between xSLG and actual slugging percentage reflect luck, good or bad."
+    "definition": "A Statcast metric estimating what a player's slugging percentage would have been based on contact quality, specifically exit velocity and launch angle, without regard to where balls actually landed. League average xSLG is roughly .390 to .400; elite hitters typically exceed .500. Differences between xSLG and actual slugging percentage can indicate luck or park effects."
   },
   "bat speed": {
     "term": "Bat Speed",
-    "definition": "The speed of the bat barrel at the moment of contact, measured in miles per hour. Faster bat speed produces more power and gives a hitter more time to read a pitch before committing to a swing. Elite bat speed is generally 75 mph or above. It tends to decline as players age through their thirties."
+    "definition": "The speed of the bat barrel at the moment of contact, measured in miles per hour. Faster bat speed produces more power and gives a hitter more time to read a pitch before committing to a swing. League average is approximately 70 to 71 mph; elite bat speed is generally 75 mph or above. It tends to decline as players age through their thirties."
   },
   "hard-hit rate": {
     "term": "Hard-Hit Rate (HH%)",
-    "definition": "The percentage of a hitter's balls in play struck at 95 mph or harder. One of the more stable contact quality metrics from season to season."
+    "definition": "The percentage of a hitter's balls in play struck at 95 mph or harder. League average is approximately 35 to 38 percent; elite hitters typically reach 45 percent or above. One of the more stable contact quality metrics from season to season."
   },
   "ground ball rate": {
     "term": "Ground Ball Rate (GB%)",
-    "definition": "The percentage of a hitter's balls in play that go on the ground. Power hitters generally have lower ground ball rates, as home runs require the ball to be in the air. League average is around 43–45%; rates above 50% tend to suppress power production."
+    "definition": "The percentage of a hitter's balls in play that go on the ground. League average is around 43 to 45 percent. Power hitters generally have lower ground ball rates, as home runs require the ball to be in the air; rates above 50 percent tend to suppress power production."
   },
   "fly ball rate": {
     "term": "Fly Ball Rate (FB%)",
-    "definition": "The percentage of a hitter's balls in play that go in the air. Home runs require fly balls, so hitters with higher fly ball rates combined with good exit velocity tend to produce more power. League average is around 35–38%."
+    "definition": "The percentage of a hitter's balls in play that go in the air. League average is around 35 to 38 percent. Home runs require fly balls, so hitters with higher fly ball rates combined with good exit velocity tend to produce more power."
   },
   "iso": {
     "term": "ISO (Isolated Power)",
-    "definition": "Slugging percentage minus batting average. By removing singles from the calculation, ISO measures only extra-base production. A .200 ISO is considered strong; .250 or above is elite."
+    "definition": "Slugging percentage minus batting average. By removing singles from the calculation, ISO measures only extra-base production. League average is approximately .140 to .150; a .200 ISO is considered strong; .250 or above is elite."
   },
   "isolated power": {
     "term": "ISO (Isolated Power)",
-    "definition": "Slugging percentage minus batting average. By removing singles from the calculation, ISO measures only extra-base production. A .200 ISO is considered strong; .250 or above is elite."
+    "definition": "Slugging percentage minus batting average. By removing singles from the calculation, ISO measures only extra-base production. League average is approximately .140 to .150; a .200 ISO is considered strong; .250 or above is elite."
   },
   "adp": {
     "term": "ADP (Average Draft Position)",
@@ -61,11 +61,11 @@
   },
   "slugging percentage": {
     "term": "Slugging Percentage",
-    "definition": "Total bases divided by at-bats. A single counts as 1, a double as 2, a triple as 3, a home run as 4. A .500 slugging percentage is considered excellent; league average is usually around .400."
+    "definition": "Total bases divided by at-bats. A single counts as 1, a double as 2, a triple as 3, a home run as 4. League average is usually around .400; a .500 slugging percentage is considered excellent."
   },
   "batting average": {
     "term": "Batting Average",
-    "definition": "Hits divided by at-bats. A .300 average is considered excellent; .250 is roughly league average. All hits count equally regardless of the type of contact that produced them."
+    "definition": "Hits divided by at-bats. League average is typically around .250; a .300 average is considered excellent. All hits count equally regardless of the type of contact that produced them."
   },
   "fantasy baseball": {
     "term": "Fantasy Baseball",
@@ -81,19 +81,19 @@
   },
   "strikeout rate": {
     "term": "Strikeout Rate (K%)",
-    "definition": "The percentage of a batter's plate appearances that end in a strikeout. Elite contact hitters are generally below 15%; aggressive power hitters often exceed 25–30%. A high strikeout rate reduces batting average and limits the number of balls put in play."
+    "definition": "The percentage of a batter's plate appearances that end in a strikeout. League average is approximately 22 to 23 percent. Elite contact hitters are generally below 15 percent; aggressive power hitters often exceed 25 to 30 percent. A high strikeout rate reduces batting average and limits the number of balls put in play."
   },
   "k%": {
     "term": "Strikeout Rate (K%)",
-    "definition": "The percentage of a batter's plate appearances that end in a strikeout. Elite contact hitters are generally below 15%; aggressive power hitters often exceed 25–30%."
+    "definition": "The percentage of a batter's plate appearances that end in a strikeout. League average is approximately 22 to 23 percent. Elite contact hitters are generally below 15 percent; aggressive power hitters often exceed 25 to 30 percent."
   },
   "walk rate": {
     "term": "Walk Rate (BB%)",
-    "definition": "The percentage of a batter's plate appearances that result in a walk. A measure of plate discipline — the ability to identify and lay off pitches outside the strike zone. Walk rate is one of the most stable year-to-year statistics in a hitter's profile."
+    "definition": "The percentage of a batter's plate appearances that result in a walk. Walk rate reflects plate discipline and the ability to recognize pitches outside the strike zone. League average is approximately 8 to 9 percent; a rate of 12 percent or above is considered excellent. It is one of the most stable year-to-year statistics in a hitter's profile."
   },
   "bb%": {
     "term": "Walk Rate (BB%)",
-    "definition": "The percentage of a batter's plate appearances that result in a walk. A measure of plate discipline — the ability to identify and lay off pitches outside the strike zone."
+    "definition": "The percentage of a batter's plate appearances that result in a walk. Walk rate reflects plate discipline and the ability to recognize pitches outside the strike zone. League average is approximately 8 to 9 percent; a rate of 12 percent or above is considered excellent."
   },
   "box score": {
     "term": "Box Score",
@@ -101,15 +101,15 @@
   },
   "fast-swing rate": {
     "term": "Fast Swing Rate",
-    "definition": "The percentage of a batter's swings in which the bat reaches 75 mph or more. A high fast-swing rate indicates consistent power generation. Decline in fast-swing rate is among the earlier measurable indicators of aging in a power hitter."
+    "definition": "The percentage of a batter's swings in which the bat reaches 75 mph or more. League average is approximately 40 to 45 percent; elite power hitters typically exceed 55 percent. A high fast-swing rate indicates consistent power generation. Decline in fast-swing rate is among the earlier measurable indicators of aging in a power hitter."
   },
   "spring training": {
     "term": "Spring Training",
-    "definition": "The pre-season practice period in February and March when teams play exhibition games before Opening Day. Results-based statistics from spring training — batting average, ERA, home runs — are generally unreliable due to small sample sizes and uneven competition. Batted-ball shape metrics, which reflect swing mechanics rather than outcomes, carry more signal in this context."
+    "definition": "The pre-season practice period in February and March when teams play exhibition games before Opening Day. Results-based statistics from spring training are generally unreliable due to small sample sizes and uneven competition. Batted-ball shape metrics, which reflect swing mechanics rather than outcomes, carry more signal in this context."
   },
   "line drive": {
     "term": "Line Drive",
-    "definition": "A ball hit sharply and relatively flat, typically between 10 and 25 degrees of launch angle. Line drives have the highest batting average of any batted ball type."
+    "definition": "A ball hit sharply and relatively flat, typically between 10 and 25 degrees of launch angle. League average line drive rate is approximately 18 to 21 percent; strong contact hitters typically exceed 22 percent. Line drives have the highest batting average of any batted ball type."
   },
   "breaking ball": {
     "term": "Breaking Ball",
@@ -125,23 +125,23 @@
   },
   "iffb%": {
     "term": "Infield Fly Ball Rate (IFFB%)",
-    "definition": "The percentage of a hitter's fly balls that land in the infield. A ball hit above roughly 45 degrees of launch angle goes nearly vertical, stays in the infield, and is an automatic out. IFFB% is not influenced by defensive positioning, making it a direct measure of swing path quality. League average is around 10–12%."
+    "definition": "The percentage of a hitter's fly balls that land in the infield. A ball hit above roughly 45 degrees of launch angle goes nearly vertical, stays in the infield, and is an automatic out. League average is around 10 to 12 percent; a rate above 15 percent is a concern; below 8 percent is strong. IFFB% is not influenced by defensive positioning, making it a direct measure of swing path quality."
   },
   "ops": {
     "term": "OPS (On-Base Plus Slugging)",
-    "definition": "On-base percentage added to slugging percentage. A .800 OPS is considered solid; .900 or above is excellent. OPS rewards both the ability to reach base and the ability to hit for extra bases, but weights them equally despite their different run values."
+    "definition": "On-base percentage added to slugging percentage. League average is approximately .710 to .720; an .800 OPS is considered solid; .900 or above is excellent. OPS rewards both the ability to reach base and the ability to hit for extra bases, but weights them equally despite their different run values."
   },
   "woba": {
     "term": "wOBA (Weighted On-Base Average)",
-    "definition": "A measure of a hitter's offensive value per plate appearance that weights each outcome — walk, single, double, home run — by its actual run value. A .320 wOBA is roughly league average; .370 or above is excellent."
+    "definition": "A measure of a hitter's offensive value per plate appearance that weights each outcome by its actual run value. A .320 wOBA is roughly league average; .370 or above is excellent."
   },
   "xwoba": {
     "term": "Expected wOBA (xwOBA)",
-    "definition": "A Statcast metric estimating what a hitter's wOBA should have been based on contact quality — exit velocity and launch angle — independent of where balls actually landed. A large gap between xwOBA and actual wOBA indicates results that differed significantly from contact quality."
+    "definition": "A Statcast metric estimating what a hitter's wOBA should have been based on contact quality, specifically exit velocity and launch angle, without regard to where balls actually landed. League average xwOBA is roughly .320; elite hitters typically exceed .370. A large gap between xwOBA and actual wOBA indicates results that differed significantly from contact quality."
   },
   "babip": {
     "term": "BABIP (Batting Average on Balls in Play)",
-    "definition": "Batting average calculated only on balls put in play, excluding home runs and strikeouts. League average is around .300. BABIP fluctuates more than most hitting statistics and tends to regress toward a player's career baseline over time."
+    "definition": "Batting average calculated only on balls put in play, excluding home runs and strikeouts. League average is around .300; a sustained rate above .340 is generally considered above average. BABIP fluctuates more than most hitting statistics and tends to regress toward a player's career baseline over time."
   },
   "wrc+": {
     "term": "wRC+ (Weighted Runs Created Plus)",
