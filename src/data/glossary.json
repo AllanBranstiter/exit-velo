@@ -166,5 +166,29 @@
   "hr/fb": {
     "term": "HR/FB Rate (Home Run to Fly Ball Rate)",
     "definition": "The percentage of a hitter's fly balls that result in home runs. League average is around 13 percent; the best power hitters sustain 20 to 25 percent over a full season. HR/FB rate fluctuates considerably from year to year and is among the less stable metrics in a hitter's profile."
+  },
+  "era": {
+    "term": "ERA (Earned Run Average)",
+    "definition": "The average number of earned runs a pitcher allows per nine innings pitched. League average is typically around 4.00 to 4.20; below 3.50 is considered good; below 3.00 is elite. ERA is the most common traditional measure of pitching effectiveness, but it is sensitive to sequencing, defense quality, and luck on balls in play, which is why advanced metrics like xERA and xFIP are often used alongside it."
+  },
+  "xfip": {
+    "term": "xFIP (Expected Fielding Independent Pitching)",
+    "definition": "A pitching metric that replaces a pitcher's actual home run total with an expected number based on his fly ball rate and the league average home run per fly ball rate. By removing home run variance, xFIP isolates what a pitcher most directly controls: strikeouts, walks, and fly ball rate. League average xFIP is typically around 4.00 to 4.20; below 3.50 is strong; below 3.00 is elite. xFIP is one of the better single-number predictors of future ERA."
+  },
+  "siera": {
+    "term": "SIERA (Skill-Interactive ERA)",
+    "definition": "A pitching metric that estimates ERA based on the outcomes a pitcher most directly controls: strikeout rate, walk rate, and ground ball rate. SIERA treats ground balls as more favorable than fly balls because ground balls cannot leave the park. League average is typically around 4.00 to 4.20. It is designed to be a better predictor of future performance than ERA and is less sensitive to sequencing luck than most ERA estimators."
+  },
+  "stuff+": {
+    "term": "Stuff+",
+    "definition": "A Baseball Savant rating that evaluates the quality of each pitch based on its physical characteristics — velocity, movement, and spin — compared to league average. A Stuff+ of 100 is average; above 100 means the pitch grades better than average; 120 or above is considered excellent. Stuff+ measures raw pitch quality only and does not account for command or sequencing."
+  },
+  "location+": {
+    "term": "Location+",
+    "definition": "A Baseball Savant rating that evaluates how well a pitcher locates each pitch within the strike zone, independent of the pitch's raw stuff. A Location+ of 100 is average; above 100 indicates above-average command. Location+ and Stuff+ are typically read together: a pitcher can succeed with below-average stuff and strong location, or struggle to command elite raw stuff effectively."
+  },
+  "arm-side": {
+    "term": "Arm-Side / Glove-Side",
+    "definition": "Directional terms describing horizontal pitch movement, always from the catcher's perspective. For a right-handed pitcher, arm-side is to the right on the Movement Profile chart — the direction the ball moves toward a right-handed batter's hands. Glove-side is to the left — the direction the ball breaks away from a right-handed batter. For a left-handed pitcher, the directions are reversed."
   }
 }
