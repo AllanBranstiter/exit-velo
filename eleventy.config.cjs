@@ -12,6 +12,13 @@ module.exports = function(eleventyConfig) {
     const d = new Date(date);
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
   });
+  eleventyConfig.addFilter("dateIso", (date) => {
+    return new Date(date).toISOString().split("T")[0];
+  });
+  eleventyConfig.addFilter("json", (value) => JSON.stringify(value));
+  eleventyConfig.addFilter("dateRfc822", (date) => {
+    return new Date(date).toUTCString().replace("GMT", "+0000");
+  });
 
   // Glossary term shortcode: {% term "exit velocity" %}exit velocity{% endterm %}
   eleventyConfig.addPairedShortcode("term", (content, key) => {

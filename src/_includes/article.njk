@@ -24,3 +24,35 @@ layout: base.njk
   </main>
 
   <script src="/js/glossary.js"></script>
+
+  <!-- Structured data: Article -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": {{ title | json }},
+    "description": {{ description | json }},
+    "datePublished": {{ date | dateIso | json }},
+    "dateModified": {{ date | dateIso | json }},
+    "author": {
+      "@type": "Person",
+      "name": {{ author | json }}
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Exit Velo",
+      "url": "https://exitvelo.us",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://exitvelo.us/images/favicon.svg"
+      }
+    },
+    "url": {{ ("https://exitvelo.us" + page.url) | json }},
+    "image": {{ ("https://exitvelo.us" + (image if image else "/images/og-default.png")) | json }},
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": {{ ("https://exitvelo.us" + page.url) | json }}
+    }{% if category %},
+    "articleSection": {{ category | json }}{% endif %}
+  }
+  </script>

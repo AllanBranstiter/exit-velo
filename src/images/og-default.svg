@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#1c2533"/>
+  <!-- Left accent bar -->
+  <rect width="8" height="630" fill="#e05c1a"/>
+  <!-- Logo -->
+  <text x="100" y="268" font-family="system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="116" font-weight="800" fill="#ffffff" letter-spacing="-4">Exit</text>
+  <text x="100" y="390" font-family="system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="116" font-weight="800" fill="#e05c1a" letter-spacing="-4">Velo</text>
+  <!-- Divider -->
+  <line x1="100" y1="428" x2="560" y2="428" stroke="#374151" stroke-width="1.5"/>
+  <!-- Tagline -->
+  <text x="100" y="474" font-family="system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="27" fill="#9ca3af">Baseball analytics explained — for new fans and fantasy players.</text>
+</svg>

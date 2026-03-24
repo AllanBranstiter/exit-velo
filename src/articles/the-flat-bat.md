@@ -14,7 +14,7 @@ There is a player in Major League Baseball who hits the ball harder than almost 
 
 He hit 23 home runs, roughly 15 fewer than his contact quality said he deserved.
 
-His name is Vladimir Guerrero Jr. He is the consensus best first baseman in baseball. And somewhere in the gap between what the cameras say he should be doing and what the box score says he actually does, there is a story worth understanding, not just about him, but about how the fantasy draft market prices players when it's working from incomplete information.
+His name is Vladimir Guerrero Jr. He is the consensus best first baseman in baseball. And somewhere in the gap between what the cameras say he should be doing and what the <span class="term" data-term="box score">box score</span> says he actually does, there is a story worth understanding, not just about him, but about how the fantasy draft market prices players when it's working from incomplete information.
 
 The number at the center of that gap is called <span class="term" data-term="attack angle">attack angle</span>. Which first basemen in 2026 are being priced correctly, and which are being over- or under-valued because the market hasn't caught up to what the cameras already know?
 
@@ -22,7 +22,7 @@ You don't need a statistics degree for any of this. A feel for geometry is enoug
 
 ## What the Cameras See
 
-If you wanted to know how good a hitter was for most of baseball's history, you counted: <span class="term" data-term="batting average">batting average</span>, home runs, RBIs. These are called traditional statistics, and they tell you what happened. They are, in their way, perfectly accurate. What they cannot tell you is whether what happened was likely to happen again.
+If you wanted to know how good a hitter was for most of baseball's history, you counted: <span class="term" data-term="batting average">batting average</span>, home runs, <span class="term" data-term="rbis">RBIs</span>. These are called traditional statistics, and they tell you what happened. They are, in their way, perfectly accurate. What they cannot tell you is whether what happened was likely to happen again.
 
 In 2015, Major League Baseball installed a system called <span class="term" data-term="statcast">Statcast</span> in every stadium. It uses radar and high-speed cameras to track, in real time, every ball in play. It knows how fast the ball came off the bat, exit velocity measured in miles per hour, and at what vertical angle it left, called <span class="term" data-term="launch angle">launch angle</span>. From these two numbers, and a few others, it can calculate what *should* have happened, separate from what actually did.
 
@@ -59,7 +59,7 @@ In 2015, Major League Baseball installed a system called <span class="term" data
 
 Think of exit velocity as the strength of the hit and launch angle as the direction. Exit velocity alone doesn't win you anything. If you hit a ball at 110 miles per hour directly into the ground, it's a routine grounder, maybe a single if you're fast. But hit that same ball at 15 degrees off the ground and it clears the fence. The difference between those two outcomes is not power. It's angle.
 
-When a ball is hit with both sufficient speed and the right launch angle, roughly between 10 and 30 degrees, hard enough that the outfielder can't reach it, Statcast calls it a <span class="term" data-term="barrel">barrel</span>. Barrels almost always become extra-base hits. Every hitter in baseball has a <span class="term" data-term="barrel rate">barrel rate</span>, and the best hover around 15 to 20 percent: one in every five or six balls they put in play is essentially guaranteed to do damage.
+When a ball is hit with both sufficient speed and the right launch angle, roughly between 10 and 30 degrees, hard enough that the outfielder can't reach it, Statcast calls it a <span class="term" data-term="barrel">barrel</span>. Barrels almost always become extra-base hits. Every hitter in baseball has a <span class="term" data-term="barrel rate (batter)">barrel rate</span>, and the best hover around 15 to 20 percent: one in every five or six balls they put in play is essentially guaranteed to do damage.
 
 Hold those numbers. We'll need them.
 
@@ -67,7 +67,7 @@ Hold those numbers. We'll need them.
 
 Here is what the cameras see when Vladimir Guerrero Jr. swings a baseball bat.
 
-His exit velocity is excellent: 92.0 mph on average, which ranks among the game's better hitters. His <span class="term" data-term="hard-hit rate">hard-hit rate</span>, the percentage of balls he strikes at 95 mph or harder, is 50.7%, meaning half his contact is genuinely hard. His barrel rate is 12.2%. These are the numbers of a legitimate power threat.
+His exit velocity is excellent: 92.0 mph on average, which ranks among the game's better hitters. His <span class="term" data-term="hard-hit rate (batter)">hard-hit rate</span>, the percentage of balls he strikes at 95 mph or harder, is 50.7%, meaning half his contact is genuinely hard. His barrel rate is 12.2%. These are the numbers of a legitimate power threat.
 
 His attack angle is 1.2 degrees.
 
@@ -91,9 +91,9 @@ His attack angle is 14.3 degrees.
 
 Where Guerrero skims, Kurtz drives upward through the ball. His <span class="term" data-term="bat speed">bat speed</span>, 77.2 miles per hour at contact, is the fastest of any first baseman. His barrel rate is 18.3 percent, meaning nearly one in five balls he puts in play is struck at precisely the right combination of speed and angle to become damage. The 36 home runs in 117 games project, over a full 162-game season, to a number that would place him among the half-dozen most dangerous power hitters in baseball.
 
-His average draft position in 2026 fantasy drafts is nearly identical to Guerrero's. In the draft room, they carry the same price tag. The projection systems and the underlying contact data do not see them as equivalent: Kurtz projects for nearly nine more home runs. Same cost, nine more home runs. That is what a market inefficiency looks like.
+His average draft position in 2026 fantasy drafts is nearly identical to Guerrero's. In the draft room, they carry the same price tag. The <span class="term" data-term="projection systems">projection systems</span> and the underlying contact data do not see them as equivalent: Kurtz projects for nearly nine more home runs. Same cost, nine more home runs. That is what a market inefficiency looks like.
 
-There is a cost to the steep attack angle. Swinging sharply upward through the zone means pitches at the bottom of the strike zone, particularly <span class="term" data-term="breaking ball">breaking balls</span> diving away, become hard to square up. Kurtz struck out 30.9 percent of the time in 2025. That's a real tax, and he'll pay it in batting average. But in most modern fantasy formats, where home runs carry more weight than batting average, this is a favorable tradeoff. His 2026 spring training reinforces the profile: a 15.8 percent walk rate showing he's patient enough to avoid the pitches he can't handle. His <span class="term" data-term="iso">isolated power</span>, slugging percentage minus batting average, remains strong at .255.
+There is a cost to the steep attack angle. Swinging sharply upward through the zone means pitches at the bottom of the strike zone, particularly <span class="term" data-term="breaking ball">breaking balls</span> diving away, become hard to square up. Kurtz struck out 30.9 percent of the time in 2025. That's a real tax, and he'll pay it in batting average. But in most modern fantasy formats, where home runs carry more weight than batting average, this is a favorable tradeoff. His 2026 <span class="term" data-term="spring training">spring training</span> reinforces the profile: a 15.8 percent walk rate showing he's patient enough to avoid the pitches he can't handle. His <span class="term" data-term="iso">isolated power</span>, slugging percentage minus batting average, remains strong at .255.
 
 Guerrero is the safer, more famous name. Kurtz is the one the cameras like.
 
@@ -105,7 +105,7 @@ Pete Alonso is the case study.
 
 In 2025, Alonso led all first basemen in exit velocity (93.5 mph), hard-hit rate (54.4%), and barrel rate (18.9%). His expected slugging was .572, the highest at his position. He hit 38 home runs and drove in 126 runs. By underlying contact metrics, he may have been the most dangerous right-handed power hitter at first base.
 
-In spring training 2026, playing for his new team in Baltimore, his <span class="term" data-term="ground ball rate">ground ball rate</span> jumped from 38 percent to 55.3 percent.
+In spring training 2026, playing for his new team in Baltimore, his <span class="term" data-term="ground ball rate (batter)">ground ball rate</span> jumped from 38 percent to 55.3 percent.
 
 In 2025, four in ten balls he put in play went on the ground. In 2026 spring, more than five in ten do. Something has changed. Possibly an adjustment to a new team's hitting approach, possibly something mechanical, possibly noise in a small sample. The honest answer is we don't yet know.
 

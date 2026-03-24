@@ -5,7 +5,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}{% if title %} — {% endif %}Exit Velo</title>
   <meta name="description" content="{{ description if description else 'For new baseball fans and fantasy players who want to understand what the numbers actually mean. Statcast data, advanced analytics, and draft strategy—explained through player stories, without the jargon.' }}">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://exitvelo.us{{ page.url }}">
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="Exit Velo">
+  <meta property="og:title" content="{{ title if title else 'Exit Velo' }}">
+  <meta property="og:description" content="{{ description if description else 'For new baseball fans and fantasy players who want to understand what the numbers actually mean. Statcast data, advanced analytics, and draft strategy—explained through player stories, without the jargon.' }}">
+  <meta property="og:url" content="https://exitvelo.us{{ page.url }}">
+  <meta property="og:image" content="https://exitvelo.us{{ image if image else '/images/og-default.png' }}">
+  <meta property="og:image:alt" content="{{ image_alt if image_alt else 'Exit Velo — baseball analytics explained' }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  {% if date %}
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="{{ date | dateIso }}">
+  {% if author %}<meta property="article:author" content="{{ author }}">{% endif %}
+  {% if category %}<meta property="article:section" content="{{ category }}">{% endif %}
+  {% else %}
+  <meta property="og:type" content="website">
+  {% endif %}
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ title if title else 'Exit Velo' }}">
+  <meta name="twitter:description" content="{{ description if description else 'For new baseball fans and fantasy players who want to understand what the numbers actually mean. Statcast data, advanced analytics, and draft strategy—explained through player stories, without the jargon.' }}">
+  <meta name="twitter:image" content="https://exitvelo.us{{ image if image else '/images/og-default.png' }}">
+  <meta name="twitter:image:alt" content="{{ image_alt if image_alt else 'Exit Velo — baseball analytics explained' }}">
+
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="Exit Velo" href="https://exitvelo.us/feed.xml">
+
+  <!-- Structured data: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Exit Velo",
+    "url": "https://exitvelo.us",
+    "description": "For new baseball fans and fantasy players who want to understand what the numbers actually mean. Statcast data, advanced analytics, and draft strategy—explained through player stories, without the jargon.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Exit Velo",
+      "url": "https://exitvelo.us",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://exitvelo.us/images/favicon.svg"
+      }
+    }
+  }
+  </script>
 </head>
 <body>
 

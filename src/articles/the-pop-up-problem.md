@@ -24,7 +24,7 @@ And yet didn't tell the whole story.
 
 <span class="term" data-term="batting average">Batting average</span> in <span class="term" data-term="spring training">spring training</span> is statistical white noise. The pitching quality varies wildly, sample sizes are small, and circumstances feel artificial. A .400 average in March means little. A .103 average in March can mean even less.
 
-But pop-up rate, often called infield fly ball percentage or <span class="term" data-term="iffb%">IFFB%</span>, reveals something deeper. It reveals something about a player's swing mechanics, and swing mechanics don't shift based on who's throwing.
+But pop-up rate, often called infield fly ball percentage or <span class="term" data-term="iffb% (batter)">IFFB%</span>, reveals something deeper. It reveals something about a player's swing mechanics, and swing mechanics don't shift based on who's throwing.
 
 Crews's pop-up rate jumped from **6.8 percent** in 2025 to **55.6 percent** this spring. Let that sink in for a minute.
 
@@ -40,7 +40,7 @@ Launch angle is the trajectory at which the ball leaves the bat after contact. Z
 
 A ball hit above 45 degrees goes nearly straight up. It rotates slowly. It stays in the infield. **A launch angle of 45 degrees or more means something went wrong with the batter's swing.**
 
-Infield fly ball rate measures the percentage of a hitter's <span class="term" data-term="fly ball rate">fly balls</span> that land in the infield. There is no luck involved. No version of a pop-up falls for a hit without a defensive error. An infield fly ball is an automatic out, every time, and unlike batting average, which can rise or fall based on where fielders happen to be standing, IFFB% reflects contact quality alone.
+Infield fly ball rate measures the percentage of a hitter's <span class="term" data-term="fly ball rate (batter)">fly balls</span> that land in the infield. There is no luck involved. No version of a pop-up falls for a hit without a defensive error. An infield fly ball is an automatic out, every time, and unlike batting average, which can rise or fall based on where fielders happen to be standing, IFFB% reflects contact quality alone.
 
 Pop-ups go up. They come down. They get caught.
 
@@ -54,11 +54,11 @@ The spring didn't come out of nowhere.
 
 In 2025, Crews played 85 games for Washington, his first real opportunity after a late-August call-up the year before. He batted .208, posted a .631 <span class="term" data-term="ops">OPS</span>, and hit 10 home runs. The <span class="term" data-term="box score">box score</span> was discouraging. The underlying data was more complicated.
 
-His <span class="term" data-term="exit velocity">exit velocity</span> was 89.7 miles per hour, which is functional. His <span class="term" data-term="hard-hit rate">hard-hit rate</span> was 38.7 percent, and his <span class="term" data-term="barrel rate">barrel rate</span> was 9.7 percent.
+His <span class="term" data-term="exit velocity">exit velocity</span> was 89.7 miles per hour, which is functional. His <span class="term" data-term="hard-hit rate (batter)">hard-hit rate</span> was 38.7 percent, and his <span class="term" data-term="barrel rate (batter)">barrel rate</span> was 9.7 percent.
 
 **The contact quality wasn't the problem; the shape of the contact was.**
 
-His <span class="term" data-term="ground ball rate">ground ball rate</span> in 2025 was 50.7 percent. The typical power-profile hitter tends to be closer to 35 to 40 percent. Half of everything Crews put in play went on the ground, forward and low, like a man trying to hit the ball into the dirt on purpose.
+His <span class="term" data-term="ground ball rate (batter)">ground ball rate</span> in 2025 was 50.7 percent. The typical power-profile hitter tends to be closer to 35 to 40 percent. Half of everything Crews put in play went on the ground, forward and low, like a man trying to hit the ball into the dirt on purpose.
 
 His <span class="term" data-term="attack angle">attack angle</span> was 6.6 degrees: a modest upward tilt, well below the 10 to 15 degrees that tend to generate home runs.
 
@@ -112,7 +112,7 @@ A pop-up is a hitter getting *under* the ball instead of *through* it.
 <figcaption style="font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; font-style: italic;">The difference between a fly ball and a pop-up is where the bat barrel contacts the ball. A slight upswing finds the center and sends the ball upward at a useful angle. A flat bat slides under the equator and sends the ball nearly straight up.</figcaption>
 </figure>
 
-Crews's <span class="term" data-term="strikeout rate">strikeout rate</span> jumped from 23.6 percent in 2025 to 31.3 percent this spring. His line drive rate, the percentage of contact that goes sharp and flat, the kind that leads to hits, fell from 15.2 percent to 5.3 percent. And his IFFB% went from 6.8 percent to 55.6 percent. These three numbers, together, describe a hitter whose swing lost its path under pressure.
+Crews's <span class="term" data-term="k% (batter)">strikeout rate</span> jumped from 23.6 percent in 2025 to 31.3 percent this spring. His line drive rate, the percentage of contact that goes sharp and flat, the kind that leads to hits, fell from 15.2 percent to 5.3 percent. And his IFFB% went from 6.8 percent to 55.6 percent. These three numbers, together, describe a hitter whose swing lost its path under pressure.
 
 <figure class="diagram" style="margin: 2rem 0; text-align: center;">
 <svg viewBox="0 0 560 295" width="100%" style="max-width: 540px; display: inline-block;" xmlns="http://www.w3.org/2000/svg">
