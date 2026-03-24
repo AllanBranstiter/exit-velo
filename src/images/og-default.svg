@@ -9,5 +9,5 @@
   <!-- Divider -->
   <line x1="100" y1="428" x2="560" y2="428" stroke="#374151" stroke-width="1.5"/>
   <!-- Tagline -->
-  <text x="100" y="474" font-family="system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="27" fill="#9ca3af">Baseball analytics explained — for new fans and fantasy players.</text>
+  <text x="100" y="474" font-family="system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="27" fill="#9ca3af">Where baseball stats make sense.</text>
 </svg>

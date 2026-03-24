@@ -9,7 +9,7 @@
   },
   "movement profile": {
     "term": "Movement Profile",
-    "definition": "A scatter plot on Baseball Savant's pitcher pages that charts each pitch type by its horizontal and vertical movement, measured in inches relative to a theoretical spinless ball. The X-axis shows arm-side or glove-side break; the Y-axis shows how much the pitch rises or drops due to spin, independent of gravity. The shape of the chart — whether it's tall, wide, or clustered near center — reveals the geometric design of a pitcher's arsenal and predicts strikeout tendency, ground ball rate, and the type of contact the pitcher is likely to generate."
+    "definition": "A scatter plot on Baseball Savant's pitcher pages that charts each pitch type by its horizontal and vertical movement, measured in inches relative to a theoretical spinless ball. The X-axis shows arm-side or glove-side break; the Y-axis shows how much the pitch rises or drops due to spin, independent of gravity. The shape of the chart, whether tall, wide, or clustered near center, reveals the geometric design of a pitcher's arsenal and predicts strikeout tendency, ground ball rate, and the type of contact the pitcher is likely to generate."
   },
   "exit velocity": {
     "term": "Exit Velocity (EV)",
@@ -29,7 +29,7 @@
   },
   "barrel rate (pitcher)": {
     "term": "Barrel Rate (Pitcher)",
-    "definition": "The percentage of balls put in play against a pitcher that qualify as barrels — meeting Statcast thresholds for both exit velocity and launch angle. League average is around 6 to 8 percent. A pitcher who consistently suppresses barrel rate is limiting the most damaging contact possible. Barrel rate allowed is closely correlated with ERA and xERA and is one of the better indicators of how well a pitcher is actually pitching, independent of sequencing or defense."
+    "definition": "The percentage of balls put in play against a pitcher that qualify as barrels, meeting Statcast thresholds for both exit velocity and launch angle. League average is around 6 to 8 percent. A pitcher who consistently suppresses barrel rate is limiting the most damaging contact possible. Barrel rate allowed is closely correlated with ERA and xERA and is one of the better indicators of how well a pitcher is actually pitching, independent of sequencing or defense."
   },
   "attack angle": {
     "term": "Attack Angle",
@@ -57,19 +57,19 @@
   },
   "ground ball rate (batter)": {
     "term": "Ground Ball Rate (Batter)",
-    "definition": "The percentage of a batter's balls in play that are ground balls. League average is approximately 43 to 45 percent. Power hitters typically have lower ground ball rates, since home runs require the ball to be airborne; a rate above 50 percent tends to suppress power production significantly. An increase in ground ball rate often indicates a change in swing mechanics — typically a flatter or more downward swing path."
+    "definition": "The percentage of a batter's balls in play that are ground balls. League average is approximately 43 to 45 percent. Power hitters typically have lower ground ball rates, since home runs require the ball to be airborne; a rate above 50 percent tends to suppress power production significantly. An increase in ground ball rate often indicates a change in swing mechanics, typically a flatter or more downward swing path."
   },
   "gb% (batter)": {
     "term": "Ground Ball Rate (Batter)",
-    "definition": "The percentage of a batter's balls in play that are ground balls. League average is approximately 43 to 45 percent. Power hitters typically have lower ground ball rates, since home runs require the ball to be airborne; a rate above 50 percent tends to suppress power production significantly. An increase in ground ball rate often indicates a change in swing mechanics — typically a flatter or more downward swing path."
+    "definition": "The percentage of a batter's balls in play that are ground balls. League average is approximately 43 to 45 percent. Power hitters typically have lower ground ball rates, since home runs require the ball to be airborne; a rate above 50 percent tends to suppress power production significantly. An increase in ground ball rate often indicates a change in swing mechanics, typically a flatter or more downward swing path."
   },
   "ground ball rate (pitcher)": {
     "term": "Ground Ball Rate (Pitcher)",
-    "definition": "The percentage of balls put in play against a pitcher that are ground balls. League average is approximately 43 to 45 percent. A high ground ball rate is generally favorable for pitchers: ground balls stay in the park, convert to outs at a high rate, and limit the damage when hits do occur. Pitchers who generate ground balls consistently — typically by tunneling pitches at the bottom of the zone — are more resistant to home run damage and tend to produce more stable ERAs than fly ball pitchers."
+    "definition": "The percentage of balls put in play against a pitcher that are ground balls. League average is approximately 43 to 45 percent. A high ground ball rate is generally favorable for pitchers: ground balls stay in the park, convert to outs at a high rate, and limit the damage when hits do occur. Pitchers who generate ground balls consistently, typically by tunneling pitches at the bottom of the zone, are more resistant to home run damage and tend to produce more stable ERAs than fly ball pitchers."
   },
   "gb% (pitcher)": {
     "term": "Ground Ball Rate (Pitcher)",
-    "definition": "The percentage of balls put in play against a pitcher that are ground balls. League average is approximately 43 to 45 percent. A high ground ball rate is generally favorable for pitchers: ground balls stay in the park, convert to outs at a high rate, and limit the damage when hits do occur. Pitchers who generate ground balls consistently — typically by tunneling pitches at the bottom of the zone — are more resistant to home run damage and tend to produce more stable ERAs than fly ball pitchers."
+    "definition": "The percentage of balls put in play against a pitcher that are ground balls. League average is approximately 43 to 45 percent. A high ground ball rate is generally favorable for pitchers: ground balls stay in the park, convert to outs at a high rate, and limit the damage when hits do occur. Pitchers who generate ground balls consistently, typically by tunneling pitches at the bottom of the zone, are more resistant to home run damage and tend to produce more stable ERAs than fly ball pitchers."
   },
   "fly ball rate (batter)": {
     "term": "Fly Ball Rate (Batter)",
@@ -81,11 +81,11 @@
   },
   "fly ball rate (pitcher)": {
     "term": "Fly Ball Rate (Pitcher)",
-    "definition": "The percentage of balls put in play against a pitcher that are fly balls. League average is approximately 35 to 38 percent. A high fly ball rate increases home run vulnerability, since only fly balls can leave the park. Fly ball pitchers typically need to miss bats at a higher rate to compensate for the home run risk — a pitcher who allows fly balls but generates a lot of strikeouts can remain effective, while one who allows fly balls without missing bats is particularly susceptible to big innings."
+    "definition": "The percentage of balls put in play against a pitcher that are fly balls. League average is approximately 35 to 38 percent. A high fly ball rate increases home run vulnerability, since only fly balls can leave the park. Fly ball pitchers typically need to miss bats at a higher rate to compensate for the home run risk. A pitcher who allows fly balls but generates a lot of strikeouts can remain effective; one who allows fly balls without missing bats is particularly susceptible to big innings."
   },
   "fb% (pitcher)": {
     "term": "Fly Ball Rate (Pitcher)",
-    "definition": "The percentage of balls put in play against a pitcher that are fly balls. League average is approximately 35 to 38 percent. A high fly ball rate increases home run vulnerability, since only fly balls can leave the park. Fly ball pitchers typically need to miss bats at a higher rate to compensate for the home run risk — a pitcher who allows fly balls but generates a lot of strikeouts can remain effective, while one who allows fly balls without missing bats is particularly susceptible to big innings."
+    "definition": "The percentage of balls put in play against a pitcher that are fly balls. League average is approximately 35 to 38 percent. A high fly ball rate increases home run vulnerability, since only fly balls can leave the park. Fly ball pitchers typically need to miss bats at a higher rate to compensate for the home run risk. A pitcher who allows fly balls but generates a lot of strikeouts can remain effective; one who allows fly balls without missing bats is particularly susceptible to big innings."
   },
   "iso": {
     "term": "ISO (Isolated Power)",
@@ -137,11 +137,11 @@
   },
   "walk rate (pitcher)": {
     "term": "Walk Rate (Pitcher)",
-    "definition": "The percentage of batters faced by a pitcher who draw a walk. Walk rate is the primary measure of a pitcher's command — the ability to throw strikes consistently without giving away free bases. League average is approximately 8 to 9 percent; a rate below 7 percent is considered strong; elite command pitchers sustain below 5 percent. A high walk rate compounds the damage from hits, since free baserunners lower the threshold for runs to score."
+    "definition": "The percentage of batters faced by a pitcher who draw a walk. Walk rate is the primary measure of a pitcher's command: the ability to throw strikes consistently without giving away free bases. League average is approximately 8 to 9 percent; a rate below 7 percent is considered strong; elite command pitchers sustain below 5 percent. A high walk rate compounds the damage from hits, since free baserunners lower the threshold for runs to score."
   },
   "bb% (pitcher)": {
     "term": "Walk Rate (Pitcher)",
-    "definition": "The percentage of batters faced by a pitcher who draw a walk. Walk rate is the primary measure of a pitcher's command — the ability to throw strikes consistently without giving away free bases. League average is approximately 8 to 9 percent; a rate below 7 percent is considered strong; elite command pitchers sustain below 5 percent. A high walk rate compounds the damage from hits, since free baserunners lower the threshold for runs to score."
+    "definition": "The percentage of batters faced by a pitcher who draw a walk. Walk rate is the primary measure of a pitcher's command: the ability to throw strikes consistently without giving away free bases. League average is approximately 8 to 9 percent; a rate below 7 percent is considered strong; elite command pitchers sustain below 5 percent. A high walk rate compounds the damage from hits, since free baserunners lower the threshold for runs to score."
   },
   "box score": {
     "term": "Box Score",
@@ -169,19 +169,19 @@
   },
   "slider": {
     "term": "Slider (SL)",
-    "definition": "A breaking ball that combines glove-side horizontal break with downward movement, typically thrown 82 to 88 mph — faster than a curveball, slower than a cutter. Sliders sit between those two pitches on the movement chart: more vertical than a sweeper, more tilted than a cutter. Late-breaking sliders generate swing-and-miss rates by leaving the strike zone after a hitter has committed to swinging."
+    "definition": "A breaking ball that combines glove-side horizontal break with downward movement, typically thrown 82 to 88 mph, faster than a curveball and slower than a cutter. Sliders sit between those two pitches on the movement chart: more vertical than a sweeper, more tilted than a cutter. Late-breaking sliders generate swing-and-miss rates by leaving the strike zone after a hitter has committed to swinging."
   },
   "four-seam fastball": {
     "term": "Four-Seam Fastball (FF)",
-    "definition": "The most common pitch in baseball — a fastball thrown with backspin, gripped across the four seams, designed to travel in a straight line with maximum velocity and high induced vertical break. League average four-seam velocity is approximately 93 to 94 mph; elite velocity is 97 mph or above. The backspin reduces the effect of gravity, causing the ball to arrive higher in the zone than a hitter expects — the perceptual illusion commonly called a rising fastball."
+    "definition": "The most common pitch in baseball, thrown with backspin and gripped across the four seams, designed to travel in a straight line with maximum velocity and high induced vertical break. League average four-seam velocity is approximately 93 to 94 mph; elite velocity is 97 mph or above. The backspin reduces the effect of gravity, causing the ball to arrive higher in the zone than a hitter expects, creating the perceptual illusion commonly called a rising fastball."
   },
   "pitch velocity": {
     "term": "Pitch Velocity",
-    "definition": "The speed of a pitch as it leaves the pitcher's hand, measured in miles per hour at release. League average fastball velocity is approximately 93 to 94 mph; elite velocity is generally considered 97 mph or above. Pitch velocity is distinct from exit velocity, which measures the speed of the ball off the bat — a pitcher's velocity is what he throws, an exit velocity is what a hitter produces in response."
+    "definition": "The speed of a pitch as it leaves the pitcher's hand, measured in miles per hour at release. League average fastball velocity is approximately 93 to 94 mph; elite velocity is generally considered 97 mph or above. Pitch velocity is distinct from exit velocity, which measures the speed of the ball off the bat. A pitcher's velocity is what he throws; exit velocity is what a hitter produces in response."
   },
   "4-seam fastball": {
     "term": "Four-Seam Fastball (FF)",
-    "definition": "The most common pitch in baseball — a fastball thrown with backspin, gripped across the four seams, designed to travel in a straight line with maximum velocity and high induced vertical break. League average four-seam velocity is approximately 93 to 94 mph; elite velocity is 97 mph or above. The backspin reduces the effect of gravity, causing the ball to arrive higher in the zone than a hitter expects — the perceptual illusion commonly called a rising fastball."
+    "definition": "The most common pitch in baseball, thrown with backspin and gripped across the four seams, designed to travel in a straight line with maximum velocity and high induced vertical break. League average four-seam velocity is approximately 93 to 94 mph; elite velocity is 97 mph or above. The backspin reduces the effect of gravity, causing the ball to arrive higher in the zone than a hitter expects, creating the perceptual illusion commonly called a rising fastball."
   },
   "sinker": {
     "term": "Sinker (SI)",
@@ -193,15 +193,15 @@
   },
   "splinker": {
     "term": "Splinker",
-    "definition": "An informal name for Paul Skenes's primary off-speed pitch — a split-finger fastball (FS) that sits at approximately 93 to 94 mph with arm-side run nearly identical to his four-seam fastball but almost zero induced vertical break, causing it to dive through the bottom of the zone. The name combines splitter and sinker. Its value comes from the pairing: the four-seamer and the splinker leave Skenes's hand on the same plane and arrive more than 11 inches apart vertically, forcing hitters to guess a height they cannot see coming."
+    "definition": "An informal name for Paul Skenes's primary off-speed pitch, a split-finger fastball (FS) that sits at approximately 93 to 94 mph with arm-side run nearly identical to his four-seam fastball but almost zero induced vertical break, causing it to dive through the bottom of the zone. The name combines splitter and sinker. Its value comes from the pairing: the four-seamer and the splinker leave Skenes's hand on the same plane and arrive more than 11 inches apart vertically, forcing hitters to guess a height they cannot see coming."
   },
   "pitch tunneling": {
     "term": "Pitch Tunneling",
-    "definition": "The practice of designing a pitch arsenal so that two or more pitches follow the same flight path through the decision zone — the point roughly 20 to 25 feet from the plate where a hitter must commit to swing or take. Pitches that share a tunnel point look identical until after the hitter has already decided, then diverge in velocity, break, or vertical height. Skenes's four-seam/splinker pairing is a textbook example: both pitches travel the same horizontal lane and separate more than 11 inches vertically only after the tunnel point, which is why his secondaries generate more whiffs than their raw movement numbers would predict on their own."
+    "definition": "The practice of designing a pitch arsenal so that two or more pitches follow the same flight path through the decision zone, roughly 20 to 25 feet from the plate, where a hitter must commit to swing or take. Pitches that share a tunnel point look identical until after the hitter has already decided, then diverge in velocity, break, or vertical height. Skenes's four-seam/splinker pairing is a textbook example: both pitches travel the same horizontal lane and separate more than 11 inches vertically only after the tunnel point, which is why his secondaries generate more whiffs than their raw movement numbers would predict on their own."
   },
   "tunneling": {
     "term": "Pitch Tunneling",
-    "definition": "The practice of designing a pitch arsenal so that two or more pitches follow the same flight path through the decision zone — the point roughly 20 to 25 feet from the plate where a hitter must commit to swing or take. Pitches that share a tunnel point look identical until after the hitter has already decided, then diverge in velocity, break, or vertical height. Skenes's four-seam/splinker pairing is a textbook example: both pitches travel the same horizontal lane and separate more than 11 inches vertically only after the tunnel point, which is why his secondaries generate more whiffs than their raw movement numbers would predict on their own."
+    "definition": "The practice of designing a pitch arsenal so that two or more pitches follow the same flight path through the decision zone, roughly 20 to 25 feet from the plate, where a hitter must commit to swing or take. Pitches that share a tunnel point look identical until after the hitter has already decided, then diverge in velocity, break, or vertical height. Skenes's four-seam/splinker pairing is a textbook example: both pitches travel the same horizontal lane and separate more than 11 inches vertically only after the tunnel point, which is why his secondaries generate more whiffs than their raw movement numbers would predict on their own."
   },
   "changeup": {
     "term": "Changeup (CH)",
@@ -209,7 +209,7 @@
   },
   "cutter": {
     "term": "Cutter (FC)",
-    "definition": "A fastball variant with late, sharp glove-side break — faster than most breaking balls (typically 88 to 93 mph) but with less horizontal movement than a slider. The late break makes it difficult to barrel squarely, producing weak contact on the inner half against same-handed batters and running into the barrel against opposite-handed batters. Cutters tend to generate more contact than breaking balls but consistently produce the wrong contact — jammed grounders, broken bats, soft fly balls."
+    "definition": "A fastball variant with late, sharp glove-side break, faster than most breaking balls (typically 88 to 93 mph) but with less horizontal movement than a slider. The late break makes it difficult to barrel squarely, producing weak contact on the inner half against same-handed batters and running into the barrel against opposite-handed batters. Cutters tend to generate more contact than breaking balls but consistently produce the wrong contact: jammed grounders, broken bats, soft fly balls."
   },
   "extra-base hit": {
     "term": "Extra-Base Hit",
@@ -273,7 +273,7 @@
   },
   "babip (pitcher)": {
     "term": "BABIP (Pitcher)",
-    "definition": "Batting average on balls put in play against a pitcher, excluding home runs and strikeouts. League average is around .300. Unlike batter BABIP, pitcher BABIP is heavily shaped by the defense behind the pitcher and by where balls happen to land — factors largely outside a pitcher's control. Most pitchers' BABIP tends to regress toward .300 over time regardless of prior results. A pitcher with a high BABIP is often a candidate for ERA improvement the following season; one with a very low BABIP is often a candidate for regression."
+    "definition": "Batting average on balls put in play against a pitcher, excluding home runs and strikeouts. League average is around .300. Unlike batter BABIP, pitcher BABIP is heavily shaped by the defense behind the pitcher and by where balls happen to land, factors largely outside a pitcher's control. Most pitchers' BABIP tends to regress toward .300 over time regardless of prior results. A pitcher with a high BABIP is often a candidate for ERA improvement the following season; one with a very low BABIP is often a candidate for regression."
   },
   "wrc+": {
     "term": "wRC+ (Weighted Runs Created Plus)",
@@ -285,7 +285,7 @@
   },
   "hr/fb (pitcher)": {
     "term": "HR/FB Rate (Pitcher)",
-    "definition": "The percentage of fly balls allowed by a pitcher that result in home runs. League average is around 13 percent. Pitcher HR/FB rate is heavily influenced by park factors and luck and tends to regress toward the league average over time regardless of prior results. A pitcher with an unusually low HR/FB rate is likely to allow more home runs the following season — which is why xFIP replaces a pitcher's actual home run total with an expected value based on fly ball rate and the league average HR/FB rate."
+    "definition": "The percentage of fly balls allowed by a pitcher that result in home runs. League average is around 13 percent. Pitcher HR/FB rate is heavily influenced by park factors and luck and tends to regress toward the league average over time regardless of prior results. A pitcher with an unusually low HR/FB rate is likely to allow more home runs the following season. That is why xFIP replaces a pitcher's actual home run total with an expected value based on fly ball rate and the league average HR/FB rate."
   },
   "era": {
     "term": "ERA (Earned Run Average)",
@@ -301,7 +301,7 @@
   },
   "stuff+": {
     "term": "Stuff+",
-    "definition": "A Baseball Savant rating that evaluates the quality of each pitch based on its physical characteristics — velocity, movement, and spin — compared to league average. A Stuff+ of 100 is average; above 100 means the pitch grades better than average; 120 or above is considered excellent. Stuff+ measures raw pitch quality only and does not account for command or sequencing."
+    "definition": "A Baseball Savant rating that evaluates the quality of each pitch based on its physical characteristics (velocity, movement, and spin) compared to league average. A Stuff+ of 100 is average; above 100 means the pitch grades better than average; 120 or above is considered excellent. Stuff+ measures raw pitch quality only and does not account for command or sequencing."
   },
   "location+": {
     "term": "Location+",
@@ -309,28 +309,28 @@
   },
   "arm-side": {
     "term": "Arm-Side / Glove-Side",
-    "definition": "Directional terms describing horizontal pitch movement, always from the catcher's perspective. For a right-handed pitcher, arm-side is to the right on the Movement Profile chart — the direction the ball moves toward a right-handed batter's hands. Glove-side is to the left — the direction the ball breaks away from a right-handed batter. For a left-handed pitcher, the directions are reversed."
+    "definition": "Directional terms describing horizontal pitch movement, always from the catcher's perspective. For a right-handed pitcher, arm-side is to the right on the Movement Profile chart, toward a right-handed batter's hands. Glove-side is to the left, away from a right-handed batter. For a left-handed pitcher, the directions are reversed."
   },
   "glove-side": {
     "term": "Arm-Side / Glove-Side",
-    "definition": "Directional terms describing horizontal pitch movement, always from the catcher's perspective. For a right-handed pitcher, arm-side is to the right on the Movement Profile chart — the direction the ball moves toward a right-handed batter's hands. Glove-side is to the left — the direction the ball breaks away from a right-handed batter. For a left-handed pitcher, the directions are reversed."
+    "definition": "Directional terms describing horizontal pitch movement, always from the catcher's perspective. For a right-handed pitcher, arm-side is to the right on the Movement Profile chart, toward a right-handed batter's hands. Glove-side is to the left, away from a right-handed batter. For a left-handed pitcher, the directions are reversed."
   },
   "run": {
     "term": "Run (Pitch Movement)",
-    "definition": "Arm-side horizontal movement on a pitch — the ball drifting toward the pitcher's throwing-hand side as it approaches the plate. A pitch that 'runs' moves in toward a same-handed batter's hands and away from an opposite-handed batter. Sinkers and two-seamers are the pitches most associated with heavy run; a fastball described as having 'late run' moves arm-side near the end of its path, making it difficult to barrel on the inner half."
+    "definition": "Arm-side horizontal movement on a pitch. The ball drifts toward the pitcher's throwing-hand side as it approaches the plate. A pitch that 'runs' moves in toward a same-handed batter's hands and away from an opposite-handed batter. Sinkers and two-seamers are the pitches most associated with heavy run; a fastball described as having 'late run' moves arm-side near the end of its path, making it difficult to barrel on the inner half."
   },
   "cut": {
     "term": "Cut (Pitch Movement)",
-    "definition": "Glove-side horizontal movement on a pitch — the ball moving away from the pitcher's throwing-hand side as it approaches the plate. A pitch that 'cuts' breaks toward an opposite-handed batter's hands and away from a same-handed batter. Cutters are named for this movement, but any pitch can cut: a fastball with unexpected glove-side break is often described as 'cutting.' Late cut is particularly difficult to handle because the pitch looks like a fastball until the last moment."
+    "definition": "Glove-side horizontal movement on a pitch. The ball moves away from the pitcher's throwing-hand side as it approaches the plate. A pitch that 'cuts' breaks toward an opposite-handed batter's hands and away from a same-handed batter. Cutters are named for this movement, but any pitch can cut: a fastball with unexpected glove-side break is often described as 'cutting.' Late cut is particularly difficult to handle because the pitch looks like a fastball until the last moment."
   },
 
   "inning": {
     "term": "Inning",
-    "definition": "One unit of play in a baseball game. Each team bats until it records three outs — that's one half-inning. A full inning covers both halves. Standard games are nine innings; ties extend into extra innings."
+    "definition": "One unit of play in a baseball game. Each team bats until it records three outs, called a half-inning. A full inning covers both halves. Standard games are nine innings; ties extend into extra innings."
   },
   "count": {
     "term": "Count",
-    "definition": "The current tally of balls and strikes in a plate appearance, stated as balls-strikes (e.g., 2-1 is two balls and one strike). A 3-0 count heavily favors the hitter; 0-2 favors the pitcher. A full count — 3-2 — means the next pitch almost always ends the at-bat."
+    "definition": "The current tally of balls and strikes in a plate appearance, stated as balls-strikes (e.g., 2-1 is two balls and one strike). A 3-0 count heavily favors the hitter; 0-2 favors the pitcher. A full count (3-2) means the next pitch almost always ends the at-bat."
   },
   "at-bat": {
     "term": "At-Bat (AB)",
@@ -342,11 +342,11 @@
   },
   "plate appearance": {
     "term": "Plate Appearance (PA)",
-    "definition": "Any completed turn at the plate, regardless of outcome — including walks, hit-by-pitches, and sacrifice flies. Plate appearances are the correct denominator for rate stats like walk rate and strikeout rate. Every at-bat is a plate appearance, but not every plate appearance is an at-bat."
+    "definition": "Any completed turn at the plate, regardless of outcome, including walks, hit-by-pitches, and sacrifice flies. Plate appearances are the correct denominator for rate stats like walk rate and strikeout rate. Every at-bat is a plate appearance, but not every plate appearance is an at-bat."
   },
   "pa": {
     "term": "Plate Appearance (PA)",
-    "definition": "Any completed turn at the plate, regardless of outcome — including walks, hit-by-pitches, and sacrifice flies. Plate appearances are the correct denominator for rate stats like walk rate and strikeout rate. Every at-bat is a plate appearance, but not every plate appearance is an at-bat."
+    "definition": "Any completed turn at the plate, regardless of outcome, including walks, hit-by-pitches, and sacrifice flies. Plate appearances are the correct denominator for rate stats like walk rate and strikeout rate. Every at-bat is a plate appearance, but not every plate appearance is an at-bat."
   },
   "hit": {
     "term": "Hit",
@@ -362,7 +362,7 @@
   },
   "triple": {
     "term": "Triple",
-    "definition": "A hit on which the batter reaches third base — the rarest hit type. Triples require both well-struck contact and speed. They count as three bases in slugging percentage."
+    "definition": "A hit on which the batter reaches third base, the rarest hit type. Triples require both well-struck contact and speed. They count as three bases in slugging percentage."
   },
   "home run": {
     "term": "Home Run (HR)",
@@ -374,35 +374,35 @@
   },
   "walk": {
     "term": "Walk (Base on Balls)",
-    "definition": "Four pitches called balls in a single plate appearance — the batter is awarded first base. Walks count toward on-base percentage and wOBA but not batting average. A high walk rate is one of the most stable and predictive offensive skills year to year."
+    "definition": "When a batter receives four called balls in a plate appearance, he is awarded first base. Walks count toward on-base percentage and wOBA but not batting average. A high walk rate is one of the most stable and predictive offensive skills year to year."
   },
   "base on balls": {
     "term": "Walk (Base on Balls)",
-    "definition": "Four pitches called balls in a single plate appearance — the batter is awarded first base. Walks count toward on-base percentage and wOBA but not batting average. A high walk rate is one of the most stable and predictive offensive skills year to year."
+    "definition": "When a batter receives four called balls in a plate appearance, he is awarded first base. Walks count toward on-base percentage and wOBA but not batting average. A high walk rate is one of the most stable and predictive offensive skills year to year."
   },
   "bb": {
     "term": "Walk (Base on Balls)",
-    "definition": "Four pitches called balls in a single plate appearance — the batter is awarded first base. Walks count toward on-base percentage and wOBA but not batting average. A high walk rate is one of the most stable and predictive offensive skills year to year."
+    "definition": "When a batter receives four called balls in a plate appearance, he is awarded first base. Walks count toward on-base percentage and wOBA but not batting average. A high walk rate is one of the most stable and predictive offensive skills year to year."
   },
   "strikeout": {
     "term": "Strikeout (K)",
-    "definition": "A plate appearance ending with three strikes. A batter can strike out looking (a called third strike) or swinging. Strikeouts are the only at-bat outcome that guarantees the ball never leaves the catcher's glove — no chance for a hit, a walk, or a fielding error to change the play."
+    "definition": "A plate appearance ending with three strikes. A batter can strike out looking (a called third strike) or swinging. Strikeouts are the only at-bat outcome that guarantees the ball never leaves the catcher's glove: no chance for a hit, a walk, or a fielding error to change the play."
   },
   "k": {
     "term": "Strikeout (K)",
-    "definition": "A plate appearance ending with three strikes. A batter can strike out looking (a called third strike) or swinging. Strikeouts are the only at-bat outcome that guarantees the ball never leaves the catcher's glove — no chance for a hit, a walk, or a fielding error to change the play."
+    "definition": "A plate appearance ending with three strikes. A batter can strike out looking (a called third strike) or swinging. Strikeouts are the only at-bat outcome that guarantees the ball never leaves the catcher's glove: no chance for a hit, a walk, or a fielding error to change the play."
   },
   "error": {
     "term": "Error",
-    "definition": "A fielding mistake — a misplay that would have resulted in an out with ordinary effort — that allows a batter or baserunner to advance. Errors do not count as hits for the batter and do not count as earned runs against the pitcher, which is why ERA and runs allowed can differ."
+    "definition": "A misplay that would have resulted in an out with ordinary effort, allowing a batter or baserunner to advance. Errors do not count as hits for the batter and do not count as earned runs against the pitcher, which is why ERA and runs allowed can differ."
   },
   "hit by pitch": {
     "term": "Hit By Pitch (HBP)",
-    "definition": "A batter struck by a pitched ball who did not swing. The batter is awarded first base. HBP counts toward on-base percentage but not batting average. Getting hit by pitches consistently is a minor skill — some hitters crowd the plate deliberately."
+    "definition": "A batter struck by a pitched ball who did not swing. The batter is awarded first base. HBP counts toward on-base percentage but not batting average. Getting hit by pitches consistently is a minor skill; some hitters crowd the plate deliberately."
   },
   "hbp": {
     "term": "Hit By Pitch (HBP)",
-    "definition": "A batter struck by a pitched ball who did not swing. The batter is awarded first base. HBP counts toward on-base percentage but not batting average. Getting hit by pitches consistently is a minor skill — some hitters crowd the plate deliberately."
+    "definition": "A batter struck by a pitched ball who did not swing. The batter is awarded first base. HBP counts toward on-base percentage but not batting average. Getting hit by pitches consistently is a minor skill; some hitters crowd the plate deliberately."
   },
   "stolen base": {
     "term": "Stolen Base (SB)",
@@ -414,7 +414,7 @@
   },
   "double play": {
     "term": "Double Play (DP)",
-    "definition": "Two outs recorded on a single play. The most common type — the 6-4-3 — goes shortstop to second baseman to first baseman on a ground ball. Pitchers who generate ground balls produce more double plays, which is one reason high ground ball rates are associated with lower ERAs."
+    "definition": "Two outs recorded on a single play. The most common type, the 6-4-3, goes shortstop to second baseman to first baseman on a ground ball. Pitchers who generate ground balls produce more double plays, which is one reason high ground ball rates are associated with lower ERAs."
   },
   "sacrifice fly": {
     "term": "Sacrifice Fly (SF)",
@@ -426,27 +426,27 @@
   },
   "balk": {
     "term": "Balk",
-    "definition": "An illegal motion by the pitcher while in contact with the rubber, designed to deceive baserunners. When a balk is called, all runners advance one base. The rules governing balks are numerous and occasionally arcane — the core principle is that once a pitcher begins a motion toward home, he must deliver the pitch."
+    "definition": "An illegal motion by the pitcher while in contact with the rubber, designed to deceive baserunners. When a balk is called, all runners advance one base. The rules governing balks are numerous and occasionally arcane. The core principle: once a pitcher begins a motion toward home, he must deliver the pitch."
   },
   "save": {
     "term": "Save (SV)",
-    "definition": "A statistic credited to a relief pitcher who finishes a game for the winning team, typically by entering with a lead of three runs or fewer and holding it. Saves are the primary fantasy scoring category for closers. The save rule has known flaws — it can credit a pitcher for a low-leverage hold while ignoring a high-leverage middle-inning appearance — but it remains the standard."
+    "definition": "A statistic credited to a relief pitcher who finishes a game for the winning team, typically by entering with a lead of three runs or fewer and holding it. Saves are the primary fantasy scoring category for closers. The save rule has known flaws: it can credit a pitcher for a low-leverage hold while ignoring a high-leverage middle-inning appearance, but it remains the standard."
   },
   "sv": {
     "term": "Save (SV)",
-    "definition": "A statistic credited to a relief pitcher who finishes a game for the winning team, typically by entering with a lead of three runs or fewer and holding it. Saves are the primary fantasy scoring category for closers. The save rule has known flaws — it can credit a pitcher for a low-leverage hold while ignoring a high-leverage middle-inning appearance — but it remains the standard."
+    "definition": "A statistic credited to a relief pitcher who finishes a game for the winning team, typically by entering with a lead of three runs or fewer and holding it. Saves are the primary fantasy scoring category for closers. The save rule has known flaws: it can credit a pitcher for a low-leverage hold while ignoring a high-leverage middle-inning appearance, but it remains the standard."
   },
   "win": {
     "term": "Win (Pitcher W)",
-    "definition": "A statistic credited to the pitcher of record when his team takes a lead it holds for the rest of the game. Wins depend heavily on run support and bullpen performance — factors outside a pitcher's control. Most advanced analysis treats wins as unreliable indicators of pitching quality; ERA, xFIP, and strikeout rate are better measures."
+    "definition": "A statistic credited to the pitcher of record when his team takes a lead it holds for the rest of the game. Wins depend heavily on run support and bullpen performance, factors outside a pitcher's control. Most advanced analysis treats wins as unreliable indicators of pitching quality; ERA, xFIP, and strikeout rate are better measures."
   },
   "on-base percentage": {
     "term": "On-Base Percentage (OBP)",
-    "definition": "The fraction of plate appearances in which a batter reaches base by any means — hit, walk, or hit by pitch. League average is typically around .320; .350 is solid; .400 is excellent. OBP is more predictive of run scoring than batting average because it counts walks as the productive outcomes they are."
+    "definition": "The fraction of plate appearances in which a batter reaches base by any means: hit, walk, or hit by pitch. League average is typically around .320; .350 is solid; .400 is excellent. OBP is more predictive of run scoring than batting average because it counts walks as the productive outcomes they are."
   },
   "obp": {
     "term": "On-Base Percentage (OBP)",
-    "definition": "The fraction of plate appearances in which a batter reaches base by any means — hit, walk, or hit by pitch. League average is typically around .320; .350 is solid; .400 is excellent. OBP is more predictive of run scoring than batting average because it counts walks as the productive outcomes they are."
+    "definition": "The fraction of plate appearances in which a batter reaches base by any means: hit, walk, or hit by pitch. League average is typically around .320; .350 is solid; .400 is excellent. OBP is more predictive of run scoring than batting average because it counts walks as the productive outcomes they are."
   },
   "whip": {
     "term": "WHIP (Walks + Hits Per Inning Pitched)",
@@ -454,7 +454,7 @@
   },
   "quality start": {
     "term": "Quality Start",
-    "definition": "A starting pitcher appearance of at least six innings allowing three or fewer earned runs. A quality start equates to a 4.50 ERA for that game — average, not excellent, despite the name. It's commonly used as a proxy for starter consistency in fantasy formats that track it."
+    "definition": "A starting pitcher appearance of at least six innings allowing three or fewer earned runs. A quality start equates to a 4.50 ERA for that game, average but not excellent, despite the name. It's commonly used as a proxy for starter consistency in fantasy formats that track it."
   },
   "walk-off": {
     "term": "Walk-Off",
@@ -470,15 +470,15 @@
   },
   "relief pitcher": {
     "term": "Relief Pitcher (RP)",
-    "definition": "Any pitcher who enters the game after the starter. Relievers typically pitch one or two innings per appearance and are assigned specialized roles: middle relievers, setup men, and closers. In fantasy, relief pitchers contribute saves, holds, strikeouts, and ERA — but accrue far fewer innings than starters."
+    "definition": "Any pitcher who enters the game after the starter. Relievers typically pitch one or two innings per appearance and are assigned specialized roles: middle relievers, setup men, and closers. In fantasy, relief pitchers contribute saves, holds, strikeouts, and ERA, but accrue far fewer innings than starters."
   },
   "reliever": {
     "term": "Relief Pitcher (RP)",
-    "definition": "Any pitcher who enters the game after the starter. Relievers typically pitch one or two innings per appearance and are assigned specialized roles: middle relievers, setup men, and closers. In fantasy, relief pitchers contribute saves, holds, strikeouts, and ERA — but accrue far fewer innings than starters."
+    "definition": "Any pitcher who enters the game after the starter. Relievers typically pitch one or two innings per appearance and are assigned specialized roles: middle relievers, setup men, and closers. In fantasy, relief pitchers contribute saves, holds, strikeouts, and ERA, but accrue far fewer innings than starters."
   },
   "rp": {
     "term": "Relief Pitcher (RP)",
-    "definition": "Any pitcher who enters the game after the starter. Relievers typically pitch one or two innings per appearance and are assigned specialized roles: middle relievers, setup men, and closers. In fantasy, relief pitchers contribute saves, holds, strikeouts, and ERA — but accrue far fewer innings than starters."
+    "definition": "Any pitcher who enters the game after the starter. Relievers typically pitch one or two innings per appearance and are assigned specialized roles: middle relievers, setup men, and closers. In fantasy, relief pitchers contribute saves, holds, strikeouts, and ERA, but accrue far fewer innings than starters."
   },
   "closer": {
     "term": "Closer",
@@ -486,11 +486,11 @@
   },
   "bullpen": {
     "term": "Bullpen",
-    "definition": "The group of relief pitchers on a roster; also the physical area — usually beyond the outfield fence — where pitchers warm up before entering a game. A deep bullpen gives a manager flexibility to protect leads and cover for a struggling starter."
+    "definition": "The group of relief pitchers on a roster; also the physical area, usually beyond the outfield fence, where pitchers warm up before entering a game. A deep bullpen gives a manager flexibility to protect leads and cover for a struggling starter."
   },
   "rotation": {
     "term": "Rotation",
-    "definition": "The group of starting pitchers — typically five — who take turns starting games on a fixed schedule. Each pitcher starts roughly every fifth day. The top of a team's rotation produces the most consistent starts, innings, and strikeout volume for fantasy purposes."
+    "definition": "The group of starting pitchers, typically five, who take turns starting games on a fixed schedule. Each pitcher starts roughly every fifth day. The top of a team's rotation produces the most consistent starts, innings, and strikeout volume for fantasy purposes."
   },
   "designated hitter": {
     "term": "Designated Hitter (DH)",
@@ -502,19 +502,19 @@
   },
   "southpaw": {
     "term": "Southpaw",
-    "definition": "A left-handed pitcher. A southpaw's fastball naturally runs toward a left-handed batter and away from a right-handed one — the mirror image of a right-hander's movement. Left-handed starters carry a roster premium because they are scarcer and create favorable matchups against left-handed lineups."
+    "definition": "A left-handed pitcher. A southpaw's fastball naturally runs toward a left-handed batter and away from a right-handed one, the mirror image of a right-hander's movement. Left-handed starters carry a roster premium because they are scarcer and create favorable matchups against left-handed lineups."
   },
   "can of corn": {
     "term": "Can of Corn",
-    "definition": "A routine, easy fly ball — hit high and softly enough that an outfielder can camp underneath it comfortably. One of baseball's oldest pieces of slang, dating to the 19th century. A can of corn is the opposite of a frozen rope."
+    "definition": "A routine, easy fly ball, hit high and softly enough that an outfielder can camp underneath it comfortably. One of baseball's oldest pieces of slang, dating to the 19th century. A can of corn is the opposite of a frozen rope."
   },
   "frozen rope": {
     "term": "Frozen Rope",
-    "definition": "A hard line drive hit on a nearly flat trajectory with exceptional exit velocity. A frozen rope is ideal contact — sharp speed, minimal upward angle. The term is also used for a strong, flat throw from an outfielder to cut down a baserunner."
+    "definition": "A hard line drive hit on a nearly flat trajectory with exceptional exit velocity. A frozen rope is ideal contact: sharp speed, minimal upward angle. The term is also used for a strong, flat throw from an outfielder to cut down a baserunner."
   },
   "meatball": {
     "term": "Meatball",
-    "definition": "A pitch served up in the heart of the strike zone — flat, slow enough, right down the middle. A meatball is a gift to the hitter. Pitchers throw them by accident; the term implies something easy to hit and hard to miss."
+    "definition": "A pitch served up in the heart of the strike zone, flat and right down the middle. A meatball is a gift to the hitter. Pitchers throw them by accident; the term implies something easy to hit and hard to miss."
   },
   "heater": {
     "term": "Heater",
@@ -522,7 +522,7 @@
   },
   "cheese": {
     "term": "Cheese",
-    "definition": "Slang for a well-executed fastball — one with velocity, movement, or both. 'Throwing cheese' means working the fastball effectively. 'High cheese' is a fastball at the top of the zone, where induced vertical break is most effective and hardest to get on top of."
+    "definition": "Slang for a well-executed fastball, one with velocity, movement, or both. 'Throwing cheese' means working the fastball effectively. 'High cheese' is a fastball at the top of the zone, where induced vertical break is most effective and hardest to get on top of."
   },
   "high cheese": {
     "term": "High Cheese",
@@ -538,15 +538,15 @@
   },
   "chin music": {
     "term": "Chin Music",
-    "definition": "A pitch thrown intentionally up and inside, near the batter's chin, to push him off the plate. Chin music is a message pitch — a reminder that the inside corner belongs to the pitcher. Throwing chin music is sometimes retaliatory and sometimes preemptive."
+    "definition": "A pitch thrown intentionally up and inside, near the batter's chin, to push him off the plate. Chin music is a message pitch, a reminder that the inside corner belongs to the pitcher. Throwing chin music is sometimes retaliatory and sometimes preemptive."
   },
   "jam": {
     "term": "Jam",
-    "definition": "To pitch aggressively inside, forcing the batter to make contact near the handle rather than the barrel. A jammed hitter typically produces weak contact — broken bats, soft grounders to the pull side, foul tips. The word is also used situationally: a pitcher 'in a jam' has runners on base with few outs."
+    "definition": "To pitch aggressively inside, forcing the batter to make contact near the handle rather than the barrel. A jammed hitter typically produces weak contact: broken bats, soft grounders to the pull side, foul tips. The word is also used situationally: a pitcher 'in a jam' has runners on base with few outs."
   },
   "painting the black": {
     "term": "Painting the Black",
-    "definition": "Throwing pitches precisely on the outer edges of the strike zone — the black border of home plate. A pitcher who paints the black hits the boundary of the zone consistently, generating called strikes on pitches that barely qualify. It's the high-command version of nibbling: accurate rather than safe."
+    "definition": "Throwing pitches precisely on the outer edges of the strike zone, the black border of home plate. A pitcher who paints the black hits the boundary of the zone consistently, generating called strikes on pitches that barely qualify. It's the high-command version of nibbling: accurate rather than safe."
   },
   "rubber game": {
     "term": "Rubber Game",
@@ -554,7 +554,7 @@
   },
   "no-hitter": {
     "term": "No-Hitter",
-    "definition": "A complete game in which a pitcher (or multiple pitchers) allows no hits across all nine innings. Batters can still reach base via walks, errors, or hit by pitch — which distinguishes a no-hitter from a perfect game. No-hitters are rare enough to be news."
+    "definition": "A complete game in which a pitcher (or multiple pitchers) allows no hits across all nine innings. Batters can still reach base via walks, errors, or hit by pitch, which distinguishes a no-hitter from a perfect game. No-hitters are rare enough to be news."
   },
   "perfect game": {
     "term": "Perfect Game",
@@ -562,6 +562,6 @@
   },
   "walk-off": {
     "term": "Walk-Off",
-    "definition": "A game-ending play by the home team in their final at-bat that gives them the lead — forcing the visiting team to walk off the field. Walk-off home runs are the most dramatic ending in baseball, but any hit, walk, or error that scores the winning run qualifies."
+    "definition": "A game-ending play by the home team in their final at-bat that gives them the lead, forcing the visiting team to walk off the field. Walk-off home runs are the most dramatic ending in baseball, but any hit, walk, or error that scores the winning run qualifies."
   }
 }
