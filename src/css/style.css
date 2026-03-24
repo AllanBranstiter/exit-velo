@@ -66,10 +66,21 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   letter-spacing: -0.02em;
   color: var(--nav-text);
   text-decoration: none;
+  transition: color 0.15s ease;
 }
 
 .nav__logo span {
   color: var(--accent);
+  transition: color 0.15s ease;
+}
+
+.nav__logo:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.nav__logo:hover span {
+  color: var(--nav-text);
 }
 
 .nav__links {

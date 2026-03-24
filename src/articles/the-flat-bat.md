@@ -3,7 +3,7 @@ layout: article.njk
 title: Why the Best Contact Quality at First Base Doesn't Always Mean the Most Home Runs
 subtitle: "Attack angle explains the gap between what first basemen should be doing and what they actually do, and most fantasy drafters aren't pricing it."
 category: Fantasy Baseball
-date: 2026-03-19
+date: 2026-03-19T12:00:00
 excerpt: "Vladimir Guerrero Jr. hit the ball harder than almost anyone in baseball last season. His maximum exit velocity was 120.4 miles per hour, a career high. He hit 23 home runs, roughly 15 fewer than his contact quality said he deserved. The reason is attack angle, and it changes how you should be drafting first base in 2026."
 description: "What Statcast reveals about first base and what it means for your fantasy draft."
 permalink: /articles/the-flat-bat.html
@@ -146,3 +146,7 @@ Exit velocity tells you how hard. Launch angle tells you where the ball goes. At
 Baseball has spent the last decade building the tools to see the game more clearly. The cameras are in every stadium. The data is publicly available. All of it is geometry, the same geometry that explains why a 26-year-old with a half-billion-dollar contract and a 92-mile-per-hour exit velocity can leave so many home runs on the field.
 
 His swing is too flat. The cameras know it. The box score has been trying to say so for five years.
+
+<figure style="margin:3rem auto 0;">
+  <img src="/images/velo-flat-bat.png" alt="Velo in a batting stance at home plate, bat raised and ready to swing" style="display:block;margin:0 auto;width:25%;max-width:25%;">
+</figure>

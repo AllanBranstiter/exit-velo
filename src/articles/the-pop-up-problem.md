@@ -3,7 +3,7 @@ layout: article.njk
 title: The Pop-Up Problem
 subtitle: "What Dylan Crews's spring training revealed about the most honest signal in baseball's data, and what it means for your draft"
 category: Player Profile
-date: 2026-03-20
+date: 2026-03-20T12:00:00
 excerpt: "There is a hitter who put more than half of his fly balls straight up into the infield this spring. He hit .103. One week before Opening Day, the Washington Nationals sent him to Triple-A. The batting average is noise. The pop-up rate is not."
 description: "What Dylan Crews's infield fly ball rate reveals about swing mechanics and what it means for fantasy drafters at his current ADP."
 permalink: /articles/the-pop-up-problem.html
@@ -175,4 +175,8 @@ At 172.9 ADP, you are paying for uncertainty. The data says the tools are real. 
 ## The Ball Goes Out
 
 Through roughly 1,200 plate appearances across his professional career, Dylan Crews has shown he can run, field, and hit the ball hard enough to deserve better outcomes than the box score gave him. His spring statistics were a mechanical problem, not a talent diagnosis. The infield fly ball rate said the swing lost its path. It does not say the swing can't find it again.
+
+<figure style="margin:3rem auto 0;">
+  <img src="/images/velo-the-pop-up-problem.png" alt="Velo watching a pop-up ball hang straight up in the air after his swing" style="display:block;margin:0 auto;width:25%;max-width:25%;">
+</figure>
 
