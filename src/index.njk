@@ -17,6 +17,7 @@ permalink: /index.html
       <li class="article-card">
         <div class="article-card__meta">
           <span class="article-card__category">{{ article.data.category }}</span>
+          {% if article.data.level %}<span class="article-header__level">{{ article.data.level }}</span>{% endif %}
           <time datetime="{{ article.data.date | dateYearMonth }}">{{ article.data.date | dateDisplay }}</time>
         </div>
         <h2 class="article-card__title">

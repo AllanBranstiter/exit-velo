@@ -7,6 +7,7 @@ layout: base.njk
       <header class="article-header">
         <div class="article-header__meta">
           <span class="article-header__category">{{ category }}</span>
+          {% if level %}<span class="article-header__level">{{ level }}</span>{% endif %}
           <time class="article-header__date" datetime="{{ date | dateYearMonth }}">{{ date | dateDisplay }}</time>
         </div>
         <h1 class="article-header__title">{{ title }}</h1>

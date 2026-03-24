@@ -235,6 +235,18 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   border-radius: 3px;
 }
 
+.article-header__level {
+  background: #e5e7eb;
+  color: #374151;
+  font-weight: 600;
+  font-size: 0.7rem;
+  font-family: var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+}
+
 .article-header__date {
   font-family: var(--font-ui);
   font-size: 0.8rem;

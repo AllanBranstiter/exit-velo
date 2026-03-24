@@ -8,6 +8,7 @@ excerpt: "On every Baseball Savant pitcher page, there is a chart called the Mov
 description: "How to read Baseball Savant's Movement Profile chart, explained through Paul Skenes and Logan Webb."
 permalink: /articles/how-to-read-the-movement-profile.html
 author: Allan Branstiter
+level: Intermediate
 draft: false
 ---
 

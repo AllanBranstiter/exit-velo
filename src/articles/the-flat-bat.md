@@ -8,6 +8,7 @@ excerpt: "Vladimir Guerrero Jr. hit the ball harder than almost anyone in baseba
 description: "What Statcast reveals about first base and what it means for your fantasy draft."
 permalink: /articles/the-flat-bat.html
 author: Allan Branstiter
+level: Intermediate
 ---
 
 There is a player in Major League Baseball who hits the ball harder than almost anyone alive. In 2025, he made contact at an average <span class="term" data-term="exit velocity">exit velocity</span> of 92 miles per hour. His maximum exit velocity, the hardest single ball he put in play all season, was 120.4 miles per hour, a career high. Baseball's tracking systems said he should have <span class="term" data-term="slugging percentage">slugged</span> over .500 for the year, meaning at least one extra base per every two at-bats. He is 26 years old, plays for the Toronto Blue Jays, and is paid, as of this writing, roughly half a billion dollars to hit a baseball.
