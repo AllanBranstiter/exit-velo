@@ -8,7 +8,7 @@ permalink: /about.html
     <div class="article-wrap">
 
       <figure style="margin:0 auto 2.5rem;max-width:480px;">
-        <img src="/images/og-default.svg" alt="Exit Velo" style="display:block;width:100%;border-radius:6px;">
+        <img src="/images/og-default.png" alt="Exit Velo" style="display:block;width:100%;border-radius:6px;">
       </figure>
 
       <header class="article-header">
