@@ -1,11 +1,15 @@
 ---
 layout: base.njk
 title: About
-description: "Exit Velo explains baseball's advanced statistics through player stories — for new fans and fantasy players who want to understand what the numbers actually mean."
+description: "Exit Velo is for new baseball fans and first-time fantasy managers who want to understand what the advanced stats actually mean, explained through player stories without the jargon."
 permalink: /about.html
 ---
   <main class="page">
     <div class="article-wrap">
+
+      <figure style="margin:0 auto 2.5rem;max-width:480px;">
+        <img src="/images/og-default.svg" alt="Exit Velo" style="display:block;width:100%;border-radius:6px;">
+      </figure>
 
       <header class="article-header">
         <h1 class="article-header__title">About Exit Velo</h1>
@@ -14,17 +18,17 @@ permalink: /about.html
 
       <div class="article-body">
 
-        <p>Exit Velo is for fans who know what a batting average is but have started to wonder if it's telling the whole story, and for fantasy players who want to draft better without needing a statistics degree.</p>
+        <p>Exit Velo is for new baseball fans who are still learning the game, and for first-time fantasy managers who keep hearing terms like exit velocity, barrel rate, and xFIP and want to know what they actually mean before draft day.</p>
 
-        <p>The traditional numbers aren't enough anymore. Baseball has spent the last decade building a measurement system that captures things box scores never could: how hard the ball was hit, at what angle it left the bat, how fast the swing was, and the gap between the hit a player deserved and the hit he got.</p>
+        <p>Baseball now has a measurement system that captures things the traditional box score never could: how hard the ball was hit, at what angle it left the bat, how fast the swing was, and the gap between the hit a player deserved and the hit he got. These numbers exist on public websites, free to anyone. Most writing about them assumes you've been reading them for years.</p>
 
-        <p>Most coverage of these metrics assumes you already know what they mean. Exit Velo doesn't.</p>
+        <p>Exit Velo starts from the beginning.</p>
 
         <h2>What you'll find here</h2>
 
-        <p>Each piece starts with a player and a real question. Why does a hitter with a 92-mile-per-hour exit velocity still leave so many home runs on the field? What does a pop-up rate spike in spring training tell you before the team announces anything? When a player's numbers look off, is it bad luck or something the cameras already caught?</p>
+        <p>Every piece is built around a player and a real question a new fan or fantasy manager might actually ask. <a href="/articles/the-flat-bat.html">Why does one of the hardest hitters in baseball keep leaving home runs on the field?</a> <a href="/articles/the-pop-up-problem.html">What does a pop-up rate spike in spring training tell you before the team announces anything?</a> <a href="/articles/how-to-read-the-movement-profile.html">What is that circular chart on a pitcher's Baseball Savant page, and how do you read it?</a></p>
 
-        <p>The statistics get explained as they come up. Every underlined term can be tapped or clicked for a plain-English definition. You shouldn't have to have a second tab open to follow along.</p>
+        <p>Every underlined term can be tapped or clicked for a plain-English definition. Articles are labeled Beginner, Intermediate, or Advanced so you know what you're walking into. You don't need to read them in any order, and you don't need to know anything going in.</p>
 
         <h2>The name</h2>
 
@@ -32,7 +36,7 @@ permalink: /about.html
 
         <h2>Who writes it</h2>
 
-        <p>Allan Branstiter writes Exit Velo. He's a baseball fan and fantasy player who went deep into Statcast and found that most of the writing about it was aimed at people who were already experts. These are the pieces he wished existed when he started.</p>
+        <p>Allan Branstiter writes Exit Velo. He's an Army veteran who coached youth baseball on weekends and spent his career figuring out how to explain complicated things to people who are new to them — for the Army, in history classrooms, and now as an instructional designer at a tech company. He's been a baseball fan and card collector his whole life, and a fantasy player long enough to have too many opinions about ADP. He went deep into Statcast a few years ago and found that most of the writing about it assumed you were already an expert. These are the pieces he wished existed.</p>
 
       </div>
 
