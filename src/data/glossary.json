@@ -35,6 +35,14 @@
     "term": "Attack Angle",
     "definition": "The slope of the bat's path through the hitting zone at the moment of contact, measured in degrees. A flat swing approaches zero degrees; a steep uppercut reaches 15 to 20 degrees or more. Attack angle is a primary determinant of launch angle: a flatter path produces ground balls and line drives, while a more upward path produces fly balls."
   },
+  "xba": {
+    "term": "Expected Batting Average (xBA)",
+    "definition": "A Statcast metric estimating what a hitter's batting average would have been based solely on the quality of contact, specifically exit velocity and launch angle, without regard to where the ball actually landed. xBA removes luck on balls in play and is a more stable predictor of future batting average than actual batting average. League average xBA is typically close to actual league batting average, around .245 to .255."
+  },
+  "expected batting average": {
+    "term": "Expected Batting Average (xBA)",
+    "definition": "A Statcast metric estimating what a hitter's batting average would have been based solely on the quality of contact, specifically exit velocity and launch angle, without regard to where the ball actually landed. xBA removes luck on balls in play and is a more stable predictor of future batting average than actual batting average. League average xBA is typically close to actual league batting average, around .245 to .255."
+  },
   "xslg": {
     "term": "Expected Slugging (xSLG)",
     "definition": "A Statcast metric estimating what a hitter's slugging percentage would have been based solely on the quality of contact, specifically exit velocity and launch angle, without regard to where the ball actually landed. League average xSLG is roughly .390 to .400; elite hitters typically exceed .500. Differences between xSLG and actual slugging percentage can indicate luck or park effects."
