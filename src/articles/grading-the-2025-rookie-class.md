@@ -2,7 +2,7 @@
 layout: article.njk
 title: Grading the Entire 2025 Rookie Class
 subtitle: "Five Statcast process metrics that stabilize in under 150 plate appearances already separate the genuine breakouts from the players surviving on luck."
-category: Fantasy Baseball
+category: Rankings
 level: Intermediate
 date: 2026-03-29T12:00:00
 excerpt: "Jac Caglianone has a 46 wRC+ and an xwOBA of .321. Those numbers shouldn't be in the same sentence. His xwOBA tells us that he's making contact with the ball like a major league slugger, but his wRC+ says he's been deeply unproductive."
