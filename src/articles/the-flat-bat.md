@@ -9,11 +9,12 @@ description: "What Statcast reveals about first base and what it means for your 
 permalink: /articles/the-flat-bat.html
 author: Allan Branstiter
 level: Intermediate
+draft: false
 ---
 
 There is a player in Major League Baseball who hits the ball harder than almost anyone alive. In 2025, he made contact at an average <span class="term" data-term="exit velocity">exit velocity</span> of 92 miles per hour. His maximum exit velocity, the hardest single ball he put in play all season, was 120.4 miles per hour, a career high. Baseball's tracking systems said he should have <span class="term" data-term="slugging percentage">slugged</span> over .500 for the year, meaning at least one extra base per every two at-bats. He is 26 years old, plays for the Toronto Blue Jays, and is paid, as of this writing, roughly half a billion dollars to hit a baseball.
 
-He hit 23 home runs, roughly 15 fewer than his contact quality said he deserved.
+He hit 23 <span class="term" data-term="home run">home runs</span>, roughly 15 fewer than his contact quality said he deserved.
 
 His name is Vladimir Guerrero Jr. He is the consensus best first baseman in baseball. And somewhere in the gap between what the cameras say he should be doing and what the <span class="term" data-term="box score">box score</span> says he actually does, there is a story worth understanding, not just about him, but about how the fantasy draft market prices players when it's working from incomplete information.
 
@@ -94,7 +95,7 @@ Where Guerrero skims, Kurtz drives upward through the ball. His <span class="ter
 
 His average draft position in 2026 fantasy drafts is nearly identical to Guerrero's. In the draft room, they carry the same price tag. The <span class="term" data-term="projection systems">projection systems</span> and the underlying contact data do not see them as equivalent: Kurtz projects for nearly nine more home runs. Same cost, nine more home runs. That is what a market inefficiency looks like.
 
-There is a cost to the steep attack angle. Swinging sharply upward through the zone means pitches at the bottom of the strike zone, particularly <span class="term" data-term="breaking ball">breaking balls</span> diving away, become hard to square up. Kurtz struck out 30.9 percent of the time in 2025. That's a real tax, and he'll pay it in batting average. But in most modern fantasy formats, where home runs carry more weight than batting average, this is a favorable tradeoff. His 2026 <span class="term" data-term="spring training">spring training</span> reinforces the profile: a 15.8 percent walk rate showing he's patient enough to avoid the pitches he can't handle. His <span class="term" data-term="iso">isolated power</span>, slugging percentage minus batting average, remains strong at .255.
+There is a cost to the steep attack angle. Swinging sharply upward through the zone means pitches at the bottom of the strike zone, particularly <span class="term" data-term="breaking ball">breaking balls</span> diving away, become hard to square up. Kurtz struck out 30.9 percent of the time in 2025. That's a real tax, and he'll pay it in batting average. But in most modern fantasy formats, where home runs carry more weight than batting average, this is a favorable tradeoff. His 2026 <span class="term" data-term="spring training">spring training</span> reinforces the profile: a 15.8 percent <span class="term" data-term="walk rate (batter)">walk rate</span> showing he's patient enough to avoid the pitches he can't handle. His <span class="term" data-term="iso">isolated power</span>, <span class="term" data-term="slugging percentage">slugging percentage</span> minus batting average, remains strong at .255.
 
 Guerrero is the safer, more famous name. Kurtz is the one the cameras like.
 
@@ -138,7 +139,7 @@ Bat speed doesn't stay constant over a career. It declines, usually beginning in
 
 <span class="term" data-term="fantasy baseball">Fantasy baseball</span> drafts organize themselves around a concept called <span class="term" data-term="adp">ADP</span>, the average spot where a player gets selected across thousands of mock and real drafts. ADP is a crowd-sourced price. Like most crowd-sourced prices, it responds to reputation, recent results, and name recognition faster than it responds to underlying contact data. That gap, when it exists, is where value hides.
 
-The position has been declining collectively for years, with fewer dominant power hitters and more players who do some things well but don't overwhelm you in any single category. The traditional statistics haven't fully communicated that shift. Guerrero's reputation still commands a top-20 price despite five years of evidence that his contact quality doesn't convert to power. Michael Busch hit 34 home runs in 2025 and is being priced as a repeat performer. His bat speed is 69.6 mph, nearly identical to Freeman's aging profile. His spring strikeout rate was 35 percent. That season may have been a high-water mark rather than a baseline.
+The position has been declining collectively for years, with fewer dominant power hitters and more players who do some things well but don't overwhelm you in any single category. The traditional statistics haven't fully communicated that shift. Guerrero's reputation still commands a top-20 price despite five years of evidence that his contact quality doesn't convert to power. Michael Busch hit 34 home runs in 2025 and is being priced as a repeat performer. His bat speed is 69.6 mph, nearly identical to Freeman's aging profile. His spring <span class="term" data-term="k% (batter)">strikeout rate</span> was 35 percent. That season may have been a high-water mark rather than a baseline.
 
 The players the data actually prefers: Kurtz, whose power comes from mechanics rather than luck and whose spring profile held up; Alonso, conditionally, if the spring ground ball rate resolves before Opening Day; Rice, as the player most likely to outperform his draft price based on the gap between what he deserves and what the market is paying for.
 

@@ -9,6 +9,7 @@ description: "What Dylan Crews's infield fly ball rate reveals about swing mecha
 permalink: /articles/the-pop-up-problem.html
 author: Allan Branstiter
 level: Intermediate
+draft: false
 ---
 
 Nothing deflates a ballpark quite like an infield fly ball. While fly balls to the outfield create momentary hope and hard-hit grounders spark with electricity, the infield fly simply climbs skyward and hangs there on a lazy arc that screams "routine out" before gravity takes over.
@@ -113,7 +114,7 @@ A pop-up is a hitter getting *under* the ball instead of *through* it.
 <figcaption style="font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; font-style: italic;">The difference between a fly ball and a pop-up is where the bat barrel contacts the ball. A slight upswing finds the center and sends the ball upward at a useful angle. A flat bat slides under the equator and sends the ball nearly straight up.</figcaption>
 </figure>
 
-Crews's <span class="term" data-term="k% (batter)">strikeout rate</span> jumped from 23.6 percent in 2025 to 31.3 percent this spring. His line drive rate, the percentage of contact that goes sharp and flat, the kind that leads to hits, fell from 15.2 percent to 5.3 percent. And his IFFB% went from 6.8 percent to 55.6 percent. These three numbers, together, describe a hitter whose swing lost its path under pressure.
+Crews's <span class="term" data-term="k% (batter)">strikeout rate</span> jumped from 23.6 percent in 2025 to 31.3 percent this spring. His <span class="term" data-term="line drive rate (batter)">line drive rate</span>, the percentage of contact that goes sharp and flat, the kind that leads to hits, fell from 15.2 percent to 5.3 percent. And his IFFB% went from 6.8 percent to 55.6 percent. These three numbers, together, describe a hitter whose swing lost its path under pressure.
 
 <figure class="diagram" style="margin: 2rem 0; text-align: center;">
 <svg viewBox="0 0 560 295" width="100%" style="max-width: 540px; display: inline-block;" xmlns="http://www.w3.org/2000/svg">

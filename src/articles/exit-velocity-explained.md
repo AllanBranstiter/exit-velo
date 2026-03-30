@@ -9,6 +9,7 @@ excerpt: "Roman Anthony hit it at 113 miles per hour. The ball left his bat in a
 description: "Exit velocity measures the speed of the ball off the bat and why that number tells you more about a hitter's true ability than batting average or the box score."
 permalink: /articles/exit-velocity-explained.html
 author: Allan Branstiter
+draft: false
 ---
 
 The ball sounded like a bomb the moment Roman Anthony of the Boston Red Sox made contact.
@@ -170,7 +171,7 @@ When you combine exit velocity with <span class="term" data-term="launch angle">
 
 xSLG takes every ball a hitter put in play and asks: given how hard this was hit and at what angle, what does a ball like this typically do? A <span class="term" data-term="line drive">line drive</span> at 107 mph becomes an extra-base hit at a very high rate. A ground ball at 78 mph is usually an out. The model does not know where the shortstop was standing. But it knows what 107-mph line drives do, on average, across thousands of balls in play.
 
-When a hitter's actual slugging falls well below his expected slugging, the most common explanation is bad luck on balls in play (or BABIP). In these cases the contact quality was there but the luck (and results) weren't. That gap tends to close over time, and the player who was unlucky in one month often outperforms the next.
+When a hitter's actual slugging falls well below his expected slugging, the most common explanation is bad luck on balls in play (or <span class="term" data-term="babip (batter)">BABIP</span>). In these cases the contact quality was there but the luck (and results) weren't. That gap tends to close over time, and the player who was unlucky in one month often outperforms the next.
 
 The reverse is also true. A player whose slugging significantly outpaces his xSLG has been getting away with weaker contact than his numbers suggest. Statistically, these players are on a hot steak and over-performing their true talent. You should expect these players to regress back towards their true talent in the future.
 
@@ -263,8 +264,8 @@ His flat attack angle could be the key factor preventing him from closing the SL
 
 Search any hitter on <span class="term" data-term="baseball savant">Baseball Savant</span> and look for two numbers: average exit velocity and expected slugging. They're on every player's page, updated daily during the season. Average exit velocity tells you how hard he's hitting the ball. Expected slugging tells you what his contact deserved, independent of whether those balls found grass or gloves.
 
-When a player has a down year, batting average down and power gone, those are the first two numbers worth pulling up. If his average exit velocity held steady and his expected slugging is well above what showed up in the box score, the contact quality didn't fail him. The luck did. That's a player the market is probably undervaluing.
+When a player has a down year, <span class="term" data-term="batting average">batting average</span> down and power gone, those are the first two numbers worth pulling up. If his average exit velocity held steady and his expected slugging is well above what showed up in the box score, the contact quality didn't fail him. The luck did. That's a player the market is probably undervaluing.
 
 <figure style="margin:3rem auto 0;">
-  <img src="/images/velo-exit-velocity-explained.png" alt="Velo watching a ball leave the bat at home plate" style="display:block;margin:0 auto;width:25%;max-width:25%;">
+  <img src="/images/velo_the-542.png" alt="Velo hugging a bat" style="display:block;margin:0 auto;width:25%;max-width:25%;">
 </figure>
