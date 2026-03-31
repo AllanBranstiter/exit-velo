@@ -618,5 +618,17 @@
   "true talent": {
     "term": "True Talent Level",
     "definition": "A player's actual underlying skill level, separate from the luck and random variation that affect any single season's stats. A player with a true batting average talent of .280 might hit .260 one year and .300 the next without actually changing as a hitter. Projection systems try to estimate true talent — think of them as a best guess at the midpoint of what a player is likely to do, not a guarantee."
+  },
+  "swing length": {
+    "term": "Swing Length",
+    "definition": "The distance the bat barrel travels from the start of the swing to the point of contact, measured in feet. MLB average is approximately 7.3 feet. A shorter swing (under 7.0 feet) allows the hitter to wait longer before committing to a pitch, improving contact rates against elite velocity and breaking balls. A longer swing (above 8.0 feet) can generate more raw power but gives pitchers a larger bat path to exploit, typically resulting in higher strikeout rates."
+  },
+  "sprint speed": {
+    "term": "Sprint Speed",
+    "definition": "A Statcast metric measuring a player's top running speed in feet per second, captured during competitive situations on the bases and in the field. MLB average is approximately 27 feet per second; 30 feet per second or above is considered elite. Sprint speed correlates with BABIP (faster players beat out more weak contact), stolen base potential, and defensive range."
+  },
+  "max exit velocity": {
+    "term": "Max Exit Velocity",
+    "definition": "The single hardest batted ball a player has recorded, measured in miles per hour. Unlike average exit velocity, max exit velocity reflects a player's raw power ceiling — what they are capable of at their absolute best. A max exit velocity of 112 mph or above is generally associated with 30-plus home run potential. Because it captures peak contact rather than average contact, it stabilizes quickly and is a reliable early indicator of power even in small samples."
   }
 }

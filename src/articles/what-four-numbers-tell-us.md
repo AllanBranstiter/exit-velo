@@ -20,7 +20,7 @@ Rookies as a group have opened 2026 doing something that hasn't happened since t
 
 Some of it is real. Not all of it is.
 
-The way to tell the difference is to read the early box scores against four physical metrics that stabilize much faster than rate stats: <span class="term" data-term="bat speed">bat speed</span>, max <span class="term" data-term="exit velocity">exit velocity</span>, swing length, and sprint speed. These numbers describe the tool underneath the performance. They're not immune to small samples, but a 114-mph exit velocity in week one isn't a fluke. Neither is a 75-mph bat speed. And neither is a swing that travels nearly eight feet through the hitting zone.
+The way to tell the difference is to read the early box scores against four physical metrics that stabilize much faster than rate stats: <span class="term" data-term="bat speed">bat speed</span>, <span class="term" data-term="max exit velocity">max exit velocity</span>, <span class="term" data-term="swing length">swing length</span>, and <span class="term" data-term="sprint speed">sprint speed</span>. These numbers describe the tool underneath the performance. They're not immune to small samples, but a 114-mph exit velocity in week one isn't a fluke. Neither is a 75-mph bat speed. And neither is a swing that travels nearly eight feet through the hitting zone.
 
 ## Four Numbers, Brief Definitions
 
