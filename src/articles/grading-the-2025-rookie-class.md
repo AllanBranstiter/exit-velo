@@ -1,6 +1,6 @@
 ---
 layout: article.njk
-title: Grading the Entire 2025 Rookie Class
+title: Grading the 2025 Rookie Class
 subtitle: "Five Statcast process metrics that stabilize in under 150 plate appearances already separate the genuine breakouts from the players surviving on luck."
 category: Rankings
 level: Intermediate
