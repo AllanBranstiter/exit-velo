@@ -83,6 +83,16 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   color: var(--nav-text);
 }
 
+.nav__tagline {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  color: rgb(255 255 255 / 50%);
+  letter-spacing: 0.03em;
+  margin: 0;
+  flex: 1;
+  padding-left: 1rem;
+}
+
 .nav__links {
   display: flex;
   gap: 1.5rem;
