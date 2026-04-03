@@ -17,15 +17,19 @@ permalink: /team-stats-2025.html
   <div style="padding:0 24px 48px;">
 
     <style>
+      .tbs-outer {
+        background: #1a1714;
+        border-radius: 10px;
+        padding: 20px 20px 16px;
+        max-width: 1100px;
+        margin: 0 auto;
+      }
       .tbs-controls {
         display: flex;
         gap: 12px;
         margin-bottom: 16px;
         align-items: center;
         flex-wrap: wrap;
-        max-width: 1100px;
-        margin-left: auto;
-        margin-right: auto;
       }
       .tbs-controls input[type="text"] {
         background: #2a2522;
@@ -84,8 +88,6 @@ permalink: /team-stats-2025.html
       .tbs-toggle input:checked ~ .tbs-toggle-thumb { transform: translateX(20px); }
 
       .tbs-wrap {
-        max-width: 1100px;
-        margin: 0 auto;
         overflow-x: auto;
       }
 
@@ -162,29 +164,29 @@ permalink: /team-stats-2025.html
       .tbs-badge-blue   { background: #1a2a3a; color: #5aabde; }
 
       .tbs-source {
-        max-width: 1100px;
-        margin: 16px auto 0;
+        margin: 16px 0 0;
         font-size: 0.75rem;
         color: #5a5450;
       }
     </style>
 
-    <div class="tbs-controls">
-      <input type="text" id="tbs-search" placeholder="Filter teams..." />
-      <div class="tbs-toggle-wrap">
-        <span id="tbs-lbl-raw" class="active">Raw</span>
-        <label class="tbs-toggle">
-          <input type="checkbox" id="tbs-pctile-toggle" />
-          <div class="tbs-toggle-track"></div>
-          <div class="tbs-toggle-thumb"></div>
-        </label>
-        <span id="tbs-lbl-pct">Percentile</span>
+    <div class="tbs-outer">
+      <div class="tbs-controls">
+        <input type="text" id="tbs-search" placeholder="Filter teams..." />
+        <div class="tbs-toggle-wrap">
+          <span id="tbs-lbl-raw" class="active">Raw</span>
+          <label class="tbs-toggle">
+            <input type="checkbox" id="tbs-pctile-toggle" />
+            <div class="tbs-toggle-track"></div>
+            <div class="tbs-toggle-thumb"></div>
+          </label>
+          <span id="tbs-lbl-pct">Percentile</span>
+        </div>
+        <span class="tbs-legend">EV = Exit Velocity &nbsp;|&nbsp; LA = Launch Angle &nbsp;|&nbsp; EV90 = 90th-percentile EV &nbsp;|&nbsp; BatSpd = Bat Speed &nbsp;|&nbsp; BABIP</span>
       </div>
-      <span class="tbs-legend">EV = Exit Velocity &nbsp;|&nbsp; LA = Launch Angle &nbsp;|&nbsp; EV90 = 90th-percentile EV &nbsp;|&nbsp; BatSpd = Bat Speed &nbsp;|&nbsp; BABIP</span>
-    </div>
 
-    <div class="tbs-wrap">
-      <table class="tbs-table" id="tbs-main-table">
+      <div class="tbs-wrap">
+        <table class="tbs-table" id="tbs-main-table">
         <thead>
           <tr>
             <th data-col="0" data-type="str">Team</th>
@@ -202,6 +204,8 @@ permalink: /team-stats-2025.html
     </div>
 
     <p class="tbs-source">Source: FanGraphs player-level batted ball data, 2025 regular season. Averages computed across all qualified players per team. Win percentages from 2025 MLB final standings.</p>
+
+    </div><!-- /tbs-outer -->
 
   </div>
 </main>
