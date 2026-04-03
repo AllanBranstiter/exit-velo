@@ -630,5 +630,9 @@
   "max exit velocity": {
     "term": "Max Exit Velocity",
     "definition": "The single hardest batted ball a player has recorded, measured in miles per hour. Unlike average exit velocity, max exit velocity reflects a player's raw power ceiling — what they are capable of at their absolute best. A max exit velocity of 112 mph or above is generally associated with 30-plus home run potential. Because it captures peak contact rather than average contact, it stabilizes quickly and is a reliable early indicator of power even in small samples."
+  },
+  "ev90": {
+    "term": "EV90",
+    "definition": "The 90th-percentile exit velocity for a hitter or team — the speed of their hardest 10% of contact. EV90 is often more useful than average exit velocity because it captures true power potential, filtering out the weak grounders and pop-ups that pull the average down."
   }
 }
