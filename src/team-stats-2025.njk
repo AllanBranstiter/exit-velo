@@ -306,6 +306,7 @@ permalink: /team-stats-2025.html
       const brk = (idx + 1) % qSize === 0 && idx + 1 < rows.length ? 'quintile-break' : '';
       return `<tr class="${brk}">${tds.join('')}</tr>`;
     }).join('');
+    if (typeof window.exitVeloInitTerms === 'function') window.exitVeloInitTerms();
   }
 
   function applyAll() {

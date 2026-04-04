@@ -144,3 +144,6 @@ window.addEventListener('resize', () => {
 }, { passive: true });
 
 loadGlossary();
+
+// Allow dynamic pages to re-initialize terms after injecting new HTML
+window.exitVeloInitTerms = initTerms;
