@@ -218,7 +218,7 @@ All baseball statistics used for research are in a separate folder:
 **`/Users/allanbranstiter/Documents/Personal/Fantasy Baseball/Stats/`**
 
 **Always read `DATA_GUIDE.md` in that folder before accessing any CSV.** It documents every file, its columns, and a lookup table mapping research questions to the right file and column. Primary sources:
-- **`Stats/Stats/`** — comprehensive FanGraphs per-year exports, 2022–2026 + Career (batting and pitching). Each file has ~400 columns covering standard through Statcast and bat tracking.
+- **`Stats/Stats/`** — comprehensive FanGraphs per-year exports, 2022–2026 + Career (batting and pitching). Each file has ~400 columns covering standard through Statcast and bat tracking. See **`Stats/Stats/STATS_GUIDE.md`** for a detailed per-file breakdown including column groups, row counts, PitchingPlus vs. StuffPlus explanations, and LLM-specific gotchas.
 - **`Stats/2025_Projections/`** — ATC, BATX, OOPSY, Steamer projections; FanGraphs auction calculators
 - **`Stats/2025_Articles/`** — 2025 rookie class leaderboard and discipline files
 

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Miami Marlins — Heat Check</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #1a1a1a; color: #e8e2da; font-family: 'Inter', sans-serif;
+    font-size: 14px; line-height: 1.5; max-width: 960px;
+    margin: 0 auto; padding: 32px 20px 60px; position: relative;
+  }
+  .eyebrow { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #00A3E0; margin-bottom: 6px; }
+  h1.title { font-family: 'Bebas Neue', sans-serif; font-size: 5rem; line-height: 1; color: #fff; letter-spacing: 0.04em; }
+  h1.title span.accent { color: #00A3E0; }
+  .subtitle { font-size: 0.8rem; color: #888; margin-top: 8px; letter-spacing: 0.05em; }
+  .divider { border: none; border-top: 1px solid #2a2a2a; margin: 28px 0; }
+  h2.section-title { font-family: 'Bebas Neue', sans-serif; font-size: 1.9rem; letter-spacing: 0.06em; color: #fff; margin-bottom: 4px; }
+  h2.section-title .sub { font-family: 'Inter', sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #555; display: block; margin-bottom: 20px; }
+  .tag { display: inline-block; font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; padding: 2px 8px; border-radius: 3px; white-space: nowrap; }
+  .tag-fire3 { background: rgba(200,30,0,0.18); border: 1px solid rgba(200,30,0,0.35); color: #FF6040; }
+  .tag-fire2 { background: rgba(255,120,0,0.18); border: 1px solid rgba(255,120,0,0.35); color: #FFAA44; }
+  .tag-fire1 { background: rgba(255,184,0,0.18); border: 1px solid rgba(255,184,0,0.35); color: #FFD055; }
+  .tag-warm  { background: rgba(120,120,120,0.18); border: 1px solid rgba(120,120,120,0.35); color: #999; }
+  .tag-cold  { background: rgba(33,113,181,0.18); border: 1px solid rgba(33,113,181,0.35); color: #5BA8E5; }
+  .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
+  .player-card { background: #1f1f1f; border: 1px solid #282828; border-radius: 8px; padding: 18px 18px 16px; }
+  .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; }
+  .card-name { font-weight: 700; font-size: 0.92rem; color: #fff; line-height: 1.2; }
+  .card-pos { font-size: 0.65rem; color: #555; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 3px; }
+  .card-stats { display: flex; flex-direction: column; gap: 5px; margin-bottom: 13px; }
+  .stat-row { display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: 8px; font-size: 0.75rem; }
+  .stat-label { color: #666; }
+  .stat-value { font-weight: 600; color: #e8e2da; text-align: right; }
+  .stat-trend { font-size: 0.68rem; width: 14px; text-align: center; }
+  .trend-up { color: #4CAF50; }
+  .trend-down { color: #EF5350; }
+  .trend-flat { color: #555; }
+  .card-note { font-size: 0.77rem; color: #999; line-height: 1.55; font-style: italic; border-top: 1px solid #282828; padding-top: 12px; }
+  .card-note strong { font-weight: normal; text-decoration: underline; text-underline-offset: 3px; }
+  .week-proj { background: #252525; border: 1px solid #2e2e2e; border-radius: 5px; padding: 10px 12px; margin-bottom: 12px; }
+  .week-proj-header { font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #555; margin-bottom: 7px; }
+  .week-proj-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+  .proj-stat { display: flex; flex-direction: column; gap: 1px; }
+  .proj-stat-label { font-size: 0.6rem; color: #555; text-transform: uppercase; letter-spacing: 0.06em; }
+  .proj-stat-value { font-size: 0.8rem; font-weight: 700; color: #c8c0b8; }
+  .week-proj-line { font-size: 0.67rem; color: #555; margin-top: 5px; }
+  .week-proj-line span { color: #888; font-weight: 500; }
+  .heat-meter { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+  .meter-row { display: grid; grid-template-columns: 160px 1fr 90px; align-items: center; gap: 14px; }
+  .meter-label { display: flex; flex-direction: column; gap: 4px; }
+  .meter-name { font-size: 0.82rem; font-weight: 600; color: #e8e2da; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .meter-pos { font-size: 0.65rem; color: #555; text-transform: uppercase; letter-spacing: 0.08em; }
+  .bar-track { background: #252525; border-radius: 4px; height: 20px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 4px; }
+  .bar-fire3 { background: linear-gradient(90deg,#CC0000,#FF4400,#FF7A00); }
+  .bar-fire2 { background: linear-gradient(90deg,#FF4400,#FF7A00,#FFB800); }
+  .bar-fire1 { background: linear-gradient(90deg,#FF9800,#FFB800,#FFD500); }
+  .bar-warm  { background: #444; }
+  .bar-cold  { background: linear-gradient(90deg,#1a3a5c,#2171B5,#4A9EDD); }
+  .meter-right { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
+  .meter-xwoba { font-size: 0.75rem; font-weight: 600; color: #e8e2da; }
+  .meter-emoji { font-size: 0.7rem; }
+  .legend { display: flex; flex-wrap: wrap; gap: 12px 24px; margin: 18px 0 36px; }
+  .legend-item { display: flex; align-items: center; gap: 8px; font-size: 0.72rem; color: #888; }
+  .legend-swatch { width: 28px; height: 10px; border-radius: 3px; }
+  .series-nav { position: fixed; top: 16px; right: 20px; z-index: 1000; }
+  .series-nav a { display: inline-flex; align-items: center; gap: 6px; background: rgba(30,30,30,0.92); border: 1px solid #333; border-radius: 6px; padding: 7px 13px; font-family: 'Inter', sans-serif; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.04em; color: #e8e2da; text-decoration: none; backdrop-filter: blur(8px); transition: background 0.15s, border-color 0.15s; }
+  .series-nav a:hover { background: rgba(50,50,50,0.98); border-color: #555; }
+  .series-nav .nav-arrow { font-size: 0.8rem; }
+  footer { margin-top: 56px; border-top: 1px solid #2a2a2a; padding-top: 20px; font-size: 0.7rem; color: #444; line-height: 1.6; }
+  footer strong { color: #666; }
+  .glossary { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px 20px; }
+  .glossary-item { font-size: 0.68rem; color: #444; }
+  .glossary-item strong { color: #555; }
+</style>
+</head>
+<body>
+
+<div class="eyebrow">Miami Marlins</div>
+<h1 class="title">HEAT <span class="accent">CHECK</span></h1>
+<div class="subtitle">vs Cincinnati Reds &nbsp;·&nbsp; April 6&ndash;9, 2026 &nbsp;·&nbsp; Home Series</div>
+<div class="subtitle">Facing: Apr 6: Brandon Williamson (LHP) &nbsp;·&nbsp; Apr 7: Andrew Abbott (LHP) &nbsp;·&nbsp; Apr 8: Brady Singer (RHP) &nbsp;·&nbsp; Apr 9: Rhett Lowder (RHP)</div>
+
+<hr class="divider">
+
+<h2 class="section-title">ON THE MOUND<span class="sub">Marlins starters for the CIN series</span></h2>
+
+<div class="cards-grid" style="margin-bottom:36px;">
+
+  <!-- JANSON JUNK -->
+  <div class="player-card">
+    <div class="card-header">
+      <div><div class="card-name">Janson Junk</div><div class="card-pos">RHP &nbsp;·&nbsp; Apr 6</div></div>
+      <span class="tag tag-fire1">Solid Start</span>
+    </div>
+    <div class="card-stats">
+      <div class="stat-row"><span class="stat-label">ERA / WHIP</span><span class="stat-value">4.15 / 1.38</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Innings Pitched</span><span class="stat-value">4.1</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Expected ERA</span><span class="stat-value">2.63 <span style="font-size:0.65rem;color:#4CAF50">(4.44 in 2025)</span></span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">K%-BB%</span><span class="stat-value">21.1% <span style="font-size:0.65rem;color:#4CAF50">(vs 14.3% in 2025)</span></span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Strikeout Rate</span><span class="stat-value">26.3% <span style="font-size:0.65rem;color:#4CAF50">(17.2% in 2025)</span></span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Hard-Hit Rate Allowed</span><span class="stat-value">61.5% <span style="font-size:0.65rem;color:#EF5350">(47.3% in 2025)</span></span><span class="stat-trend trend-down">&#8595;</span></div>
+      <div class="stat-row"><span class="stat-label">Fastball Velocity</span><span class="stat-value">95.4 mph</span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Ground Ball Rate</span><span class="stat-value">50.0%</span><span class="stat-trend trend-up">&#8593;</span></div>
+    </div>
+    <div class="week-proj">
+      <div class="week-proj-header">Start Projection &nbsp;·&nbsp; Apr 6 vs CIN</div>
+      <div class="week-proj-stats">
+        <div class="proj-stat"><span class="proj-stat-label">Proj IP</span><span class="proj-stat-value">5.4</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">Proj ERA</span><span class="proj-stat-value">4.29</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">Proj K</span><span class="proj-stat-value">4.1</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">QS%</span><span class="proj-stat-value">45%</span></div>
+      </div>
+    </div>
+    <div class="card-note">Junk is a righty who has been throwing noticeably harder than last season and striking out batters at a much higher rate. <strong>His ERA from his first start looks worse than he actually pitched.</strong> The balls that found holes probably shouldn't have, and every other number says he dominated. Reds batters should expect to see harder velocity than they might be used to from him, and a pitcher who will attack the zone early in counts.</div>
+  </div>
+
+  <!-- SANDY ALCANTARA -->
+  <div class="player-card">
+    <div class="card-header">
+      <div><div class="card-name">Sandy Alcantara</div><div class="card-pos">RHP &nbsp;·&nbsp; Apr 7</div></div>
+      <span class="tag tag-fire3">Dealing</span>
+    </div>
+    <div class="card-stats">
+      <div class="stat-row"><span class="stat-label">ERA / WHIP</span><span class="stat-value">0.00 / 0.56</span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Innings Pitched</span><span class="stat-value">16.0</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Expected ERA</span><span class="stat-value">1.45 <span style="font-size:0.65rem;color:#4CAF50">(4.63 in 2025)</span></span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">K%-BB%</span><span class="stat-value">17.9% <span style="font-size:0.65rem;color:#4CAF50">(vs 11.4% in 2025)</span></span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Hard-Hit Rate Allowed</span><span class="stat-value">31.7% <span style="font-size:0.65rem;color:#4CAF50">(44.9% in 2025)</span></span><span class="stat-trend trend-down">&#8595;</span></div>
+      <div class="stat-row"><span class="stat-label">Whiff Rate</span><span class="stat-value">15.1% <span style="font-size:0.65rem;color:#4CAF50">(9.3% in 2025)</span></span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Fastball Velocity</span><span class="stat-value">96.8 mph</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Ground Ball Rate</span><span class="stat-value">51.3%</span><span class="stat-trend trend-flat">~</span></div>
+    </div>
+    <div class="week-proj">
+      <div class="week-proj-header">Start Projection &nbsp;·&nbsp; Apr 7 vs CIN</div>
+      <div class="week-proj-stats">
+        <div class="proj-stat"><span class="proj-stat-label">Proj IP</span><span class="proj-stat-value">6.4</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">Proj ERA</span><span class="proj-stat-value">3.60</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">Proj K</span><span class="proj-stat-value">5.8</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">QS%</span><span class="proj-stat-value">66%</span></div>
+      </div>
+    </div>
+    <div class="card-note">Alcantara is a Cy Young-caliber ace who throws a heavy sinker in the upper 90s that hitters pound into the ground, mixed with a changeup that falls off the table. He missed all of 2024 with elbow surgery and had a rough 2025 comeback. <strong>Through two starts this year he looks fully healthy and then some:</strong> he hasn't allowed an earned run, and the numbers behind the numbers say it's not luck. This is the toughest assignment the Reds lineup will face all week.</div>
+  </div>
+
+  <!-- EURY PEREZ -->
+  <div class="player-card">
+    <div class="card-header">
+      <div><div class="card-name">Eury P&eacute;rez</div><div class="card-pos">RHP &nbsp;·&nbsp; Apr 8</div></div>
+      <span class="tag tag-warm">Mixed Bag</span>
+    </div>
+    <div class="card-stats">
+      <div class="stat-row"><span class="stat-label">ERA / WHIP</span><span class="stat-value">5.73 / 1.27</span><span class="stat-trend trend-down">&#8595;</span></div>
+      <div class="stat-row"><span class="stat-label">Innings Pitched</span><span class="stat-value">11.0</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Expected ERA</span><span class="stat-value">5.82 <span style="font-size:0.65rem;color:#EF5350">(3.24 in 2025)</span></span><span class="stat-trend trend-down">&#8595;</span></div>
+      <div class="stat-row"><span class="stat-label">K%-BB%</span><span class="stat-value">10.6% <span style="font-size:0.65rem;color:#EF5350">(vs 19.0% in 2025)</span></span><span class="stat-trend trend-down">&#8595;</span></div>
+      <div class="stat-row"><span class="stat-label">Strikeout Rate</span><span class="stat-value">25.5%</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Walk Rate</span><span class="stat-value">14.9% <span style="font-size:0.65rem;color:#EF5350">(8.3% in 2025)</span></span><span class="stat-trend trend-down">&#8595;</span></div>
+      <div class="stat-row"><span class="stat-label">Hard-Hit Rate Allowed</span><span class="stat-value">51.9% <span style="font-size:0.65rem;color:#EF5350">(46.5% in 2025)</span></span><span class="stat-trend trend-down">&#8595;</span></div>
+      <div class="stat-row"><span class="stat-label">Barrel Rate Allowed</span><span class="stat-value">18.5% <span style="font-size:0.65rem;color:#EF5350">(9.0% in 2025)</span></span><span class="stat-trend trend-down">&#8595;</span></div>
+      <div class="stat-row"><span class="stat-label">Fastball Velocity</span><span class="stat-value">98.2 mph</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Whiff Rate</span><span class="stat-value">15.2%</span><span class="stat-trend trend-up">&#8593;</span></div>
+    </div>
+    <div class="week-proj">
+      <div class="week-proj-header">Start Projection &nbsp;·&nbsp; Apr 8 vs CIN</div>
+      <div class="week-proj-stats">
+        <div class="proj-stat"><span class="proj-stat-label">Proj IP</span><span class="proj-stat-value">5.6</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">Proj ERA</span><span class="proj-stat-value">3.16</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">Proj K</span><span class="proj-stat-value">6.6</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">QS%</span><span class="proj-stat-value">54%</span></div>
+      </div>
+    </div>
+    <div class="card-note">P&eacute;rez is a 6-foot-8 righty who can reach 98 miles per hour and struck hitters out at an elite rate last season. <strong>This year the command has gone missing.</strong> He is walking batters at nearly double his 2025 rate, and the balls that do get put in play have been hit very hard. The projection system is still betting on his raw talent correcting the rest. The Reds&apos; best path is to take pitches, work counts, and not chase his fastball out of the zone. If he falls behind early, the walks could stack up fast.</div>
+  </div>
+
+  <!-- MAX MEYER -->
+  <div class="player-card">
+    <div class="card-header">
+      <div><div class="card-name">Max Meyer</div><div class="card-pos">RHP &nbsp;·&nbsp; Apr 9</div></div>
+      <span class="tag tag-warm">Mixed Bag</span>
+    </div>
+    <div class="card-stats">
+      <div class="stat-row"><span class="stat-label">ERA / WHIP</span><span class="stat-value">4.66 / 1.34</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Innings Pitched</span><span class="stat-value">9.2</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Expected ERA</span><span class="stat-value">5.88 <span style="font-size:0.65rem;color:#EF5350">(4.78 in 2025)</span></span><span class="stat-trend trend-down">&#8595;</span></div>
+      <div class="stat-row"><span class="stat-label">K%-BB%</span><span class="stat-value">13.6% <span style="font-size:0.65rem;color:#EF5350">(vs 16.8% in 2025)</span></span><span class="stat-trend trend-down">&#8595;</span></div>
+      <div class="stat-row"><span class="stat-label">Strikeout Rate</span><span class="stat-value">25.0%</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Walk Rate</span><span class="stat-value">11.4%</span><span class="stat-trend trend-down">&#8595;</span></div>
+      <div class="stat-row"><span class="stat-label">Fastball Velocity</span><span class="stat-value">94.6 mph</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Hard-Hit Rate Allowed</span><span class="stat-value">46.4%</span><span class="stat-trend trend-flat">~</span></div>
+    </div>
+    <div class="week-proj">
+      <div class="week-proj-header">Start Projection &nbsp;·&nbsp; Apr 9 vs CIN vs Lowder</div>
+      <div class="week-proj-stats">
+        <div class="proj-stat"><span class="proj-stat-label">Proj IP</span><span class="proj-stat-value">5.8</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">Proj ERA</span><span class="proj-stat-value">3.69</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">Proj K</span><span class="proj-stat-value">5.8</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">QS%</span><span class="proj-stat-value">55%</span></div>
+      </div>
+    </div>
+    <div class="card-note">Meyer is a hard-throwing young righty who can pile up strikeouts, but so far this year he has been too generous with free passes, and the balls being put in play have been well-struck. <strong>The Reds' best path is to take pitches, work counts, and wait for him to fall behind.</strong> When he has to come over the plate with a hittable fastball, hitters have been doing damage. When he has his slider working in the strike zone, he is a completely different pitcher.</div>
+  </div>
+
+</div>
+
+<hr class="divider">
+
+<!-- HEAT METER -->
+<h2 class="section-title">HEAT METER<span class="sub">Production vs. 2025 &nbsp;·&nbsp; Bar size = OPS &nbsp;·&nbsp; Bar color = Contact Quality</span></h2>
+
+<div class="heat-meter">
+
+  <div class="meter-row">
+    <div class="meter-label"><span class="meter-name">Liam Hicks</span><div style="display:flex;gap:5px;align-items:center;"><span class="meter-pos">C/1B</span><span class="tag tag-fire3">On Fire</span></div></div>
+    <div class="bar-track"><div class="bar-fill bar-fire3" style="width:65%"></div></div>
+    <div class="meter-right"><span class="meter-xwoba">1.164</span><div style="font-size:0.6rem;color:#555;text-align:right;line-height:1.4">xwOBA .495</div><span class="meter-emoji">&#128293;&#128293;&#128293;</span></div>
+  </div>
+
+  <div class="meter-row">
+    <div class="meter-label"><span class="meter-name">Xavier Edwards</span><div style="display:flex;gap:5px;align-items:center;"><span class="meter-pos">2B/SS</span><span class="tag tag-fire2">Hot Start</span></div></div>
+    <div class="bar-track"><div class="bar-fill bar-fire2" style="width:64%"></div></div>
+    <div class="meter-right"><span class="meter-xwoba">1.147</span><div style="font-size:0.6rem;color:#555;text-align:right;line-height:1.4">xwOBA .380</div><span class="meter-emoji">&#128293;&#128293;</span></div>
+  </div>
+
+  <div class="meter-row">
+    <div class="meter-label"><span class="meter-name">Javier Sanoja</span><div style="display:flex;gap:5px;align-items:center;"><span class="meter-pos">2B/3B/OF</span><span class="tag tag-warm">Mixed Signals</span></div></div>
+    <div class="bar-track"><div class="bar-fill bar-warm" style="width:55%"></div></div>
+    <div class="meter-right"><span class="meter-xwoba">1.000</span><div style="font-size:0.6rem;color:#555;text-align:right;line-height:1.4">xwOBA .319</div><span class="meter-emoji">&#127777;&#65039;</span></div>
+  </div>
+
+  <div class="meter-row">
+    <div class="meter-label"><span class="meter-name">Owen Caissie</span><div style="display:flex;gap:5px;align-items:center;"><span class="meter-pos">OF</span><span class="tag tag-fire2">Heating Up</span></div></div>
+    <div class="bar-track"><div class="bar-fill bar-fire2" style="width:50%"></div></div>
+    <div class="meter-right"><span class="meter-xwoba">.926</span><div style="font-size:0.6rem;color:#555;text-align:right;line-height:1.4">xwOBA .377</div><span class="meter-emoji">&#128293;&#128293;</span></div>
+  </div>
+
+  <div class="meter-row">
+    <div class="meter-label"><span class="meter-name">Otto Lopez</span><div style="display:flex;gap:5px;align-items:center;"><span class="meter-pos">2B/SS/OF</span><span class="tag tag-fire1">Steady</span></div></div>
+    <div class="bar-track"><div class="bar-fill bar-fire1" style="width:50%"></div></div>
+    <div class="meter-right"><span class="meter-xwoba">.921</span><div style="font-size:0.6rem;color:#555;text-align:right;line-height:1.4">xwOBA .335</div><span class="meter-emoji">&#128293;</span></div>
+  </div>
+
+  <div class="meter-row">
+    <div class="meter-label"><span class="meter-name">Griffin Conine</span><div style="display:flex;gap:5px;align-items:center;"><span class="meter-pos">OF</span><span class="tag tag-fire2">Hot Start</span></div></div>
+    <div class="bar-track"><div class="bar-fill bar-fire3" style="width:48%"></div></div>
+    <div class="meter-right"><span class="meter-xwoba">.886</span><div style="font-size:0.6rem;color:#555;text-align:right;line-height:1.4">xwOBA .459</div><span class="meter-emoji">&#128293;&#128293;</span></div>
+  </div>
+
+  <div class="meter-row">
+    <div class="meter-label"><span class="meter-name">Graham Pauley</span><div style="display:flex;gap:5px;align-items:center;"><span class="meter-pos">1B/3B</span><span class="tag tag-warm">Mixed Signals</span></div></div>
+    <div class="bar-track"><div class="bar-fill bar-cold" style="width:35%"></div></div>
+    <div class="meter-right"><span class="meter-xwoba">.688</span><div style="font-size:0.6rem;color:#555;text-align:right;line-height:1.4">xwOBA .117</div><span class="meter-emoji">&#127777;&#65039;</span></div>
+  </div>
+
+  <div class="meter-row">
+    <div class="meter-label"><span class="meter-name">Agust&iacute;n Ram&iacute;rez</span><div style="display:flex;gap:5px;align-items:center;"><span class="meter-pos">C</span><span class="tag tag-warm">Early Days</span></div></div>
+    <div class="bar-track"><div class="bar-fill bar-warm" style="width:32%"></div></div>
+    <div class="meter-right"><span class="meter-xwoba">.642</span><div style="font-size:0.6rem;color:#555;text-align:right;line-height:1.4">xwOBA .328</div><span class="meter-emoji">&#127777;&#65039;</span></div>
+  </div>
+
+  <div class="meter-row">
+    <div class="meter-label"><span class="meter-name">Connor Norby</span><div style="display:flex;gap:5px;align-items:center;"><span class="meter-pos">3B</span><span class="tag tag-cold">Going Cold</span></div></div>
+    <div class="bar-track"><div class="bar-fill bar-warm" style="width:29%"></div></div>
+    <div class="meter-right"><span class="meter-xwoba">.583</span><div style="font-size:0.6rem;color:#555;text-align:right;line-height:1.4">xwOBA .300</div><span class="meter-emoji">&#10052;&#65039;</span></div>
+  </div>
+
+  <div class="meter-row">
+    <div class="meter-label"><span class="meter-name">Heriberto Hern&aacute;ndez</span><div style="display:flex;gap:5px;align-items:center;"><span class="meter-pos">OF</span><span class="tag tag-warm">Soft Contact</span></div></div>
+    <div class="bar-track"><div class="bar-fill bar-warm" style="width:22%"></div></div>
+    <div class="meter-right"><span class="meter-xwoba">.477</span><div style="font-size:0.6rem;color:#555;text-align:right;line-height:1.4">xwOBA .328</div><span class="meter-emoji">&#127777;&#65039;</span></div>
+  </div>
+
+  <div class="meter-row">
+    <div class="meter-label"><span class="meter-name">Jakob Marsee</span><div style="display:flex;gap:5px;align-items:center;"><span class="meter-pos">OF</span><span class="tag tag-cold">Rough Start</span></div></div>
+    <div class="bar-track"><div class="bar-fill bar-cold" style="width:19%"></div></div>
+    <div class="meter-right"><span class="meter-xwoba">.431</span><div style="font-size:0.6rem;color:#555;text-align:right;line-height:1.4">xwOBA .210</div><span class="meter-emoji">&#10052;&#65039;</span></div>
+  </div>
+
+  <div class="meter-row">
+    <div class="meter-label"><span class="meter-name">Austin Slater</span><div style="display:flex;gap:5px;align-items:center;"><span class="meter-pos">OF</span><span class="tag tag-cold">Cold Start</span></div></div>
+    <div class="bar-track"><div class="bar-fill bar-cold" style="width:16%"></div></div>
+    <div class="meter-right"><span class="meter-xwoba">.381</span><div style="font-size:0.6rem;color:#555;text-align:right;line-height:1.4">xwOBA .153</div><span class="meter-emoji">&#10052;&#65039;</span></div>
+  </div>
+
+</div>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-swatch" style="background:linear-gradient(90deg,#CC0000,#FF7A00)"></div><span>&#128293;&#128293;&#128293; On Fire: producing and contact quality backs it up</span></div>
+  <div class="legend-item"><div class="legend-swatch" style="background:linear-gradient(90deg,#FF4400,#FFB800)"></div><span>&#128293;&#128293; Hot or Due: producing well, or cold results hiding elite contact quality</span></div>
+  <div class="legend-item"><div class="legend-swatch" style="background:linear-gradient(90deg,#FF9800,#FFD500)"></div><span>&#128293; Warm: some production with decent underlying numbers</span></div>
+  <div class="legend-item"><div class="legend-swatch" style="background:#444"></div><span>&#127777;&#65039; Mixed: contradictory signals between production and contact quality</span></div>
+  <div class="legend-item"><div class="legend-swatch" style="background:linear-gradient(90deg,#1a3a5c,#4A9EDD)"></div><span>&#10052;&#65039; Cold: not producing, and contact quality does not suggest a quick turnaround</span></div>
+</div>
+<p style="font-size:0.68rem;color:#555;margin-top:12px;margin-bottom:0;">Bar size = OPS (actual production). Bar color = Contact Quality (xwOBA). Wide + warm color: it&apos;s real. Narrow + warm color: a breakout may be coming. Wide + cold color: results ahead of the contact.</p>
+
+<hr class="divider">
+
+<!-- WHO TO WATCH -->
+<h2 class="section-title">WHO TO WATCH THIS SERIES<span class="sub">vs Cincinnati Reds, April 6&ndash;9 &nbsp;·&nbsp; Williamson / Abbott / Singer / Lowder</span></h2>
+
+<div class="cards-grid">
+
+  <!-- LIAM HICKS -->
+  <div class="player-card">
+    <div class="card-header">
+      <div><div class="card-name">Liam Hicks</div><div class="card-pos">C/1B &nbsp;·&nbsp; 29 PA</div></div>
+      <span class="tag tag-fire3">On Fire</span>
+    </div>
+    <div class="card-stats">
+      <div class="stat-row"><span class="stat-label">AVG / OBP / SLG</span><span class="stat-value">.333 / .448 / .717</span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Contact Score</span><span class="stat-value">.495 <span style="font-size:0.65rem;color:#4CAF50">(+.180 vs 2025)</span></span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Avg Exit Velocity</span><span class="stat-value">90.5 mph <span style="font-size:0.65rem;color:#4CAF50">(+5.9 vs 2025)</span></span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Hard-Hit Rate</span><span class="stat-value">41.7% <span style="font-size:0.65rem;color:#4CAF50">(+14.0 vs 2025)</span></span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Barrel Rate</span><span class="stat-value">12.5%</span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Strikeout Rate</span><span class="stat-value">3.4% <span style="font-size:0.65rem;color:#4CAF50">(-11.0 vs 2025)</span></span><span class="stat-trend trend-up">&#8593;</span></div>
+    </div>
+    <div class="week-proj">
+      <div class="week-proj-header">Series Projection</div>
+      <div class="week-proj-stats">
+        <div class="proj-stat"><span class="proj-stat-label">R</span><span class="proj-stat-value">0.5</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">HR</span><span class="proj-stat-value">0.1</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">RBI</span><span class="proj-stat-value">0.5</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">SB</span><span class="proj-stat-value">0.0</span></div>
+      </div>
+      <div class="week-proj-line">Proj. line: <span>.245 / .328 / .357 &nbsp;·&nbsp; ~2.7 PA</span></div>
+    </div>
+    <div class="card-note">Hicks is the hottest bat in this lineup and it is not close. He is a catcher and first baseman who has come out of nowhere to start the year on fire, making hard contact consistently while barely striking out. <strong>The numbers behind the numbers say the hot streak is the real thing</strong>, not a lucky run of seeing balls fall in. Reds pitchers will need to be careful with him in every at-bat.</div>
+  </div>
+
+  <!-- XAVIER EDWARDS -->
+  <div class="player-card">
+    <div class="card-header">
+      <div><div class="card-name">Xavier Edwards</div><div class="card-pos">2B/SS &nbsp;·&nbsp; 37 PA</div></div>
+      <span class="tag tag-fire2">Hot Start</span>
+    </div>
+    <div class="card-stats">
+      <div class="stat-row"><span class="stat-label">AVG / OBP / SLG</span><span class="stat-value">.471 / .541 / .618</span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Contact Score</span><span class="stat-value">.380 <span style="font-size:0.65rem;color:#4CAF50">(+.085 vs 2025)</span></span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Avg Exit Velocity</span><span class="stat-value">90.8 mph <span style="font-size:0.65rem;color:#4CAF50">(+4.0 vs 2025)</span></span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Hard-Hit Rate</span><span class="stat-value">50.0% <span style="font-size:0.65rem;color:#4CAF50">(+20.6 vs 2025)</span></span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Strikeout Rate</span><span class="stat-value">8.1% <span style="font-size:0.65rem;color:#4CAF50">(-6.1 vs 2025)</span></span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Chase Rate</span><span class="stat-value">27.8%</span><span class="stat-trend trend-flat">~</span></div>
+    </div>
+    <div class="week-proj">
+      <div class="week-proj-header">Series Projection</div>
+      <div class="week-proj-stats">
+        <div class="proj-stat"><span class="proj-stat-label">R</span><span class="proj-stat-value">0.5</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">HR</span><span class="proj-stat-value">0.0</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">RBI</span><span class="proj-stat-value">0.4</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">SB</span><span class="proj-stat-value">0.1</span></div>
+      </div>
+      <div class="week-proj-line">Proj. line: <span>.285 / .350 / .380 &nbsp;·&nbsp; ~2.5 PA</span></div>
+    </div>
+    <div class="card-note">Edwards is a switch-hitting middle infielder who wins with contact and bat control, not power. He rarely strikes out, puts the ball in play to all parts of the field, and has added real pop to his game this year, hitting the ball harder than at any point in his career. <strong>He is not a home run threat, but he is one of the hardest outs in this lineup.</strong> Watch for him to hit the ball up the middle and into gaps.</div>
+  </div>
+
+  <!-- OWEN CAISSIE -->
+  <div class="player-card">
+    <div class="card-header">
+      <div><div class="card-name">Owen Caissie</div><div class="card-pos">OF &nbsp;·&nbsp; 30 PA</div></div>
+      <span class="tag tag-fire2">Heating Up</span>
+    </div>
+    <div class="card-stats">
+      <div class="stat-row"><span class="stat-label">AVG / OBP / SLG</span><span class="stat-value">.296 / .367 / .556</span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Contact Score</span><span class="stat-value">.377 <span style="font-size:0.65rem;color:#4CAF50">(+.145 vs 2025)</span></span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Barrel Rate</span><span class="stat-value">23.5%</span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Strikeout Rate</span><span class="stat-value">36.7%</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Chase Rate</span><span class="stat-value">24.1%</span><span class="stat-trend trend-up">&#8593;</span></div>
+    </div>
+    <div class="week-proj">
+      <div class="week-proj-header">Series Projection</div>
+      <div class="week-proj-stats">
+        <div class="proj-stat"><span class="proj-stat-label">R</span><span class="proj-stat-value">0.5</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">HR</span><span class="proj-stat-value">0.1</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">RBI</span><span class="proj-stat-value">0.5</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">SB</span><span class="proj-stat-value">0.0</span></div>
+      </div>
+      <div class="week-proj-line">Proj. line: <span>.236 / .309 / .411 &nbsp;·&nbsp; ~2.4 PA</span></div>
+    </div>
+    <div class="card-note">Caissie is a big left-handed outfielder with an all-or-nothing quality. He strikes out a lot, but <strong>when he makes contact, the ball tends to go a very long way.</strong> He has been squaring balls up at an impressive rate, and the results show it. Reds fans should watch for him to either whiff badly on a breaking ball or absolutely crush something into the right-center gap. There is not much middle ground with him.</div>
+  </div>
+
+  <!-- GRIFFIN CONINE -->
+  <div class="player-card">
+    <div class="card-header">
+      <div><div class="card-name">Griffin Conine</div><div class="card-pos">OF &nbsp;·&nbsp; 17 PA</div></div>
+      <span class="tag tag-fire2">Hot Start</span>
+    </div>
+    <div class="card-stats">
+      <div class="stat-row"><span class="stat-label">AVG / OBP / SLG</span><span class="stat-value">.267 / .353 / .533</span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Contact Score</span><span class="stat-value">.459</span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Hard-Hit Rate</span><span class="stat-value">54.5%</span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Barrel Rate</span><span class="stat-value">18.2%</span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Strikeout Rate</span><span class="stat-value">23.5%</span><span class="stat-trend trend-flat">~</span></div>
+    </div>
+    <div class="week-proj">
+      <div class="week-proj-header">Series Projection</div>
+      <div class="week-proj-stats">
+        <div class="proj-stat"><span class="proj-stat-label">R</span><span class="proj-stat-value">0.5</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">HR</span><span class="proj-stat-value">0.1</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">RBI</span><span class="proj-stat-value">0.6</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">SB</span><span class="proj-stat-value">0.0</span></div>
+      </div>
+      <div class="week-proj-line">Proj. line: <span>.227 / .297 / .399 &nbsp;·&nbsp; ~2.6 PA</span></div>
+    </div>
+    <div class="card-note">Son of Marlins legend Jeff Conine, and a big left-handed power hitter who has been in a part-time role. <strong>In his limited plate appearances, the contact quality has been outstanding:</strong> he is hitting the ball hard and putting it in the air at an impressive rate. If he gets regular at-bats against the Reds this series, watch for him to do damage against right-handed pitching.</div>
+  </div>
+
+  <!-- OTTO LOPEZ -->
+  <div class="player-card">
+    <div class="card-header">
+      <div><div class="card-name">Otto Lopez</div><div class="card-pos">2B/SS/OF &nbsp;·&nbsp; 37 PA</div></div>
+      <span class="tag tag-fire1">Steady</span>
+    </div>
+    <div class="card-stats">
+      <div class="stat-row"><span class="stat-label">AVG / OBP / SLG</span><span class="stat-value">.333 / .405 / .515</span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Contact Score</span><span class="stat-value">.335</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Hard-Hit Rate</span><span class="stat-value">46.2% <span style="font-size:0.65rem;color:#4CAF50">(+7.9 vs 2025)</span></span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Barrel Rate</span><span class="stat-value">11.5%</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Strikeout Rate</span><span class="stat-value">18.9%</span><span class="stat-trend trend-flat">~</span></div>
+    </div>
+    <div class="week-proj">
+      <div class="week-proj-header">Series Projection</div>
+      <div class="week-proj-stats">
+        <div class="proj-stat"><span class="proj-stat-label">R</span><span class="proj-stat-value">0.6</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">HR</span><span class="proj-stat-value">0.1</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">RBI</span><span class="proj-stat-value">0.7</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">SB</span><span class="proj-stat-value">0.1</span></div>
+      </div>
+      <div class="week-proj-line">Proj. line: <span>.278 / .341 / .443 &nbsp;·&nbsp; ~2.7 PA</span></div>
+    </div>
+    <div class="card-note">Lopez is one of the most versatile hitters in this lineup. He plays just about everywhere and hits for a solid average without striking out much. He is a contact-first hitter who uses the whole field and makes pitchers work. <strong>He has been hitting the ball harder this year than at any point in his career</strong>, which adds a new dimension. Not a power threat in the traditional sense, but the kind of hitter who keeps putting good at-bats together.</div>
+  </div>
+
+  <!-- JAVIER SANOJA -->
+  <div class="player-card">
+    <div class="card-header">
+      <div><div class="card-name">Javier Sanoja</div><div class="card-pos">2B/3B/OF &nbsp;·&nbsp; 21 PA</div></div>
+      <span class="tag tag-warm">Mixed Signals</span>
+    </div>
+    <div class="card-stats">
+      <div class="stat-row"><span class="stat-label">AVG / OBP / SLG</span><span class="stat-value">.429 / .476 / .524</span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Contact Score</span><span class="stat-value">.319</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Hard-Hit Rate</span><span class="stat-value">38.9%</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Barrel Rate</span><span class="stat-value">5.6%</span><span class="stat-trend trend-up">&#8593;</span></div>
+      <div class="stat-row"><span class="stat-label">Strikeout Rate</span><span class="stat-value">14.3%</span><span class="stat-trend trend-flat">~</span></div>
+    </div>
+    <div class="week-proj">
+      <div class="week-proj-header">Series Projection</div>
+      <div class="week-proj-stats">
+        <div class="proj-stat"><span class="proj-stat-label">R</span><span class="proj-stat-value">0.5</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">HR</span><span class="proj-stat-value">0.1</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">RBI</span><span class="proj-stat-value">0.5</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">SB</span><span class="proj-stat-value">0.1</span></div>
+      </div>
+      <div class="week-proj-line">Proj. line: <span>.266 / .320 / .420 &nbsp;·&nbsp; ~2.3 PA</span></div>
+    </div>
+    <div class="card-note">Sanoja is an aggressive switch-hitter who plays multiple positions and has been getting hits at a high clip. <strong>The caution is that the contact quality does not fully support the batting average.</strong> He has been getting results, but they may not stay at this level. That said, he makes contact, does not walk much but does not strike out much either, and can put pressure on the defense with his legs.</div>
+  </div>
+
+  <!-- HERIBERTO HERNANDEZ -->
+  <div class="player-card">
+    <div class="card-header">
+      <div><div class="card-name">Heriberto Hern&aacute;ndez</div><div class="card-pos">OF &nbsp;·&nbsp; 27 PA</div></div>
+      <span class="tag tag-warm">Soft Contact</span>
+    </div>
+    <div class="card-stats">
+      <div class="stat-row"><span class="stat-label">AVG / OBP / SLG</span><span class="stat-value">.130 / .296 / .174</span><span class="stat-trend trend-down">&#8595;</span></div>
+      <div class="stat-row"><span class="stat-label">Contact Score</span><span class="stat-value">.328</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Hard-Hit Rate</span><span class="stat-value">44.4%</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Barrel Rate</span><span class="stat-value">11.1%</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Walk Rate</span><span class="stat-value">14.8%</span><span class="stat-trend trend-up">&#8593;</span></div>
+    </div>
+    <div class="week-proj">
+      <div class="week-proj-header">Series Projection</div>
+      <div class="week-proj-stats">
+        <div class="proj-stat"><span class="proj-stat-label">R</span><span class="proj-stat-value">0.6</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">HR</span><span class="proj-stat-value">0.2</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">RBI</span><span class="proj-stat-value">0.6</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">SB</span><span class="proj-stat-value">0.1</span></div>
+      </div>
+      <div class="week-proj-line">Proj. line: <span>.242 / .336 / .459 &nbsp;·&nbsp; ~2.6 PA</span></div>
+    </div>
+    <div class="card-note">Hernandez is a power-oriented outfielder whose results have been well below his underlying contact quality. He is hitting the ball hard but just not finding holes. He also draws walks at a solid rate, which means he gets on base even when the hits are not falling. <strong>A player hitting this many balls hard is typically overdue for a correction in the form of results.</strong> Watch for him to do damage when he gets something to drive.</div>
+  </div>
+
+  <!-- JAKOB MARSEE -->
+  <div class="player-card">
+    <div class="card-header">
+      <div><div class="card-name">Jakob Marsee</div><div class="card-pos">OF &nbsp;·&nbsp; 40 PA</div></div>
+      <span class="tag tag-cold">Rough Start</span>
+    </div>
+    <div class="card-stats">
+      <div class="stat-row"><span class="stat-label">AVG / OBP / SLG</span><span class="stat-value">.118 / .325 / .118</span><span class="stat-trend trend-down">&#8595;</span></div>
+      <div class="stat-row"><span class="stat-label">Contact Score</span><span class="stat-value">.210 <span style="font-size:0.65rem;color:#EF5350">(-0.137 vs 2025)</span></span><span class="stat-trend trend-down">&#8595;</span></div>
+      <div class="stat-row"><span class="stat-label">Hard-Hit Rate</span><span class="stat-value">36.4%</span><span class="stat-trend trend-flat">~</span></div>
+      <div class="stat-row"><span class="stat-label">Strikeout Rate</span><span class="stat-value">32.5% <span style="font-size:0.65rem;color:#EF5350">(+12.0 vs 2025)</span></span><span class="stat-trend trend-down">&#8595;</span></div>
+      <div class="stat-row"><span class="stat-label">Chase Rate</span><span class="stat-value">23.5%</span><span class="stat-trend trend-flat">~</span></div>
+    </div>
+    <div class="week-proj">
+      <div class="week-proj-header">Series Projection</div>
+      <div class="week-proj-stats">
+        <div class="proj-stat"><span class="proj-stat-label">R</span><span class="proj-stat-value">0.6</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">HR</span><span class="proj-stat-value">0.1</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">RBI</span><span class="proj-stat-value">0.5</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">SB</span><span class="proj-stat-value">0.2</span></div>
+      </div>
+      <div class="week-proj-line">Proj. line: <span>.223 / .311 / .357 &nbsp;·&nbsp; ~2.8 PA</span></div>
+    </div>
+    <div class="card-note">Marsee had a solid 2025 as a contact-oriented outfielder, but this season has been a rough start from every angle. He is striking out far more than last year and the balls he does put in play have not been going anywhere. <strong>The numbers do not offer much reason to believe a quick turnaround is coming.</strong> Reds pitchers should feel comfortable working him with breaking balls and staying out of the middle of the zone.</div>
+  </div>
+
+  <!-- LEO JIMENEZ - Early Days -->
+  <div class="player-card">
+    <div class="card-header">
+      <div><div class="card-name">Leo Jim&eacute;nez</div><div class="card-pos">2B/SS &nbsp;·&nbsp; 5 PA</div></div>
+      <span class="tag tag-warm">Early Days</span>
+    </div>
+    <div class="card-stats">
+      <div class="stat-row"><span class="stat-label">AVG / OBP / SLG</span><span class="stat-value">.400 / .400 / .400</span><span class="stat-trend trend-flat">~</span></div>
+    </div>
+    <div class="week-proj">
+      <div class="week-proj-header">Series Projection</div>
+      <div class="week-proj-stats">
+        <div class="proj-stat"><span class="proj-stat-label">R</span><span class="proj-stat-value">0.5</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">HR</span><span class="proj-stat-value">0.1</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">RBI</span><span class="proj-stat-value">0.5</span></div>
+        <div class="proj-stat"><span class="proj-stat-label">SB</span><span class="proj-stat-value">0.0</span></div>
+      </div>
+    </div>
+    <div class="card-note">Five plate appearances is nowhere near enough to draw conclusions. Jim&eacute;nez is a slick-fielding middle infielder who is new to this roster. Keep an eye on him as he gets more chances. There is not enough data here yet to say anything meaningful.</div>
+  </div>
+
+</div>
+
+<footer>
+  <p><strong>Data sources:</strong> 2025&ndash;2026 Statcast via FanGraphs. Pitcher grades from PitchingPlus/Stuff+ leaderboards. Series projections from Razzball (scaled to 4-game series). Stats through April 5, 2026.</p>
+  <div class="glossary">
+    <div class="glossary-item"><strong>Contact Score (xwOBA):</strong> Measures how hard and well the ball was hit, regardless of what actually happened. Higher is better for hitters, lower is better for pitchers. League avg ~.315.</div>
+    <div class="glossary-item"><strong>Avg Exit Velocity:</strong> How hard the ball comes off the bat, in mph. Higher = harder contact.</div>
+    <div class="glossary-item"><strong>Hard-Hit Rate:</strong> % of batted balls hit 95+ mph.</div>
+    <div class="glossary-item"><strong>Barrel Rate:</strong> % of batted balls hit with ideal speed and angle for extra bases.</div>
+    <div class="glossary-item"><strong>Chase Rate:</strong> % of pitches outside the zone the batter swings at. Lower is better for hitters.</div>
+    <div class="glossary-item"><strong>Expected ERA:</strong> ERA estimate based on contact quality allowed, not results. More predictive than ERA alone.</div>
+    <div class="glossary-item"><strong>K%-BB%:</strong> Strikeout rate minus walk rate. The best single-number summary of a pitcher&apos;s command.</div>
+  </div>
+</footer>
+
+<div class="series-nav"><a href="/heat-check/CIN_heat_check.html"><span class="nav-arrow">&#8599;</span> Reds Heat Check</a></div>
+
+</body>
+</html>
