@@ -14,22 +14,35 @@ draft: false
 
 Fourteen batters moved off Yahoo waivers more than 4,000 times this week. Most had a big game or a hot stretch. A few are being dropped for reasons that go deeper than a cold batting average. Here's the news, the production, and what the underlying numbers say about each one.
 
-| Player | Team | Pos | Moves | Upshot |
-|--------|------|-----|-------|--------|
-| Max Muncy | ATH | 2B/3B/SS | +25,338 | Contact quality genuinely improved — add him |
-| Jordan Walker | STL | OF | +22,496 | Big week, but xwOBA below his own baseline — risky add |
-| Miguel Vargas | CWS | 1B/3B | +15,348 | Speed carrying a soft-contact hot streak — fine for multi-cat |
-| Liam Hicks | MIA | C/1B | +9,860 | Real contact-quality breakout — add in all catcher-scarce leagues |
-| Garrett Mitchell | MIL | OF | +9,020 | One big game masking a messy underlying week — high variance |
-| Mark Vientos | NYM | 3B | +6,608 | Legitimately better plate decisions — underowned at 10% |
-| Ryan O'Hearn | PIT | 1B/OF | +5,468 | Solid production but some luck in the results — expect regression |
-| Cam Smith | HOU | OF | +5,026 | Young player with improving contact quality — add everywhere |
-| Kyle Isbel | KC | OF | +5,040 | Barrel rate jumped; speed gives him a floor — speculative add |
-| Andrés Giménez | TOR | 2B/SS | +4,644 | Ugly average, real underlying improvement — hold for steals |
-| Mauricio Dubón | ATL | 2B/3B/SS/OF | +4,436 | Filling in for Kim; useful depth in deep leagues |
-| Spencer Torkelson | DET | 1B | −4,802 | Contact quality fell off a cliff — hold, but watch EV closely |
-| Brenton Doyle | COL | OF | −4,796 | Benched and struggling; Coors upside earns patience |
-| Jorge Polanco | NYM | 2B/3B | −4,098 | Injury drop, not a performance drop — stash if you have an IL spot |
+<div style="overflow-x:auto;margin:1.5rem 0;">
+<table style="width:100%;border-collapse:collapse;font-size:0.9rem;">
+  <thead>
+    <tr style="border-bottom:2px solid #e2e8f0;">
+      <th style="text-align:left;padding:0.5rem 0.75rem;white-space:nowrap;">Player</th>
+      <th style="text-align:left;padding:0.5rem 0.75rem;white-space:nowrap;">Team</th>
+      <th style="text-align:left;padding:0.5rem 0.75rem;white-space:nowrap;">Pos</th>
+      <th style="text-align:right;padding:0.5rem 0.75rem;white-space:nowrap;">Moves</th>
+      <th style="text-align:left;padding:0.5rem 0.75rem;">Upshot</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #f1f5f9;"><td style="padding:0.45rem 0.75rem;white-space:nowrap;">Max Muncy</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">ATH</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">2B/3B/SS</td><td style="padding:0.45rem 0.75rem;text-align:right;white-space:nowrap;color:#16a34a;">+25,338</td><td style="padding:0.45rem 0.75rem;">Contact quality genuinely improved — add him</td></tr>
+    <tr style="border-bottom:1px solid #f1f5f9;"><td style="padding:0.45rem 0.75rem;white-space:nowrap;">Jordan Walker</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">STL</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">OF</td><td style="padding:0.45rem 0.75rem;text-align:right;white-space:nowrap;color:#16a34a;">+22,496</td><td style="padding:0.45rem 0.75rem;">Big week, but xwOBA below his own baseline — risky add</td></tr>
+    <tr style="border-bottom:1px solid #f1f5f9;"><td style="padding:0.45rem 0.75rem;white-space:nowrap;">Miguel Vargas</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">CWS</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">1B/3B</td><td style="padding:0.45rem 0.75rem;text-align:right;white-space:nowrap;color:#16a34a;">+15,348</td><td style="padding:0.45rem 0.75rem;">Speed carrying a soft-contact hot streak — fine for multi-cat</td></tr>
+    <tr style="border-bottom:1px solid #f1f5f9;"><td style="padding:0.45rem 0.75rem;white-space:nowrap;">Liam Hicks</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">MIA</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">C/1B</td><td style="padding:0.45rem 0.75rem;text-align:right;white-space:nowrap;color:#16a34a;">+9,860</td><td style="padding:0.45rem 0.75rem;">Real contact-quality breakout — add in all catcher-scarce leagues</td></tr>
+    <tr style="border-bottom:1px solid #f1f5f9;"><td style="padding:0.45rem 0.75rem;white-space:nowrap;">Garrett Mitchell</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">MIL</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">OF</td><td style="padding:0.45rem 0.75rem;text-align:right;white-space:nowrap;color:#16a34a;">+9,020</td><td style="padding:0.45rem 0.75rem;">One big game masking a messy underlying week — high variance</td></tr>
+    <tr style="border-bottom:1px solid #f1f5f9;"><td style="padding:0.45rem 0.75rem;white-space:nowrap;">Mark Vientos</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">NYM</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">3B</td><td style="padding:0.45rem 0.75rem;text-align:right;white-space:nowrap;color:#16a34a;">+6,608</td><td style="padding:0.45rem 0.75rem;">Legitimately better plate decisions — underowned at 10%</td></tr>
+    <tr style="border-bottom:1px solid #f1f5f9;"><td style="padding:0.45rem 0.75rem;white-space:nowrap;">Ryan O'Hearn</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">PIT</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">1B/OF</td><td style="padding:0.45rem 0.75rem;text-align:right;white-space:nowrap;color:#16a34a;">+5,468</td><td style="padding:0.45rem 0.75rem;">Solid production but some luck in the results — expect regression</td></tr>
+    <tr style="border-bottom:1px solid #f1f5f9;"><td style="padding:0.45rem 0.75rem;white-space:nowrap;">Cam Smith</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">HOU</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">OF</td><td style="padding:0.45rem 0.75rem;text-align:right;white-space:nowrap;color:#16a34a;">+5,026</td><td style="padding:0.45rem 0.75rem;">Young player with improving contact quality — add everywhere</td></tr>
+    <tr style="border-bottom:1px solid #f1f5f9;"><td style="padding:0.45rem 0.75rem;white-space:nowrap;">Kyle Isbel</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">KC</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">OF</td><td style="padding:0.45rem 0.75rem;text-align:right;white-space:nowrap;color:#16a34a;">+5,040</td><td style="padding:0.45rem 0.75rem;">Barrel rate jumped; speed gives him a floor — speculative add</td></tr>
+    <tr style="border-bottom:1px solid #f1f5f9;"><td style="padding:0.45rem 0.75rem;white-space:nowrap;">Andrés Giménez</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">TOR</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">2B/SS</td><td style="padding:0.45rem 0.75rem;text-align:right;white-space:nowrap;color:#16a34a;">+4,644</td><td style="padding:0.45rem 0.75rem;">Ugly average, real underlying improvement — hold for steals</td></tr>
+    <tr style="border-bottom:1px solid #f1f5f9;"><td style="padding:0.45rem 0.75rem;white-space:nowrap;">Mauricio Dubón</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">ATL</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">2B/3B/SS/OF</td><td style="padding:0.45rem 0.75rem;text-align:right;white-space:nowrap;color:#16a34a;">+4,436</td><td style="padding:0.45rem 0.75rem;">Filling in for Kim; useful depth in deep leagues</td></tr>
+    <tr style="border-bottom:1px solid #f1f5f9;"><td style="padding:0.45rem 0.75rem;white-space:nowrap;">Spencer Torkelson</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">DET</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">1B</td><td style="padding:0.45rem 0.75rem;text-align:right;white-space:nowrap;color:#dc2626;">−4,802</td><td style="padding:0.45rem 0.75rem;">Contact quality fell off a cliff — hold, but watch EV closely</td></tr>
+    <tr style="border-bottom:1px solid #f1f5f9;"><td style="padding:0.45rem 0.75rem;white-space:nowrap;">Brenton Doyle</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">COL</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">OF</td><td style="padding:0.45rem 0.75rem;text-align:right;white-space:nowrap;color:#dc2626;">−4,796</td><td style="padding:0.45rem 0.75rem;">Benched and struggling; Coors upside earns patience</td></tr>
+    <tr><td style="padding:0.45rem 0.75rem;white-space:nowrap;">Jorge Polanco</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">NYM</td><td style="padding:0.45rem 0.75rem;white-space:nowrap;">2B/3B</td><td style="padding:0.45rem 0.75rem;text-align:right;white-space:nowrap;color:#dc2626;">−4,098</td><td style="padding:0.45rem 0.75rem;">Injury drop, not a performance drop — stash if you have an IL spot</td></tr>
+  </tbody>
+</table>
+</div>
 
 ## The Adds
 
