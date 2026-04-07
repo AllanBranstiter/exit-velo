@@ -46,7 +46,7 @@ Infield fly ball rate measures the percentage of a hitter's <span class="term" d
 
 Pop-ups go up. They come down. They get caught.
 
-A hitter can look terrible against a Triple-A slider in March and fine against the same pitch in April. The competition gap is real. But a hitter whose swing is producing launch angles above 45 degrees is producing them because of *how he's swinging*, not because of who's throwing. IFFB% is the clearest mechanical fingerprint the batted ball data produces.
+A hitter can look terrible against a Triple-A <span class="term" data-term="slider">slider</span> in March and fine against the same pitch in April. The competition gap is real. But a hitter whose swing is producing launch angles above 45 degrees is producing them because of *how he's swinging*, not because of who's throwing. IFFB% is the clearest mechanical fingerprint the batted ball data produces.
 
 A typical IFFB% for a major league hitter runs somewhere between **8 and 12 percent**. Dylan Crews's IFFB% this spring was **55.6 percent**.
 

@@ -315,6 +315,10 @@
     "term": "Location+",
     "definition": "A Baseball Savant rating that measures how well a pitcher locates each pitch within the strike zone, independent of how good the pitch itself is. A Location+ of 100 is average; above 100 indicates above-average command. A pitcher can succeed with ordinary stuff if he locates well, and can struggle to get results out of elite stuff if he can't command it."
   },
+  "pitching+": {
+    "term": "Pitching+",
+    "definition": "A Baseball Savant rating that combines Stuff+ and Location+ into a single grade, also accounting for pitch sequencing and count context. A Pitching+ of 100 is league average; above 100 means the pitch was more effective than a typical pitch in the same situation. It's the most complete single-number grade for an individual pitch because it captures both the quality of the pitch and how well it was used."
+  },
   "arm-side": {
     "term": "Arm-Side / Glove-Side",
     "definition": "Directional terms describing horizontal pitch movement, always from the catcher's perspective. For a right-handed pitcher, arm-side is to the right — toward a right-handed batter's hands. Glove-side is to the left — away from a right-handed batter. For a left-handed pitcher, the directions are reversed."
