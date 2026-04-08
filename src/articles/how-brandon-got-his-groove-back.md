@@ -1,13 +1,13 @@
 ---
 layout: article.njk
-title: "How Brandon Williams Got His Groove Back"
+title: "How Brandon Williamson Got His Groove Back"
 subtitle: "His changeup went from a 45 Pitching+ liability to a 113 weapon between starts, and the batted-ball results followed."
 category: Player Profile
 level: Intermediate
 date: 2026-04-07T12:00:00
 excerpt: "Brandon Williamson's first start since Tommy John surgery was ugly: 4.2 innings, six earned runs, three home runs against Pittsburgh. Six days later, he shut out Miami for 6.2 innings on three hits. The box score says he was better. The pitch data says he was a different pitcher."
 description: "How Brandon Williamson overhauled his pitch mix between his first two starts of 2026, and what the Stuff+, Location+, and batted-ball data reveal about the turnaround."
-permalink: /articles/how-brandon-williamson-got-his-groove-back.html
+permalink: /articles/how-brandon-got-his-groove-back.html
 author: Allan Branstiter
 draft: false
 ---
