@@ -11,7 +11,7 @@ permalink: /articles/nick-yorke-is-swinging-easier-and-hitting-harder.html
 author: Allan Branstiter
 image: /images/nick-yorke-savant.png
 image_alt: "Nick Yorke's Baseball Savant page showing his 2026 MLB Percentile Rankings, career batting stats, spray chart, and rolling xwOBA"
-draft: true
+draft: false
 ---
 
 <figure style="margin:0 0 2rem;">
