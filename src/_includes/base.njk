@@ -7,13 +7,13 @@
   <meta name="description" content="{{ description if description else 'Advanced stats. Beginner friendly.' }}">
 
   <!-- Canonical URL -->
-  <link rel="canonical" href="https://exitvelo.us{{ page.url }}">
+  <link rel="canonical" href="https://exitvelo.us{{ url }}">
 
   <!-- Open Graph -->
   <meta property="og:site_name" content="Exit Velo">
   <meta property="og:title" content="{{ title if title else 'Exit Velo' }}">
   <meta property="og:description" content="{{ description if description else 'Advanced stats. Beginner friendly.' }}">
-  <meta property="og:url" content="https://exitvelo.us{{ page.url }}">
+  <meta property="og:url" content="https://exitvelo.us{{ url }}">
   <meta property="og:image" content="https://exitvelo.us{{ image if image else '/images/og-default.png' }}">
   <meta property="og:image:alt" content="{{ image_alt if image_alt else 'Exit Velo — where baseball stats make sense' }}">
   <meta property="og:image:width" content="1200">
@@ -71,7 +71,7 @@
     </div>
   </nav>
 
-  {{ content | safe }}
+  {% block content %}{{ content | safe }}{% endblock %}
 
   <footer class="footer">
     <p>&copy; 2026 Allan Branstiter. All rights reserved.</p>

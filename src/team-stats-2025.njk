@@ -1,9 +1,5 @@
----
-layout: base.njk
-title: "2025 MLB Team Batted Ball Stats"
-description: "Team-level averages for exit velocity, launch angle, EV90, bat speed, and BABIP across all 30 MLB teams in 2025, sorted by win percentage."
-permalink: /team-stats-2025.html
----
+{% extends "base.njk" %}
+{% block content %}
 <main class="page">
   <div class="article-wrap" style="max-width:1100px;">
 
@@ -344,3 +340,4 @@ permalink: /team-stats-2025.html
 })();
 </script>
 <script src="/js/glossary.js"></script>
+{% endblock %}

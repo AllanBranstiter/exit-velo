@@ -1,6 +1,5 @@
----
-layout: base.njk
----
+{% extends "base.njk" %}
+{% block content %}
   <main class="page">
     <div class="article-wrap">
 
@@ -48,12 +47,13 @@ layout: base.njk
         "url": "https://exitvelo.us/images/favicon.svg"
       }
     },
-    "url": {{ ("https://exitvelo.us" + page.url) | json }},
+    "url": {{ ("https://exitvelo.us" + url) | json }},
     "image": {{ ("https://exitvelo.us" + (image if image else "/images/og-default.png")) | json }},
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": {{ ("https://exitvelo.us" + page.url) | json }}
+      "@id": {{ ("https://exitvelo.us" + url) | json }}
     }{% if category %},
     "articleSection": {{ category | json }}{% endif %}
   }
   </script>
+{% endblock %}

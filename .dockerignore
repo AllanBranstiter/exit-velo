@@ -1,0 +1,10 @@
+node_modules
+_site
+.git
+.github
+*.md
+!src/**/*.md
+.eslintrc*
+.stylelintrc*
+eslint.config.js
+AI_Context.md

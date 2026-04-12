@@ -22,6 +22,21 @@ Near the top-right corner of every <span class="term" data-term="baseball savant
 <p class="viz__caption">The top of Skenes's Savant page. Left: player card with basic stats and pitch usage. Center: 2025 percentile rankings across pitching categories. Right: the Movement Profile.</p>
 </figure>
 
+<details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
+<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
+<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+</summary>
+<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+
+<p>The <span class="term" data-term="movement profile">Movement Profile</span> chart on every Baseball Savant pitcher page is, once you know how to read it, the clearest picture of how a pitcher actually beats hitters. This article walks through what the chart measures, what the axes mean, and why it matters, using Paul Skenes and Logan Webb as the two cleanest contrasting examples in baseball. Skenes wins with a tall, vertical shape, two pitches that travel the same path before one drops out of the zone, producing elite strikeout numbers. Webb wins with a wide, horizontal shape, a sinker that runs in and a sweeper that breaks hard the other way, forcing hitters to guess a side of the plate and rolling over grounders at the 91st percentile. What the article leaves open is whether either shape is inherently superior, and how much of the outcome depends on execution versus design.</p>
+
+<p style="margin-top:1rem;"><strong>If you're new to baseball:</strong> Think of a garden hose with the nozzle set to a tight stream. If you angle the nozzle slightly while the water is already in the air, the stream curves. That curve is spin doing the same thing to a baseball that the nozzle adjustment does to water, and the Movement Profile chart maps exactly where each pitch ends up because of that spin. A pitch that goes up on the chart isn't literally rising; it's just falling slower than gravity alone would pull it, which looks like a rise to a hitter whose brain is already accounting for gravity. The key insight is that two pitches can leave a pitcher's hand looking identical and land in completely different places, and that gap between "looks the same" and "ends up different" is how pitchers get hitters out.</p>
+
+<p style="margin-top:1rem;"><strong>If you manage a fantasy team:</strong> A pitcher with wide separation between pitch clusters on the Movement Profile is telling you something before the stats catch up. Tall separation, clusters spread top to bottom, predicts <span class="term" data-term="k% (pitcher)">strikeout upside</span>. Wide separation, clusters spread arm-side to glove-side, predicts strong <span class="term" data-term="ground ball rate (pitcher)">ground ball rate</span> and home run resistance. The red flag is a pitcher whose whole arsenal bunches near the center of the chart, especially pitches with little <span class="term" data-term="ivb">induced vertical break</span>, because those pitches are predictable regardless of velocity, and predictable pitches get hit. Check the shape before you stream someone whose ERA looks too good to last.</p>
+
+</div>
+</details>
+
 The <span class="term" data-term="movement profile">Movement Profile</span> chart is the best visual representation of how a pitcher actually attacks the strike zone. It shows you the geometry of their arsenal: which pitches go where, how they move, and how they relate to each other. That's the theory of the attack, laid out visually, and it's how pitchers fool and overpower batters.
 
 Two pitchers make the clearest possible case for why the chart matters. Paul Skenes of the Pittsburgh Pirates and Logan Webb of the San Francisco Giants both pitched at an elite level in 2025.

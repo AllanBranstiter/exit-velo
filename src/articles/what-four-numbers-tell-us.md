@@ -12,6 +12,21 @@ author: Allan Branstiter
 draft: false
 ---
 
+<details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
+<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
+<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+</summary>
+<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+
+<p>The 2026 rookie class opened the season with record-breaking numbers, but the article's argument is that early box scores are almost meaningless on their own. The real signal lives in four physical metrics that stabilize fast and describe the tool under the performance: <span class="term" data-term="bat speed">bat speed</span>, <span class="term" data-term="max exit velocity">max exit velocity</span>, <span class="term" data-term="swing length">swing length</span>, and <span class="term" data-term="sprint speed">sprint speed</span>. Owen Caissie and Carter Jensen have nearly identical physical profiles, yet one had a monster first series and the other struggled, which is exactly the point: the tools underneath are what matter, not the results from 10 plate appearances. Sal Stewart's .700 average and 2.069 OPS are genuinely exciting, but his bat path travels nearly eight feet through the zone, and that's the number that will follow him all season.</p>
+
+<p style="margin-top:1rem;"><strong>If you're new to baseball:</strong> Think of these four numbers as a physical scouting report on a hitter's body, not a scoreboard. A short, fast swing is like a quick jab that's hard to dodge; a long, powerful swing is like a big haymaker that a smart opponent can time and exploit. The early stats tell you who got lucky in round one. The physical metrics tell you who actually belongs in the ring.</p>
+
+<p style="margin-top:1rem;"><strong>If you manage a fantasy team:</strong> Caissie is the clearest buy in this class: elite bat speed, elite max exit velocity, and a compact swing length in the 18th percentile. The first-series production confirmed what the tools already said. Stewart is the hardest call: the raw power is real, but a 93rd-percentile swing length is a legitimate red flag for strikeouts and streakiness, so roster him as a boom-or-bust starter, not an anchor. Moisés Ballesteros's ugly early <span class="term" data-term="wrc+">wRC+</span> is almost certainly noise given his 80th-percentile max exit velocity and compact swing, making him a low-cost stash with real upside.</p>
+
+</div>
+</details>
+
 Sal Stewart hit .700 against Boston in his first major league series. His <span class="term" data-term="wrc+">wRC+</span> (at the time of this writing) is 444, and his OPS was 2.069.
 
 He also has the second-longest swing in this rookie class. His bat path travels 7.84 feet through the zone, 93rd percentile among 2025 MLB qualifiers. That number won't appear in any headline this week, but it's the one most likely to define what Stewart's career actually looks like.

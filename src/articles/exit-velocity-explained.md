@@ -12,6 +12,23 @@ author: Allan Branstiter
 draft: false
 ---
 
+<details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
+<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
+<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+</summary>
+<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+
+<p><span class="term" data-term="exit velocity">Exit velocity</span>, the speed of the ball off the bat, is a better predictor of a hitter's future production than <span class="term" data-term="batting average">batting average</span> because it measures contact quality rather than outcomes that can swing on luck, park dimensions, and where fielders happen to be standing. Tracked by <span class="term" data-term="statcast">Statcast</span> since 2015, EV feeds into two numbers worth bookmarking: <span class="term" data-term="hard-hit rate (batter)">hard-hit rate</span>, the share of balls in play struck at 95 mph or above, and <span class="term" data-term="expected slugging">expected slugging (xSLG)</span>, which estimates what a hitter's power numbers should look like based on contact quality alone. When actual slugging lags well behind xSLG, the contact was there and the luck wasn't, and that gap historically closes. The open question the article leaves on the table is what happens when a hitter has elite exit velocity but a flat <span class="term" data-term="attack angle">attack angle</span>, like Vlad Guerrero, where the raw power is real but the swing path keeps suppressing home runs.</p>
+
+<p style="margin-top:1rem;"><strong>Key number to watch:</strong> <strong>95 mph</strong> is the hard-hit line. League average hard-hit rate sits around 37%; elite hitters sustain 45 to 55%.</p>
+
+<p style="margin-top:1rem;"><strong>If you're new to baseball:</strong> Think of it like throwing a rock at a window. What matters is how hard you threw it, not whether the window happened to break. Exit velocity measures how hard the ball was actually hit, independent of whether it found a gap in the outfield or flew straight into a glove, so it cuts through a lot of the noise that shows up when you just look at batting averages and box scores.</p>
+
+<p style="margin-top:1rem;"><strong>If you manage a fantasy team:</strong> When a hitter's <span class="term" data-term="slugging percentage">slugging</span> craters mid-season but his exit velocity and xSLG held steady, that's a buy signal, not a red flag. The market tends to overreact to box-score results. EV tells you whether the contact quality is still there, and if it is, the numbers usually come back around.</p>
+
+</div>
+</details>
+
 The ball sounded like a bomb the moment Roman Anthony of the Boston Red Sox made contact.
 
 The crowd gasped as it rocketed in a high arc towards deep center field, where the wall at Fenway Park sits 420 feet from home plate. The center fielder drifted back, attempting to judge the ball's trajectory and his distance from the outfield wall. At the last moment, the fielder settled at the warning track, raised his glove, and caught the ball.

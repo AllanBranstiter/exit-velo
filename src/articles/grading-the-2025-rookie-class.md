@@ -12,6 +12,21 @@ author: Allan Branstiter
 draft: false
 ---
 
+<details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
+<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
+<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+</summary>
+<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+
+<p>This article grades the 2025 rookie class using five <span class="term" data-term="statcast">Statcast</span> process metrics that stabilize by 150 <span class="term" data-term="plate appearance">plate appearances</span>, well before <span class="term" data-term="wrc+">wRC+</span> or batting average can give you a reliable read on a player's <span class="term" data-term="true talent">true talent</span>. The verdict at the top is clear: Nick Kurtz and Roman Anthony are the real deal, with elite <span class="term" data-term="barrel rate (batter)">barrel rates</span> and discipline numbers that hold up under scrutiny, and Drake Baldwin looks like a franchise catcher for years to come. At the bottom, players like Jake Mangum, Hyeseong Kim, and the F-tier group show the warning signs that tend to stick: high <span class="term" data-term="swstr%">swinging strike rates</span>, poor <span class="term" data-term="o-swing%">outside pitch discipline</span>, and <span class="term" data-term="luck index">Luck Index</span> numbers pointing toward regression, not growth. The article's open question is Jac Caglianone, whose contact quality suggests a legitimate slugger but whose results have been deeply unproductive, and Jacob Wilson, whose historically low strikeout rate may be masking a <span class="term" data-term="consistency gap">Consistency Gap</span> that defenses will eventually exploit.</p>
+
+<p style="margin-top:1rem;"><strong>If you're new to baseball:</strong> Most stats need a full season of data before they tell you anything useful, but a handful of contact quality measurements stabilize in about 150 at-bats, roughly a month of regular playing time. Think of it like judging a golfer's swing mechanics on a driving range rather than waiting for the full scorecard: what the ball does off the club tells you most of what you need to know, even before the round is over.</p>
+
+<p style="margin-top:1rem;"><strong>If you manage a fantasy team:</strong> Kurtz, Anthony, and Baldwin are all rosterable with confidence and are already priced accordingly. The real value plays are Jakob Marsee (38 projected steals, elite plate approach, still underpriced on speed) and Luke Keaschall (buy low after an injury-shortened 2025, clean discipline profile). Avoid Jake Mangum, Hyeseong Kim, and the entire F tier. Keep an eye on Jacob Wilson's Luck Index through May: if it stays at minus .040 or wider, the regression is already in progress and the box score just hasn't caught up yet.</p>
+
+</div>
+</details>
+
 Jac Caglianone has a 46 <span class="term" data-term="wrc+">wRC+</span> and an <span class="term" data-term="xwoba">xwOBA</span> of .321. Those numbers shouldn't be in the same sentence.
 
 His <span class="term" data-term="xwoba">xwOBA</span> tells us that he's making contact with the ball like a major league slugger, but his <span class="term" data-term="wrc+">wRC+</span> says he's been deeply unproductive. Both are accurate; they're just measuring different things.

@@ -12,6 +12,21 @@ author: Allan Branstiter
 draft: false
 ---
 
+<details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
+<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
+<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+</summary>
+<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+
+<p>Brandon Williamson's first start back from Tommy John surgery was a disaster: six earned runs and three home runs in 4.2 innings against Pittsburgh. Six days later, he shut out Miami for 6.2 innings on three hits. The box score difference is dramatic, but the pitch data tells an even more interesting story. Between starts, Williamson scrapped the slider and sinker he'd leaned on against the Pirates and returned to the cutter-and-changeup arsenal he'd used before surgery. His <span class="term" data-term="changeup">changeup</span> went from a 45 <span class="term" data-term="pitching+">Pitching+</span> liability to a 113 weapon, his <span class="term" data-term="cutter">cutter</span> became one of the best-located pitches of either start, and the <span class="term" data-term="ground ball rate (pitcher)">ground ball rate</span> against him jumped from 5.9% to 52.6%. The open question is whether two starts, the second against a weak Marlins lineup, tells us anything durable about who Williamson is for the rest of 2026.</p>
+
+<p style="margin-top:1rem;"><strong>If you're new to baseball:</strong> A pitcher's job isn't just to throw hard. It's to make batters hit the ball in the wrong direction. When Williamson threw his changeup and cutter well against Miami, batters kept hitting the top of the ball instead of the sweet spot, producing weak ground balls instead of line drives and home runs. Think of it like trying to hit a nail at the last second when you swung expecting a different angle: even if you make contact, you're hitting it crooked.</p>
+
+<p style="margin-top:1rem;"><strong>If you manage a fantasy team:</strong> Williamson is a speculative add right now, not a must-roster. The April 6 start is genuinely encouraging: his <span class="term" data-term="stuff+">Stuff+</span> and <span class="term" data-term="location+">Location+</span> numbers improved sharply, and a 32.3% CSW% is elite territory. But he could be optioned to Triple-A when injured starters return, the sample is two starts, and his <span class="term" data-term="era">ERA</span> sits at 5.40 for the season. If he keeps his rotation spot and changeup usage stays near 28%, he's worth owning in deeper leagues. Watch the next start closely.</p>
+
+</div>
+</details>
+
 Brandon Williamson's first start since Tommy John surgery was a disaster.
 
 On March 31 at Great American Ball Park, he faced the Pittsburgh Pirates and lasted only 4.2 innings. He gave up six hits, six earned runs, three home runs, and two walk. He seem overmatched the whole game as opposing batters hit him hard while he managed to only three strikeouts. His <span class="term" data-term="era">ERA</span> after one start: 11.57. 

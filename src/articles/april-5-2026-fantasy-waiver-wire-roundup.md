@@ -12,6 +12,21 @@ author: Allan Branstiter
 draft: false
 ---
 
+<details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
+<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
+<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+</summary>
+<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+
+<p>Week 2 of the 2026 season gave us fourteen batters worth talking about on the waiver wire, and the through-line is the same one it always is in April: box score results and underlying contact quality are not telling the same story. Max Muncy and Liam Hicks look like genuine improvements grounded in better contact, while Jordan Walker and Garrett Mitchell rode noise more than signal. The open question hanging over most of this list is whether two weeks of Statcast data is enough to trust, and for a few players, the answer is probably not yet.</p>
+
+<p style="margin-top:1rem;"><strong>If you're new to baseball:</strong> When a hitter makes contact, the speed and angle of the ball off the bat tells you a lot more than the final stat line does. A ball hit at 100 mph at the right angle is a barrel regardless of whether it falls for a double or gets caught, and tracking those outcomes is how analysts separate real breakouts from lucky streaks.</p>
+
+<p style="margin-top:1rem;"><strong>If you manage a fantasy team:</strong> The two priority adds this week are Max Muncy (ATH, 2B/3B/SS) and Liam Hicks (MIA, C/1B). Muncy's <span class="term" data-term="xwoba">xwOBA</span> jumped from .267 to .499, his <span class="term" data-term="exit velocity">exit velocity</span> climbed more than 11 mph, and his <span class="term" data-term="hard-hit rate (batter)">hard-hit rate</span> went from 32% to 80%, so there's a real contact-quality story behind the hot start. Hicks is a catcher with a similarly dramatic improvement in contact, and catchers with legitimate power signals are rare enough that he belongs on your roster. Cam Smith (HOU, OF) and Mark Vientos (NYM, 3B) are solid secondary adds with real underlying improvement. Jordan Walker, Garrett Mitchell, and Ryan O'Hearn are all risky because their <span class="term" data-term="barrel rate (batter)">barrel rates</span> and contact quality don't match the flashy results. On the drops side, stash Jorge Polanco in your IL spot if you have one (it's an injury, not a performance problem), and monitor Spencer Torkelson's exit velocity over the next two weeks before you cut him loose.</p>
+
+</div>
+</details>
+
 Fourteen batters moved off Yahoo waivers more than 4,000 times this week. Most had a big game or a hot stretch. A few are being dropped for reasons that go deeper than a cold batting average. Here's the news, the production, and what the underlying numbers say about each one.
 
 <div style="overflow-x:auto;margin:2rem 0;">

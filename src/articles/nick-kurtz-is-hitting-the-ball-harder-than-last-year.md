@@ -9,15 +9,31 @@ excerpt: "Nick Kurtz looked like Oakland's franchise cornerstone after his rooki
 description: "Nick Kurtz is hitting the ball harder in 2026 than during his elite 2025 rookie season but has zero home runs and a 40% strikeout rate. A deep look at his Statcast data, platoon splits, and historical comps explains why, and what to expect the rest of the year."
 permalink: /articles/nick-kurtz-slump-isnt-what-it-looks-like.html
 author: Allan Branstiter
-image: /images/nick-kurtz-hero.jpg
-image_alt: "Nick Kurtz swinging in an Oakland Athletics home uniform"
+image: /images/nick-kurtz-savant.png
+image_alt: "Nick Kurtz's Baseball Savant page showing his 2026 MLB Percentile Rankings, career batting stats, spray chart, and rolling xwOBA"
 draft: false
 ---
 
 <figure style="margin:0 0 2rem;">
-  <img src="/images/nick-kurtz-hero.jpg" alt="Nick Kurtz swinging in an Oakland Athletics home uniform" style="width:100%;border-radius:0.5rem;">
-  <figcaption style="font-size:0.78rem;color:#6b7280;margin-top:0.5rem;line-height:1.5;">Nick Kurtz follows through on a swing at home. His average exit velocity is up 4.3 mph from his rookie season. The results haven't followed. (Dennis Lee/Imagn Images/Reuters)</figcaption>
+  <img src="/images/nick-kurtz-savant.png" alt="Nick Kurtz's Baseball Savant page showing his 2026 MLB Percentile Rankings, career batting stats, spray chart, and rolling xwOBA" style="width:100%;border-radius:0.5rem;">
 </figure>
+
+<details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
+<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
+<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+</summary>
+<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+
+<p>Nick Kurtz's 2026 looks ugly on the surface: no home runs, a .220 average, and a 40 percent <span class="term" data-term="k% (batter)">strikeout rate</span> through 50 plate appearances. But the underlying data runs in the opposite direction. His <span class="term" data-term="exit velocity">exit velocity</span> jumped 4.3 mph from his rookie season, his <span class="term" data-term="hard-hit rate (batter)">hard-hit rate</span> climbed from 51 to 57 percent, and his <span class="term" data-term="xwoba">xwOBA</span> is still well above league average, meaning the contact he's making is legitimately dangerous. The problem is decisional, not mechanical: bat tracking shows his <span class="term" data-term="fast-swing rate">fast-swing rate</span> cratered 10 points, meaning he's swinging too tentatively on edge pitches while letting too many hittable pitches go by called. The open question is whether he can recalibrate his timing on <span class="term" data-term="sinker">sinkers</span>, <span class="term" data-term="cutter">cutters</span>, and <span class="term" data-term="curveball">curveballs</span> before those pitch values harden, and whether his pre-existing weakness against left-handed pitching is actually worse than last year's overall numbers let on.</p>
+
+<p style="margin-top:1rem;"><strong>Key number to watch:</strong> Shadow contact rate — 61.2% now, needs to reach 68-70% by June.</p>
+
+<p style="margin-top:1rem;"><strong>If you're new to baseball:</strong> When a hitter waits too long to commit to a swing, the bat can't get through the zone in time, and pitches that move late, breaking down or cutting sideways, are already past the sweet spot before the swing arrives. Think of it like trying to catch a ball someone threw off-line: you can still reach it, but you can't catch it cleanly. That's what's happening to Kurtz right now on edge pitches, and the strikeouts and soft contact are the result.</p>
+
+<p style="margin-top:1rem;"><strong>If you manage a fantasy team:</strong> Hold him, and consider buying if his price has dropped in your league. His <span class="term" data-term="barrel rate (batter)">barrel rate</span> is close to his elite 2025 level, his <span class="term" data-term="bb% (batter)">walk rate</span> is up to 18 percent, and all four projection systems still have him around 34 home runs and a 132 <span class="term" data-term="wrc+">wRC+</span> for the year. The home runs haven't shown up yet because of bad luck on batted balls, not bad contact. The timeline for results is May through June.</p>
+
+</div>
+</details>
 
 Nick Kurtz looked like Oakland's franchise cornerstone after his rookie season. He hit .290 with 36 home runs and a 170 <span class="term" data-term="wrc+">wRC+</span> as a 22-year-old in 2025, the kind of debut that earns a $130 million extension offer.
 

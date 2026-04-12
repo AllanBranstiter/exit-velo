@@ -12,6 +12,23 @@ level: Intermediate
 draft: false
 ---
 
+<details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
+<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
+<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+</summary>
+<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+
+<p>Vladimir Guerrero Jr. hits the ball as hard as almost anyone in baseball, but his <span class="term" data-term="attack angle">attack angle</span>, the slope of the bat through the zone, sits at just 1.2 degrees, barely off flat, which turns elite power into grounders and line drives instead of home runs. The article uses that gap to reframe the entire 2026 first base market: Nick Kurtz swings upward at 14.3 degrees and projects for nine more home runs than Guerrero at roughly the same draft cost, Ben Rice owns the biggest gap between <span class="term" data-term="expected slugging">expected slugging (xSLG)</span> and actual production of any first baseman, and Pete Alonso's <span class="term" data-term="ground ball rate (batter)">ground ball rate</span> jumped from 38 to 55 percent this spring in a way that matters for a guy whose entire value comes from hitting the ball in the air. Freddie Freeman's <span class="term" data-term="bat speed">bat speed</span> has slipped to 69.9 mph and he outperformed his contact quality last year, which is the less comfortable version of the story. The open question is whether Alonso's spring batted-ball numbers reflect a real mechanical change or just noise, and whether <span class="term" data-term="adp">ADP</span> at any of these names corrects before you have to make a pick.</p>
+
+<p style="margin-top:1rem;"><strong>Key number to watch:</strong> Ben Rice's xSLG was .557 against an actual slugging of .499 in 2025. A 58-point gap like that tends to close.</p>
+
+<p style="margin-top:1rem;"><strong>If you're new to baseball:</strong> Think of a golf swing. If you sweep the club flat across the turf, even a perfectly struck shot rolls along the ground. Tilt the club upward at the right angle and the same swing launches the ball into the air. Guerrero has the raw power to clear fences, but his flat swing keeps converting that power into grounders, and that's the whole puzzle.</p>
+
+<p style="margin-top:1rem;"><strong>If you manage a fantasy team:</strong> Kurtz is the target, same draft cost as Guerrero with nine more projected home runs and swing mechanics that explain why rather than luck that might not repeat. Rice is the best value at the position given how far his results undershot his contact quality last year. Alonso is conditional: if his ground ball rate is still elevated near Opening Day, budget for 28 to 30 home runs, not 38.</p>
+
+</div>
+</details>
+
 There is a player in Major League Baseball who hits the ball harder than almost anyone alive. In 2025, he made contact at an average <span class="term" data-term="exit velocity">exit velocity</span> of 92 miles per hour. His maximum exit velocity, the hardest single ball he put in play all season, was 120.4 miles per hour, a career high. Baseball's tracking systems said he should have <span class="term" data-term="slugging percentage">slugged</span> over .500 for the year, meaning at least one extra base per every two at-bats. He is 26 years old, plays for the Toronto Blue Jays, and is paid, as of this writing, roughly half a billion dollars to hit a baseball.
 
 He hit 23 <span class="term" data-term="home run">home runs</span>, roughly 15 fewer than his contact quality said he deserved.

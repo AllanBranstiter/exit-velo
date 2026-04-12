@@ -12,6 +12,21 @@ level: Intermediate
 draft: false
 ---
 
+<details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
+<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
+<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+</summary>
+<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+
+<p>Dylan Crews came into 2026 spring training as one of the most promising young outfielders in the game, and left for Triple-A with a .103 average and a cloud of question marks. But <span class="term" data-term="batting average">batting average</span> in <span class="term" data-term="spring training">spring training</span> is noise. His <span class="term" data-term="iffb% (batter)">infield fly ball rate</span> tells the real story: it jumped from 6.8 percent in 2025 to 55.6 percent this spring, a dramatic mechanical breakdown where his bat was getting under the baseball instead of through it. The underlying tools, solid exit velocity, a stolen-base threat, and a contact profile that ran 28 points better in expected slugging than actual slugging last year, are still there. The open question is whether a 24-year-old with a diagnosable, coachable swing problem can fix it at Triple-A Rochester fast enough to matter this season.</p>
+
+<p style="margin-top:1rem;"><strong>If you're new to baseball:</strong> When a hitter connects with a pitch, the angle the ball launches off the bat determines where it goes. Think of it like a wedge shot in golf: find the center of the ball and it flies out toward the outfield. Get under the ball and it pops almost straight up, like hitting the bottom of a ping pong ball with an upward flick. Crews spent most of this spring hitting that second shot, over and over, which almost never leads to a hit.</p>
+
+<p style="margin-top:1rem;"><strong>If you manage a fantasy team:</strong> Crews is going around pick 173 in most drafts, basically free. His <span class="term" data-term="adp">ADP</span> prices in a lot of uncertainty, and the pop-up spike is a real concern, not spring noise. If you roster him, watch his <span class="term" data-term="launch angle">launch angle</span> and <span class="term" data-term="xwoba">expected wOBA</span> in his first few weeks back in the majors. If those normalize, the speed and underlying contact quality could make him a useful mid-season contributor. If the pop-ups follow him to Rochester, pass.</p>
+
+</div>
+</details>
+
 Nothing deflates a ballpark quite like an infield fly ball. While fly balls to the outfield create momentary hope and hard-hit grounders spark with electricity, the infield fly simply climbs skyward and hangs there on a lazy arc that screams "routine out" before gravity takes over.
 
 The crowd sighs. The fielder camps underneath. The game moves on.
