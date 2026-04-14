@@ -349,4 +349,4 @@ His bat speed is 75-plus mph. His max exit velocity is 115 mph. His barrel rate 
 
 ---
 
-*Data: FanGraphs exports, Baseball Savant MiLB prospect leaderboards, MLB Stats API pitch-by-pitch data. Analytical framework: The Process 2026 (Zimmerman & Bell).*
+*Data: FanGraphs exports, Baseball Savant MiLB prospect leaderboards, MLB Stats API pitch-by-pitch data.*
