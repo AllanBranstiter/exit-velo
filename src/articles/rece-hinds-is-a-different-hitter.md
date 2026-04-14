@@ -1,5 +1,5 @@
 ---
-title: "Rece Hinds Is a Different Hitter. The Question Is Whether It Matters."
+title: "Rece Hinds Is a Different Hitter in 2026. Is It Enough?"
 subtitle: "His .354 average in Triple-A is a mirage. The real improvements are underneath it, and they're aimed at the exact pitches that ended his last two MLB stints."
 category: Player Profile
 level: Beginner
