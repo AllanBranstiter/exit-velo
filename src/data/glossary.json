@@ -662,5 +662,25 @@
   "depth chart": {
     "term": "Depth Chart",
     "definition": "A team's ranking of players at each position, from starter to backup to emergency option. A player's spot on the depth chart determines how much playing time he's likely to get. In fantasy baseball, depth chart position matters because a player buried behind two starters will see limited at-bats regardless of talent."
+  },
+  "20-80 scale": {
+    "term": "20-80 Scouting Scale",
+    "definition": "The standard grading system scouts use to rate every tool a prospect has — hit, power, speed, arm, defense — on a scale from 20 (well below average) to 80 (elite, historically rare). A 50 is major league average; 60 is above-average; 70 is a premium tool; 80 grades are reserved for generational talent. Grades are given in two forms: the present grade (what the player can do now) and the future grade (what scouts believe he'll do at his peak), written as present/future — so a 40/55 hit tool means average-ish now with above-average projection. FanGraphs uses the same scale for its prospect rankings."
+  },
+  "scouting grades": {
+    "term": "20-80 Scouting Scale",
+    "definition": "The standard grading system scouts use to rate every tool a prospect has — hit, power, speed, arm, defense — on a scale from 20 (well below average) to 80 (elite, historically rare). A 50 is major league average; 60 is above-average; 70 is a premium tool; 80 grades are reserved for generational talent. Grades are given in two forms: the present grade (what the player can do now) and the future grade (what scouts believe he'll do at his peak), written as present/future — so a 40/55 hit tool means average-ish now with above-average projection. FanGraphs uses the same scale for its prospect rankings."
+  },
+  "hit tool": {
+    "term": "Hit Tool",
+    "definition": "A scouting grade that captures a player's overall ability to make contact and get hits — incorporating bat-to-ball skill, plate discipline, swing mechanics, and the ability to handle different pitch types. It's the most subjective of the five traditional tools because it blends so many inputs. Graded on the 20-80 scale, where 50 is major league average and 70 or above is reserved for the best contact hitters in the game. A player with a high hit tool and low power tool is a batting average asset; a player with a low hit tool and high power is a boom-or-bust slugger."
+  },
+  "future value": {
+    "term": "Future Value (FV)",
+    "definition": "FanGraphs' system for ranking prospects on the 20-80 scouting scale, projecting the player a prospect is likely to become at his peak. A 50 FV means an average major league regular; 55 is an above-average regular; 60 is an all-star caliber player; 70 and above is reserved for potential franchise cornerstones. FV combines scouting grades across all five tools with age, level of competition, and development trajectory into a single number that represents expected peak value."
+  },
+  "fv": {
+    "term": "Future Value (FV)",
+    "definition": "FanGraphs' system for ranking prospects on the 20-80 scouting scale, projecting the player a prospect is likely to become at his peak. A 50 FV means an average major league regular; 55 is an above-average regular; 60 is an all-star caliber player; 70 and above is reserved for potential franchise cornerstones. FV combines scouting grades across all five tools with age, level of competition, and development trajectory into a single number that represents expected peak value."
   }
 }
