@@ -51,7 +51,7 @@ But Stewart's <span class="term" data-term="statcast">Statcast</span> profile do
 
 ## The Votto Comparison
 
-Both are right-handed hitters for the Cincinnati Reds whose offensive profiles are built on discipline rather than raw power. Stewart was drafted as a third baseman, but his defensive limitations pushed him to first, and now the comparison has become unavoidable. Votto's career walk rate was 15.7 percent with a 20.4 percent strikeout rate. Stewart's combined professional walk rate across 1,207 plate appearances is approximately 12 to 13 percent, with a strikeout rate that's been 14 to 18 percent at every level he's played. The at-bats have a similar personality: selective, patient, punishing when the pitcher makes a mistake and willing to take the base when he doesn't.
+Both are hitters for the Cincinnati Reds whose offensive profiles are built on discipline rather than raw power, Votto from the left side and Stewart from the right. Stewart was drafted as a third baseman, but his defensive limitations pushed him to first, and now the comparison has become unavoidable. Votto's career walk rate was 15.7 percent with a 20.4 percent strikeout rate. Stewart's combined professional walk rate across 1,207 plate appearances is approximately 12 to 13 percent, with a strikeout rate that's been 14 to 18 percent at every level he's played. The at-bats have a similar personality: selective, patient, punishing when the pitcher makes a mistake and willing to take the base when he doesn't.
 
 Same position, same team, same discipline, same philosophy. When you watch him work a count, waiting back on a slider, laying off a sinker that nips the bottom edge, then driving a fastball the other way on 3-1, it feels like the kind of at-bat the Reds haven't had since Votto was in his prime. The narrative writes itself.
 
@@ -335,3 +335,7 @@ ZiPS, Dan Szymborski's projection system, takes a longer view, projecting Stewar
 ATC says 110 wRC+. The six closest Statcast comps shown above, all from full-season samples, averaged 171, though that number reflects which seasons the algorithm surfaces, not a prediction. The gap between the projection and the profile is what makes Stewart interesting. The walk rate will close it one way or the other.
 
 Anyway, here's to hoping!
+
+---
+
+*Correction, April 16, 2026: An earlier version of this article incorrectly identified Joey Votto as a right-handed hitter. Votto batted left-handed. The text has been updated.*
