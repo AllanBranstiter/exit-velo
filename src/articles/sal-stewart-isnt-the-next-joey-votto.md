@@ -338,4 +338,4 @@ Anyway, here's to hoping!
 
 ---
 
-*Correction, April 16, 2026: An earlier version of this article incorrectly identified Joey Votto as a right-handed hitter. Votto batted left-handed. The text has been updated.*
+<p style="font-size:0.78rem;color:#6b7280;margin-top:2rem;"><em>Correction, April 16, 2026: An earlier version of this article incorrectly identified Joey Votto as a right-handed hitter. Votto batted left-handed. The text has been updated.</em></p>
