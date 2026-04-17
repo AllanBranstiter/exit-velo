@@ -42,8 +42,8 @@ h2.section-title .sub { font-family: 'Inter', sans-serif; font-size: 0.7rem; fon
 .trend-up { color: #4CAF50; }
 .trend-down { color: #EF5350; }
 .trend-flat { color: #555; }
-.card-note { font-size: 0.77rem; color: #999; line-height: 1.55; font-style: italic; border-top: 1px solid #282828; padding-top: 12px; }
-.card-note strong { font-weight: normal; color: #e8e2da; text-decoration: none; }
+.card-note { font-size: 0.77rem; color: #ffffff; line-height: 1.55; font-style: italic; border-top: 1px solid #282828; padding-top: 12px; }
+.card-note strong { font-weight: normal; color: #C6011F; text-decoration: none; }
 .week-proj { background: #252525; border: 1px solid #2e2e2e; border-radius: 5px; padding: 10px 12px; margin-bottom: 12px; }
 .week-proj-header { font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #555; margin-bottom: 7px; }
 .week-proj-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
@@ -81,6 +81,8 @@ footer strong { color: #666; }
 @media (prefers-reduced-motion: reduce) {
   .bar-fill { transition: none; }
 }
+.card-note a.gl { color: #c8c0b8; text-decoration: underline dotted rgba(136,136,136,0.5); text-underline-offset: 3px; cursor: help; }
+.card-note a.gl:hover { color: #fff; text-decoration-color: #888; }
 </style>
 </head>
 <body>
@@ -141,7 +143,7 @@ footer strong { color: #666; }
     <div class="week-proj-header">Start Projection &middot; Apr 17 @ MIN</div>
     <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">5.0</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">4.38</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">4</div></div><div class="proj-stat"><div class="proj-stat-label">QS%</div><div class="proj-stat-value">38%</div></div></div>
   </div>
-  <div class="card-note"><strong>The most fascinating storyline in this series is a homecoming.</strong> Williamson grew up in Minnesota and will pitch in front of family and friends for the first time as a big leaguer. He missed all of 2025 with injury and has looked shaky in his return, with the gap between strikeouts and walks nearly vanishing. But he threw a three-hit shutout combined with the bullpen against the Marlins, so there is an arm capable of dominance in there. Watch whether he settles in early or lets the moment get to him.</div>
+  <div class="card-note"><strong>The most fascinating storyline in this series is a homecoming.</strong> Williamson grew up in Minnesota and will pitch in front of family and friends for the first time as a big leaguer. He missed all of 2025 with injury and has looked shaky in his return, with the gap between <a class="gl" href="#glossary-kbb" title="Strikeout rate minus walk rate, a measure of pitcher command">strikeouts and walks</a> nearly vanishing. But he threw a three-hit shutout combined with the bullpen against the Marlins, so there is an arm capable of dominance in there. Watch whether he settles in early or lets the moment get to him.</div>
 </div>
 <div class="card">
   <div class="card-header">
@@ -243,7 +245,7 @@ footer strong { color: #666; }
     <div class="week-proj-header">Start Projection &middot; Apr 19 @ MIN</div>
     <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">5.2</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">3.92</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">5</div></div><div class="proj-stat"><div class="proj-stat-label">QS%</div><div class="proj-stat-value">43%</div></div></div>
   </div>
-  <div class="card-note">Singer bounced back nicely against the Giants in his last outing, and the Reds will be hoping that version shows up in Minneapolis. <strong>The concern is that hitters are making hard contact against him at the highest rate of his career, and he has lost about a tick on his fastball.</strong> But his strikeout-to-walk balance remains solid, his ground ball rate has jumped, and the projection systems expect his overall numbers to settle near a four ERA. Look for whether his sinker finds the bottom of the zone or catches too much plate.</div>
+  <div class="card-note">Singer bounced back nicely against the Giants in his last outing, and the Reds will be hoping that version shows up in Minneapolis. <strong>The concern is that hitters are making <a class="gl" href="#glossary-hard-hit" title="Percentage of batted balls hit 95+ mph">hard contact</a> against him at the highest rate of his career, and he has lost about a tick on his fastball.</strong> But his <a class="gl" href="#glossary-kbb" title="Strikeout rate minus walk rate, a measure of pitcher command">strikeout-to-walk</a> balance remains solid, his ground ball rate has jumped, and the projection systems expect his overall numbers to settle near a four ERA. Look for whether his sinker finds the bottom of the zone or catches too much plate.</div>
 </div>
 
 </div>
@@ -499,7 +501,7 @@ footer strong { color: #666; }
     <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.4</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.5</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.6</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.2</div></div></div>
     <div class="week-proj-line">Proj: <span>.258 / .324 / .777 &middot; 12 PA</span></div>
   </div>
-<div class="card-note">Seven home runs in 19 games. <strong>The rookie from Miami is hitting the ball as hard as anyone in baseball and doing real damage with it.</strong> He cleared the benches against the Giants after a back-and-forth with their reliever, and the intensity has only fueled him. Nearly half of everything he puts in play is hit hard, and one in five batted balls is a barrel. The power is legitimate, his approach is disciplined enough, and the whole package looks like exactly what Cincinnati hoped when they called him up.</div>
+<div class="card-note">Seven home runs in 19 games. <strong>The rookie from Miami is hitting the ball as hard as anyone in baseball and doing real damage with it.</strong> He cleared the benches against the Giants after a back-and-forth with their reliever, and the intensity has only fueled him. Nearly half of everything he puts in play is <a class="gl" href="#glossary-hard-hit" title="Percentage of batted balls hit 95+ mph">hit hard</a>, and one in five batted balls is a <a class="gl" href="#glossary-barrel" title="Percentage of batted balls with ideal exit velocity and launch angle">barrel</a>. The power is legitimate, his approach is disciplined enough, and the whole package looks like exactly what Cincinnati hoped when they called him up.</div>
 </div>
 <div class="card">
   <div class="card-header">
@@ -551,7 +553,7 @@ footer strong { color: #666; }
     <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.4</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.4</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.5</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.6</div></div></div>
     <div class="week-proj-line">Proj: <span>.247 / .322 / .760 &middot; 12 PA</span></div>
   </div>
-<div class="card-note">Just became the first player since 1900 to record a specific combination of hits, home runs, and stolen bases through the first 19 games of a season. <strong>His power has arrived early, with six home runs and a barrel rate well above where it was last year.</strong> His strikeout rate remains elevated, which is the one thing keeping this from being a perfect start. He exploded against the Angels at home and stayed productive against the Giants. Against three right-handed Twins pitchers, look for whether he can lay off high fastballs or gets expanded.</div>
+<div class="card-note">Just became the first player since 1900 to record a specific combination of hits, home runs, and stolen bases through the first 19 games of a season. <strong>His power has arrived early, with six home runs and a <a class="gl" href="#glossary-barrel" title="Percentage of batted balls with ideal exit velocity and launch angle">barrel rate</a> well above where it was last year.</strong> His strikeout rate remains elevated, which is the one thing keeping this from being a perfect start. He exploded against the Angels at home and stayed productive against the Giants. Against three right-handed Twins pitchers, look for whether he can lay off high fastballs or gets expanded.</div>
 </div>
 <div class="card">
   <div class="card-header">
@@ -603,7 +605,7 @@ footer strong { color: #666; }
     <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.4</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.3</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.1</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.3</div></div></div>
     <div class="week-proj-line">Proj: <span>.223 / .307 / .668 &middot; 12 PA</span></div>
   </div>
-<div class="card-note">The bat has been frustratingly quiet for a player with this much talent. Zero home runs in 83 plate appearances, with an average sitting below .200. <strong>The one bright spot is his patience, drawing walks at the highest rate on the team and keeping himself on base.</strong> His underlying contact numbers suggest more hits should be coming than have arrived, though his lack of hard contact is a real departure from 2025. He has flashed the ability in spurts but has not sustained anything. Watch for whether he starts pulling the ball with authority or continues spraying weak contact.</div>
+<div class="card-note">The bat has been frustratingly quiet for a player with this much talent. Zero home runs in 83 plate appearances, with an average sitting below .200. <strong>The one bright spot is his patience, drawing walks at the highest rate on the team and keeping himself on base.</strong> His underlying contact numbers suggest more hits should be coming than have arrived, though his lack of <a class="gl" href="#glossary-hard-hit" title="Percentage of batted balls hit 95+ mph">hard contact</a> is a real departure from 2025. He has flashed the ability in spurts but has not sustained anything. Watch for whether he starts pulling the ball with authority or continues spraying weak contact.</div>
 </div>
 <div class="card">
   <div class="card-header">
@@ -655,7 +657,7 @@ footer strong { color: #666; }
     <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.1</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.2</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">0.8</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.2</div></div></div>
     <div class="week-proj-line">Proj: <span>.236 / .320 / .684 &middot; 10 PA</span></div>
   </div>
-<div class="card-note">Zero extra-base hits in 78 plate appearances. The outfield has been called a "massive problem" by national outlets, and Friedl is at the center of it. <strong>He is not hitting the ball hard at all, with his hard-hit rate cratering to less than half of where it was a year ago.</strong> The strikeouts are up, his quality of contact is down, and there is nothing in the underlying data to suggest a turnaround is imminent. His walks keep him from being completely unproductive, but there was a small uptick in contact quality against the Giants. Worth watching whether that continues in Minnesota.</div>
+<div class="card-note">Zero extra-base hits in 78 plate appearances. The outfield has been called a "massive problem" by national outlets, and Friedl is at the center of it. <strong>He is not <a class="gl" href="#glossary-hard-hit" title="Percentage of batted balls hit 95+ mph">hitting the ball hard</a> at all, with his hard-hit rate cratering to less than half of where it was a year ago.</strong> The strikeouts are up, his <a class="gl" href="#glossary-xwoba" title="Expected production based on quality of contact">quality of contact</a> is down, and there is nothing in the underlying data to suggest a turnaround is imminent. His walks keep him from being completely unproductive, but there was a small uptick in contact quality against the Giants. Worth watching whether that continues in Minnesota.</div>
 </div>
 <div class="card">
   <div class="card-header">
@@ -707,7 +709,7 @@ footer strong { color: #666; }
     <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.3</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.6</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.6</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.1</div></div></div>
     <div class="week-proj-line">Proj: <span>.218 / .290 / .723 &middot; 11 PA</span></div>
   </div>
-<div class="card-note">The stat line looks passable, but underneath it there is cause for concern. <strong>His quality of contact has dropped sharply from his 2025 numbers, with the ball coming off the bat much softer and barreled balls becoming rare.</strong> He finished strong against the Giants, which is encouraging, but his early-season production may be running ahead of his contact. His three home runs suggest the power is still in there somewhere. Against the right-handers in Minnesota, look for whether he can get to his pull-side power or gets tied up inside.</div>
+<div class="card-note">The stat line looks passable, but underneath it there is cause for concern. <strong>His <a class="gl" href="#glossary-xwoba" title="Expected production based on quality of contact">quality of contact</a> has dropped sharply from his 2025 numbers, with the ball coming off the bat much softer and <a class="gl" href="#glossary-barrel" title="Percentage of batted balls with ideal exit velocity and launch angle">barreled balls</a> becoming rare.</strong> He finished strong against the Giants, which is encouraging, but his early-season production may be running ahead of his contact. His three home runs suggest the power is still in there somewhere. Against the right-handers in Minnesota, look for whether he can get to his pull-side power or gets tied up inside.</div>
 </div>
 <div class="card">
   <div class="card-header">
@@ -759,7 +761,7 @@ footer strong { color: #666; }
     <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.1</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.4</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.1</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.2</div></div></div>
     <div class="week-proj-line">Proj: <span>.224 / .300 / .695 &middot; 11 PA</span></div>
   </div>
-<div class="card-note">Two very different players exist inside the same early season for Steer. When he connects, the results are excellent: his barrel rate has more than doubled from 2025. <strong>But his swing-and-miss has spiked significantly, and his walks have dried up, leaving him swinging aggressively without the patience that made him effective last year.</strong> He took a hit-by-pitch against the Giants and responded with a home run, so the intensity is there. He finished the Giants series strong. If his approach sharpens, his power will play.</div>
+<div class="card-note">Two very different players exist inside the same early season for Steer. When he connects, the results are excellent: his <a class="gl" href="#glossary-barrel" title="Percentage of batted balls with ideal exit velocity and launch angle">barrel rate</a> has more than doubled from 2025. <strong>But his swing-and-miss has spiked significantly, and his walks have dried up, leaving him swinging aggressively without the patience that made him effective last year.</strong> He took a hit-by-pitch against the Giants and responded with a home run, so the intensity is there. He finished the Giants series strong. If his approach sharpens, his power will play.</div>
 </div>
 <div class="card">
   <div class="card-header">
@@ -811,7 +813,7 @@ footer strong { color: #666; }
     <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.0</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.2</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">0.8</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.2</div></div></div>
     <div class="week-proj-line">Proj: <span>.231 / .285 / .627 &middot; 9 PA</span></div>
   </div>
-<div class="card-note">Three hits in 47 at-bats. That is an almost impossibly cold stretch for a player who is doing nearly everything else right. <strong>He is squaring the ball up on more than 60 percent of his contacts, barely striking out, and his expected average is more than 200 points higher than his actual one.</strong> The gap between what the contact data says should be happening and what has actually happened is the largest on the team. The hits have to start falling eventually. He reflected on the significance of Jackie Robinson Day this week, and the competitor in him will not accept these results for long.</div>
+<div class="card-note">Three hits in 47 at-bats. That is an almost impossibly cold stretch for a player who is doing nearly everything else right. <strong>He is <a class="gl" href="#glossary-squared-up" title="Percentage of swings where the bat met the ball cleanly">squaring the ball up</a> on more than 60 percent of his contacts, barely striking out, and his <a class="gl" href="#glossary-xba" title="Expected batting average based on contact quality">expected average</a> is more than 200 points higher than his actual one.</strong> The gap between what the contact data says should be happening and what has actually happened is the largest on the team. The hits have to start falling eventually. He reflected on the significance of Jackie Robinson Day this week, and the competitor in him will not accept these results for long.</div>
 </div>
 <div class="card">
   <div class="card-header">
@@ -863,7 +865,7 @@ footer strong { color: #666; }
     <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">0.9</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.3</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">0.9</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.0</div></div></div>
     <div class="week-proj-line">Proj: <span>.218 / .300 / .667 &middot; 9 PA</span></div>
   </div>
-<div class="card-note">The average looks ugly, but <strong>Stephenson is hitting the ball harder than anyone on the roster at 95.4 miles per hour, which is a significant jump from where he was a year ago.</strong> His walks are way up, his strikeouts are actually down, and his overall quality of contact is strong. He launched a home run against the Rangers that felt like a turning point, and he has been trending in the right direction since. A day off against the Giants suggests the Reds are managing his workload. When he does play in Minneapolis, the ball should carry.</div>
+<div class="card-note">The average looks ugly, but <strong>Stephenson is <a class="gl" href="#glossary-hard-hit" title="Percentage of batted balls hit 95+ mph">hitting the ball harder</a> than anyone on the roster at 95.4 miles per hour, which is a significant jump from where he was a year ago.</strong> His walks are way up, his strikeouts are actually down, and his overall <a class="gl" href="#glossary-xwoba" title="Expected production based on quality of contact">quality of contact</a> is strong. He launched a home run against the Rangers that felt like a turning point, and he has been trending in the right direction since. A day off against the Giants suggests the Reds are managing his workload. When he does play in Minneapolis, the ball should carry.</div>
 </div>
 <div class="card">
   <div class="card-header">
@@ -905,7 +907,7 @@ footer strong { color: #666; }
     <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">0.3</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.1</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">0.3</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.1</div></div></div>
     <div class="week-proj-line">Proj: <span>.219 / .308 / .701 &middot; 3 PA</span></div>
   </div>
-<div class="card-note">Has not found his footing yet at the plate. <strong>His contact quality has been among the weakest on the roster, with very few balls hit hard and no barrels at all.</strong> His strikeout rate remains high. His role may shrink if Hinds or Myers start producing, but he offers enough athleticism in the outfield to stay in the conversation for playing time.</div>
+<div class="card-note">Has not found his footing yet at the plate. <strong>His <a class="gl" href="#glossary-xwoba" title="Expected production based on quality of contact">contact quality</a> has been among the weakest on the roster, with very few balls <a class="gl" href="#glossary-hard-hit" title="Percentage of batted balls hit 95+ mph">hit hard</a> and no <a class="gl" href="#glossary-barrel" title="Percentage of batted balls with ideal exit velocity and launch angle">barrels</a> at all.</strong> His strikeout rate remains high. His role may shrink if Hinds or Myers start producing, but he offers enough athleticism in the outfield to stay in the conversation for playing time.</div>
 </div>
 <div class="card">
   <div class="card-header">
@@ -947,7 +949,7 @@ footer strong { color: #666; }
     <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">0.8</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.2</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">0.6</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.2</div></div></div>
     <div class="week-proj-line">Proj: <span>.226 / .278 / .615 &middot; 7 PA</span></div>
   </div>
-<div class="card-note">A fascinating case in a small sample. <strong>His contact quality grades out as elite, far above what the results have shown, with an enormous gap between his expected numbers and his actual batting line.</strong> He has not struck out much and has shown excellent plate discipline with a low chase rate. Whether this is real or noise with only 26 plate appearances is hard to say. But if the results catch up to his quality of contact, he could earn a larger role quickly.</div>
+<div class="card-note">A fascinating case in a small sample. <strong>His <a class="gl" href="#glossary-xwoba" title="Expected production based on quality of contact">contact quality</a> grades out as elite, far above what the results have shown, with an enormous gap between his expected numbers and his actual batting line.</strong> He has not struck out much and has shown excellent plate discipline with a low <a class="gl" href="#glossary-chase" title="Percentage of pitches swung at outside the strike zone">chase rate</a>. Whether this is real or noise with only 26 plate appearances is hard to say. But if the results catch up to his quality of contact, he could earn a larger role quickly.</div>
 </div>
 <div class="card">
   <div class="card-header">
@@ -989,7 +991,7 @@ footer strong { color: #666; }
     <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">0.2</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.1</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">0.2</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.0</div></div></div>
     <div class="week-proj-line">Proj: <span>.228 / .317 / .687 &middot; 3 PA</span></div>
   </div>
-<div class="card-note">Quietly putting together a workmanlike start with a strong walk rate and solid hard contact. <strong>His patience at the plate has been impressive, drawing walks at a high rate while keeping the strikeouts manageable.</strong> No home runs yet but his hard-hit rate says the power should surface eventually. A professional hitter doing professional things, even without flashy numbers.</div>
+<div class="card-note">Quietly putting together a workmanlike start with a strong walk rate and solid <a class="gl" href="#glossary-hard-hit" title="Percentage of batted balls hit 95+ mph">hard contact</a>. <strong>His patience at the plate has been impressive, drawing walks at a high rate while keeping the strikeouts manageable.</strong> No home runs yet but his hard-hit rate says the power should surface eventually. A professional hitter doing professional things, even without flashy numbers.</div>
 </div>
 <div class="card">
   <div class="card-header">
@@ -1031,7 +1033,7 @@ footer strong { color: #666; }
     <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">0.9</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.4</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.1</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.2</div></div></div>
     <div class="week-proj-line">Proj: <span>.217 / .270 / .671 &middot; 10 PA</span></div>
   </div>
-<div class="card-note">Recalled from Louisville on April 14 and went hitless in three games against the Giants, striking out in half of his plate appearances. <strong>His swing-and-miss remains the central question with Hinds, and nothing in this brief look suggests he has solved it yet.</strong> The book on him is straightforward: slider low, slider low, fastball in on the hands. Until he proves he can lay off breaking stuff below the zone, pitchers will keep going there. His raw power is tantalizing, but watch early in his at-bats to see if he is taking those low sliders or chasing them into the dirt. Not in the lineup for the opener in Minnesota.</div>
+<div class="card-note">Recalled from Louisville on April 14 and went hitless in three games against the Giants, striking out in half of his plate appearances. <strong>His swing-and-miss remains the central question with Hinds, and nothing in this brief look suggests he has solved it yet.</strong> The book on him is straightforward: slider low, slider low, fastball in on the hands. Until he proves he can lay off breaking stuff below the zone, pitchers will keep going there. His raw power is tantalizing, but watch early in his at-bats to see if he is taking those low sliders or <a class="gl" href="#glossary-chase" title="Percentage of pitches swung at outside the strike zone">chasing</a> them into the dirt. Not in the lineup for the opener in Minnesota.</div>
 </div>
 <div class="card">
   <div class="card-header">
@@ -1063,7 +1065,7 @@ footer strong { color: #666; }
     <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">0.5</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.1</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">0.3</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.0</div></div></div>
     <div class="week-proj-line">Proj: <span>.211 / .264 / .577 &middot; 4 PA</span></div>
   </div>
-<div class="card-note">Has taken over the backup catcher role and flashed some encouraging contact quality in a handful of at-bats. <strong>Nine plate appearances is not enough to evaluate anything meaningful.</strong> His expected numbers are intriguing, but this is purely a watch-and-wait situation.</div>
+<div class="card-note">Has taken over the backup catcher role and flashed some encouraging <a class="gl" href="#glossary-xwoba" title="Expected production based on quality of contact">contact quality</a> in a handful of at-bats. <strong>Nine plate appearances is not enough to evaluate anything meaningful.</strong> His expected numbers are intriguing, but this is purely a watch-and-wait situation.</div>
 </div>
 
 </div>
@@ -1071,17 +1073,17 @@ footer strong { color: #666; }
 <footer>
   <strong>Data sources:</strong> FanGraphs (per-series Statcast batting, 2025 baselines, pitcher stats), Razzball (weekly projections, pitcher start projections), Baseball Savant (expected stats, bat tracking), MLB.com (transactions, news). Heat Check generated April 17, 2026.
   <div class="glossary">
-    <span class="glossary-item"><strong>Contact Score (xwOBA):</strong> Expected production based on quality of contact</span>
-    <span class="glossary-item"><strong>OPS:</strong> On-base plus slugging, a measure of total offensive production</span>
-    <span class="glossary-item"><strong>Hard-Hit Rate:</strong> % of batted balls hit 95+ mph</span>
-    <span class="glossary-item"><strong>Barrel Rate:</strong> % of batted balls with ideal exit velocity and launch angle</span>
-    <span class="glossary-item"><strong>Expected Avg (xBA):</strong> What a player's batting average should be based on contact quality</span>
-    <span class="glossary-item"><strong>Bat Speed:</strong> Speed of the bat at contact, in mph</span>
-    <span class="glossary-item"><strong>Squared-Up Rate:</strong> % of swings where the bat met the ball cleanly</span>
-    <span class="glossary-item"><strong>K%-BB%:</strong> Strikeout rate minus walk rate, a measure of pitcher command</span>
-    <span class="glossary-item"><strong>Expected ERA (xERA):</strong> What a pitcher's ERA should be based on contact allowed</span>
-    <span class="glossary-item"><strong>FIP:</strong> Fielding Independent Pitching, isolates pitcher performance from defense</span>
-    <span class="glossary-item"><strong>Chase Rate:</strong> % of pitches swung at outside the strike zone</span>
+    <span class="glossary-item" id="glossary-xwoba"><strong>Contact Score (xwOBA):</strong> Expected production based on quality of contact</span>
+    <span class="glossary-item" id="glossary-ops"><strong>OPS:</strong> On-base plus slugging, a measure of total offensive production</span>
+    <span class="glossary-item" id="glossary-hard-hit"><strong>Hard-Hit Rate:</strong> % of batted balls hit 95+ mph</span>
+    <span class="glossary-item" id="glossary-barrel"><strong>Barrel Rate:</strong> % of batted balls with ideal exit velocity and launch angle</span>
+    <span class="glossary-item" id="glossary-xba"><strong>Expected Avg (xBA):</strong> What a player's batting average should be based on contact quality</span>
+    <span class="glossary-item" id="glossary-bat-speed"><strong>Bat Speed:</strong> Speed of the bat at contact, in mph</span>
+    <span class="glossary-item" id="glossary-squared-up"><strong>Squared-Up Rate:</strong> % of swings where the bat met the ball cleanly</span>
+    <span class="glossary-item" id="glossary-kbb"><strong>K%-BB%:</strong> Strikeout rate minus walk rate, a measure of pitcher command</span>
+    <span class="glossary-item" id="glossary-xera"><strong>Expected ERA (xERA):</strong> What a pitcher's ERA should be based on contact allowed</span>
+    <span class="glossary-item" id="glossary-fip"><strong>FIP:</strong> Fielding Independent Pitching, isolates pitcher performance from defense</span>
+    <span class="glossary-item" id="glossary-chase"><strong>Chase Rate:</strong> % of pitches swung at outside the strike zone</span>
   </div>
 </footer>
 
