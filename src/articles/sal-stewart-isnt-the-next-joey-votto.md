@@ -12,6 +12,14 @@ author: Allan Branstiter
 image: /images/sal-stewart-statcast.png
 image_alt: "Sal Stewart's Exit Velo player card showing percentile rankings, two-season stat line, and advanced metrics through 130 plate appearances"
 draft: false
+keywords:
+  - "Sal Stewart"
+  - "Joey Votto"
+  - "Juan Soto"
+  - "plate discipline"
+  - "Cincinnati Reds"
+  - "contact quality"
+  - "small samples"
 ---
 
 <figure style="margin:0 0 2rem;">
@@ -70,7 +78,7 @@ I compared Stewart's 2026 profile against every 300-plus PA hitter season from 2
 <div class="viz">
 <p class="viz__title">Stewart's Closest Full-Season Statcast Comps (2024–2025)</p>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;">Player</th>
@@ -205,7 +213,7 @@ Sal's discipline isn't a 72-PA phenomenon.
 <div class="viz">
 <p class="viz__title">Stewart's Career K% and BB% by Level</p>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;">Year</th>

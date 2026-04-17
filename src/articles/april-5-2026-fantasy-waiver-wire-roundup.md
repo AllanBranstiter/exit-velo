@@ -10,6 +10,14 @@ description: "The news, production, and underlying contact metrics behind every 
 permalink: /articles/april-5-2026-fantasy-waiver-wire-roundup.html
 author: Allan Branstiter
 draft: false
+keywords:
+  - "waiver wire"
+  - "fantasy baseball"
+  - "Max Muncy"
+  - "Mark Vientos"
+  - "contact quality"
+  - "xwOBA"
+  - "Yahoo transactions"
 ---
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
@@ -30,7 +38,7 @@ draft: false
 Fourteen batters moved off Yahoo waivers more than 4,000 times this week. Most had a big game or a hot stretch. A few are being dropped for reasons that go deeper than a cold batting average. Here's the news, the production, and what the underlying numbers say about each one.
 
 <div style="overflow-x:auto;margin:2rem 0;">
-<table style="width:100%;border-collapse:collapse;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:0.875rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;white-space:nowrap;font-weight:600;color:#475569;text-transform:uppercase;font-size:0.75rem;letter-spacing:0.05em;">Player</th>

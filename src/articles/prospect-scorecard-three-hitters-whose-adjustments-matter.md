@@ -10,6 +10,14 @@ description: "The Prospect Scorecard applies five early-stabilizing process metr
 permalink: /articles/prospect-scorecard-three-hitters-whose-adjustments-matter.html
 author: Allan Branstiter
 draft: true
+keywords:
+  - "prospects"
+  - "MiLB"
+  - "Kahlil Watson"
+  - "Sam Antonacci"
+  - "Esmerlyn Valdez"
+  - "chase rate"
+  - "barrel rate"
 ---
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
@@ -226,7 +234,7 @@ The number to watch across the board is chase rate at 120 PA. That's roughly whe
 <div class="viz">
 <p class="viz__title">2026 Prospect Scorecard — Top 20 (Age 25 and Under, 50+ PA)</p>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.82rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.5rem;color:#6b7280;font-weight:600;font-size:0.7rem;text-transform:uppercase;letter-spacing:0.05em;">Player</th>

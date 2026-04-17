@@ -10,6 +10,13 @@ permalink: /articles/the-pop-up-problem.html
 author: Allan Branstiter
 level: Intermediate
 draft: false
+keywords:
+  - "Dylan Crews"
+  - "pop-up rate"
+  - "infield fly ball"
+  - "launch angle"
+  - "swing mechanics"
+  - "Washington Nationals"
 ---
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
@@ -126,7 +133,7 @@ A pop-up is a hitter getting *under* the ball instead of *through* it.
   <text x="420" y="196" text-anchor="middle" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">Attack angle: ~0–3°</text>
   <text x="420" y="211" text-anchor="middle" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">Bat path under center</text>
 </svg>
-<figcaption style="font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; font-style: italic;">The difference between a fly ball and a pop-up is where the bat barrel contacts the ball. A slight upswing finds the center and sends the ball upward at a useful angle. A flat bat slides under the equator and sends the ball nearly straight up.</figcaption>
+<figcaption>The difference between a fly ball and a pop-up is where the bat barrel contacts the ball. A slight upswing finds the center and sends the ball upward at a useful angle. A flat bat slides under the equator and sends the ball nearly straight up.</figcaption>
 </figure>
 
 Crews's <span class="term" data-term="k% (batter)">strikeout rate</span> jumped from 23.6 percent in 2025 to 31.3 percent this spring. His <span class="term" data-term="line drive rate (batter)">line drive rate</span>, the percentage of contact that goes sharp and flat, the kind that leads to hits, fell from 15.2 percent to 5.3 percent. And his IFFB% went from 6.8 percent to 55.6 percent. These three numbers, together, describe a hitter whose swing lost its path under pressure.
@@ -170,7 +177,7 @@ Crews's <span class="term" data-term="k% (batter)">strikeout rate</span> jumped 
   <rect x="290" y="270" width="12" height="12" fill="#ef4444" rx="2"/>
   <text x="308" y="281" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">2026 Spring</text>
 </svg>
-<figcaption style="font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; font-style: italic;">Three mechanical indicators from Crews's 2025 season (gray) vs. 2026 spring training (red). The IFFB% spike from 6.8 to 55.6 percent is the clearest signal of a broken swing path.</figcaption>
+<figcaption>Three mechanical indicators from Crews's 2025 season (gray) vs. 2026 spring training (red). The IFFB% spike from 6.8 to 55.6 percent is the clearest signal of a broken swing path.</figcaption>
 </figure>
 
 This is why the spring batting average doesn't tell you the thing you actually need to know. The batting average says he went 3-for-29. The batted ball data says his swing was failing in a specific, identifiable way.

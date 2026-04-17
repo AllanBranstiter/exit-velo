@@ -10,6 +10,14 @@ description: "Exit velocity measures the speed of the ball off the bat and why t
 permalink: /articles/exit-velocity-explained.html
 author: Allan Branstiter
 draft: false
+keywords:
+  - "exit velocity"
+  - "Statcast"
+  - "hard-hit rate"
+  - "xSLG"
+  - "batting average"
+  - "Roman Anthony"
+  - "contact quality"
 ---
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
@@ -68,7 +76,7 @@ Later that afternoon, Caleb Durbin of the New York Yankees bounced a soft ground
   <text x="368" y="232" text-anchor="middle" font-size="11" fill="#64748b" font-family="system-ui,-apple-system,sans-serif">Durbin</text>
   <text x="368" y="244" text-anchor="middle" font-size="10" fill="#94a3b8" font-family="system-ui,-apple-system,sans-serif">slow roller</text>
 </svg>
-<figcaption style="font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; font-style: italic;">Anthony's hard-hit fly ball reached the warning track and resulted in an out. Durbin's softly hit grounder barely left the infield grass but produced a hit.</figcaption>
+<figcaption>Anthony's hard-hit fly ball reached the warning track and resulted in an out. Durbin's softly hit grounder barely left the infield grass but produced a hit.</figcaption>
 </figure>
 
 If you read the official scorebook, the story seems pretty simple: Anthony was an out, Durbin hit a single. What it doesn't record is that Anthony struck the ball better than Durbin did: he hit the ball nearly twice as hard, and his overall contact was better. That it fell for an out was only due to where a wall was built in 1912.
@@ -125,7 +133,7 @@ Exit velocity is measured from the instant the bat makes contact to a fraction o
   <!-- Axis label -->
   <text x="400" y="134" text-anchor="middle" font-size="10.5" fill="#94a3b8" font-family="system-ui,-apple-system,sans-serif">Exit velocity (mph)</text>
 </svg>
-<figcaption style="font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; font-style: italic;">The slow roller and the flyout sit 49 miles per hour apart on this scale. The hard-hit line is at 95.</figcaption>
+<figcaption>The slow roller and the flyout sit 49 miles per hour apart on this scale. The hard-hit line is at 95.</figcaption>
 </figure>
 
 There is something slightly absurd about the fact that radar guns have been in baseball for decades, but only pointing at pitchers. We have always known, to the tenth of a mile per hour, how fast a curveball travels. We measured exit velocity league-wide for the first time in 2015. The hitter's side of the equation waited forty years for the same treatment.
@@ -175,7 +183,7 @@ League average hard-hit rate runs around 36 to 38 percent. The elite hitters in 
   <line x1="525" y1="98" x2="525" y2="104" stroke="#94a3b8" stroke-width="1"/>
   <text x="525" y="115" text-anchor="middle" font-size="9.5" fill="#94a3b8" font-family="system-ui,-apple-system,sans-serif">100%</text>
 </svg>
-<figcaption style="font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; font-style: italic;">More than half of Judge's balls in play qualify as hard hit. League average is 37 percent.</figcaption>
+<figcaption>More than half of Judge's balls in play qualify as hard hit. League average is 37 percent.</figcaption>
 </figure>
 
 Aaron Judge of the New York Yankees is the clearest case. His average exit velocity sits above 95 mph. The hard-hit threshold is a floor for his typical contact, not a ceiling. His hard-hit rate is near 55 percent.
@@ -228,7 +236,7 @@ The reverse is also true. A player whose slugging significantly outpaces his xSL
   <text x="160" y="123" text-anchor="middle" font-size="9.5" fill="#cbd5e1" font-family="system-ui,-apple-system,sans-serif">.350</text>
   <text x="530" y="123" text-anchor="middle" font-size="9.5" fill="#cbd5e1" font-family="system-ui,-apple-system,sans-serif">.550</text>
 </svg>
-<figcaption style="font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; font-style: italic;">Guerrero's contact quality said .506. His actual slugging was .467. When expected and actual diverge by this much, the gap usually closes in the hitter's favor.</figcaption>
+<figcaption>Guerrero's contact quality said .506. His actual slugging was .467. When expected and actual diverge by this much, the gap usually closes in the hitter's favor.</figcaption>
 </figure>
 
 Vladimir Guerrero Jr. of the Toronto Blue Jays is the clearest example of the gap running the other direction. His contact quality has exceeded .500 every year he's been in the league. His actual slugging hasn't kept up. This might be due to and number or factors — park dimension, how pitchers approach him, etc — but this gap tells us that he has the ability to perform better than he actually is if one of those factors changes. This is kind of a crazy thing to say since he's already of the sport's best players!
@@ -270,7 +278,7 @@ A hitter can drive the ball at 110 miles per hour and still produce mostly groun
   <!-- Pop-up label -->
   <text x="202" y="56" font-size="13" fill="#dc2626" font-family="system-ui,-apple-system,sans-serif">Pop-Up (45°+)</text>
 </svg>
-<figcaption style="font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; font-style: italic;">Assuming the ball is struck at the same contact point and has the same exit velocity, the attack angle determines how far the ball goes. A flat path produces grounders; an upward slope launches pop-ups. Batters seek to hit the ball on a slope between 10 and 20 degrees to produce home runs.</figcaption>
+<figcaption>Assuming the ball is struck at the same contact point and has the same exit velocity, the attack angle determines how far the ball goes. A flat path produces grounders; an upward slope launches pop-ups. Batters seek to hit the ball on a slope between 10 and 20 degrees to produce home runs.</figcaption>
 </figure>
 
 Let's look at Vlad Guerrero again. The dude has had elite exit velocity every year he's been in the league, but his attack angle is relatively flat. His expected slugging has exceeded .500 every year. He hit 23 home runs in 2025, a season where his contact quality said 35 or more. Exit velocity is part of the story. The swing mechanics are another.

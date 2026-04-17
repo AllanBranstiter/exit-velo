@@ -1,6 +1,6 @@
 {% extends "base.njk" %}
 {% block content %}
-  <main class="page">
+  <main class="page" id="main-content">
     <div class="article-wrap">
 
       <header class="article-header">
@@ -53,7 +53,8 @@
       "@type": "WebPage",
       "@id": {{ ("https://exitvelo.us" + url) | json }}
     }{% if category %},
-    "articleSection": {{ category | json }}{% endif %}
+    "articleSection": {{ category | json }}{% endif %}{% if keywords %},
+    "keywords": {{ keywords | json }}{% endif %}
   }
   </script>
 {% endblock %}

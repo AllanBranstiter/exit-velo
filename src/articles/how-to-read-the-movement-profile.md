@@ -12,6 +12,15 @@ level: Intermediate
 image: /images/skenes-savant-top-row.png
 image_alt: "Paul Skenes's Baseball Savant page showing his player card, 2025 MLB percentile rankings, and Movement Profile chart"
 draft: false
+keywords:
+  - "movement profile"
+  - "Baseball Savant"
+  - "pitch movement"
+  - "induced break"
+  - "Paul Skenes"
+  - "Logan Webb"
+  - "fastball"
+  - "slider"
 ---
 
 Near the top-right corner of every <span class="term" data-term="baseball savant">Baseball Savant</span> pitcher page, there is a scatter plot labeled "Movement Profile (Induced Break)." It's a circular grid measured in inches, with different colored dots scattered around it in bunches. Tons of folks see it, but get nothing from it before moving on to the numbers they recognize. And who can blame them? It can be pretty tough to interpret even if you've been watching baseball for years.
@@ -189,7 +198,7 @@ The hatched zones on the chart — the diagonal-striped ovals — mark where the
 
 <div class="viz">
 <p class="viz__title">Paul Skenes — 2025 Pitch Arsenal</p>
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;">Pitch</th>
@@ -332,7 +341,7 @@ Skenes was 23 years old in 2025. He had, at that age, one of the most clearly di
 
 <div class="viz">
 <p class="viz__title">Logan Webb — 2025 Pitch Arsenal</p>
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;">Pitch</th>

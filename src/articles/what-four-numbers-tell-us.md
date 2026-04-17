@@ -10,6 +10,14 @@ description: "The 2026 rookie class just broke records. Here's how to use bat sp
 permalink: /articles/examining-the-swings-of-the-2026-rookie-class.html
 author: Allan Branstiter
 draft: false
+keywords:
+  - "2026 rookies"
+  - "bat speed"
+  - "swing length"
+  - "max exit velocity"
+  - "sprint speed"
+  - "Sal Stewart"
+  - "Owen Caissie"
 ---
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
@@ -74,7 +82,7 @@ function tableToggle(prefix, view) {
 </div>
 </div>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;">Player</th>

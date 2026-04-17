@@ -10,6 +10,15 @@ description: "How Brandon Williamson overhauled his pitch mix between his first 
 permalink: /articles/how-brandon-got-his-groove-back.html
 author: Allan Branstiter
 draft: false
+keywords:
+  - "Brandon Williamson"
+  - "Stuff+"
+  - "Location+"
+  - "Pitching+"
+  - "changeup"
+  - "cutter"
+  - "Tommy John"
+  - "Cincinnati Reds"
 ---
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
@@ -42,7 +51,7 @@ He didn't simply perform better — his underlying pitch data says he basically 
 When you look at Williamson's pitch mix vs Pittsburgh and vs Miami, he looks like two completely different pitchers.
 
 <div style="overflow-x:auto;margin:2rem auto;max-width:580px;">
-<table style="width:100%;border-collapse:collapse;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:0.875rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;white-space:nowrap;font-weight:600;color:#475569;text-transform:uppercase;font-size:0.75rem;letter-spacing:0.05em;">Pitch</th>
@@ -80,7 +89,7 @@ On March 31, Williamson's changeup graded out at an 81 Stuff+, a 64 Location+, a
 On April 6, the same pitch graded at 100 Stuff+, 114 Location+, and 113 Pitching+. He went from a changeup that was actively hurting him to an above-average pitch, and he doubled its usage to 28%.
 
 <div style="overflow-x:auto;margin:2rem auto;max-width:540px;">
-<table style="width:100%;border-collapse:collapse;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:0.875rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;white-space:nowrap;font-weight:600;color:#475569;text-transform:uppercase;font-size:0.75rem;letter-spacing:0.05em;">Changeup</th>
@@ -111,7 +120,7 @@ It got more precise.
 Location+ jumped from 97.5 to 148.7, and Pitching+ followed it from 109 to 157. A Location+ of 148 is elite. Even in a single-game sample, that's a pitcher painting. He spotted that pitch exactly where he wanted it, and it showed. A cutter located on the hands or off the back hip of a right-handed hitter produces weak contact even when the pitch itself isn't special. That's what happened. He also bumped usage from 20% to 28%, making the cutter and changeup a roughly equal pair at the top of his arsenal.
 
 <div style="overflow-x:auto;margin:2rem auto;max-width:540px;">
-<table style="width:100%;border-collapse:collapse;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:0.875rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;white-space:nowrap;font-weight:600;color:#475569;text-transform:uppercase;font-size:0.75rem;letter-spacing:0.05em;">Cutter</th>
@@ -136,7 +145,7 @@ I think the cutter improvement says something about Williamson's command returni
 The result of the mix change shows up most clearly in the batted-ball data.
 
 <div style="overflow-x:auto;margin:2rem auto;max-width:540px;">
-<table style="width:100%;border-collapse:collapse;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:0.875rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;white-space:nowrap;font-weight:600;color:#475569;text-transform:uppercase;font-size:0.75rem;letter-spacing:0.05em;">Metric</th>
@@ -193,7 +202,7 @@ That's what changeups and cutters do. They don't make batters swing softer, they
   <!-- Pop-up label -->
   <text x="202" y="56" font-size="13" fill="#dc2626" font-family="system-ui,-apple-system,sans-serif">Pop-Up (45°+)</text>
 </svg>
-<figcaption style="font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; font-style: italic;">The home run sweet spot sits between 10 and 30 degrees of launch angle. Many balls hit below 10 degrees are hit into the ground. The average launch angle against Brandon Williamson against the Marlins was 6.5 degrees.</figcaption>
+<figcaption>The home run sweet spot sits between 10 and 30 degrees of launch angle. Many balls hit below 10 degrees are hit into the ground. The average launch angle against Brandon Williamson against the Marlins was 6.5 degrees.</figcaption>
 </figure>
 
 I should also acknowledge the opponent. Pittsburgh's Opening Day lineup is a better group of hitters than what Miami put out on April 6. The Marlins are rebuilding, and a weaker lineup changes the degree of difficulty. The pitch-quality grades account for count and sequencing, but they don't adjust for the talent of the opposing lineup. Some portion of the improvement is Williamson facing easier at-bats. How much is hard to say from two starts.

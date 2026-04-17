@@ -11,6 +11,13 @@ author: Allan Branstiter
 image: /images/rece-hinds-prospect-card.png
 image_alt: "Rece Hinds MiLB prospect card showing his 2025-2026 AAA Statcast percentile rankings, composite scores, stat line, and year-over-year improvements"
 draft: false
+keywords:
+  - "Rece Hinds"
+  - "strikeout rate"
+  - "chase rate"
+  - "Cincinnati Reds"
+  - "swing decisions"
+  - "pitch recognition"
 ---
 
 <figure style="margin:0 0 2rem;">
@@ -57,7 +64,7 @@ Here's another fact about his 2024 and 2025 time in the show interesting: his ex
 <div class="viz">
 <p class="viz__title">Hinds' Two MLB Stints</p>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;">Metric</th>
@@ -128,7 +135,7 @@ There was a book on Hinds, and they'd all read it.
 <div class="viz">
 <p class="viz__title">Where Pitchers Attacked Hinds (354 MLB Pitches)</p>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;">Location</th>
@@ -203,7 +210,7 @@ That doesn't mean he's being passive. His swing rate on pitches in the zone only
 <div class="viz">
 <p class="viz__title">Hinds' Triple-A Improvement (Three-Year AAA)</p>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;">Metric</th>

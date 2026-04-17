@@ -10,6 +10,13 @@ description: "Five Statcast process metrics that stabilize at 150 plate appearan
 permalink: /articles/grading-the-2025-rookie-class.html
 author: Allan Branstiter
 draft: false
+keywords:
+  - "rookie class"
+  - "2025 rookies"
+  - "prospect scorecard"
+  - "xwOBA"
+  - "barrel rate"
+  - "plate discipline"
 ---
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
@@ -80,7 +87,7 @@ function tableToggle(prefix, view) {
 </div>
 </div>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;">Player</th>
@@ -469,7 +476,7 @@ There's less helium in **Drake Baldwin's** profile, but I think the 2025 NL Rook
 </div>
 </div>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;">Player</th>
@@ -994,7 +1001,7 @@ The same might happen to Wilson. Once pitchers start working the edges, the ball
 </div>
 </div>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;">Player</th>
@@ -1219,7 +1226,7 @@ If he tightens the zone even slightly, the underlying contact metrics suggest a 
 </div>
 </div>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;">Player</th>
@@ -1372,7 +1379,7 @@ The prospect hype around **Marcelo Mayer** was significant when he was promoted 
 </div>
 </div>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;">Player</th>

@@ -12,6 +12,14 @@ author: Allan Branstiter
 image: /images/nick-kurtz-savant.png
 image_alt: "Nick Kurtz's Baseball Savant page showing his 2026 MLB Percentile Rankings, career batting stats, spray chart, and rolling xwOBA"
 draft: false
+keywords:
+  - "Nick Kurtz"
+  - "sophomore slump"
+  - "exit velocity"
+  - "strikeout rate"
+  - "platoon splits"
+  - "Oakland Athletics"
+  - "barrel rate"
 ---
 
 <figure style="margin:0 0 2rem;">
@@ -80,7 +88,7 @@ That's partly because his <span class="term" data-term="bb% (batter)">walk rate<
 <div class="viz">
 <p class="viz__title">Nick Kurtz — 2025 vs. 2026</p>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;">Metric</th>
@@ -185,7 +193,7 @@ But the pattern they describe, where the vulnerable pitches are exactly the ones
 <div class="viz">
 <p class="viz__title">Kurtz's Pitch Values — 2025 vs. 2026 (runs per 100 pitches)</p>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;">Pitch</th>
@@ -270,7 +278,7 @@ The .290 batting average and 36 home runs on the season were a weighted average 
 <div class="viz">
 <p class="viz__title">Kurtz's 2025 Platoon Split</p>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;">Split</th>
@@ -340,7 +348,7 @@ Every comp who had a sophomore K% spike also saw their EV decline or hold flat.
 <div class="viz">
 <p class="viz__title">Sophomore K% Spikes — Exit Velocity Is the Differentiator</p>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;">Player</th>

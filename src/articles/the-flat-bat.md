@@ -10,6 +10,15 @@ permalink: /articles/the-flat-bat.html
 author: Allan Branstiter
 level: Intermediate
 draft: false
+keywords:
+  - "attack angle"
+  - "first base"
+  - "home runs"
+  - "Vladimir Guerrero Jr"
+  - "Nick Kurtz"
+  - "Freddie Freeman"
+  - "fantasy draft"
+  - "xSLG"
 ---
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
@@ -73,7 +82,7 @@ In 2015, Major League Baseball installed a system called <span class="term" data
   <!-- Pop-up label -->
   <text x="202" y="56" font-size="13" fill="#dc2626" font-family="system-ui,-apple-system,sans-serif">Pop-Up (45°+)</text>
 </svg>
-<figcaption style="font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; font-style: italic;">The home run sweet spot sits between 10 and 30 degrees of launch angle. Many balls hit below 10 degrees are hit into the ground. Guerrero Jr.'s average contact in 2025 came in at 7.8 degrees.</figcaption>
+<figcaption>The home run sweet spot sits between 10 and 30 degrees of launch angle. Many balls hit below 10 degrees are hit into the ground. Guerrero Jr.'s average contact in 2025 came in at 7.8 degrees.</figcaption>
 </figure>
 
 Think of exit velocity as the strength of the hit and launch angle as the direction. Exit velocity alone doesn't win you anything. If you hit a ball at 110 miles per hour directly into the ground, it's a routine grounder, maybe a single if you're fast. But hit that same ball at 15 degrees off the ground and it clears the fence. The difference between those two outcomes is not power. It's angle.

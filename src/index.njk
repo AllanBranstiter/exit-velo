@@ -1,16 +1,50 @@
 {% extends "base.njk" %}
 {% block content %}
-  <main class="page">
+  <main class="page" id="main-content">
 
     <header class="home-header">
       <h1 class="home-header__title">Exit Velo</h1>
       <p class="home-header__description">Advanced stats. Beginner friendly.</p>
     </header>
 
+    <section class="search-filters" aria-label="Filter articles">
+      <div class="search-filters__search">
+        <input
+          type="search"
+          id="article-search"
+          class="search-filters__input"
+          placeholder="Search articles..."
+          autocomplete="off"
+          aria-label="Search articles by title, description, or keyword"
+        >
+      </div>
+
+      <div class="search-filters__group">
+        <span class="search-filters__label">Category</span>
+        <div class="search-filters__pills" id="category-pills" role="group" aria-label="Filter by category">
+          <button class="search-filters__pill search-filters__pill--active" data-category="all">All</button>
+          <button class="search-filters__pill" data-category="Fantasy Baseball">Fantasy</button>
+          <button class="search-filters__pill" data-category="Stat Explainer">Explainers</button>
+          <button class="search-filters__pill" data-category="Player Profile">Players</button>
+          <button class="search-filters__pill" data-category="Rankings">Rankings</button>
+        </div>
+      </div>
+
+      <div class="search-filters__group">
+        <span class="search-filters__label">Level</span>
+        <div class="search-filters__pills" id="level-pills" role="group" aria-label="Filter by level">
+          <button class="search-filters__pill search-filters__pill--active" data-level="all">All</button>
+          <button class="search-filters__pill" data-level="Beginner">Beginner</button>
+          <button class="search-filters__pill" data-level="Intermediate">Intermediate</button>
+          <button class="search-filters__pill" data-level="Advanced">Advanced</button>
+        </div>
+      </div>
+    </section>
+
     <ul class="article-list">
 
       {% for article in articles %}
-      <li class="article-card">
+      <li class="article-card" data-url="{{ article.url }}">
         <div class="article-card__meta">
           <span class="article-card__category">{{ article.frontmatter.category }}</span>
           {% if article.frontmatter.level %}<span class="article-header__level article-header__level--{{ article.frontmatter.level | lower }}">{{ article.frontmatter.level }}</span>{% endif %}
@@ -24,7 +58,29 @@
       </li>
       {% endfor %}
 
+      <li class="article-list__empty" id="no-results" hidden>
+        No articles match your filters.
+        <button class="article-list__clear" id="clear-filters">Clear all filters</button>
+      </li>
+
     </ul>
 
+    <script type="application/json" id="article-search-data">
+    [
+      {% for article in articles %}
+      {
+        "url": {{ article.url | json }},
+        "title": {{ article.frontmatter.title | json }},
+        "description": {{ article.frontmatter.description | json }},
+        "category": {{ article.frontmatter.category | json }},
+        "level": {{ (article.frontmatter.level or "") | json }},
+        "keywords": {{ (article.frontmatter.keywords or []) | json }}
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+    </script>
+
   </main>
+
+  <script src="/js/search.js"></script>
 {% endblock %}

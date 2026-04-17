@@ -7,7 +7,7 @@
   --bg:           #fff;
   --bg-subtle:    #f9fafb;
   --text:         #1a1a1a;
-  --text-muted:   #6b7280;
+  --text-muted:   #556270;
   --border:       #e5e7eb;
   --nav-bg:       #1c2533;
   --nav-text:     #fff;
@@ -39,6 +39,39 @@ body {
 img { max-width: 100%; display: block; }
 a { color: var(--link); text-decoration: none; }
 a:hover { color: var(--link-hover); text-decoration: underline; }
+
+/* --- Skip Link --- */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  background: var(--accent);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0 0 4px 4px;
+  font-family: var(--font-ui);
+  font-size: 0.875rem;
+  font-weight: 600;
+  z-index: 200;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* --- Focus Styles --- */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.nav__logo:focus-visible,
+.nav__links a:focus-visible {
+  outline-color: #fff;
+}
 
 /* --- Navigation --- */
 .nav {
@@ -86,7 +119,7 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 .nav__tagline {
   font-family: var(--font-ui);
   font-size: 0.75rem;
-  color: rgb(255 255 255 / 50%);
+  color: rgb(255 255 255 / 70%);
   letter-spacing: 0.03em;
   margin: 0;
   flex: 1;
@@ -121,9 +154,9 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 
 /* --- Homepage --- */
 .home-header {
-  padding: 2.5rem 0 2rem;
+  padding: 2.5rem 0 1rem;
   border-bottom: 1px solid var(--border);
-  margin-bottom: 2rem;
+  margin-bottom: 0;
 }
 
 .home-header__title {
@@ -139,6 +172,115 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   color: var(--text-muted);
   max-width: 600px;
   line-height: 1.6;
+}
+
+/* --- Search & Filters --- */
+.search-filters {
+  padding: 0.75rem 0 1.25rem;
+  border-bottom: 1px solid var(--border);
+  display: grid;
+  gap: 0.6rem;
+}
+
+.search-filters__input {
+  width: 100%;
+  padding: 0.6rem 0.85rem;
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  border: 1.5px solid var(--border);
+  border-radius: 5px;
+  background: var(--bg);
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.search-filters__input:focus {
+  border-color: var(--accent);
+}
+
+.search-filters__input::placeholder {
+  color: var(--text-muted);
+}
+
+.search-filters__group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.search-filters__label {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  min-width: 4.5rem;
+}
+
+.search-filters__pills {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.search-filters__pill {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.4rem 0.7rem;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.search-filters__pill:hover {
+  border-color: var(--accent);
+  color: var(--accent-dark);
+}
+
+.search-filters__pill--active {
+  background: var(--accent-light);
+  border-color: var(--accent);
+  color: var(--accent-dark);
+}
+
+/* --- No Results --- */
+.article-list__empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  list-style: none;
+}
+
+.article-list__clear {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.article-list__clear:hover {
+  color: var(--accent-dark);
+}
+
+.article-card[hidden] {
+  display: none;
 }
 
 /* --- Article Cards --- */
@@ -166,7 +308,7 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   background: var(--accent-light);
   color: var(--accent-dark);
   font-weight: 600;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   padding: 0.2rem 0.5rem;
@@ -237,7 +379,7 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   background: var(--accent-light);
   color: var(--accent-dark);
   font-weight: 600;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-family: var(--font-ui);
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -247,7 +389,7 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 
 .article-header__level {
   font-weight: 600;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-family: var(--font-ui);
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -333,13 +475,28 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   font-style: italic;
 }
 
+.article-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+}
+
+.article-body figcaption {
+  font-family: var(--font-ui);
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+  font-style: italic;
+  line-height: 1.55;
+}
+
 /* --- Glossary Terms --- */
 .term {
   border-bottom: 1px dotted var(--accent);
   cursor: pointer;
   color: inherit;
   transition: color 0.15s, border-color 0.15s;
-  white-space: nowrap;
 }
 
 .term:hover,
@@ -458,6 +615,12 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   .home-header { padding: 1.75rem 0 1.5rem; }
   .home-header__title { font-size: 1.4rem; }
 
+  .search-filters__group {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
   .article-wrap { padding: 1.75rem 0 3rem; }
   .article-header__title { font-size: 1.65rem; }
   .article-body { font-size: 1.05rem; }
@@ -564,5 +727,13 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 }
 
 @media (width <= 640px) {
-  .nav__links { display: none; }
+  .nav__tagline { display: none; }
+  .nav__links { gap: 1rem; }
+  .nav__links a { font-size: 0.8rem; }
+}
+
+/* --- Reduced Motion --- */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: 0.01ms !important; }
 }

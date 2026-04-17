@@ -12,6 +12,12 @@ author: Allan Branstiter
 image: /images/nick-yorke-savant.png
 image_alt: "Nick Yorke's Baseball Savant page showing his 2026 MLB Percentile Rankings, career batting stats, spray chart, and rolling xwOBA"
 draft: false
+keywords:
+  - "Nick Yorke"
+  - "bat speed"
+  - "swing consistency"
+  - "Pittsburgh Pirates"
+  - "contact quality"
 ---
 
 <figure style="margin:0 0 2rem;">
@@ -64,7 +70,7 @@ In 2026, it tightened again. 61.4 percent of his swings now land in the 70-to-75
 <div class="viz">
 <p class="viz__title">Nick Yorke's Bat Speed Distribution — Three MLB Stints</p>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;">Speed Bucket</th>
@@ -165,7 +171,7 @@ In 2026, it tightened again. 61.4 percent of his swings now land in the 70-to-75
   <text x="630" y="330" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="10" fill="#94a3b8">80</text>
   <text x="350" y="346" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#94a3b8">bat speed (mph)</text>
 </svg>
-<figcaption style="font-size:0.78rem;color:#6b7280;margin-top:0.5rem;line-height:1.5;">Each bubble represents a 5-mph speed bucket, sized by the percentage of swings in that range (232 total swings across three MLB stints). The dashed line marks the average bat speed (71.9 mph), which barely moved. The mass shifted. Source: Baseball Savant pitch-level exports.</figcaption>
+<figcaption>Each bubble represents a 5-mph speed bucket, sized by the percentage of swings in that range (232 total swings across three MLB stints). The dashed line marks the average bat speed (71.9 mph), which barely moved. The mass shifted. Source: Baseball Savant pitch-level exports.</figcaption>
 </figure>
 
 The fast-swing bucket told the clearest story of the three stints: 31.3 percent of his swings were at 75 mph or higher in 2024, dropping to 20.7 in 2025 and 13.6 in 2026.
@@ -228,7 +234,7 @@ The one wrinkle: his tentative swings (under 65 mph) ticked back up from 1.7 to 
   <text x="560" y="198" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#475569" font-style="italic">relaxed stance, lift work</text>
   <line x1="560" y1="173" x2="560" y2="150" stroke="#475569" stroke-width="1" stroke-dasharray="3,2"/>
 </svg>
-<figcaption style="font-size:0.78rem;color:#6b7280;margin-top:0.5rem;line-height:1.5;">Yorke's developmental arc across five periods. Amber nodes: volatile or pressing phases. Gray: transitional. Green: controlled approach. SD = standard deviation of bat speed (MLB stints only).</figcaption>
+<figcaption>Yorke's developmental arc across five periods. Amber nodes: volatile or pressing phases. Gray: transitional. Green: controlled approach. SD = standard deviation of bat speed (MLB stints only).</figcaption>
 </figure>
 
 Yorke was drafted 17th overall by the Red Sox in 2020 as a shortstop. He moved to second base through the minors, got traded to Pittsburgh in mid-2024 for Quinn Priester, and tore up AAA Indianapolis: .333/.416/.498 across 76 games after the trade, with an average <span class="term" data-term="exit velocity">exit velocity</span> of 91.5 mph on balls in play. He was a contact-first hitter with genuine bat-to-ball skill and pitch recognition, the kind of prospect whose value is the hit tool, not the power.
@@ -256,7 +262,7 @@ I pulled Yorke's pitch-level Statcast data from both his 2024 and 2025 AAA seaso
 <div class="viz">
 <p class="viz__title">Nick Yorke's Discipline Arc — MiLB Through MLB</p>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;">Metric</th>
@@ -347,7 +353,7 @@ His exit velocity on balls in play recovered to 90.0 mph, matching his strong 20
 <div class="viz">
 <p class="viz__title">Exit Velocity Arc — Collapse and Recovery</p>
 <div style="overflow-x:auto;">
-<table style="width:100%;border-collapse:collapse;font-family:system-ui,-apple-system,sans-serif;font-size:0.85rem;">
+<table>
   <thead>
     <tr style="border-bottom:2px solid #e5e7eb;">
       <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;">Period</th>
@@ -441,7 +447,7 @@ His <span class="term" data-term="attack angle">attack angle</span> is also 1.8 
   <!-- Pop-up label -->
   <text x="282" y="56" font-size="13" fill="#dc2626" font-family="system-ui,-apple-system,sans-serif">Pop-Up (45°+)</text>
 </svg>
-<figcaption style="font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; font-style: italic;">The home run sweet spot sits between 10 and 30 degrees of launch angle. Many balls hit below 10 degrees are hit into the ground. Yorke's is at 1.8 degrees so far in 2026.</figcaption>
+<figcaption>The home run sweet spot sits between 10 and 30 degrees of launch angle. Many balls hit below 10 degrees are hit into the ground. Yorke's is at 1.8 degrees so far in 2026.</figcaption>
 </figure>
 
 His <span class="term" data-term="ground ball rate (batter)">ground ball rate</span> is 61 percent across those 18 balls in play, a number that will move but the direction is concerning. His <span class="term" data-term="xslg">expected slugging</span> is .388, down from .511 in his 42-PA debut, though neither sample is large enough to treat as definitive. His contact is good, but he's hitting everything into the turf.
@@ -514,7 +520,7 @@ Anyways, the contact quality is there, but the loft isn't. And it hasn't been at
   <line x1="143" y1="208" x2="143" y2="80" stroke="#16a34a" stroke-width="0.8" stroke-dasharray="3,2" opacity="0.35"/>
   <defs></defs>
 </svg>
-<figcaption style="font-size:0.78rem;color:#6b7280;margin-top:0.5rem;line-height:1.5;">Yorke's three MLB stints (faded dots) show his blast rate jumping from 7.0% to 15.9% without his attack angle changing. The comps show what that blast rate could produce with more loft. Source: FanGraphs, Baseball Savant.</figcaption>
+<figcaption>Yorke's three MLB stints (faded dots) show his blast rate jumping from 7.0% to 15.9% without his attack angle changing. The comps show what that blast rate could produce with more loft. Source: FanGraphs, Baseball Savant.</figcaption>
 </figure>
 
 **If the flat angle is what makes the contact gains work, or if it's simply how Yorke swings, the ceiling is a high-average, low-power utility hitter.**
