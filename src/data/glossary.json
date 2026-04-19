@@ -245,7 +245,7 @@
   },
   "xwoba": {
     "term": "Expected wOBA (xwOBA)",
-    "definition": "An estimate of how well a hitter actually hit the ball, based on exit velocity and launch angle, regardless of where those batted balls happened to land. League average xwOBA is roughly .320; elite hitters typically exceed .370. When a hitter's actual results fall well short of his expected number, he's likely been unlucky — a potential sign of a coming bounce-back."
+    "definition": "An estimate of how well the ball was actually hit, based on exit velocity and launch angle, regardless of where fielders happened to be. It uses the same scale as wOBA (weighted on-base average), which weights each offensive outcome by how many runs it actually generates. League average xwOBA is roughly .320; elite hitters typically exceed .370. When used for pitchers (xwOBA against), it measures the quality of contact a pitcher is allowing. When a hitter's actual results fall well short of his expected number, he's likely been unlucky, a potential sign of a coming bounce-back."
   },
   "xera": {
     "term": "xERA (Expected ERA)",
@@ -262,6 +262,10 @@
   "whiff%": {
     "term": "Whiff Rate (Whiff%)",
     "definition": "The percentage of a pitcher's individual pitches that produce a swing and a miss. League average is approximately 24 to 25 percent; above 30 percent is elite. Unlike strikeout rate, which is measured per plate appearance, whiff rate is measured per pitch and gives a more precise read on how often a pitcher is genuinely fooling hitters."
+  },
+  "whiff% (batter)": {
+    "term": "Whiff Rate (Batter)",
+    "definition": "The percentage of a batter's swings that result in a complete miss. League average is approximately 23 to 25 percent. A high whiff rate suggests a hitter is struggling to make contact, especially when combined with a long swing path or increased swing effort. Unlike the pitcher version of this stat, which is measured per pitch thrown, the batter version counts only swings, making it a more direct measure of how often a hitter misses when he commits."
   },
   "magnus effect": {
     "term": "Magnus Effect",
@@ -298,6 +302,10 @@
   "era": {
     "term": "ERA (Earned Run Average)",
     "definition": "The average number of earned runs a pitcher allows per nine innings. League average is typically around 4.00 to 4.20; below 3.50 is good; below 3.00 is elite. ERA is the most common traditional measure of pitching, but it can be inflated or deflated by defense quality and by how hits and walks happen to cluster together in a game."
+  },
+  "fip": {
+    "term": "FIP (Fielding Independent Pitching)",
+    "definition": "An estimate of what a pitcher's ERA should be based only on the outcomes he controls directly: strikeouts, walks, hit-by-pitches, and home runs. It strips out the noise of defense, sequencing, and luck on balls in play. League average FIP is typically around 4.00 to 4.20; below 3.50 is strong; below 3.00 is elite. When a pitcher's ERA is much lower than his FIP, that usually means his results have been luckier than his true talent, and regression is likely."
   },
   "xfip": {
     "term": "xFIP (Expected Fielding Independent Pitching)",
@@ -644,7 +652,7 @@
     "definition": "The spread of a hitter's individual swing speeds across all competitive swings, measured by the standard deviation of bat speed in mph. The league median standard deviation is approximately 3.7 mph (stable across 2023 to 2025), with most hitters falling between 3.4 and 4.3 mph. A standard deviation below 3.5 means a hitter swings at a consistent speed, staying near his natural bat speed on most swings. Above 4.5 indicates a hitter alternating between tentative slow swings and max-effort fast swings, a volatility pattern often associated with pressing or indecision at the plate."
   },
   "squared-up rate": {
-    "term": "Squared-Up Rate (SqUpSw%)",
+    "term": "Squared-Up Contact Rate (SqUpSw%)",
     "definition": "The percentage of a hitter's competitive swings where the ball makes clean contact with the sweet spot of the bat, as measured by Statcast bat tracking. League average is approximately 24 to 26 percent. Higher squared-up rates produce harder contact and more line drives. It measures the quality of the swing path, not just whether the hitter made contact, making it a useful complement to traditional contact rate."
   },
   "blast rate": {
@@ -689,10 +697,46 @@
   },
   "run value": {
     "term": "Run Value (per 100 pitches)",
-    "definition": "A measure of how much offensive value a hitter generates against a specific pitch type, expressed as runs above or below average per 100 pitches of that type faced. A positive number means the hitter is punishing that pitch; a negative number means the pitch is beating him. For example, a +5.0 run value against four-seam fastballs means the hitter is generating roughly 5 runs of offense above average for every 100 fastballs he sees. These values are noisy in small samples and typically need 200-plus plate appearances to stabilize."
+    "definition": "A measure of how much value a specific pitch generates, expressed as runs above or below average per 100 pitches. From a pitcher's perspective, a positive run value means the pitch is preventing runs effectively (beating hitters); a negative run value means hitters are punishing it. From a hitter's perspective, a positive number means he's crushing that pitch type; a negative number means it's beating him. For example, a pitcher whose slider has a +3.0 run value is generating roughly 3 runs of value above average for every 100 sliders thrown. These values are noisy in small samples and typically need 200-plus pitches of a given type to stabilize."
   },
   "park factor": {
     "term": "Park Factor",
     "definition": "A number that measures how much a ballpark inflates or deflates a specific stat compared to a neutral park. A park factor of 100 is neutral. Above 100 means the park boosts that stat; below 100 means it suppresses it. Great American Ball Park in Cincinnati, for example, has a 119 home run park factor, meaning about 19 percent more home runs are hit there than in a neutral park. When evaluating a hitter's power numbers, it helps to know whether the ballpark is doing some of the work."
+  },
+  "strand rate": {
+    "term": "Strand Rate (LOB%)",
+    "definition": "The percentage of baserunners a pitcher allows who do not score — runners who are left on base. League average is approximately 70 to 72 percent. A strand rate above 80 percent in a small sample usually indicates luck rather than skill, because most pitchers drift back toward 72 percent over a full season regardless of talent. A very high strand rate (85 percent or above) paired with a low ERA is a strong signal that the ERA is being propped up by good fortune and will rise."
+  },
+  "lob%": {
+    "term": "Strand Rate (LOB%)",
+    "definition": "The percentage of baserunners a pitcher allows who do not score — runners who are left on base. League average is approximately 70 to 72 percent. A strand rate above 80 percent in a small sample usually indicates luck rather than skill, because most pitchers drift back toward 72 percent over a full season regardless of talent. A very high strand rate (85 percent or above) paired with a low ERA is a strong signal that the ERA is being propped up by good fortune and will rise."
+  },
+  "k-bb%": {
+    "term": "K-BB% (Strikeout Rate Minus Walk Rate)",
+    "definition": "A pitcher's strikeout rate minus his walk rate, expressed as a single percentage. It captures the two outcomes a pitcher controls most directly — missing bats and avoiding free passes — in one number. League average is approximately 12 to 14 percent; above 20 percent is strong; above 25 percent is elite. K-BB% stabilizes faster than ERA and is one of the best single-number predictors of pitcher quality in small samples."
+  },
+  "sweet spot rate": {
+    "term": "Sweet Spot Rate",
+    "definition": "The percentage of a hitter's batted balls launched between 8 and 32 degrees, the range that produces the most line drives and well-struck fly balls. League average is roughly 33 to 35 percent. A high sweet spot rate means a hitter is consistently finding the launch angles where extra-base hits live; a low rate means too many ground balls or popups. It's a useful complement to barrel rate because it captures a wider band of productive contact, not just the most extreme damage."
+  },
+  "spd": {
+    "term": "FanGraphs Speed Score (Spd)",
+    "definition": "A composite metric from FanGraphs that estimates a player's overall game speed on a 0-to-10 scale, combining stolen base rate, stolen base attempts, triples rate, and runs scored percentage. A score above 6.0 is above average; above 7.0 is elite. Unlike sprint speed, which measures raw top-end velocity in a straight line, Spd captures how effectively a player translates his athleticism into baserunning production. It can decline even when sprint speed holds steady, because it reflects game-speed decision-making, acceleration, and aggressiveness, not just how fast someone runs in a 90-foot dash."
+  },
+  "secondary lead": {
+    "term": "Secondary Lead",
+    "definition": "The distance a baserunner moves from his starting position toward the next base after the pitcher releases the ball, measured in feet. It captures the shuffle or crossover steps a runner takes to extend his lead as the pitch is delivered. On steal attempts, a longer secondary lead signals explosive, committed movement; a shorter one can indicate hesitation or declining burst. Statcast tracks this on every pitch. League average varies by base and situation, but on steal attempts, aggressive runners typically reach 22 to 26 feet of secondary lead."
+  },
+  "hp-to-1b": {
+    "term": "Home-to-First Time (HP-to-1B)",
+    "definition": "The time, in seconds, from the moment the ball is hit (or bunted) to the moment the batter touches first base. Statcast measures this on competitive runs where the batter is trying to beat out a play. For left-handed hitters who stand closer to first base, times below 4.20 seconds are fast and above 4.50 seconds are slow. Unlike sprint speed, which measures peak velocity during a run, HP-to-1B captures the full sequence from the batter's box: reaction, first step, acceleration through the bag."
+  },
+  "war": {
+    "term": "Wins Above Replacement (WAR)",
+    "definition": "An estimate of how many more wins a player contributes to his team compared to a freely available minor league replacement. It combines hitting, baserunning, fielding, and positional value into a single number. A 0 WAR player is replacement level (the kind of player a team could sign off waivers for the minimum salary); 2.0 is a solid regular; 5.0 is an All-Star; 8.0 or above is an MVP candidate. FanGraphs (fWAR) and Baseball Reference (bWAR) calculate it slightly differently, but both versions aim to answer the same question: how valuable is this player overall?"
+  },
+  "oaa": {
+    "term": "Outs Above Average (OAA)",
+    "definition": "A Statcast fielding metric that measures how many more (or fewer) outs a defender converts compared to an average fielder at the same position, accounting for the difficulty of each play. Positive numbers mean better than average; negative means worse. An OAA of +10 or above over a full season is elite. It's the most reliable public defensive metric because it uses actual player tracking data rather than the subjective scoring that traditional fielding stats rely on."
   }
 }
