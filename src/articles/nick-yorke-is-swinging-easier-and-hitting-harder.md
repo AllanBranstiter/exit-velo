@@ -26,9 +26,9 @@ keywords:
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
 <summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
-<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+<span class="disclosure-arrow">&#9654;</span> TLDR
 </summary>
-<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
 
 <p>Nick Yorke's <span class="term" data-term="bat speed">bat speed</span> hasn't changed across three MLB call-ups (71.8, 71.9, 71.9 mph), but the consistency of his swings has. The <span class="term" data-term="standard deviation">standard deviation</span> of his bat speed dropped from 4.78 to 3.42 mph as he stopped overswinging and started trusting his natural speed band. The result is a recovered <span class="term" data-term="exit velocity">exit velocity</span> of 90.0 mph, career-best <span class="term" data-term="contact rate">contact rates</span>, and a <span class="term" data-term="k% (batter)">strikeout rate</span> that has dropped at every call-up (28.6, 20.8, 14.3 percent). The catch: zero <span class="term" data-term="barrel rate (batter)">barrels</span>, zero home runs, and a 1.8-degree <span class="term" data-term="attack angle">attack angle</span> that's working against his power output.</p>
 

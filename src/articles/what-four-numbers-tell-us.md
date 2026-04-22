@@ -22,9 +22,9 @@ keywords:
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
 <summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
-<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+<span class="disclosure-arrow">&#9654;</span> TLDR
 </summary>
-<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
 
 <p>The 2026 rookie class opened the season with record-breaking numbers, but the article's argument is that early box scores are almost meaningless on their own. The real signal lives in four physical metrics that stabilize fast and describe the tool under the performance: <span class="term" data-term="bat speed">bat speed</span>, <span class="term" data-term="max exit velocity">max exit velocity</span>, <span class="term" data-term="swing length">swing length</span>, and <span class="term" data-term="sprint speed">sprint speed</span>. Owen Caissie and Carter Jensen have nearly identical physical profiles, yet one had a monster first series and the other struggled, which is exactly the point: the tools underneath are what matter, not the results from 10 plate appearances. Sal Stewart's .700 average and 2.069 OPS are genuinely exciting, but his bat path travels nearly eight feet through the zone, and that's the number that will follow him all season.</p>
 

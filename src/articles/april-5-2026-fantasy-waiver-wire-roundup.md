@@ -22,9 +22,9 @@ keywords:
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
 <summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
-<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+<span class="disclosure-arrow">&#9654;</span> TLDR
 </summary>
-<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
 
 <p>Week 2 of the 2026 season gave us fourteen batters worth talking about on the waiver wire, and the through-line is the same one it always is in April: box score results and underlying contact quality are not telling the same story. Max Muncy and Liam Hicks look like genuine improvements grounded in better contact, while Jordan Walker and Garrett Mitchell rode noise more than signal. The open question hanging over most of this list is whether two weeks of Statcast data is enough to trust, and for a few players, the answer is probably not yet.</p>
 

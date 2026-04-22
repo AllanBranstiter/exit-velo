@@ -23,9 +23,9 @@ keywords:
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
 <summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
-<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+<span class="disclosure-arrow">&#9654;</span> TLDR
 </summary>
-<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
 
 <p>Brandon Williamson's first start back from Tommy John surgery was a disaster: six earned runs and three home runs in 4.2 innings against Pittsburgh. Six days later, he shut out Miami for 6.2 innings on three hits. The box score difference is dramatic, but the pitch data tells an even more interesting story. Between starts, Williamson scrapped the slider and sinker he'd leaned on against the Pirates and returned to the cutter-and-changeup arsenal he'd used before surgery. His <span class="term" data-term="changeup">changeup</span> went from a 45 <span class="term" data-term="pitching+">Pitching+</span> liability to a 113 weapon, his <span class="term" data-term="cutter">cutter</span> became one of the best-located pitches of either start, and the <span class="term" data-term="ground ball rate (pitcher)">ground ball rate</span> against him jumped from 5.9% to 52.6%. The open question is whether two starts, the second against a weak Marlins lineup, tells us anything durable about who Williamson is for the rest of 2026.</p>
 

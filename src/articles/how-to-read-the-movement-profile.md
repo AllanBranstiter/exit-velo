@@ -33,9 +33,9 @@ Near the top-right corner of every <span class="term" data-term="baseball savant
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
 <summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
-<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+<span class="disclosure-arrow">&#9654;</span> TLDR
 </summary>
-<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
 
 <p>The <span class="term" data-term="movement profile">Movement Profile</span> chart on every Baseball Savant pitcher page is, once you know how to read it, the clearest picture of how a pitcher actually beats hitters. This article walks through what the chart measures, what the axes mean, and why it matters, using Paul Skenes and Logan Webb as the two cleanest contrasting examples in baseball. Skenes wins with a tall, vertical shape, two pitches that travel the same path before one drops out of the zone, producing elite strikeout numbers. Webb wins with a wide, horizontal shape, a sinker that runs in and a sweeper that breaks hard the other way, forcing hitters to guess a side of the plate and rolling over grounders at the 91st percentile. What the article leaves open is whether either shape is inherently superior, and how much of the outcome depends on execution versus design.</p>
 

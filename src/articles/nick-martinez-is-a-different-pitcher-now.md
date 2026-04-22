@@ -27,11 +27,79 @@ keywords:
   <img src="/images/nick-martinez-statcast-card.png" alt="Nick Martinez's Exit Velo statcast card showing his 2024-2026 pitching lines, advanced stats, pitch arsenal grades, and percentile rankings" style="width:100%;border-radius:0.5rem;">
 </figure>
 
+<details style="margin:0 0 2rem;background:#f0f7ff;border-left:4px solid #3b82f6;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
+<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#1e40af;list-style:none;">
+<p style="margin:0 0 0.5rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;"><span class="disclosure-arrow">&#9654;</span> Post-Game Update</p>
+<p style="margin:0 0 0.5rem;font-weight:400;font-size:0.84rem;color:#3b5998;line-height:1.5;">Martinez went 8 IP, 1 ER, 6 K against the Reds on 95 pitches. Every prediction in the pre-game analysis held up. He threw 48 percent sinkers (nearly double his season average), put 74 percent of them in the zone, and buried the changeup below it. The four-seam dropped to 8 percent. The Reds hard-hit him 8 times and scored once. His ERA fell to 2.10 while his xERA sits at 4.66. The approach worked exactly as described. The Reds chased anyway.</p>
+<p style="margin:0;font-weight:600;font-size:0.78rem;color:#1e40af;text-transform:uppercase;letter-spacing:0.05em;">Click for full post-game analysis with charts &#8250;</p>
+</summary>
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#1a1a1a;">
+
+<p style="margin:0 0 0.75rem;">Martinez went 8 innings against the Reds today, allowing 1 run on 5 hits with 6 strikeouts on 95 pitches. Everything in the analysis below played out, and then he pushed the approach further than his season numbers suggested he would.</p>
+
+<figure style="margin:0.75rem 0 1rem;">
+<img src="/images/nick-martinez-vs-cin-pitch-chart-2026-04-22.jpg" alt="Nick Martinez pitch chart vs. Cincinnati Reds, April 22, 2026, showing sinkers dominating the strike zone with changeups buried below it" style="width:65%;border-radius:0.5rem;display:block;margin:0 auto;">
+<figcaption style="font-size:0.72rem;color:#9ca3af;margin-top:0.25rem;">Source: Baseball Savant</figcaption>
+</figure>
+
+<p style="margin:0 0 0.75rem;">His sinker usage jumped to 48 percent, nearly double the 28 percent season average. The sinker and changeup together accounted for 68 percent of his pitches, up from the 58 percent reported below. The four-seam dropped to 8 percent. He put 74 percent of his sinkers in the strike zone, up from the already-aggressive 65 percent, meaning over a third of every pitch he threw today was a sinker in the zone. The Reds chased his changeup low all day.</p>
+
+<p style="margin:0 0 0.75rem;">What I didn't anticipate was how much further he'd lean into this on a day when his velocity and spin were both down across the board. He responded by attacking the zone harder, not softer. The Reds hard-hit him 8 times and scored once. His ERA dropped to 2.10. His xERA is 4.66. The gap between results and reality keeps widening, though the analysis below suggests I was too aggressive in calling the strand rate pure luck.</p>
+
+<p style="margin:1.25rem 0 0.5rem;font-weight:700;font-size:0.95rem;color:#1e40af;">The Tunnel Works Differently Than I Expected</p>
+
+<p style="margin:0 0 0.75rem;">I wrote below that the sinker is the worst setup pitch for the changeup because they share a similar arm-side trajectory, which dulls the visual deception that normally makes a changeup devastating. The sequencing data from his first four starts backed that up. But the pitch movement chart from today's game complicated the picture.</p>
+
+<figure style="margin:0.75rem 0 1rem;">
+<img src="/images/nick-martinez-vs-cin-movement-scatter-2026-04-22.jpg" alt="Nick Martinez pitch movement scatter vs. Cincinnati Reds, April 22, 2026, showing horizontal and vertical break for all pitch types" style="width:65%;border-radius:0.5rem;display:block;margin:0 auto;">
+<figcaption style="font-size:0.72rem;color:#9ca3af;margin-top:0.25rem;">Source: Baseball Savant</figcaption>
+</figure>
+
+<p style="margin:0 0 0.75rem;">The sinker and changeup do share the same horizontal plane. Both run arm-side, roughly 12 to 24 inches of horizontal movement. A batter reading lateral trajectory sees a similar picture for both pitches. But the vertical separation is massive. The changeup drops about 20 inches more than the sinker. The deception isn't happening left-to-right, it's happening up-and-down, and it arrives 14 mph later. By the time a batter recognizes the extra drop, he's already committed to the sinker's plane.</p>
+
+<p style="margin:0 0 0.75rem;">That doesn't erase the sequencing weakness I identified. The changeup whiff rate after a sinker (7.7 percent) is still dramatically lower than after the cutter (23.5 percent) or four-seam (23.1 percent). The horizontal contrast from those pitches still produces a better tunneling effect. But today's movement data suggests the vertical tunnel is doing more work than I gave it credit for. The sinker-changeup pair may not be his best sequence, but it's not as broken as the numbers from four starts made it look.</p>
+
+<p style="margin:1.25rem 0 0.5rem;font-weight:700;font-size:0.95rem;color:#1e40af;">About That Strand Rate</p>
+
+<p style="margin:0 0 0.75rem;">I said the 2.45 <span class="term" data-term="era">ERA</span> was fake. I need to partially walk that back, or at least sharpen what I mean.</p>
+
+<p style="margin:0 0 0.75rem;">The Reds hard-hit Martinez 8 times today and scored once. That's the strand rate continuing to outperform. But the radial chart from the game showed why: almost every batted ball came off the bat at a low launch angle. No loft. No drives to the gaps. Grounders and liners, pulled to the left side. That's not random sequencing luck. That's what a sinker-heavy, bottom-of-the-zone approach is designed to produce. When 74 percent of your sinkers are in the zone at the knees, batters hit the top of the ball or drive through it. Hard contact turns into ground ball singles and double plays instead of extra-base hits that clear the bases.</p>
+
+<p style="margin:0 0 0.75rem;">The <span class="term" data-term="lob%">strand rate</span> is still going to come down from 92 percent. No pitcher sustains that. But the regression target might be closer to 78 or 80 percent rather than the league-average 72 percent, because the low launch angles are a feature of the approach, not an accident. The gap between his ERA and his xERA will narrow, but it may not close completely. I was right that the ERA is too low. I was too aggressive in calling it fake without accounting for what the sinker-first approach does to batted ball profiles.</p>
+
+<p style="margin:1.25rem 0 0.5rem;font-weight:700;font-size:0.95rem;color:#1e40af;">The Game Plan Was Batter-Specific</p>
+
+<p style="margin:0 0 0.75rem;">The per-batter pitch charts from the Savant gamefeed revealed something the aggregate data couldn't: Martinez tailored his approach to individual hitters rather than running the same sinker-changeup playbook against everyone.</p>
+
+<figure style="margin:0.75rem 0 1rem;">
+<img src="/images/nick-martinez-vs-cin-batter-charts-2026-04-22.png" alt="Per-batter pitch charts for Nick Martinez vs. Cincinnati Reds, April 22, 2026, showing how Martinez adjusted his pitch mix for each hitter" style="width:100%;border-radius:0.5rem;">
+<figcaption style="font-size:0.72rem;color:#9ca3af;margin-top:0.25rem;">Source: Baseball Savant</figcaption>
+</figure>
+
+<p style="margin:0 0 0.75rem;">Sal Stewart, the hitter I identified as having the best contact quality to punish the sinker (.426 <span class="term" data-term="xwoba">xwOBA</span>), got the most diverse pitch mix of anyone on the card. Martinez threw him sweepers, sliders, four-seams, sinkers, and a changeup. He opened up the full six-pitch arsenal specifically for Stewart. That's a pitcher going out of his comfort zone because he knows the batter in front of him can hurt him. We identified the right threat.</p>
+
+<p style="margin:0 0 0.75rem;">Spencer Steer was the surprise. I predicted Martinez would attack his 33.2 percent chase rate with changeups below the zone. Instead, Martinez went slider, cutter, sinker. No changeups at all. He used the slider as the chase pitch instead, which suggests either Steer's changeup recognition is better than his aggregate chase rate implies, or Martinez's game plan accounted for something pitch-type-specific that the overall numbers don't capture.</p>
+
+<p style="margin:0 0 0.75rem;">Elly De La Cruz got exactly what I predicted: changeups buried well below the zone, diving away from his left-handed swing. Martinez also mixed in cutters and a curveball, giving Elly more variety than most hitters saw. He respected him without deviating from the core plan.</p>
+
+<p style="margin:0 0 0.75rem;">The lefties, Friedl, Lowe, and Benson, all got the standard treatment: sinkers in the zone, changeups below it, occasional four-seams up to reset eye level. The game plan I described in "What to Watch Tonight" was essentially the template Martinez used for every left-handed batter.</p>
+
+<p style="margin:0 0 0.75rem;">Rece Hinds, the hitter I flagged as most at-risk with a 40.6 percent chase rate, didn't start.</p>
+
+<p style="margin:1.25rem 0 0.5rem;font-weight:700;font-size:0.95rem;color:#1e40af;">What This Changes Going Forward</p>
+
+<p style="margin:0 0 0.75rem;">The sequencing weakness is real but probably less exploitable than I made it sound. The vertical tunnel between the sinker and changeup is doing more work than the horizontal analysis captured, and Martinez is smart enough to adjust his chase pitch per batter when the standard changeup setup doesn't apply. The strand rate is still going to regress, but the floor is higher than league average because the low launch angles are built into the approach. And the mechanical change, the lower arm slot, held even on a diminished-stuff day, which makes it more likely this is a permanent adjustment rather than something he's still tinkering with.</p>
+
+<p style="margin:0 0 0;">His ERA will come up. A 2.10 ERA with a 4.66 xERA is not sustainable under any interpretation of the data. But this isn't a 4.7-ERA pitcher pretending to be a 2.1-ERA pitcher. It's probably a 3.8-to-4.2-ERA pitcher who is executing a well-designed approach and running hot on strand rate. The Reds didn't exploit the plan I laid out. The next team that does might find a higher floor than I expected.</p>
+
+</div>
+</details>
+
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
 <summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
-<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+<span class="disclosure-arrow">&#9654;</span> TLDR
 </summary>
-<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
 
 <p>Nick Martinez rebuilt his pitching approach in Tampa Bay. His <span class="term" data-term="sinker">sinker</span> and <span class="term" data-term="changeup">changeup</span> now make up 58 percent of his pitches, up from 37 percent in Cincinnati, while the <span class="term" data-term="four-seam fastball">four-seam fastball</span> has nearly disappeared. It's not just a pitch-mix tweak. Pitch-level data shows he changed his release point, his sequencing patterns, and his entire location strategy: the sinker now attacks the zone, while the changeup is buried below it as a chase pitch. His sinker grades have improved each year, but his 2.45 <span class="term" data-term="era">ERA</span> is propped up by an unsustainable 92 percent <span class="term" data-term="lob%">strand rate</span>. The real ERA is probably closer to 4.5.</p>
 

@@ -22,9 +22,9 @@ keywords:
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
 <summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
-<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+<span class="disclosure-arrow">&#9654;</span> TLDR
 </summary>
-<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
 
 <p>I ran the same <a href="/articles/grading-the-2025-rookie-class.html">Prospect Scorecard</a> from the 2025 rookie class article on 40 MiLB prospects (age 25 and under, 50-plus PA), then added a year-over-year improvement layer. <strong>Kahlil Watson</strong> (CLE) ranked first in composite improvement, with four of five <span class="term" data-term="statcast">Statcast</span> metrics moving in the right direction. <strong>Sam Antonacci</strong> (CHW) has the best <span class="term" data-term="swstr%">swinging strike rate</span> and <span class="term" data-term="o-swing%">chase rate</span> in the entire pool. <strong>Esmerlyn Valdez</strong> (PIT) is combining elite <span class="term" data-term="barrel rate (batter)">barrel production</span> with a confirmed mechanical overhaul at 22. All three are stashable.</p>
 

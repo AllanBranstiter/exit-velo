@@ -27,9 +27,9 @@ keywords:
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
 <summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
-<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+<span class="disclosure-arrow">&#9654;</span> TLDR
 </summary>
-<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
 
 <p>TJ Friedl's 2026 start (.153/.286/.153, zero extra-base hits in 70 <span class="term" data-term="pa">plate appearances</span>) looks like an April disaster, but the underlying pattern has been building for four seasons. His <span class="term" data-term="iso">isolated power</span> has declined every full year since 2022 (.196 to .189 to .155 to .117 to .000), his <span class="term" data-term="gb% (batter)">ground ball rate</span> has climbed steadily, and his FanGraphs Speed score has dropped from 7.24 to 4.42. The disconnect is that his <span class="term" data-term="bat speed">bat speed</span> is the highest it's been since tracking began in 2023 and his <span class="term" data-term="bb% (batter)">walk rate</span> is at a career best, but he's lost the ability to square the ball up. He looks like a player trying to manufacture power his bat can no longer produce cleanly, and the speed and defense that used to fill the gap are eroding as he approaches 31.</p>
 

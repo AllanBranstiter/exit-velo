@@ -21,9 +21,9 @@ keywords:
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
 <summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
-<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+<span class="disclosure-arrow">&#9654;</span> TLDR
 </summary>
-<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
 
 <p>Dylan Crews came into 2026 spring training as one of the most promising young outfielders in the game, and left for Triple-A with a .103 average and a cloud of question marks. But <span class="term" data-term="batting average">batting average</span> in <span class="term" data-term="spring training">spring training</span> is noise. His <span class="term" data-term="iffb% (batter)">infield fly ball rate</span> tells the real story: it jumped from 6.8 percent in 2025 to 55.6 percent this spring, a dramatic mechanical breakdown where his bat was getting under the baseball instead of through it. The underlying tools, solid exit velocity, a stolen-base threat, and a contact profile that ran 28 points better in expected slugging than actual slugging last year, are still there. The open question is whether a 24-year-old with a diagnosable, coachable swing problem can fix it at Triple-A Rochester fast enough to matter this season.</p>
 

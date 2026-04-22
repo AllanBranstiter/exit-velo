@@ -22,9 +22,9 @@ keywords:
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
 <summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
-<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+<span class="disclosure-arrow">&#9654;</span> TLDR
 </summary>
-<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
 
 <p><span class="term" data-term="exit velocity">Exit velocity</span>, the speed of the ball off the bat, is a better predictor of a hitter's future production than <span class="term" data-term="batting average">batting average</span> because it measures contact quality rather than outcomes that can swing on luck, park dimensions, and where fielders happen to be standing. Tracked by <span class="term" data-term="statcast">Statcast</span> since 2015, EV feeds into two numbers worth bookmarking: <span class="term" data-term="hard-hit rate (batter)">hard-hit rate</span>, the share of balls in play struck at 95 mph or above, and <span class="term" data-term="expected slugging">expected slugging (xSLG)</span>, which estimates what a hitter's power numbers should look like based on contact quality alone. When actual slugging lags well behind xSLG, the contact was there and the luck wasn't, and that gap historically closes. The open question the article leaves on the table is what happens when a hitter has elite exit velocity but a flat <span class="term" data-term="attack angle">attack angle</span>, like Vlad Guerrero, where the raw power is real but the swing path keeps suppressing home runs.</p>
 

@@ -25,6 +25,65 @@
 
   <script src="/js/glossary.js"></script>
 
+  <style>
+  .disclosure-arrow {
+    display: inline-block;
+    transition: transform 0.5s ease;
+  }
+  details[open] > summary .disclosure-arrow {
+    transform: rotate(90deg);
+  }
+  details .disclosure-content {
+    overflow: hidden;
+  }
+  details summary { list-style: none; }
+  details summary::-webkit-details-marker { display: none; }
+  </style>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('details').forEach(function (detail) {
+      var content = detail.querySelector('.disclosure-content');
+      if (!content) return;
+      var summary = detail.querySelector('summary');
+
+      summary.addEventListener('click', function (e) {
+        e.preventDefault();
+        if (detail.open) {
+          content.style.transition = 'max-height 0.7s ease, opacity 0.5s ease';
+          content.style.maxHeight = content.scrollHeight + 'px';
+          content.offsetHeight;
+          content.style.opacity = '0';
+          content.style.maxHeight = '0';
+          content.addEventListener('transitionend', function handler() {
+            detail.open = false;
+            content.removeEventListener('transitionend', handler);
+            content.style.transition = '';
+            content.style.maxHeight = '';
+            content.style.opacity = '';
+          });
+        } else {
+          detail.open = true;
+          var h = content.scrollHeight;
+          content.style.maxHeight = '0';
+          content.style.opacity = '0';
+          content.style.overflow = 'hidden';
+          content.offsetHeight;
+          content.style.transition = 'max-height 0.7s ease, opacity 0.5s ease';
+          content.style.maxHeight = h + 'px';
+          content.style.opacity = '1';
+          content.addEventListener('transitionend', function handler() {
+            content.removeEventListener('transitionend', handler);
+            content.style.transition = '';
+            content.style.maxHeight = '';
+            content.style.overflow = '';
+          });
+        }
+      });
+    });
+  });
+  </script>
+
   <!-- Structured data: Article -->
   <script type="application/ld+json">
   {

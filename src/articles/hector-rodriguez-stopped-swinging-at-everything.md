@@ -28,9 +28,9 @@ keywords:
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
 <summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
-<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+<span class="disclosure-arrow">&#9654;</span> TLDR
 </summary>
-<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
 
 <p>Héctor Rodríguez, the 22-year-old Reds outfield prospect acquired in the 2022 Tyler Naquin trade, has been one of the most aggressive hitters in the minors for four years. In 2025, he swung at 60 percent of all pitches (97.5th percentile in AAA) and chased 47 percent of pitches outside the zone (worse than 97.3 percent of the league). His <span class="term" data-term="bb% (batter)">walk rate</span> was 5.2 percent. In 2026, across 128 Dominican Winter League plate appearances and 98 more at Triple-A Louisville, the approach has changed. His walk rate has tripled to 16.3 percent, his <span class="term" data-term="k% (batter)">strikeout rate</span> barely moved (16.5% to 17.3%), and his <span class="term" data-term="woba">wOBA</span> jumped from .307 to .394. Every projection system still models the old version of him. The Reds' coaching staff says the change was deliberate.</p>
 

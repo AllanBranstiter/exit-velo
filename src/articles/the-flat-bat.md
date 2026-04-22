@@ -23,9 +23,9 @@ keywords:
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
 <summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
-<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+<span class="disclosure-arrow">&#9654;</span> TLDR
 </summary>
-<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
 
 <p>Vladimir Guerrero Jr. hits the ball as hard as almost anyone in baseball, but his <span class="term" data-term="attack angle">attack angle</span>, the slope of the bat through the zone, sits at just 1.2 degrees, barely off flat, which turns elite power into grounders and line drives instead of home runs. The article uses that gap to reframe the entire 2026 first base market: Nick Kurtz swings upward at 14.3 degrees and projects for nine more home runs than Guerrero at roughly the same draft cost, Ben Rice owns the biggest gap between <span class="term" data-term="expected slugging">expected slugging (xSLG)</span> and actual production of any first baseman, and Pete Alonso's <span class="term" data-term="ground ball rate (batter)">ground ball rate</span> jumped from 38 to 55 percent this spring in a way that matters for a guy whose entire value comes from hitting the ball in the air. Freddie Freeman's <span class="term" data-term="bat speed">bat speed</span> has slipped to 69.9 mph and he outperformed his contact quality last year, which is the less comfortable version of the story. The open question is whether Alonso's spring batted-ball numbers reflect a real mechanical change or just noise, and whether <span class="term" data-term="adp">ADP</span> at any of these names corrects before you have to make a pick.</p>
 

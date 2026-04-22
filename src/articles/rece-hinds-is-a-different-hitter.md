@@ -26,9 +26,9 @@ keywords:
 
 <details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
 <summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
-<span style="transition:transform 0.2s;display:inline-block;">&#9654;</span> TLDR
+<span class="disclosure-arrow">&#9654;</span> TLDR
 </summary>
-<div style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
 
 <p>Hinds' .354 Triple-A average is a mirage, running .108 ahead of his <span class="term" data-term="xba">expected batting average</span> on a .414 <span class="term" data-term="babip (batter)">BABIP</span>. The real story is underneath: his <span class="term" data-term="k% (batter)">strikeout rate</span> has dropped from 37.9 to 24.6 percent across three AAA seasons, his <span class="term" data-term="whiff%">whiff rate</span> fell from 40 to 27 percent, and his <span class="term" data-term="chase rate (batter)">chase rate</span> is down. Those are the exact skills that collapsed in his prior MLB stints, where he posted a 47.7 percent strikeout rate and a 1.9 <span class="term" data-term="wrc+">wRC+</span>. Whether they survive major league pitching is the open question.</p>
 
