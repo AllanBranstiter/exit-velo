@@ -1,6 +1,6 @@
 ---
 layout: article.njk
-title: "Nick Martinez Is a Different Pitcher Now"
+title: "Our Old Friend Nick Martinez Is a Different Pitcher Now"
 subtitle: "The former Red dropped his four-seam, lowered his arm slot, and rebuilt his approach around two pitches. Reds fans will see someone they don't quite recognize tonight."
 category: Player Profile
 level: Intermediate
