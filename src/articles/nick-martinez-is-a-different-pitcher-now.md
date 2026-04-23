@@ -93,11 +93,11 @@ keywords:
 </div>
 </details>
 
-<details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
-<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
+<details style="margin:0 0 2rem;background:#fce8eb;border-left:4px solid #C6011F;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
+<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#8B0015;list-style:none;display:flex;align-items:center;gap:0.5rem;">
 <span class="disclosure-arrow">&#9654;</span> TLDR
 </summary>
-<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a1a1a;">
 
 <p>Nick Martinez rebuilt his pitching approach in Tampa Bay. His <span class="term" data-term="sinker">sinker</span> and <span class="term" data-term="changeup">changeup</span> now make up 58 percent of his pitches, up from 37 percent in Cincinnati, while the <span class="term" data-term="four-seam fastball">four-seam fastball</span> has nearly disappeared. It's not just a pitch-mix tweak. Pitch-level data shows he changed his release point, his sequencing patterns, and his entire location strategy: the sinker now attacks the zone, while the changeup is buried below it as a chase pitch. His sinker grades have improved each year, but his 2.45 <span class="term" data-term="era">ERA</span> is propped up by an unsustainable 92 percent <span class="term" data-term="lob%">strand rate</span>. The real ERA is probably closer to 4.5.</p>
 

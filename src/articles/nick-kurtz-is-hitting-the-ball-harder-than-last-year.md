@@ -26,11 +26,11 @@ keywords:
   <img src="/images/nick-kurtz-savant.png" alt="Nick Kurtz's Baseball Savant page showing his 2026 MLB Percentile Rankings, career batting stats, spray chart, and rolling xwOBA" style="width:100%;border-radius:0.5rem;">
 </figure>
 
-<details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
-<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
+<details style="margin:0 0 2rem;background:#fce8eb;border-left:4px solid #C6011F;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
+<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#8B0015;list-style:none;display:flex;align-items:center;gap:0.5rem;">
 <span class="disclosure-arrow">&#9654;</span> TLDR
 </summary>
-<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a1a1a;">
 
 <p>Nick Kurtz's 2026 looks ugly on the surface: no home runs, a .220 average, and a 40 percent <span class="term" data-term="k% (batter)">strikeout rate</span> through 50 plate appearances. But the underlying data runs in the opposite direction. His <span class="term" data-term="exit velocity">exit velocity</span> jumped 4.3 mph from his rookie season, his <span class="term" data-term="hard-hit rate (batter)">hard-hit rate</span> climbed from 51 to 57 percent, and his <span class="term" data-term="xwoba">xwOBA</span> is still well above league average, meaning the contact he's making is legitimately dangerous. The problem is decisional, not mechanical: bat tracking shows his <span class="term" data-term="fast-swing rate">fast-swing rate</span> cratered 10 points, meaning he's swinging too tentatively on edge pitches while letting too many hittable pitches go by called. The open question is whether he can recalibrate his timing on <span class="term" data-term="sinker">sinkers</span>, <span class="term" data-term="cutter">cutters</span>, and <span class="term" data-term="curveball">curveballs</span> before those pitch values harden, and whether his pre-existing weakness against left-handed pitching is actually worse than last year's overall numbers let on.</p>
 

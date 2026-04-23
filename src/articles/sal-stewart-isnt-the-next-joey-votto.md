@@ -26,11 +26,11 @@ keywords:
   <img src="/images/sal-stewart-statcast.png" alt="Sal Stewart's Exit Velo player card showing percentile rankings, two-season stat line, and advanced metrics through 130 plate appearances" style="width:100%;border-radius:0.5rem;">
 </figure>
 
-<details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
-<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
+<details style="margin:0 0 2rem;background:#fce8eb;border-left:4px solid #C6011F;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
+<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#8B0015;list-style:none;display:flex;align-items:center;gap:0.5rem;">
 <span class="disclosure-arrow">&#9654;</span> TLDR
 </summary>
-<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a1a1a;">
 
 <p style="margin-top:0;">Sal Stewart was drafted as a third baseman. His arm couldn't hold the position, and now he's filling the Votto-shaped hole at first base in Cincinnati with a .310/.431/.638 line and a 185 wRC+ through 72 <span class="term" data-term="plate appearance">plate appearances</span> in 2026. But his <span class="term" data-term="statcast">Statcast</span> profile doesn't resemble Votto's. Built on below-average <span class="term" data-term="bat speed">bat speed</span> and an opposite-field approach that's unique among his statistical peers, Stewart's profile returns Juan Soto's 2024 and 2025 seasons as its closest comps in a weighted similarity algorithm, with identical <span class="term" data-term="walk rate (batter)">walk rate</span> and <span class="term" data-term="strikeout rate (batter)">strikeout rate</span> to one decimal place. The open question is whether those discipline numbers hold through 200 plate appearances or settle closer to his career minor league rate of 12 to 13 percent, which would still be well above average for a 22-year-old with his barrel rate.</p>
 

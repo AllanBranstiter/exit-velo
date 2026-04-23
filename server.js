@@ -74,7 +74,7 @@ const server = createServer((req, res) => {
   if (path === "/" || path === "/index.html") {
     const html = njkEnv.render("index.njk", {
       title: "",
-      description: "Advanced stats. Beginner friendly.",
+      description: "Cincinnati Reds baseball by the numbers.",
       url: "/",
       articles: getAllArticles(),
     });
@@ -99,7 +99,7 @@ const server = createServer((req, res) => {
   if (path === "/about.html") {
     const html = njkEnv.render("about.njk", {
       title: "About",
-      description: "Exit Velo is for new baseball fans and first-time fantasy managers who want to understand what the advanced stats actually mean, explained through player stories without the jargon.",
+      description: "Exit Velo is a Cincinnati Reds analytics blog for fans who want to understand what the numbers actually say about their team, explained through player stories without the jargon.",
       url: "/about.html",
     });
     return send(res, 200, "text/html; charset=utf-8", html);

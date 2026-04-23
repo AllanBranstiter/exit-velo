@@ -19,11 +19,11 @@ keywords:
   - "plate discipline"
 ---
 
-<details style="margin:0 0 2rem;background:#fdf2ed;border-left:4px solid #c2703e;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
-<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#7c4a2a;list-style:none;display:flex;align-items:center;gap:0.5rem;">
+<details style="margin:0 0 2rem;background:#fce8eb;border-left:4px solid #C6011F;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
+<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#8B0015;list-style:none;display:flex;align-items:center;gap:0.5rem;">
 <span class="disclosure-arrow">&#9654;</span> TLDR
 </summary>
-<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a3a24;">
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a1a1a;">
 
 <p>This article grades the 2025 rookie class using five <span class="term" data-term="statcast">Statcast</span> process metrics that stabilize by 150 <span class="term" data-term="plate appearance">plate appearances</span>, well before <span class="term" data-term="wrc+">wRC+</span> or batting average can give you a reliable read on a player's <span class="term" data-term="true talent">true talent</span>. The verdict at the top is clear: Nick Kurtz and Roman Anthony are the real deal, with elite <span class="term" data-term="barrel rate (batter)">barrel rates</span> and discipline numbers that hold up under scrutiny, and Drake Baldwin looks like a franchise catcher for years to come. At the bottom, players like Jake Mangum, Hyeseong Kim, and the F-tier group show the warning signs that tend to stick: high <span class="term" data-term="swstr%">swinging strike rates</span>, poor <span class="term" data-term="o-swing%">outside pitch discipline</span>, and <span class="term" data-term="luck index">Luck Index</span> numbers pointing toward regression, not growth. The article's open question is Jac Caglianone, whose contact quality suggests a legitimate slugger but whose results have been deeply unproductive, and Jacob Wilson, whose historically low strikeout rate may be masking a <span class="term" data-term="consistency gap">Consistency Gap</span> that defenses will eventually exploit.</p>
 

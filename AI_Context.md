@@ -6,10 +6,10 @@
 
 ## What Is Exit Velo
 
-Exit Velo is a baseball analytics publication at **https://exitvelo.us** targeting readers who are new to baseball or fantasy baseball and want to understand what advanced stats actually mean. Articles explain Statcast data, sabermetrics, and draft strategy through player stories — without jargon (or with jargon immediately defined).
+Exit Velo is a Cincinnati Reds analytics blog at **https://exitvelo.us** for fans who want to understand what the numbers actually say about their team. Articles explain Statcast data, sabermetrics, and player evaluation through Reds player stories, without jargon (or with jargon immediately defined). The default perspective is a Reds fan writing for Reds fans. Opponents are framed through the Reds lens (scouting reports for upcoming series, trade target evaluations, former Reds matchups). Occasional fantasy and non-Reds content is permitted, but the core audience is Cincinnati.
 
-- **Voice:** E.B. White clarity + Gladwell storytelling. Authoritative but warm. Observational, not academic.
-- **Audience:** Beginners to intermediate fans. Assumes basic traditional stats knowledge; introduces advanced stats through narrative.
+- **Voice:** E.B. White clarity + Gladwell storytelling. Authoritative but warm. Observational, not academic. Frame all analysis through the Reds lens.
+- **Audience:** Reds fans from casual to analytically-minded. Assumes basic traditional stats knowledge; introduces advanced stats through narrative.
 - **Author:** Allan Branstiter
 - **Deployed on:** Netlify (auto-deploy from GitHub)
 
@@ -17,6 +17,7 @@ Exit Velo is a baseball analytics publication at **https://exitvelo.us** targeti
 - Do NOT use the "dramatic buildup colon" pattern: *"The Barrel Rate is real: 12.0%"* — state numbers directly: *"His Barrel Rate is 12.0%"*
 - No jargon without immediate definition
 - Player stories first, statistics second
+- Default perspective is a Reds fan writing for Reds fans
 
 ---
 
@@ -150,9 +151,11 @@ draft: false                   # set true to hide in production builds
 The badge class is generated as `article-header__level--{{ level | lower }}`, so the value in frontmatter must be `Beginner`, `Intermediate`, or `Advanced` (title case).
 
 ### Active Category Values
-- `Fantasy Baseball`
-- `Stat Explainer`
 - `Player Profile`
+- `Farm System`
+- `Game Recap`
+- `Stat Explainer`
+- `Fantasy Baseball`
 - `Rankings`
 
 ---
