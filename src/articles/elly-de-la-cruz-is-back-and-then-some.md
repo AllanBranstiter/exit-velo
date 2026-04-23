@@ -4,14 +4,14 @@ title: "Elly De La Cruz Is Back, and Then Some"
 subtitle: "He was already a star in 2024. A quad injury and a bad stance derailed 2025. Now he's surpassed both versions of himself, and the data says it's a combination of a rebuilt stance and a more deliberate approach."
 category: Player Profile
 level: Intermediate
-date: 2026-04-22T12:00:00
+date: 2026-04-23T12:00:00
 excerpt: "Elly De La Cruz put up 6.6 WAR in 2024. After a quad injury dragged his 2025, he overhauled his stance and approach over the offseason. Through 24 games, the 2026 version is his best yet: .276/.343/.571, a 148 wRC+, and 99th-percentile exit velocity. The data explains how."
 description: "Elly De La Cruz's 2026 season surpasses his star-level 2024 after a stance overhaul and approach change following a quad-injury-marred 2025."
 permalink: /articles/elly-de-la-cruz-is-back-and-then-some.html
 author: Allan Branstiter
 article_image: /images/elly-de-la-cruz-hero.png
 article_image_alt: "Elly De La Cruz points to the sky after a home run in his Cincinnati Reds City Connect uniform"
-draft: true
+draft: false
 keywords:
   - "Elly De La Cruz"
   - "plate discipline"
