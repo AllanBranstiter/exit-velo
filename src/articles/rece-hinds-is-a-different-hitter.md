@@ -8,8 +8,8 @@ excerpt: "The Reds optioned Noelvi Marte to Triple-A Louisville on Sunday, and C
 description: "Rece Hinds' .354 AAA average is inflated by luck, but his underlying improvements in strikeout rate, chase rate, and swing decisions target the exact pitches that broke him in two prior MLB stints. Pitch-by-pitch data shows what went wrong and what's changed."
 permalink: /articles/rece-hinds-different-hitter.html
 author: Allan Branstiter
-image: /images/rece-hinds-prospect-card.png
-image_alt: "Rece Hinds MiLB prospect card showing his 2025-2026 AAA Statcast percentile rankings, composite scores, stat line, and year-over-year improvements"
+article_image: /images/rece-hinds-hero.png
+article_image_alt: "Rece Hinds smiling in the dugout at Great American Ball Park"
 draft: false
 keywords:
   - "Rece Hinds"

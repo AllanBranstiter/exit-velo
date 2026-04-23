@@ -15,8 +15,8 @@
   <meta property="og:title" content="{{ title if title else 'Exit Velo' }}">
   <meta property="og:description" content="{{ description if description else 'Cincinnati Reds baseball by the numbers.' }}">
   <meta property="og:url" content="https://exitvelo.us{{ url }}">
-  <meta property="og:image" content="https://exitvelo.us{{ image if image else '/images/og-default.png' }}">
-  <meta property="og:image:alt" content="{{ image_alt if image_alt else 'Exit Velo — Cincinnati Reds baseball by the numbers' }}">
+  <meta property="og:image" content="https://exitvelo.us{{ image if image else (article_image if article_image else '/images/og-default.png') }}">
+  <meta property="og:image:alt" content="{{ image_alt if image_alt else (article_image_alt if article_image_alt else 'Exit Velo — Cincinnati Reds baseball by the numbers') }}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   {% if date %}
@@ -32,8 +32,8 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ title if title else 'Exit Velo' }}">
   <meta name="twitter:description" content="{{ description if description else 'Cincinnati Reds baseball by the numbers.' }}">
-  <meta name="twitter:image" content="https://exitvelo.us{{ image if image else '/images/og-default.png' }}">
-  <meta name="twitter:image:alt" content="{{ image_alt if image_alt else 'Exit Velo — Cincinnati Reds baseball by the numbers' }}">
+  <meta name="twitter:image" content="https://exitvelo.us{{ image if image else (article_image if article_image else '/images/og-default.png') }}">
+  <meta name="twitter:image:alt" content="{{ image_alt if image_alt else (article_image_alt if article_image_alt else 'Exit Velo — Cincinnati Reds baseball by the numbers') }}">
 
   <link rel="stylesheet" href="/css/style.css">
   <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">

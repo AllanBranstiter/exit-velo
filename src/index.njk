@@ -7,23 +7,23 @@
       <p class="home-header__description">Cincinnati Reds baseball by the numbers.</p>
     </header>
 
-    {% set featured = collections.featuredArticles %}
+    {% set featured = featuredArticles %}
 
     {% if featured.length > 0 %}
     <section class="home-hero" aria-label="Latest article">
       <a href="{{ featured[0].url }}" class="home-hero__link">
-        <img src="{{ featured[0].data.image }}" alt="{{ featured[0].data.image_alt or featured[0].data.title }}" class="home-hero__image">
+        <img src="{{ featured[0].frontmatter.image or featured[0].frontmatter.article_image }}" alt="{{ featured[0].frontmatter.image_alt or featured[0].frontmatter.article_image_alt or featured[0].frontmatter.title }}" class="home-hero__image">
       </a>
       <div class="home-hero__body">
         <div class="home-hero__meta">
-          <span class="article-card__category">{{ featured[0].data.category }}</span>
-          {% if featured[0].data.level %}<span class="article-header__level article-header__level--{{ featured[0].data.level | lower }}">{{ featured[0].data.level }}</span>{% endif %}
-          <time datetime="{{ featured[0].data.date | dateYearMonth }}">{{ featured[0].data.date | dateDisplay }}</time>
+          <span class="article-card__category">{{ featured[0].frontmatter.category }}</span>
+          {% if featured[0].frontmatter.level %}<span class="article-header__level article-header__level--{{ featured[0].frontmatter.level | lower }}">{{ featured[0].frontmatter.level }}</span>{% endif %}
+          <time datetime="{{ featured[0].frontmatter.date | dateYearMonth }}">{{ featured[0].frontmatter.date | dateDisplay }}</time>
         </div>
         <h2 class="home-hero__title">
-          <a href="{{ featured[0].url }}">{{ featured[0].data.title }}</a>
+          <a href="{{ featured[0].url }}">{{ featured[0].frontmatter.title }}</a>
         </h2>
-        {% if featured[0].data.subtitle %}<p class="home-hero__subtitle">{{ featured[0].data.subtitle }}</p>{% endif %}
+        {% if featured[0].frontmatter.subtitle %}<p class="home-hero__subtitle">{{ featured[0].frontmatter.subtitle }}</p>{% endif %}
       </div>
     </section>
     {% endif %}
@@ -35,12 +35,12 @@
         {% for i in [1, 2, 3] %}
         {% if featured[i] %}
         <a href="{{ featured[i].url }}" class="home-trending__card">
-          <img src="{{ featured[i].data.image }}" alt="{{ featured[i].data.image_alt or featured[i].data.title }}" class="home-trending__image">
-          <h3 class="home-trending__title">{{ featured[i].data.title }}</h3>
-          <p class="home-trending__description">{{ featured[i].data.description }}</p>
+          <img src="{{ featured[i].frontmatter.image or featured[i].frontmatter.article_image }}" alt="{{ featured[i].frontmatter.image_alt or featured[i].frontmatter.article_image_alt or featured[i].frontmatter.title }}" class="home-trending__image">
+          <h3 class="home-trending__title">{{ featured[i].frontmatter.title }}</h3>
+          <p class="home-trending__description">{{ featured[i].frontmatter.description }}</p>
           <div class="home-trending__meta">
-            <span class="article-card__category">{{ featured[i].data.category }}</span>
-            <time datetime="{{ featured[i].data.date | dateYearMonth }}">{{ featured[i].data.date | dateDisplay }}</time>
+            <span class="article-card__category">{{ featured[i].frontmatter.category }}</span>
+            <time datetime="{{ featured[i].frontmatter.date | dateYearMonth }}">{{ featured[i].frontmatter.date | dateDisplay }}</time>
           </div>
         </a>
         {% endif %}

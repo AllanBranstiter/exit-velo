@@ -10,8 +10,8 @@ description: "Héctor Rodríguez's plate discipline has changed dramatically in 
 permalink: /articles/hector-rodriguez-stopped-swinging-at-everything.html
 author: Allan Branstiter
 draft: true
-image: /images/hector-rodriguez-prospect-card.png
-image_alt: "Héctor Rodríguez's prospect card showing his 2025-2026 AAA stat lines, scouting grades, and Savant percentile rankings"
+article_image: /images/hector-rodriguez-hero.png
+article_image_alt: "Héctor Rodríguez celebrating with a teammate after a home run"
 keywords:
   - "Héctor Rodríguez"
   - "plate discipline"

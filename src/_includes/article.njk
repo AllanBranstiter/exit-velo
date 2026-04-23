@@ -107,7 +107,7 @@
       }
     },
     "url": {{ ("https://exitvelo.us" + url) | json }},
-    "image": {{ ("https://exitvelo.us" + (image if image else "/images/og-default.png")) | json }},
+    "image": {{ ("https://exitvelo.us" + (image if image else (article_image if article_image else "/images/og-default.png"))) | json }},
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": {{ ("https://exitvelo.us" + url) | json }}

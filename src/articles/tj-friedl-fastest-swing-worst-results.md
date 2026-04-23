@@ -10,8 +10,8 @@ description: "TJ Friedl's 2026 struggles reflect a four-year structural decline 
 permalink: /articles/whats-eating-tj-friedl.html
 author: Allan Branstiter
 draft: false
-image: /images/tj-friedl-batter-card.png
-image_alt: "TJ Friedl's ExitVelo batter card showing his 2025-2026 stat lines, tool grades, and Savant percentile rankings"
+article_image: /images/tj-friedl-hero.png
+article_image_alt: "TJ Friedl swinging during a game at Great American Ball Park"
 keywords:
   - "TJ Friedl"
   - "bat speed"

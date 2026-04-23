@@ -38,7 +38,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("featuredArticles", (api) =>
     api.getFilteredByGlob("src/articles/*.md")
       .filter(item => isProduction ? !item.data.draft : true)
-      .filter(item => item.data.image)
+      .filter(item => item.data.image || item.data.article_image)
       .reverse()
   );
 

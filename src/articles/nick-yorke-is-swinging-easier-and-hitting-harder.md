@@ -9,8 +9,8 @@ excerpt: "Nick Yorke's average bat speed across three MLB stints is 71.8, 71.9, 
 description: "Nick Yorke's bat speed is the same across three MLB call-ups, but his swing speed distribution has tightened dramatically. Pitch-level Statcast data explains why the Pirates' utility man is producing harder contact with easier swings."
 permalink: /articles/nick-yorke-is-swinging-easier-and-hitting-harder.html
 author: Allan Branstiter
-image: /images/nick-yorke-savant.png
-image_alt: "Nick Yorke's Baseball Savant page showing his 2026 MLB Percentile Rankings, career batting stats, spray chart, and rolling xwOBA"
+article_image: /images/nick-yorke-savant.png
+article_image_alt: "Nick Yorke's Baseball Savant page showing his 2026 MLB Percentile Rankings, career batting stats, spray chart, and rolling xwOBA"
 draft: false
 keywords:
   - "Nick Yorke"

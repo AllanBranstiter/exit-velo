@@ -9,8 +9,8 @@ description: "How to read Baseball Savant's Movement Profile chart, explained th
 permalink: /articles/how-to-read-the-movement-profile.html
 author: Allan Branstiter
 level: Intermediate
-image: /images/skenes-savant-top-row.png
-image_alt: "Paul Skenes's Baseball Savant page showing his player card, 2025 MLB percentile rankings, and Movement Profile chart"
+article_image: /images/skenes-savant-top-row.png
+article_image_alt: "Paul Skenes's Baseball Savant page showing his player card, 2025 MLB percentile rankings, and Movement Profile chart"
 draft: false
 keywords:
   - "movement profile"

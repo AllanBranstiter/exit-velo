@@ -9,8 +9,8 @@ excerpt: "Baseball America says Sal Stewart 'could fix what has been a hole at f
 description: "Sal Stewart's Statcast profile matches Juan Soto's 2024 season more closely than any Joey Votto season. A deep look at his discipline, contact quality, mechanical changes, and what the Reds actually found."
 permalink: /articles/sal-stewart-isnt-the-next-joey-votto.html
 author: Allan Branstiter
-image: /images/sal-stewart-statcast.png
-image_alt: "Sal Stewart's Exit Velo player card showing percentile rankings, two-season stat line, and advanced metrics through 130 plate appearances"
+article_image: /images/sal-stewart-hero.png
+article_image_alt: "Sal Stewart at bat for the Cincinnati Reds, seen from above"
 draft: false
 keywords:
   - "Sal Stewart"

@@ -9,8 +9,8 @@ excerpt: "Nick Martinez threw six pitches in roughly equal measure for the Reds.
 description: "Nick Martinez restructured his entire pitching approach for Tampa Bay, shifting from a balanced six-pitch mix to a sinker-changeup attack. A pitch-level scouting report for Reds fans watching his first start against his former team."
 permalink: /articles/nick-martinez-is-a-different-pitcher-now.html
 author: Allan Branstiter
-image: /images/nick-martinez-statcast-card.png
-image_alt: "Nick Martinez's Exit Velo statcast card showing his 2024-2026 pitching lines, advanced stats, pitch arsenal grades, and percentile rankings"
+article_image: /images/nick-martinez-hero.png
+article_image_alt: "Nick Martinez delivering a pitch for the Tampa Bay Rays"
 draft: false
 keywords:
   - "Nick Martinez"

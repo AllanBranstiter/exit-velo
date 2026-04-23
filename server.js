@@ -4,7 +4,7 @@ import { join, dirname, extname } from "node:path";
 import { fileURLToPath } from "node:url";
 import nunjucks from "nunjucks";
 import { registerAll } from "./lib/filters.js";
-import { loadArticles, getArticle, getAllArticles, watchArticles } from "./lib/articles.js";
+import { loadArticles, getArticle, getAllArticles, getFeaturedArticles, watchArticles } from "./lib/articles.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const srcDir = join(__dirname, "src");
@@ -77,6 +77,7 @@ const server = createServer((req, res) => {
       description: "Cincinnati Reds baseball by the numbers.",
       url: "/",
       articles: getAllArticles(),
+      featuredArticles: getFeaturedArticles(),
     });
     return send(res, 200, "text/html; charset=utf-8", html);
   }

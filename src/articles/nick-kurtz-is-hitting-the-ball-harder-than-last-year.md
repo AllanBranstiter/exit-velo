@@ -9,8 +9,8 @@ excerpt: "Nick Kurtz looked like Oakland's franchise cornerstone after his rooki
 description: "Nick Kurtz is hitting the ball harder in 2026 than during his elite 2025 rookie season but has zero home runs and a 40% strikeout rate. A deep look at his Statcast data, platoon splits, and historical comps explains why, and what to expect the rest of the year."
 permalink: /articles/nick-kurtz-slump-isnt-what-it-looks-like.html
 author: Allan Branstiter
-image: /images/nick-kurtz-savant.png
-image_alt: "Nick Kurtz's Baseball Savant page showing his 2026 MLB Percentile Rankings, career batting stats, spray chart, and rolling xwOBA"
+article_image: /images/nick-kurtz-savant.png
+article_image_alt: "Nick Kurtz's Baseball Savant page showing his 2026 MLB Percentile Rankings, career batting stats, spray chart, and rolling xwOBA"
 draft: false
 keywords:
   - "Nick Kurtz"
