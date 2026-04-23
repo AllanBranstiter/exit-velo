@@ -2,7 +2,7 @@
 layout: article.njk
 title: "The Prospect Scorecard Finds Three Hitters Whose Adjustments Matter More Than Their Box Scores"
 subtitle: "Kahlil Watson's chase rate dropped 14 points. Sam Antonacci has the best plate discipline in the minors. Esmerlyn Valdez is barreling everything. These are the early-season development signals worth tracking."
-category: Rankings
+category: Farm System
 level: Intermediate
 date: 2026-04-12T12:00:00
 excerpt: "I ran the Prospect Scorecard on 40 MiLB prospects and added a year-over-year improvement layer. Watson, Antonacci, and Valdez are the three names that stood out, and they're all worth stashing."

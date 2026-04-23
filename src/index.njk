@@ -7,6 +7,48 @@
       <p class="home-header__description">Cincinnati Reds baseball by the numbers.</p>
     </header>
 
+    {% set featured = collections.featuredArticles %}
+
+    {% if featured.length > 0 %}
+    <section class="home-hero" aria-label="Latest article">
+      <a href="{{ featured[0].url }}" class="home-hero__link">
+        <img src="{{ featured[0].data.image }}" alt="{{ featured[0].data.image_alt or featured[0].data.title }}" class="home-hero__image">
+      </a>
+      <div class="home-hero__body">
+        <div class="home-hero__meta">
+          <span class="article-card__category">{{ featured[0].data.category }}</span>
+          {% if featured[0].data.level %}<span class="article-header__level article-header__level--{{ featured[0].data.level | lower }}">{{ featured[0].data.level }}</span>{% endif %}
+          <time datetime="{{ featured[0].data.date | dateYearMonth }}">{{ featured[0].data.date | dateDisplay }}</time>
+        </div>
+        <h2 class="home-hero__title">
+          <a href="{{ featured[0].url }}">{{ featured[0].data.title }}</a>
+        </h2>
+        {% if featured[0].data.subtitle %}<p class="home-hero__subtitle">{{ featured[0].data.subtitle }}</p>{% endif %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if featured.length > 3 %}
+    <section class="home-trending" aria-label="Recent articles">
+      <h2 class="home-trending__label">Recent Articles</h2>
+      <div class="home-trending__grid">
+        {% for i in [1, 2, 3] %}
+        {% if featured[i] %}
+        <a href="{{ featured[i].url }}" class="home-trending__card">
+          <img src="{{ featured[i].data.image }}" alt="{{ featured[i].data.image_alt or featured[i].data.title }}" class="home-trending__image">
+          <h3 class="home-trending__title">{{ featured[i].data.title }}</h3>
+          <p class="home-trending__description">{{ featured[i].data.description }}</p>
+          <div class="home-trending__meta">
+            <span class="article-card__category">{{ featured[i].data.category }}</span>
+            <time datetime="{{ featured[i].data.date | dateYearMonth }}">{{ featured[i].data.date | dateDisplay }}</time>
+          </div>
+        </a>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
     <section class="search-filters" aria-label="Filter articles">
       <div class="search-filters__search">
         <input

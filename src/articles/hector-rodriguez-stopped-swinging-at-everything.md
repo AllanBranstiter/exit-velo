@@ -2,7 +2,7 @@
 layout: article.njk
 title: "The Reds Need an Outfielder. The Best Hitter in Louisville Just Got Better."
 subtitle: "Héctor Rodríguez's walk rate tripled. His strikeout rate didn't budge. Every projection system missed it."
-category: Player Profile
+category: Farm System
 level: Intermediate
 date: 2026-04-20T12:00:00
 excerpt: "For four years, every scouting report on Héctor Rodríguez said the same thing: elite bat, terrible approach. FanGraphs flagged 'substantial bust risk.' Baseball America wrote that his low walk rate was 'starting to impact his production.' Then his walk rate tripled, his strikeout rate didn't move, and every projection system missed it."

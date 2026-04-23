@@ -34,6 +34,14 @@ module.exports = function(eleventyConfig) {
       .reverse()
   );
 
+  // Featured articles: published articles with images, for hero + trending sections
+  eleventyConfig.addCollection("featuredArticles", (api) =>
+    api.getFilteredByGlob("src/articles/*.md")
+      .filter(item => isProduction ? !item.data.draft : true)
+      .filter(item => item.data.image)
+      .reverse()
+  );
+
   // Prevent draft article pages from being built in production
   eleventyConfig.addGlobalData("eleventyComputed", {
     permalink: (data) => {
