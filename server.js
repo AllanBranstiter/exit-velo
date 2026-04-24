@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 import nunjucks from "nunjucks";
 import { registerAll } from "./lib/filters.js";
 import { loadArticles, getArticle, getAllArticles, getFeaturedArticles, watchArticles } from "./lib/articles.js";
+import { getStandings, getRedsNews } from "./lib/mlb-data.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const srcDir = join(__dirname, "src");
@@ -66,18 +67,21 @@ function tryStatic(urlPath, res) {
 }
 
 // --- Server ---
-const server = createServer((req, res) => {
+const server = createServer(async (req, res) => {
   const url = new URL(req.url, `http://${req.headers.host}`);
   const path = url.pathname;
 
   // Homepage
   if (path === "/" || path === "/index.html") {
+    const [standings, redsNews] = await Promise.all([getStandings(), getRedsNews()]);
     const html = njkEnv.render("index.njk", {
       title: "",
       description: "Cincinnati Reds baseball by the numbers.",
       url: "/",
       articles: getAllArticles(),
       featuredArticles: getFeaturedArticles(),
+      standings,
+      redsNews,
     });
     return send(res, 200, "text/html; charset=utf-8", html);
   }

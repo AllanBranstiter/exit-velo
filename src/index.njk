@@ -10,22 +10,67 @@
     {% set featured = featuredArticles %}
 
     {% if featured.length > 0 %}
-    <section class="home-hero" aria-label="Latest article">
-      <a href="{{ featured[0].url }}" class="home-hero__link">
-        <img src="{{ featured[0].frontmatter.image or featured[0].frontmatter.article_image }}" alt="{{ featured[0].frontmatter.image_alt or featured[0].frontmatter.article_image_alt or featured[0].frontmatter.title }}" class="home-hero__image">
-      </a>
-      <div class="home-hero__body">
-        <div class="home-hero__meta">
-          <span class="article-card__category">{{ featured[0].frontmatter.category }}</span>
-          {% if featured[0].frontmatter.level %}<span class="article-header__level article-header__level--{{ featured[0].frontmatter.level | lower }}">{{ featured[0].frontmatter.level }}</span>{% endif %}
-          <time datetime="{{ featured[0].frontmatter.date | dateYearMonth }}">{{ featured[0].frontmatter.date | dateDisplay }}</time>
+    <div class="home-hero-row">
+      <section class="home-hero" aria-label="Latest article">
+        <a href="{{ featured[0].url }}" class="home-hero__link">
+          <img src="{{ featured[0].frontmatter.image or featured[0].frontmatter.article_image }}" alt="{{ featured[0].frontmatter.image_alt or featured[0].frontmatter.article_image_alt or featured[0].frontmatter.title }}" class="home-hero__image">
+        </a>
+        <div class="home-hero__body">
+          <div class="home-hero__meta">
+            <span class="article-card__category">{{ featured[0].frontmatter.category }}</span>
+            {% if featured[0].frontmatter.level %}<span class="article-header__level article-header__level--{{ featured[0].frontmatter.level | lower }}">{{ featured[0].frontmatter.level }}</span>{% endif %}
+            <time datetime="{{ featured[0].frontmatter.date | dateYearMonth }}">{{ featured[0].frontmatter.date | dateDisplay }}</time>
+          </div>
+          <h2 class="home-hero__title">
+            <a href="{{ featured[0].url }}">{{ featured[0].frontmatter.title }}</a>
+          </h2>
+          {% if featured[0].frontmatter.subtitle %}<p class="home-hero__subtitle">{{ featured[0].frontmatter.subtitle }}</p>{% endif %}
         </div>
-        <h2 class="home-hero__title">
-          <a href="{{ featured[0].url }}">{{ featured[0].frontmatter.title }}</a>
-        </h2>
-        {% if featured[0].frontmatter.subtitle %}<p class="home-hero__subtitle">{{ featured[0].frontmatter.subtitle }}</p>{% endif %}
-      </div>
-    </section>
+      </section>
+
+      <aside class="home-sidebar">
+        <div class="sidebar-widget">
+          <h3 class="sidebar-widget__label">NL Central</h3>
+          {% if standings.length > 0 %}
+          <table class="sidebar-standings">
+            <thead>
+              <tr><th>Team</th><th>W</th><th>L</th><th>GB</th></tr>
+            </thead>
+            <tbody>
+              {% for team in standings %}
+              <tr{% if team.isReds %} class="sidebar-standings__reds"{% endif %}>
+                <td>{{ team.name }}</td>
+                <td>{{ team.wins }}</td>
+                <td>{{ team.losses }}</td>
+                <td>{{ team.gamesBack }}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+          {% else %}
+          <p class="sidebar-widget__empty">Standings unavailable</p>
+          {% endif %}
+        </div>
+
+        <div class="sidebar-widget sidebar-widget--scrollable">
+          <h3 class="sidebar-widget__label">Breaking News</h3>
+          {% if redsNews.length > 0 %}
+          <ul class="sidebar-news">
+            {% for item in redsNews %}
+            <li class="sidebar-news__item">
+              <a href="{{ item.link }}" class="sidebar-news__link" target="_blank" rel="noopener">
+                <p class="sidebar-news__text">{{ item.description }}</p>
+                <time class="sidebar-news__date" datetime="{{ item.date }}">{{ item.date | dateDisplay }}</time>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+          {% else %}
+          <p class="sidebar-widget__empty">No recent news</p>
+          {% endif %}
+        </div>
+      </aside>
+    </div>
     {% endif %}
 
     {% if featured.length > 3 %}
