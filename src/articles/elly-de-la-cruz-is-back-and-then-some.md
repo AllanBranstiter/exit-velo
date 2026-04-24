@@ -219,5 +219,79 @@ The number I'm watching over the next 100 plate appearances is the strikeout rat
 
 Once again, either number would be a career year. He was already a star before the quad, before the stance drifted, before the 2025 regression. What's different about the 2026 version is that the stance and the approach finally match. He fixed where he stands, he fixed how he picks his pitches, and the best version of Elly De La Cruz is the one where both of those things are working at once.
 
-A lot of people consider 2024 to be Elly's breakout season, but I think 2025 could be the real deal.
+A lot of people consider 2024 to be Elly's breakout season, but I think 2026 could be the real deal.
+
+## The Bat Path, One Day Later
+
+After I published this piece, I went back and pulled Elly's <span class="term" data-term="attack angle">attack angle</span> data across all four of his MLB seasons. I wanted to see whether the swing plane itself had changed, or whether the stance was doing all the work. The answer is both, and the split between them tells a more interesting story than I expected.
+
+His overall attack angle in 2026 is 9.6 degrees, exactly what it was in 2024. In 2025, it dipped to 8.3 degrees, consistent with the flat, injury-protecting stance I described above. So the swing plane recovered, but it didn't leap forward. And yet his launch angle jumped to 13.6 degrees, a career high by nearly four degrees over 2024. That gap, where the bat is meeting the ball at the same angle but producing significantly more loft, is the stance doing its job (small sample alert!). A wider base and a closer setup create better contact geometry at the point of impact, even without a steeper swing. The stance is generating the extra loft, coupled with bat path.
+
+<div class="viz">
+<p class="viz__title">Elly De La Cruz — Attack Angle vs. Launch Angle, 2023–2026</p>
+<div style="overflow-x:auto;">
+<table>
+  <thead>
+    <tr style="border-bottom:2px solid #e5e7eb;">
+      <th style="text-align:left;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;">Metric</th>
+      <th style="text-align:right;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;">2023</th>
+      <th style="text-align:right;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;">2024</th>
+      <th style="text-align:right;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;">2025</th>
+      <th style="text-align:right;padding:0.5rem 0.75rem;color:#6b7280;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;">2026</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #f3f4f6;">
+      <td style="padding:0.5rem 0.75rem;color:#1a1a1a;font-weight:600;">Attack Angle</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;">6.3°</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;">9.6°</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;">8.3°</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;">9.6°</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f3f4f6;background:#f0fdf4;">
+      <td style="padding:0.5rem 0.75rem;color:#1a1a1a;font-weight:600;">Launch Angle</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;">3.6°</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;">9.7°</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;">7.6°</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;color:#16a34a;font-weight:600;">13.6°</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f3f4f6;">
+      <td style="padding:0.5rem 0.75rem;color:#1a1a1a;font-weight:600;">Tilt</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;">36.4°</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;">35.2°</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;">33.7°</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;">33.8°</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f3f4f6;">
+      <td style="padding:0.5rem 0.75rem;color:#1a1a1a;font-weight:600;">Swing Length</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;">7.41 ft</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;">7.28 ft</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;">7.19 ft</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;color:#16a34a;font-weight:600;">6.97 ft</td>
+    </tr>
+    <tr>
+      <td style="padding:0.5rem 0.75rem;color:#1a1a1a;font-weight:600;">Bat Speed</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;">76.7 mph</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;">75.2 mph</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;">74.5 mph</td>
+      <td style="text-align:right;padding:0.5rem 0.75rem;">75.0 mph</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p style="margin-top:0.75rem;font-size:0.78rem;color:#6b7280;line-height:1.5;">Source: FanGraphs bat tracking data, 2023–2026. Attack angle = average angle of the bat path through the hitting zone. Launch angle = average angle of the ball off the bat. Tilt = angle of the bat at contact, where lower values indicate a more level bat.</p>
+</div>
+
+The tilt number quietly confirms this. His bat tilt has been steadily declining since his debut: 36.4 degrees in 2023, down to 33.8 in 2026. A lower tilt means the bat is more level at the point of contact, which creates a wider margin for squaring the ball up. Combined with the shorter swing (6.97 ft, another career low), the bat is spending more time in the hitting zone and arriving there on a flatter plane. That's the mechanical explanation for why his squared-up contact rate has climbed every single year.
+
+His bat tilt dropped three to four degrees against almost every pitch type in 2026. Against fastballs, 39.3 to 37.8 degrees. Against changeups, 34.8 to 30.9. Against cutters, 37.2 to 33.6. A more level bat at contact means the barrel stays in the hitting zone longer, and the timing window widens. **That's consistent with the shorter swing, the improved squared-up rates, and the fewer topped balls.**
+
+The curveball tilt is where it gets uncomfortable for the optimistic read. In the article above, I framed the curveball vulnerability as potentially structural but left the door open: maybe he figures it out. His curveball-specific tilt dropped from 44.0 to 40.1 degrees, the largest single-pitch-type change in either direction. He's making more level contact against curveballs. But a more level bat is exactly the wrong adjustment against a pitch with sharp 12-to-6 vertical drop. A curveball falling through the zone wants to meet a bat that's angled to catch it on the way down, not one that's leveling out. The tilt data doesn't complicate my original framing. It reinforces it. The bat is getting flatter against a pitch that punishes flat bats, and the results reflect it: 66.7 percent K rate, 45.8 percent whiff rate on 12 plate appearances.
+
+The sweeper tilt went the opposite direction from every other pitch type, rising from 30.3 to 36.5 degrees. He's tilting more against a pitch whose primary movement is horizontal sweep, unlike the curveballs and splitters that beat him with vertical drop, and the 83.3 percent whiff rate on 23 pitches reflects it. That's two different pitches exploiting two different mechanical mismatches, and neither one has been addressed by the changes that fixed everything else. Fix that, and he'll unlock another level.
+
+So the overall mechanical progression is good news, and it's the most reliable trend in the data. His tilt has flattened every year, his swing has shortened every year, his attack angle recovered to its 2024 peak, and his launch angle blew past it to a career high. That last gap is the telling one: the swing plane only returned to where it was, but the launch angle jumped nearly four degrees beyond it. The stance and the flatter bat are generating loft the swing path alone can't explain. Four years of convergent mechanical trends, built on over 2,700 competitive swings, is the kind of trajectory you can build a projection around. But the same flattening that produces barrels on heaters produces whiffs on hooks, and that tradeoff is harder to solve than I thought yesterday.
+
+*Update added April 24, 2026. Original article above is unedited.*
+
 
