@@ -21,6 +21,11 @@ const njkEnv = nunjucks.configure(
 registerAll(njkEnv);
 njkEnv.addGlobal("allCategories", CATEGORIES);
 njkEnv.addGlobal("categoryLabels", CATEGORY_LABELS);
+njkEnv.addGlobal("webpExists", (imagePath) => {
+  if (!imagePath) return false;
+  const webpPath = imagePath.replace(/\.(png|jpe?g)$/i, ".webp");
+  return existsSync(join(srcDir, webpPath.replace(/^\//, "")));
+});
 
 // --- Articles ---
 loadArticles(articlesDir);

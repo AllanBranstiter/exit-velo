@@ -16,7 +16,7 @@
           {% set heroImg = featured[0].frontmatter.image or featured[0].frontmatter.article_image %}
           {% set heroAlt = featured[0].frontmatter.image_alt or featured[0].frontmatter.article_image_alt or featured[0].frontmatter.title %}
           <picture>
-            <source srcset="{{ heroImg | webpName }}" type="image/webp">
+            {% if webpExists(heroImg) %}<source srcset="{{ heroImg | webpName }}" type="image/webp">{% endif %}
             <img src="{{ heroImg }}" alt="{{ heroAlt }}" class="home-hero__image" loading="eager" fetchpriority="high" decoding="async">
           </picture>
         </a>
@@ -88,7 +88,7 @@
           {% set cardImg = featured[i].frontmatter.image or featured[i].frontmatter.article_image %}
           {% set cardAlt = featured[i].frontmatter.image_alt or featured[i].frontmatter.article_image_alt or featured[i].frontmatter.title %}
           <picture>
-            <source srcset="{{ cardImg | webpName }}" type="image/webp">
+            {% if webpExists(cardImg) %}<source srcset="{{ cardImg | webpName }}" type="image/webp">{% endif %}
             <img src="{{ cardImg }}" alt="{{ cardAlt }}" class="home-trending__image" loading="lazy" decoding="async">
           </picture>
           <h3 class="home-trending__title">{{ featured[i].frontmatter.title }}</h3>
