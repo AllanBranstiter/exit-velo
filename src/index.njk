@@ -120,12 +120,9 @@
         <span class="search-filters__label">Category</span>
         <div class="search-filters__pills" id="category-pills" role="group" aria-label="Filter by category">
           <button class="search-filters__pill search-filters__pill--active" data-category="all">All</button>
-          <button class="search-filters__pill" data-category="Player Profile">Players</button>
-          <button class="search-filters__pill" data-category="Farm System">Farm</button>
-          <button class="search-filters__pill" data-category="Game Recap">Recaps</button>
-          <button class="search-filters__pill" data-category="Stat Explainer">Explainers</button>
-          <button class="search-filters__pill" data-category="Fantasy Baseball">Fantasy</button>
-          <button class="search-filters__pill" data-category="Rankings">Rankings</button>
+          {% for cat in allCategories %}
+          <button class="search-filters__pill" data-category="{{ cat }}">{{ categoryLabels[cat] or cat }}</button>
+          {% endfor %}
         </div>
       </div>
 
@@ -168,12 +165,12 @@
     [
       {% for article in articles %}
       {
-        "url": {{ article.url | json }},
-        "title": {{ article.frontmatter.title | json }},
-        "description": {{ article.frontmatter.description | json }},
-        "category": {{ article.frontmatter.category | json }},
-        "level": {{ (article.frontmatter.level or "") | json }},
-        "keywords": {{ (article.frontmatter.keywords or []) | json }}
+        "url": {{ article.url | json | safe }},
+        "title": {{ article.frontmatter.title | json | safe }},
+        "description": {{ article.frontmatter.description | json | safe }},
+        "category": {{ article.frontmatter.category | json | safe }},
+        "level": {{ (article.frontmatter.level or "") | json | safe }},
+        "keywords": {{ (article.frontmatter.keywords or []) | json | safe }}
       }{% if not loop.last %},{% endif %}
       {% endfor %}
     ]

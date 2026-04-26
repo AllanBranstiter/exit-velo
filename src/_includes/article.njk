@@ -112,13 +112,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": {{ title | json }},
-    "description": {{ description | json }},
-    "datePublished": {{ date | dateIso | json }},
-    "dateModified": {{ date | dateIso | json }},
+    "headline": {{ title | json | safe }},
+    "description": {{ description | json | safe }},
+    "datePublished": {{ date | dateIso | json | safe }},
+    "dateModified": {{ date | dateIso | json | safe }},
     "author": {
       "@type": "Person",
-      "name": {{ author | json }}
+      "name": {{ author | json | safe }}
     },
     "publisher": {
       "@type": "Organization",
@@ -129,14 +129,14 @@
         "url": "https://exitvelo.us/images/favicon.svg"
       }
     },
-    "url": {{ ("https://exitvelo.us" + url) | json }},
-    "image": {{ ("https://exitvelo.us" + (image if image else (article_image if article_image else "/images/og-default.png"))) | json }},
+    "url": {{ ("https://exitvelo.us" + url) | json | safe }},
+    "image": {{ ("https://exitvelo.us" + (image if image else (article_image if article_image else "/images/og-default.png"))) | json | safe }},
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": {{ ("https://exitvelo.us" + url) | json }}
+      "@id": {{ ("https://exitvelo.us" + url) | json | safe }}
     }{% if category %},
-    "articleSection": {{ category | json }}{% endif %}{% if keywords %},
-    "keywords": {{ keywords | json }}{% endif %}
+    "articleSection": {{ category | json | safe }}{% endif %}{% if keywords %},
+    "keywords": {{ keywords | json | safe }}{% endif %}
   }
   </script>
 
@@ -155,13 +155,13 @@
       {
         "@type": "ListItem",
         "position": 2,
-        "name": {{ category | json }},
-        "item": {{ ("https://exitvelo.us/category/" + categorySlug) | json }}
+        "name": {{ category | json | safe }},
+        "item": {{ ("https://exitvelo.us/category/" + categorySlug) | json | safe }}
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "name": {{ title | json }}
+        "name": {{ title | json | safe }}
       }
     ]
   }

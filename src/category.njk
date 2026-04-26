@@ -44,12 +44,12 @@
     [
       {% for article in articles %}
       {
-        "url": {{ article.url | json }},
-        "title": {{ article.frontmatter.title | json }},
-        "description": {{ article.frontmatter.description | json }},
-        "category": {{ article.frontmatter.category | json }},
-        "level": {{ (article.frontmatter.level or "") | json }},
-        "keywords": {{ (article.frontmatter.keywords or []) | json }}
+        "url": {{ article.url | json | safe }},
+        "title": {{ article.frontmatter.title | json | safe }},
+        "description": {{ article.frontmatter.description | json | safe }},
+        "category": {{ article.frontmatter.category | json | safe }},
+        "level": {{ (article.frontmatter.level or "") | json | safe }},
+        "keywords": {{ (article.frontmatter.keywords or []) | json | safe }}
       }{% if not loop.last %},{% endif %}
       {% endfor %}
     ]

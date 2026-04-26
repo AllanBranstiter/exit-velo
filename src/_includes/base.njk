@@ -59,7 +59,7 @@
   }
   </script>
 
-  <script defer src="https://exit-velo-umami.fly.dev/script.js" data-website-id="4924bccb-22b0-4f87-98b2-d6056b8d8dc7"></script>
+  <script async src="https://exit-velo-umami.fly.dev/script.js" data-website-id="4924bccb-22b0-4f87-98b2-d6056b8d8dc7"></script>
 </head>
 <body>
 
@@ -74,12 +74,9 @@
         <li class="nav__dropdown">
           <button class="nav__dropdown-toggle" aria-expanded="false" aria-haspopup="true">Categories</button>
           <ul class="nav__dropdown-menu" role="menu">
-            <li role="menuitem"><a href="/category/player-profile">Player Profile</a></li>
-            <li role="menuitem"><a href="/category/stat-explainer">Stat Explainer</a></li>
-            <li role="menuitem"><a href="/category/fantasy-baseball">Fantasy Baseball</a></li>
-            <li role="menuitem"><a href="/category/farm-system">Farm System</a></li>
-            <li role="menuitem"><a href="/category/team-analysis">Team Analysis</a></li>
-            <li role="menuitem"><a href="/category/rankings">Rankings</a></li>
+            {% for cat in allCategories %}
+            <li role="menuitem"><a href="/category/{{ cat | categorySlug }}">{{ cat }}</a></li>
+            {% endfor %}
           </ul>
         </li>
         <li><a href="/about.html">About</a></li>

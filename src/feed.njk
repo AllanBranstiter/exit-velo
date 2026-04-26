@@ -6,7 +6,7 @@
     <description>Cincinnati Reds baseball by the numbers.</description>
     <language>en-us</language>
     <atom:link href="https://exitvelo.us/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>{{ articles[0].frontmatter.date | dateRfc822 }}</lastBuildDate>
+    {% if articles.length > 0 %}<lastBuildDate>{{ articles[0].frontmatter.date | dateRfc822 }}</lastBuildDate>{% endif %}
 {%- for article in articles %}
     <item>
       <title>{{ article.frontmatter.title }}</title>

@@ -54,11 +54,23 @@ function openPopover(key, anchor) {
   const el = document.createElement('div');
   el.className = 'glossary-popover';
   el.setAttribute('role', 'tooltip');
-  el.innerHTML = `
-    <button class="glossary-popover__close" aria-label="Close">&times;</button>
-    <div class="glossary-popover__term">${data.term}</div>
-    <div class="glossary-popover__definition">${data.definition}</div>
-  `;
+
+  const closeBtn = document.createElement('button');
+  closeBtn.className = 'glossary-popover__close';
+  closeBtn.setAttribute('aria-label', 'Close');
+  closeBtn.textContent = '\u00d7';
+
+  const termEl = document.createElement('div');
+  termEl.className = 'glossary-popover__term';
+  termEl.textContent = data.term;
+
+  const defEl = document.createElement('div');
+  defEl.className = 'glossary-popover__definition';
+  defEl.textContent = data.definition;
+
+  el.appendChild(closeBtn);
+  el.appendChild(termEl);
+  el.appendChild(defEl);
 
   document.body.appendChild(el);
   activePopover = el;

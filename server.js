@@ -6,7 +6,7 @@ import { createHash } from "node:crypto";
 import { gzipSync } from "node:zlib";
 import nunjucks from "nunjucks";
 import { registerAll } from "./lib/filters.js";
-import { loadArticles, getArticle, getAllArticles, getFeaturedArticles, watchArticles, getArticlesByCategory, slugToCategory, categoryToSlug, CATEGORIES, getRelated } from "./lib/articles.js";
+import { loadArticles, getArticle, getAllArticles, getFeaturedArticles, watchArticles, getArticlesByCategory, slugToCategory, categoryToSlug, CATEGORIES, CATEGORY_LABELS, getRelated } from "./lib/articles.js";
 import { getStandings, getRedsNews } from "./lib/mlb-data.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -16,9 +16,11 @@ const articlesDir = join(srcDir, "articles");
 // --- Nunjucks ---
 const njkEnv = nunjucks.configure(
   [join(srcDir, "_includes"), srcDir],
-  { autoescape: false, noCache: process.env.NODE_ENV !== "production" }
+  { autoescape: true, noCache: process.env.NODE_ENV !== "production" }
 );
 registerAll(njkEnv);
+njkEnv.addGlobal("allCategories", CATEGORIES);
+njkEnv.addGlobal("categoryLabels", CATEGORY_LABELS);
 
 // --- Articles ---
 loadArticles(articlesDir);
