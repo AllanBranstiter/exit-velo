@@ -22,7 +22,7 @@
         </a>
         <div class="home-hero__body">
           <div class="home-hero__meta">
-            <a href="/category/{{ featured[0].frontmatter.category | categorySlug }}" class="article-card__category">{{ featured[0].frontmatter.category }}</a>
+            <span class="article-card__category">{{ featured[0].frontmatter.category }}</span>
             {% if featured[0].frontmatter.level %}<span class="article-header__level article-header__level--{{ featured[0].frontmatter.level | lower }}">{{ featured[0].frontmatter.level }}</span>{% endif %}
             <time datetime="{{ featured[0].frontmatter.date | dateYearMonth }}">{{ featured[0].frontmatter.date | dateDisplay }}</time>
           </div>
@@ -94,7 +94,7 @@
           <h3 class="home-trending__title">{{ featured[i].frontmatter.title }}</h3>
           <p class="home-trending__description">{{ featured[i].frontmatter.description }}</p>
           <div class="home-trending__meta">
-            <a href="/category/{{ featured[i].frontmatter.category | categorySlug }}" class="article-card__category">{{ featured[i].frontmatter.category }}</a>
+            <span class="article-card__category">{{ featured[i].frontmatter.category }}</span>
             <time datetime="{{ featured[i].frontmatter.date | dateYearMonth }}">{{ featured[i].frontmatter.date | dateDisplay }}</time>
           </div>
         </a>
