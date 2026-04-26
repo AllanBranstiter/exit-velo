@@ -1,4 +1,14 @@
 {% extends "base.njk" %}
+{% block preload %}
+  {% set heroImg = featuredArticles[0].frontmatter.image or featuredArticles[0].frontmatter.article_image if featuredArticles.length > 0 %}
+  {% if heroImg %}
+  {% if webpExists(heroImg) %}
+  <link rel="preload" as="image" href="{{ heroImg | webpName }}" type="image/webp">
+  {% else %}
+  <link rel="preload" as="image" href="{{ heroImg }}">
+  {% endif %}
+  {% endif %}
+{% endblock %}
 {% block content %}
   <main class="page" id="main-content">
 
