@@ -3,18 +3,11 @@
  * Image optimization script for Exit Velo.
  *
  * What it does:
- *   1. Resizes hero images to 1600px wide (srcset 2x) and 800px wide (srcset 1x)
- *   2. Converts all PNGs/JPGs to WebP using cwebp (if available)
- *
- * Requirements:
- *   - macOS sips (built-in) for resizing
- *   - cwebp for WebP conversion: brew install webp
- *
- * Usage:
- *   node scripts/optimize-images.js
+ *   1. Converts all PNGs/JPGs to WebP using cwebp (if available)
+ *   2. Deletes @2x images and .ai source files older than 10 days
  */
 
-import { readdirSync, existsSync, mkdirSync } from "node:fs";
+import { readdirSync, statSync, rmSync } from "node:fs";
 import { join, basename, extname } from "node:path";
 import { execSync, spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
@@ -23,6 +16,7 @@ import { dirname } from "node:path";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const imagesDir = join(__dirname, "../src/images");
 const EXTS = new Set([".png", ".jpg", ".jpeg"]);
+const TEN_DAYS_MS = 10 * 24 * 60 * 60 * 1000;
 
 // Check for cwebp
 const hasCwebp = spawnSync("which", ["cwebp"], { encoding: "utf-8" }).status === 0;
@@ -30,56 +24,31 @@ if (!hasCwebp) {
   console.warn("⚠  cwebp not found — skipping WebP conversion. Install with: brew install webp");
 }
 
-// Check for sips (macOS only)
-const hasSips = spawnSync("which", ["sips"], { encoding: "utf-8" }).status === 0;
-if (!hasSips) {
-  console.warn("⚠  sips not found — skipping resize (macOS only). WebP conversion will still run if cwebp is available.");
+// --- Cleanup: delete @2x images and .ai source files older than 10 days ---
+const allFiles = readdirSync(imagesDir);
+const now = Date.now();
+let cleaned = 0;
+for (const file of allFiles) {
+  const isStale = /@2x\.|\.ai$/.test(file);
+  if (!isStale) continue;
+  const filePath = join(imagesDir, file);
+  const age = now - statSync(filePath).mtimeMs;
+  if (age > TEN_DAYS_MS) {
+    console.log(`  cleanup: deleting ${file} (${Math.floor(age / 86400000)}d old)`);
+    rmSync(filePath);
+    cleaned++;
+  }
 }
+if (cleaned > 0) console.log(`  removed ${cleaned} stale file(s)\n`);
 
+// --- WebP conversion ---
 const files = readdirSync(imagesDir).filter((f) => EXTS.has(extname(f).toLowerCase()));
 console.log(`Found ${files.length} images to process.\n`);
 
 for (const file of files) {
   const src = join(imagesDir, file);
-  const ext = extname(file).toLowerCase();
-  const name = basename(file, ext);
+  const name = basename(file, extname(file));
 
-  // 1. Resize: hero images get 1600px wide (2x), all images get 800px wide (1x card)
-  if (hasSips) {
-    const isHero = file.includes("-hero") || file.includes("og-");
-    const sizes = isHero ? [1600, 800] : [800];
-
-    for (const width of sizes) {
-      const suffix = width === 1600 ? "@2x" : "";
-      const resizedName = `${name}${suffix}${ext}`;
-      const resizedPath = join(imagesDir, resizedName);
-
-      if (resizedName === file) continue;
-
-      const info = spawnSync("sips", ["-g", "pixelWidth", src], { encoding: "utf-8" });
-      const match = info.stdout.match(/pixelWidth:\s*(\d+)/);
-      const originalWidth = match ? parseInt(match[1], 10) : 0;
-
-      if (originalWidth === 0) {
-        console.warn(`  warn: could not read width of ${file}, skipping resize`);
-        continue;
-      }
-
-      if (originalWidth <= width) {
-        console.log(`  skip resize: ${file} (${originalWidth}px <= ${width}px target)`);
-        continue;
-      }
-
-      console.log(`  resize ${file} → ${resizedName} (${width}px wide)`);
-      try {
-        execSync(`sips --resampleWidth ${width} "${src}" --out "${resizedPath}"`, { stdio: "pipe" });
-      } catch (err) {
-        console.error(`  error resizing ${file}: ${err.message}`);
-      }
-    }
-  }
-
-  // 2. WebP conversion
   if (hasCwebp) {
     const webpPath = join(imagesDir, `${name}.webp`);
     console.log(`  webp  ${file} → ${name}.webp`);
