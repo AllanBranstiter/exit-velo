@@ -13,11 +13,16 @@
     <div class="home-hero-row">
       <section class="home-hero" aria-label="Latest article">
         <a href="{{ featured[0].url }}" class="home-hero__link">
-          <img src="{{ featured[0].frontmatter.image or featured[0].frontmatter.article_image }}" alt="{{ featured[0].frontmatter.image_alt or featured[0].frontmatter.article_image_alt or featured[0].frontmatter.title }}" class="home-hero__image">
+          {% set heroImg = featured[0].frontmatter.image or featured[0].frontmatter.article_image %}
+          {% set heroAlt = featured[0].frontmatter.image_alt or featured[0].frontmatter.article_image_alt or featured[0].frontmatter.title %}
+          <picture>
+            <source srcset="{{ heroImg | webpName }}" type="image/webp">
+            <img src="{{ heroImg }}" alt="{{ heroAlt }}" class="home-hero__image" loading="eager" fetchpriority="high" decoding="async">
+          </picture>
         </a>
         <div class="home-hero__body">
           <div class="home-hero__meta">
-            <span class="article-card__category">{{ featured[0].frontmatter.category }}</span>
+            <a href="/category/{{ featured[0].frontmatter.category | categorySlug }}" class="article-card__category">{{ featured[0].frontmatter.category }}</a>
             {% if featured[0].frontmatter.level %}<span class="article-header__level article-header__level--{{ featured[0].frontmatter.level | lower }}">{{ featured[0].frontmatter.level }}</span>{% endif %}
             <time datetime="{{ featured[0].frontmatter.date | dateYearMonth }}">{{ featured[0].frontmatter.date | dateDisplay }}</time>
           </div>
@@ -80,11 +85,16 @@
         {% for i in [1, 2, 3] %}
         {% if featured[i] %}
         <a href="{{ featured[i].url }}" class="home-trending__card">
-          <img src="{{ featured[i].frontmatter.image or featured[i].frontmatter.article_image }}" alt="{{ featured[i].frontmatter.image_alt or featured[i].frontmatter.article_image_alt or featured[i].frontmatter.title }}" class="home-trending__image">
+          {% set cardImg = featured[i].frontmatter.image or featured[i].frontmatter.article_image %}
+          {% set cardAlt = featured[i].frontmatter.image_alt or featured[i].frontmatter.article_image_alt or featured[i].frontmatter.title %}
+          <picture>
+            <source srcset="{{ cardImg | webpName }}" type="image/webp">
+            <img src="{{ cardImg }}" alt="{{ cardAlt }}" class="home-trending__image" loading="lazy" decoding="async">
+          </picture>
           <h3 class="home-trending__title">{{ featured[i].frontmatter.title }}</h3>
           <p class="home-trending__description">{{ featured[i].frontmatter.description }}</p>
           <div class="home-trending__meta">
-            <span class="article-card__category">{{ featured[i].frontmatter.category }}</span>
+            <a href="/category/{{ featured[i].frontmatter.category | categorySlug }}" class="article-card__category">{{ featured[i].frontmatter.category }}</a>
             <time datetime="{{ featured[i].frontmatter.date | dateYearMonth }}">{{ featured[i].frontmatter.date | dateDisplay }}</time>
           </div>
         </a>
@@ -135,7 +145,7 @@
       {% for article in articles %}
       <li class="article-card" data-url="{{ article.url }}">
         <div class="article-card__meta">
-          <span class="article-card__category">{{ article.frontmatter.category }}</span>
+          <a href="/category/{{ article.frontmatter.category | categorySlug }}" class="article-card__category">{{ article.frontmatter.category }}</a>
           {% if article.frontmatter.level %}<span class="article-header__level article-header__level--{{ article.frontmatter.level | lower }}">{{ article.frontmatter.level }}</span>{% endif %}
           <time datetime="{{ article.frontmatter.date | dateYearMonth }}">{{ article.frontmatter.date | dateDisplay }}</time>
         </div>

@@ -21,6 +21,29 @@
       </article>
 
     </div>
+
+    {% if related and related.length > 0 %}
+    <aside class="related-articles" aria-label="Related articles">
+      <h2 class="related-articles__heading">More to read</h2>
+      <ul class="related-articles__list">
+        {% for item in related %}
+        <li class="article-card">
+          <div class="article-card__meta">
+            <a href="/category/{{ item.frontmatter.category | categorySlug }}" class="article-card__category">{{ item.frontmatter.category }}</a>
+            {% if item.frontmatter.level %}<span class="article-header__level article-header__level--{{ item.frontmatter.level | lower }}">{{ item.frontmatter.level }}</span>{% endif %}
+            <time datetime="{{ item.frontmatter.date | dateYearMonth }}">{{ item.frontmatter.date | dateDisplay }}</time>
+          </div>
+          <h3 class="article-card__title">
+            <a href="{{ item.url }}">{{ item.frontmatter.title }}</a>
+          </h3>
+          <p class="article-card__excerpt">{{ item.frontmatter.description }}</p>
+          <a href="{{ item.url }}" class="article-card__readmore">Read article &rarr;</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </aside>
+    {% endif %}
+
   </main>
 
   <script src="/js/glossary.js"></script>
@@ -116,4 +139,32 @@
     "keywords": {{ keywords | json }}{% endif %}
   }
   </script>
+
+  {% if category and categorySlug %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://exitvelo.us/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": {{ category | json }},
+        "item": {{ ("https://exitvelo.us/category/" + categorySlug) | json }}
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": {{ title | json }}
+      }
+    ]
+  }
+  </script>
+  {% endif %}
 {% endblock %}

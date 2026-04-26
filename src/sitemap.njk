@@ -10,6 +10,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
+{%- for cat in categories %}
+  <url>
+    <loc>https://exitvelo.us/category/{{ cat | categorySlug }}</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+{%- endfor %}
 {%- for article in articles %}
   <url>
     <loc>https://exitvelo.us{{ article.url }}</loc>

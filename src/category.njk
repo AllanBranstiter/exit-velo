@@ -1,0 +1,81 @@
+{% extends "base.njk" %}
+{% block content %}
+  <main class="page" id="main-content">
+
+    <header class="category-header">
+      <p class="category-header__back"><a href="/">&larr; All articles</a></p>
+      <h1 class="category-header__title">{{ category }}</h1>
+      <p class="category-header__count">{{ articles.length }} article{% if articles.length != 1 %}s{% endif %}</p>
+    </header>
+
+    <div class="search-filters__group search-filters__group--solo">
+      <span class="search-filters__label">Level</span>
+      <div class="search-filters__pills" id="level-pills" role="group" aria-label="Filter by level">
+        <button class="search-filters__pill search-filters__pill--active" data-level="all">All</button>
+        <button class="search-filters__pill" data-level="Beginner">Beginner</button>
+        <button class="search-filters__pill" data-level="Intermediate">Intermediate</button>
+        <button class="search-filters__pill" data-level="Advanced">Advanced</button>
+      </div>
+    </div>
+
+    <ul class="article-list">
+      {% for article in articles %}
+      <li class="article-card" data-url="{{ article.url }}">
+        <div class="article-card__meta">
+          <span class="article-card__category">{{ article.frontmatter.category }}</span>
+          {% if article.frontmatter.level %}<span class="article-header__level article-header__level--{{ article.frontmatter.level | lower }}">{{ article.frontmatter.level }}</span>{% endif %}
+          <time datetime="{{ article.frontmatter.date | dateYearMonth }}">{{ article.frontmatter.date | dateDisplay }}</time>
+        </div>
+        <h2 class="article-card__title">
+          <a href="{{ article.url }}">{{ article.frontmatter.title }}</a>
+        </h2>
+        <p class="article-card__excerpt">{{ article.frontmatter.description }}</p>
+        <a href="{{ article.url }}" class="article-card__readmore">Read article &rarr;</a>
+      </li>
+      {% endfor %}
+
+      <li class="article-list__empty" id="no-results" hidden>
+        No articles match your filters.
+        <button class="article-list__clear" id="clear-filters">Clear all filters</button>
+      </li>
+    </ul>
+
+    <script type="application/json" id="article-search-data">
+    [
+      {% for article in articles %}
+      {
+        "url": {{ article.url | json }},
+        "title": {{ article.frontmatter.title | json }},
+        "description": {{ article.frontmatter.description | json }},
+        "category": {{ article.frontmatter.category | json }},
+        "level": {{ (article.frontmatter.level or "") | json }},
+        "keywords": {{ (article.frontmatter.keywords or []) | json }}
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+    </script>
+
+  </main>
+
+  <script src="/js/search.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://exitvelo.us/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ category }}"
+      }
+    ]
+  }
+  </script>
+{% endblock %}

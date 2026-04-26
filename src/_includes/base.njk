@@ -71,6 +71,17 @@
       <p class="nav__tagline">Cincinnati Reds baseball by the numbers.</p>
       <ul class="nav__links">
         <li><a href="/heat-check/CIN_heat_check.html">Heat Check</a></li>
+        <li class="nav__dropdown">
+          <button class="nav__dropdown-toggle" aria-expanded="false" aria-haspopup="true">Categories</button>
+          <ul class="nav__dropdown-menu" role="menu">
+            <li role="menuitem"><a href="/category/player-profile">Player Profile</a></li>
+            <li role="menuitem"><a href="/category/stat-explainer">Stat Explainer</a></li>
+            <li role="menuitem"><a href="/category/fantasy-baseball">Fantasy Baseball</a></li>
+            <li role="menuitem"><a href="/category/farm-system">Farm System</a></li>
+            <li role="menuitem"><a href="/category/team-analysis">Team Analysis</a></li>
+            <li role="menuitem"><a href="/category/rankings">Rankings</a></li>
+          </ul>
+        </li>
         <li><a href="/about.html">About</a></li>
       </ul>
     </div>
@@ -81,6 +92,25 @@
   <footer class="footer">
     <p>&copy; 2026 Allan Branstiter. All rights reserved.</p>
   </footer>
+
+  <script>
+  (function() {
+    var toggle = document.querySelector('.nav__dropdown-toggle');
+    var menu = document.querySelector('.nav__dropdown-menu');
+    if (!toggle || !menu) return;
+    toggle.addEventListener('click', function() {
+      var open = menu.hasAttribute('data-open');
+      if (open) { menu.removeAttribute('data-open'); toggle.setAttribute('aria-expanded', 'false'); }
+      else       { menu.setAttribute('data-open', ''); toggle.setAttribute('aria-expanded', 'true'); }
+    });
+    document.addEventListener('click', function(e) {
+      if (!toggle.contains(e.target) && !menu.contains(e.target)) {
+        menu.removeAttribute('data-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  })();
+  </script>
 
 </body>
 </html>

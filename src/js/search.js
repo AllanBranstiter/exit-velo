@@ -1,4 +1,4 @@
-/* search.js -- Exit Velo homepage search & filter */
+/* search.js -- Exit Velo article search & filter */
 
 (function () {
   'use strict';
@@ -58,54 +58,68 @@
     noResults.hidden = visibleCount > 0;
   }
 
-  let debounceTimer;
-  searchInput.addEventListener('input', function () {
-    clearTimeout(debounceTimer);
-    debounceTimer = setTimeout(function () {
-      searchQuery = searchInput.value;
+  if (searchInput) {
+    let debounceTimer;
+    searchInput.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        searchQuery = searchInput.value;
+        applyFilters();
+      }, 150);
+    });
+  }
+
+  if (categoryPills) {
+    categoryPills.addEventListener('click', function (e) {
+      const pill = e.target.closest('.search-filters__pill');
+      if (!pill) return;
+      categoryPills.querySelectorAll('.search-filters__pill').forEach(function (p) {
+        p.classList.remove('search-filters__pill--active');
+        p.setAttribute('aria-pressed', 'false');
+      });
+      pill.classList.add('search-filters__pill--active');
+      pill.setAttribute('aria-pressed', 'true');
+      activeCategory = pill.dataset.category;
       applyFilters();
-    }, 150);
-  });
-
-  categoryPills.addEventListener('click', function (e) {
-    const pill = e.target.closest('.search-filters__pill');
-    if (!pill) return;
-    categoryPills.querySelectorAll('.search-filters__pill').forEach(function (p) {
-      p.classList.remove('search-filters__pill--active');
-      p.setAttribute('aria-pressed', 'false');
     });
-    pill.classList.add('search-filters__pill--active');
-    pill.setAttribute('aria-pressed', 'true');
-    activeCategory = pill.dataset.category;
-    applyFilters();
-  });
+  }
 
-  levelPills.addEventListener('click', function (e) {
-    const pill = e.target.closest('.search-filters__pill');
-    if (!pill) return;
-    levelPills.querySelectorAll('.search-filters__pill').forEach(function (p) {
-      p.classList.remove('search-filters__pill--active');
-      p.setAttribute('aria-pressed', 'false');
+  if (levelPills) {
+    levelPills.addEventListener('click', function (e) {
+      const pill = e.target.closest('.search-filters__pill');
+      if (!pill) return;
+      levelPills.querySelectorAll('.search-filters__pill').forEach(function (p) {
+        p.classList.remove('search-filters__pill--active');
+        p.setAttribute('aria-pressed', 'false');
+      });
+      pill.classList.add('search-filters__pill--active');
+      pill.setAttribute('aria-pressed', 'true');
+      activeLevel = pill.dataset.level;
+      applyFilters();
     });
-    pill.classList.add('search-filters__pill--active');
-    pill.setAttribute('aria-pressed', 'true');
-    activeLevel = pill.dataset.level;
-    applyFilters();
-  });
+  }
 
-  clearBtn.addEventListener('click', function () {
-    searchInput.value = '';
-    searchQuery = '';
-    activeCategory = 'all';
-    activeLevel = 'all';
-    document.querySelectorAll('.search-filters__pill').forEach(function (p) {
-      p.classList.remove('search-filters__pill--active');
-      p.setAttribute('aria-pressed', 'false');
+  if (clearBtn) {
+    clearBtn.addEventListener('click', function () {
+      if (searchInput) {
+        searchInput.value = '';
+        searchQuery = '';
+      }
+      activeCategory = 'all';
+      activeLevel = 'all';
+      document.querySelectorAll('.search-filters__pill').forEach(function (p) {
+        p.classList.remove('search-filters__pill--active');
+        p.setAttribute('aria-pressed', 'false');
+      });
+      if (categoryPills) {
+        categoryPills.querySelector('[data-category="all"]').classList.add('search-filters__pill--active');
+        categoryPills.querySelector('[data-category="all"]').setAttribute('aria-pressed', 'true');
+      }
+      if (levelPills) {
+        levelPills.querySelector('[data-level="all"]').classList.add('search-filters__pill--active');
+        levelPills.querySelector('[data-level="all"]').setAttribute('aria-pressed', 'true');
+      }
+      applyFilters();
     });
-    categoryPills.querySelector('[data-category="all"]').classList.add('search-filters__pill--active');
-    categoryPills.querySelector('[data-category="all"]').setAttribute('aria-pressed', 'true');
-    levelPills.querySelector('[data-level="all"]').classList.add('search-filters__pill--active');
-    levelPills.querySelector('[data-level="all"]').setAttribute('aria-pressed', 'true');
-    applyFilters();
-  });
+  }
 })();

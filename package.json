@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js",
+    "optimize": "node scripts/optimize-images.js",
+    "publish": "node scripts/optimize-images.js && fly deploy",
     "lint": "eslint . && stylelint \"src/css/**/*.css\"",
     "lint:js": "eslint .",
     "lint:css": "stylelint \"src/css/**/*.css\""
