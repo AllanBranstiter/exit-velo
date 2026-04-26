@@ -70,6 +70,15 @@ footer strong { color: #666; }
 .glossary-item { font-size: 0.68rem; color: #444; }
 .glossary-item strong { color: #555; }
 @media (prefers-reduced-motion: reduce) { .bar-fill { transition: none; } }
+@media (max-width: 600px) {
+  h1.title { font-size: 3rem; }
+  .card-grid,
+  .card-grid-2 { grid-template-columns: 1fr; }
+  .meter-row { grid-template-columns: 120px 1fr 70px; gap: 8px; }
+  .meter-name { font-size: 0.75rem; }
+  .series-nav { top: 8px; right: 8px; }
+  .series-nav a { padding: 5px 9px; font-size: 0.68rem; }
+}
 </style>
 </head>
 <body>
