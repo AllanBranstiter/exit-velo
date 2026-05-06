@@ -1,6 +1,6 @@
 ---
 layout: article.njk
-title: "Nick Kurtz's Slump Isn't What It Looks Like"
+title: "Updated: Nick Kurtz's Slump Isn't What It Looks Like"
 subtitle: "He's hitting the ball harder than during his 170 wRC+ rookie year. The problem isn't his swing. It's when he commits to it."
 category: Player Profile
 level: Intermediate
@@ -25,6 +25,53 @@ keywords:
 <figure style="margin:0 0 2rem;">
   <img src="/images/nick-kurtz-savant.png" alt="Nick Kurtz's Baseball Savant page showing his 2026 MLB Percentile Rankings, career batting stats, spray chart, and rolling xwOBA" style="width:100%;border-radius:0.5rem;">
 </figure>
+
+<details style="margin:0 0 2rem;background:#f0f7ff;border-left:4px solid #3b82f6;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
+<summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#1e40af;list-style:none;">
+<p style="margin:0 0 0.5rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;"><span class="disclosure-arrow">&#9654;</span> Update — May 6, 2026</p>
+<p style="margin:0 0 0.5rem;font-weight:400;font-size:0.84rem;color:#3b5998;line-height:1.5;">Through ~130 PA, Kurtz has climbed to .244/.412/.412 and a 130 wRC+. The core thesis held: the exit velocity was real, the results came, and the slump resolved into above-average production. His walk rate jumped to 22 percent while his K% actually fell to 33 percent. But the recovery didn't happen the way I predicted. The Shadow contact rate isn't the story. His opposite-field power vanished entirely — zero oppo homers — and fastballs flipped from a strength to a severe weakness. The decisional problem I identified may have been real, but it manifested as a directional issue, not a zone-edge timing issue.</p>
+<p style="margin:0;font-weight:600;font-size:0.78rem;color:#1e40af;text-transform:uppercase;letter-spacing:0.05em;">Click for full analysis &#8250;</p>
+</summary>
+<div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#1a1a1a;">
+
+<p style="margin:0 0 0.75rem;">Ben Clemens at FanGraphs published "<a href="https://blogs.fangraphs.com/nick-kurtzs-strange-encore/" style="color:#1e40af;">Nick Kurtz's Strange Encore</a>" on May 6, and his data gives us enough to grade what I got right, what I got wrong, and what I missed entirely.</p>
+
+<p style="margin:1.25rem 0 0.5rem;font-weight:700;font-size:0.95rem;color:#1e40af;">What the Original Analysis Got Right</p>
+
+<p style="margin:0 0 0.75rem;">The big call was correct. This was never a sophomore collapse, and the exit velocity wasn't lying. Kurtz's 130 wRC+ through a month-plus of what Clemens still calls a slump is exactly what I predicted when I wrote that his xwOBA would carry him even if the timing didn't fully resolve. The projection systems had him at 132 wRC+ for the full year. He's basically there already while still struggling.</p>
+
+<p style="margin:0 0 0.75rem;">The walk rate prediction was right too. I flagged that his selectivity was improving — that the passivity in the zone was a feature dressed up as a bug. His BB% has now jumped to 22.2 percent, which is elite. He strung together a 20-game walk streak. Pitchers are terrified of him even when he's not squaring them up.</p>
+
+<p style="margin:0 0 0.75rem;">The comp framework held. I said exit velocity direction was the differentiator between recoveries and collapses, and that Kurtz's +4.3 mph EV gain put him in a different category than Gorman or Greene. That's still true. His average and 90th-percentile exit velocities are both top-five in baseball. The contact quality hasn't degraded. The collapses in this comp set all featured EV declines. Kurtz's hasn't declined.</p>
+
+<p style="margin:1.25rem 0 0.5rem;font-weight:700;font-size:0.95rem;color:#1e40af;">What I Got Wrong</p>
+
+<p style="margin:0 0 0.75rem;">The mechanism. I said this was a decisional problem — that his fast-swing rate cratered, that he was committing too late on Shadow pitches, and that the fix was recalibrating when to pull the trigger on edge pitches. I identified the key metric to watch as Shadow contact rate (61.2 percent, needed to reach 68–70 percent by June).</p>
+
+<p style="margin:0 0 0.75rem;">Clemens' data tells a different story, or at least a more specific one. The problem isn't edge-of-zone timing in general. It's opposite-field launch angle. In 2025, Kurtz's average launch angle on opposite-field fly balls was 34 degrees — basically the ideal home run angle for a guy who hits the ball 100+ mph. In 2026, that number is 41 degrees. He's getting under the ball when he goes the other way. At 100–105 mph exit velocity, that seven-degree difference drops his home run probability from 48 percent to 15 percent on those batted balls.</p>
+
+<p style="margin:0 0 0.75rem;">I should have looked harder at the spray chart data in April. His opposite-field power was his defining superpower in 2025 — a .750 wOBA going the other way, best in baseball by more than 100 points — and its total disappearance in 2026 is the specific mechanism behind the ISO crash. I was focused on the zone map when I should have been focused on the field map.</p>
+
+<p style="margin:1.25rem 0 0.5rem;font-weight:700;font-size:0.95rem;color:#1e40af;">What Changed Since April 10</p>
+
+<p style="margin:0 0 0.75rem;">The fastball story flipped completely. When I wrote the original piece, Kurtz's pitch value against four-seamers was still positive (+1.14 per 100). I specifically called out sinkers, cutters, and curveballs as the problem pitches and noted that fastballs "remain positive." That's no longer true. Clemens reports he's slugging .618 against four-seamers (down from .776 in 2025) and .304 against sinkers (down from .623). His fastball run value dropped from third in baseball to 75th. What was the one pitch type still working for him in early April is now the primary source of his struggles.</p>
+
+<p style="margin:0 0 0.75rem;">The strikeout rate came down, though. From 40 percent at 50 PA to 32.7 percent at ~130 PA. That's still higher than his 2025 mark of 30.9 percent, but not the alarming spike I was reacting to. The combination of more walks and fewer strikeouts explains how his wRC+ climbed from 96.5 to 130 without the power returning.</p>
+
+<p style="margin:1.25rem 0 0.5rem;font-weight:700;font-size:0.95rem;color:#1e40af;">What I Missed Entirely</p>
+
+<p style="margin:0 0 0.75rem;">The directional redistribution of his contact. Clemens shows that Kurtz is tattooing the ball up the middle — 97+ mph average exit velocity to center field — but that the deep part of the park is holding those balls in. Meanwhile, the opposite-field power that made him special has completely evaporated. This explains a phenomenon I couldn't fully account for in April: why his xwOBA stayed above average while his results tanked. Balls hit to center field systematically outperform their xwOBA less than balls hit to the corners. He was redirecting his best contact to the part of the field where results run below expected values.</p>
+
+<p style="margin:0 0 0.75rem;">I also missed the James Wood comp that Clemens surfaces. Wood hit .750 wOBA going the other way in 2025 (second in baseball behind Kurtz) and shared the same age, handedness, and K%/BB% profile. If I'd dug into the opposite-field data in April, Wood would have been a better active comp than any of the ones I used in the original piece.</p>
+
+<p style="margin:1.25rem 0 0.5rem;font-weight:700;font-size:0.95rem;color:#1e40af;">The Revised Number to Watch</p>
+
+<p style="margin:0 0 0.75rem;">I'm replacing Shadow contact rate as the key metric. The number to watch now is his opposite-field launch angle on fly balls. If it drops from 41 degrees back toward 34–36, the home runs will come in bunches because the exit velocity is already there. That's a timing adjustment, not a mechanical rebuild — which is actually consistent with my original argument, just pointed at a different symptom.</p>
+
+<p style="margin:0 0 0.75rem;">Clemens' conclusion matches mine from April, stated more plainly: if Kurtz is hitting like this while failing at his single greatest skill, imagine what happens when it clicks back. The 97 mph exit velocity is still real. The 22 percent walk rate is new and maybe better than the power. And 130 wRC+ as a floor during a slump is not a problem. It's a promise.</p>
+
+</div>
+</details>
 
 <details style="margin:0 0 2rem;background:#fce8eb;border-left:4px solid #C6011F;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
 <summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#8B0015;list-style:none;display:flex;align-items:center;gap:0.5rem;">
@@ -433,3 +480,5 @@ The home runs are coming. Three barrels in 21 batted balls doesn't stay at zero 
 If it climbs toward 68 or 70 percent by June, it means he's recalibrating his timing, learning to commit earlier on edge pitches while keeping the power gains. If it stays in the low 60s, the strikeout rate won't come down as far as the projections expect, and we're looking at a hitter who trades more power for less contact than last year's version.
 
 Either way, the 97 mph exit velocity is real, and it doesn't lie. Fifty plate appearances of box score noise doesn't change what a man can do to a baseball.
+
+*Update added May 6, 2026. Original scouting report above is unedited.*
