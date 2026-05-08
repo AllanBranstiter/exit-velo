@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chicago Cubs Heat Check</title>
+<title>Houston Astros Heat Check</title>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { background: #141414; color: #e8e2da; font-family: 'Inter', sans-serif; max-width: 960px; margin: 0 auto; padding: 32px 20px 60px; position: relative; }
-.eyebrow { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #4A90D9; }
+.eyebrow { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #EB6E1F; }
 h1.title { font-family: 'Bebas Neue', sans-serif; font-size: 5rem; line-height: 1; color: #fff; letter-spacing: 0.04em; }
-h1.title .accent { color: #4A90D9; }
+h1.title .accent { color: #EB6E1F; }
 .subtitle { font-size: 0.8rem; color: #888; margin-top: 8px; letter-spacing: 0.05em; }
 .divider { border: none; border-top: 1px solid #2a2a2a; margin: 28px 0; }
 h2.section-title { font-family: 'Bebas Neue', sans-serif; font-size: 1.9rem; letter-spacing: 0.06em; color: #ffffff; }
@@ -26,6 +26,11 @@ h2.section-title .sub { font-family: 'Inter', sans-serif; font-size: 0.7rem; fon
 .tag-warm { background: rgba(120,120,120,0.18); border: 1px solid rgba(120,120,120,0.35); color: #999; font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; padding: 2px 8px; border-radius: 3px; white-space: nowrap; }
 .tag-cold { background: rgba(33,113,181,0.18); border: 1px solid rgba(33,113,181,0.35); color: #5BA8E5; font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; padding: 2px 8px; border-radius: 3px; white-space: nowrap; }
 .card-stats { display: flex; flex-direction: column; gap: 5px; margin-bottom: 13px; }
+.card-chart { margin-bottom: 12px; }
+.card-chart svg { display: block; width: 100%; height: auto; }
+.chart-legend { font-size: 0.62rem; color: #666; margin-top: 4px; letter-spacing: 0.03em; }
+.legend-xwoba { color: #888; font-size: 0.5rem; margin-left: 8px; }
+.legend-woba { color: #EF5350; font-size: 0.5rem; }
 .stat-row { display: grid; grid-template-columns: 1fr auto auto; gap: 8px; font-size: 0.75rem; }
 .stat-label { color: #666; }
 .stat-value { font-weight: 600; color: #e8e2da; text-align: right; }
@@ -82,6 +87,7 @@ footer strong { color: #666; }
   .series-nav a { padding: 5px 9px; font-size: 0.65rem; gap: 4px; }
   .card-name { font-size: 0.85rem; }
   .stat-row { font-size: 0.7rem; gap: 4px; }
+  .stat-recent { font-size: 0.5rem; width: 10px; }
   .stat-value { font-size: 0.7rem; }
   .week-proj-stats { grid-template-columns: repeat(2, 1fr); gap: 8px; }
   .week-proj-header { font-size: 0.58rem; }
@@ -96,216 +102,84 @@ footer strong { color: #666; }
 </style>
 </head>
 <body>
-<div class="eyebrow">CHICAGO CUBS</div>
+<div class="eyebrow">HOUSTON ASTROS</div>
 <h1 class="title">HEAT <span class="accent">CHECK</span></h1>
-<div class="subtitle">vs Reds &middot; May 4-7, 2026</div>
-<div class="subtitle">22-12 on the season</div>
+<div class="subtitle">vs Reds &middot; May 8 to May 10, 2026</div>
+<div class="subtitle">15-23 on the season</div>
 <hr class="divider">
-<h2 class="section-title">ON THE MOUND<span class="sub">CHICAGO CUBS PROJECTED STARTERS</span></h2>
+<h2 class="section-title">ON THE MOUND<span class="sub">HOUSTON ASTROS PROJECTED STARTERS</span></h2>
 <div class="card-grid">
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Edward Cabrera</h3>
-      <div class="card-pos">RHP &middot; 5/4 vs CIN</div>
+      <h3 class="card-name">Mike Burrows</h3>
+      <div class="card-pos">RHP &middot; 5/8 vs CIN</div>
     </div>
-    <span class="tag-fire1">Power Arm</span>
+    <span class="tag-fire1">Unlucky So Far</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">ERA / WHIP</div>
-  <div class="stat-value">3.06 / 1.19</div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FB Velo</div>
-  <div class="stat-value">95.7</div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">K%-BB%</div>
-  <div class="stat-value">11.8% <span style="font-size:0.65rem;color:#EF5350">(17.6% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Hard-Hit% Allowed</div>
-  <div class="stat-value">39.2% <span style="font-size:0.65rem;color:#4CAF50">(46.4% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">GB%</div>
-  <div class="stat-value">41.4% <span style="font-size:0.65rem;color:#EF5350">(46.6% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Chase%</div>
-  <div class="stat-value">35.3%</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Best Pitch (Curveball)</div>
-  <div class="stat-value">.283 xwOBA</div>
-  <div class="stat-trend"><span class="trend-flat"></span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="11.3" x2="256" y2="11.3" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="8.3" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,43.6 L46.0,24.8 L88.0,24.3 L130.0,32.0 L172.0,12.2 L214.0,24.6 L256.0,23.0" fill="none" stroke="#888" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <path d="M4.0,60.7 L46.0,39.2 L88.0,33.6 L130.0,45.9 L172.0,51.5 L214.0,33.7 L256.0,26.9" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="26.9" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> ERA <span class="legend-xwoba">&#9632;</span> FIP</div>
   </div>
   <div class="week-proj">
-    <div class="week-proj-header">Start Projection &middot; 5/4 vs CIN</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">5.7</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">3.98</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">6</div></div><div class="proj-stat"><div class="proj-stat-label">QS%</div><div class="proj-stat-value">52%</div></div></div>
+    <div class="week-proj-header">Start Projection &middot; 5/8 vs CIN</div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">5.4</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">4.6</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">6</div></div><div class="proj-stat"><div class="proj-stat-label">QS%</div><div class="proj-stat-value">45%</div></div></div>
   </div>
-  <div class="card-note"><em>The stuff is loud: mid-90s heat paired with a changeup and curveball that both generate whiffs at an elite rate. He shut out the Angels and Guardians in his first two starts and has settled into a groove of going deep into games. <strong>The curveball is the pitch to watch. If Reds hitters can lay off it, his command can waver.</strong> He walked five in one start and has been wild in stretches. Patience at the plate could force him into hittable counts.</em></div>
+  <div class="card-note">The ugly number on the scoreboard lies. His changeup and curveball are both legitimate weapons that fool hitters, and the numbers beneath the surface say he's been genuinely unlucky. <strong>The fastball is the weakness</strong>: hitters who sit on it punish it, and they hit it hard more often than not. Reds hitters should look heater when he falls behind in counts and wait for him to prove he can throw the offspeed for strikes.</div>
 </div>
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Jameson Taillon</h3>
-      <div class="card-pos">RHP &middot; 5/5 vs CIN</div>
+      <h3 class="card-name">Spencer Arrighetti</h3>
+      <div class="card-pos">RHP &middot; 5/9 vs CIN</div>
     </div>
-    <span class="tag-warm">Sweeper Merchant</span>
+    <span class="tag-warm">House of Cards</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">ERA / WHIP</div>
-  <div class="stat-value">4.41 / 1.15</div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FB Velo</div>
-  <div class="stat-value">91.5</div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">K%-BB%</div>
-  <div class="stat-value">12.8% <span style="font-size:0.65rem;color:#EF5350">(13.7% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FIP</div>
-  <div class="stat-value">5.95 <span style="font-size:0.65rem;color:#EF5350">(4.65 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Hard-Hit% Allowed</div>
-  <div class="stat-value">33.3%</div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Best Pitch (Sweeper)</div>
-  <div class="stat-value">.146 xwOBA</div>
-  <div class="stat-trend"><span class="trend-flat"></span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">xERA</div>
-  <div class="stat-value">4.12</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="57.4" x2="256" y2="57.4" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="54.4" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,20.9 L88.0,38.2 L172.0,40.4 L256.0,51.3" fill="none" stroke="#888" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <path d="M4.0,14.6 L88.0,29.0 L172.0,21.7 L256.0,20.9" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="20.9" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> ERA <span class="legend-xwoba">&#9632;</span> FIP</div>
   </div>
   <div class="week-proj">
-    <div class="week-proj-header">Start Projection &middot; 5/5 vs CIN</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">5.7</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">3.5</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">5</div></div><div class="proj-stat"><div class="proj-stat-label">QS%</div><div class="proj-stat-value">54%</div></div></div>
+    <div class="week-proj-header">Start Projection &middot; 5/9 vs CIN</div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">5.6</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">4.5</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">6</div></div><div class="proj-stat"><div class="proj-stat-label">QS%</div><div class="proj-stat-value">48%</div></div></div>
   </div>
-  <div class="card-note"><em>A veteran who relies on location over stuff, with a fastball that sits just 91. He struck out ten Pirates in one start but also gave up six runs and three homers in that same game, which tells you everything about how thin his margin is. <strong>The sweeper has been nearly unhittable this year, opponents are barely making contact against it.</strong> If he leans on that pitch and keeps the fastball on corners, he can be effective. The moment the fastball drifts to the middle, this Reds lineup can do damage.</em></div>
+  <div class="card-note">The pretty number on the scoreboard is a mirage. He walks too many hitters, the ball is getting hit hard when it's in play, and his underlying numbers say this should be much worse. <strong>The curveball is the one real weapon</strong>, a devastating pitch that fools hitters at an elite rate. But he lives dangerously: if the Reds can lay off the curve and force him to throw fastballs in the zone, the dam breaks.</div>
 </div>
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Colin Rea</h3>
-      <div class="card-pos">RHP &middot; 5/6 vs CIN</div>
+      <h3 class="card-name">Peter Lambert</h3>
+      <div class="card-pos">RHP &middot;  vs CIN</div>
     </div>
-    <span class="tag-warm">Ground Ball Guy</span>
+    <span class="tag-fire2">Legit</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">ERA / WHIP</div>
-  <div class="stat-value">4.41 / 1.32</div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FB Velo</div>
-  <div class="stat-value">93.8</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">K%-BB%</div>
-  <div class="stat-value">14.8% <span style="font-size:0.65rem;color:#4CAF50">(12.5% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">GB%</div>
-  <div class="stat-value">52.5% <span style="font-size:0.65rem;color:#4CAF50">(39.5% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Hard-Hit% Allowed</div>
-  <div class="stat-value">50.0% <span style="font-size:0.65rem;color:#EF5350">(41.0% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Chase%</div>
-  <div class="stat-value">37.9% <span style="font-size:0.65rem;color:#4CAF50">(32.7% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FIP</div>
-  <div class="stat-value">3.42</div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="36.8" x2="256" y2="36.8" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="33.8" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,9.9 L88.0,14.5 L172.0,23.2 L256.0,27.9" fill="none" stroke="#888" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <path d="M4.0,62.1 L88.0,39.3 L172.0,39.5 L256.0,25.8" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="25.8" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> ERA <span class="legend-xwoba">&#9632;</span> FIP</div>
   </div>
   <div class="week-proj">
-    <div class="week-proj-header">Start Projection &middot; 5/6 vs CIN</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">5.3</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">4.01</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">5</div></div><div class="proj-stat"><div class="proj-stat-label">QS%</div><div class="proj-stat-value">46%</div></div></div>
+    <div class="week-proj-header">Start Projection &middot;  vs CIN</div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">5.5</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">2.42</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">6</div></div><div class="proj-stat"><div class="proj-stat-label">QS%</div><div class="proj-stat-value"></div></div></div>
   </div>
-  <div class="card-note"><em>Started the year as a bulk reliever and has worked his way into the rotation. His last two turns were solid: a quality start against the Phillies and a decent outing against Arizona. His ground ball rate has jumped way up from last year. <strong>But half the balls put in play against him are hit hard, and the underlying numbers suggest he has been a bit lucky.</strong> If Reds hitters can elevate, the ground ball approach becomes less useful. Get to the fastball early, because it is very hittable when left up.</em></div>
-</div>
-<div class="card">
-  <div class="card-header">
-    <div>
-      <h3 class="card-name">Shota Imanaga</h3>
-      <div class="card-pos">LHP &middot; 5/7 vs CIN</div>
-    </div>
-    <span class="tag-fire3">Staff Ace</span>
-  </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">ERA / WHIP</div>
-  <div class="stat-value">2.40 / 0.85 <span style="font-size:0.65rem;color:#4CAF50">(3.73 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FB Velo</div>
-  <div class="stat-value">91.9</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">K%-BB%</div>
-  <div class="stat-value">20.8% <span style="font-size:0.65rem;color:#4CAF50">(16.0% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FIP</div>
-  <div class="stat-value">2.74 <span style="font-size:0.65rem;color:#4CAF50">(4.86 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">xERA</div>
-  <div class="stat-value">2.84 <span style="font-size:0.65rem;color:#4CAF50">(4.06 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Chase%</div>
-  <div class="stat-value">40.9% <span style="font-size:0.65rem;color:#4CAF50">(35.2% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">GB%</div>
-  <div class="stat-value">34.0%</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-  </div>
-  <div class="week-proj">
-    <div class="week-proj-header">Start Projection &middot; 5/7 vs CIN</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">5.7</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">3.18</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">6</div></div><div class="proj-stat"><div class="proj-stat-label">QS%</div><div class="proj-stat-value">56%</div></div></div>
-  </div>
-  <div class="card-note"><em>The best pitcher the Reds will face this series, full stop. Shut out Arizona for seven innings last time out, struck out eleven Phillies in one start, and walks almost nobody. <strong>He gets hitters to chase at one of the highest rates in baseball, and the secondaries are filthy.</strong> The fastball only sits 92 but plays up because of the deception. The Reds need to be patient, take pitches early, and try to get into the bullpen. Trying to beat Imanaga with aggression is exactly what he wants.</em></div>
+  <div class="card-note">This is the best he's ever pitched in the big leagues. A sinker-slider pitcher who commands the zone, keeps the ball down, and has been genuinely effective rather than just lucky. <strong>He's for real right now.</strong> He doesn't overpower anyone, but he hits his spots and keeps hitters off balance, and the Reds need to be patient because he wants you to swing early and ground out.</div>
 </div>
 </div>
 <hr class="divider">
@@ -313,158 +187,145 @@ footer strong { color: #666; }
 <div class="heat-meter">
 <div class="meter-row">
   <div>
-    <div class="meter-name">Alex Bregman</div>
-    <div class="meter-pos"> <span class="tag-warm">Grinder</span></div>
+    <div class="meter-name">Yordan Alvarez</div>
+    <div class="meter-pos"> <span class="tag-fire3">Pure Violence</span></div>
   </div>
   <div class="bar-track">
-    <div class="bar-fill bar-warm" style="width:47%" aria-label="OPS 0.686, Contact Score 0.324, tier: Grinder"></div>
+    <div class="bar-fill bar-fire3" style="width:79%" aria-label="OPS 1.061, Contact Score 0.501, tier: Pure Violence"></div>
   </div>
   <div class="meter-right">
-    <div class="meter-xwoba">0.686</div>
-    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#127777;</span> 0.324 xwOBA</div>
+    <div class="meter-xwoba">1.061</div>
+    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#128293;&#128293;&#128293;</span> 0.501 xwOBA</div>
   </div>
 </div>
 <div class="meter-row">
   <div>
-    <div class="meter-name">Pete Crow-Armstrong</div>
-    <div class="meter-pos"> <span class="tag-warm">Tools, Not Stats</span></div>
+    <div class="meter-name">Christian Walker</div>
+    <div class="meter-pos"> <span class="tag-fire1">Gold Glove Pop</span></div>
   </div>
   <div class="bar-track">
-    <div class="bar-fill bar-warm" style="width:44%" aria-label="OPS 0.656, Contact Score 0.302, tier: Tools, Not Stats"></div>
+    <div class="bar-fill bar-fire1" style="width:69%" aria-label="OPS 0.950, Contact Score 0.362, tier: Gold Glove Pop"></div>
   </div>
   <div class="meter-right">
-    <div class="meter-xwoba">0.656</div>
-    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#127777;</span> 0.302 xwOBA</div>
+    <div class="meter-xwoba">0.950</div>
+    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#128293;</span> 0.362 xwOBA</div>
   </div>
 </div>
 <div class="meter-row">
   <div>
-    <div class="meter-name">Nico Hoerner</div>
-    <div class="meter-pos"> <span class="tag-fire1">Contact Artist</span></div>
+    <div class="meter-name">Cam Smith</div>
+    <div class="meter-pos"> <span class="tag-fire1">Tools Monster</span></div>
   </div>
   <div class="bar-track">
-    <div class="bar-fill bar-fire1" style="width:60%" aria-label="OPS 0.841, Contact Score 0.343, tier: Contact Artist"></div>
+    <div class="bar-fill bar-fire1" style="width:45%" aria-label="OPS 0.661, Contact Score 0.356, tier: Tools Monster"></div>
   </div>
   <div class="meter-right">
-    <div class="meter-xwoba">0.841</div>
-    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#128293;</span> 0.343 xwOBA</div>
+    <div class="meter-xwoba">0.661</div>
+    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#128293;</span> 0.356 xwOBA</div>
   </div>
 </div>
 <div class="meter-row">
   <div>
-    <div class="meter-name">Michael Busch</div>
-    <div class="meter-pos"> <span class="tag-warm">Power Outage</span></div>
+    <div class="meter-name">Jose Altuve</div>
+    <div class="meter-pos"> <span class="tag-warm">Still Crafty</span></div>
   </div>
   <div class="bar-track">
-    <div class="bar-fill bar-warm" style="width:44%" aria-label="OPS 0.656, Contact Score 0.299, tier: Power Outage"></div>
+    <div class="bar-fill bar-warm" style="width:48%" aria-label="OPS 0.703, Contact Score 0.310, tier: Still Crafty"></div>
   </div>
   <div class="meter-right">
-    <div class="meter-xwoba">0.656</div>
-    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#127777;</span> 0.299 xwOBA</div>
+    <div class="meter-xwoba">0.703</div>
+    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#127777;</span> 0.310 xwOBA</div>
   </div>
 </div>
 <div class="meter-row">
   <div>
-    <div class="meter-name">Dansby Swanson</div>
-    <div class="meter-pos"> <span class="tag-fire1">Quiet Producer</span></div>
+    <div class="meter-name">Isaac Paredes</div>
+    <div class="meter-pos"> <span class="tag-warm">Sees Everything</span></div>
   </div>
   <div class="bar-track">
-    <div class="bar-fill bar-fire1" style="width:53%" aria-label="OPS 0.755, Contact Score 0.353, tier: Quiet Producer"></div>
+    <div class="bar-fill bar-warm" style="width:53%" aria-label="OPS 0.756, Contact Score 0.320, tier: Sees Everything"></div>
   </div>
   <div class="meter-right">
-    <div class="meter-xwoba">0.755</div>
-    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#128293;</span> 0.353 xwOBA</div>
+    <div class="meter-xwoba">0.756</div>
+    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#127777;</span> 0.320 xwOBA</div>
   </div>
 </div>
 <div class="meter-row">
   <div>
-    <div class="meter-name">Ian Happ</div>
-    <div class="meter-pos"> <span class="tag-fire1">Patient Power</span></div>
+    <div class="meter-name">Brice Matthews</div>
+    <div class="meter-pos"> <span class="tag-cold">Never Whiffs</span></div>
   </div>
   <div class="bar-track">
-    <div class="bar-fill bar-fire1" style="width:64%" aria-label="OPS 0.893, Contact Score 0.359, tier: Best Kept Secret Power"></div>
+    <div class="bar-fill bar-cold" style="width:49%" aria-label="OPS 0.712, Contact Score 0.288, tier: Never Whiffs"></div>
   </div>
   <div class="meter-right">
-    <div class="meter-xwoba">0.893</div>
-    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#128293;</span> 0.359 xwOBA</div>
+    <div class="meter-xwoba">0.712</div>
+    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#10052;</span> 0.288 xwOBA</div>
   </div>
 </div>
 <div class="meter-row">
   <div>
-    <div class="meter-name">Moisés Ballesteros</div>
-    <div class="meter-pos"> <span class="tag-fire1">Young Slugger</span></div>
+    <div class="meter-name">Christian Vázquez</div>
+    <div class="meter-pos"> <span class="tag-cold">Vet Presence</span></div>
   </div>
   <div class="bar-track">
-    <div class="bar-fill bar-fire1" style="width:72%" aria-label="OPS 0.978, Contact Score 0.357, tier: Young Slugger"></div>
+    <div class="bar-fill bar-cold" style="width:57%" aria-label="OPS 0.808, Contact Score 0.245, tier: Vet Presence"></div>
   </div>
   <div class="meter-right">
-    <div class="meter-xwoba">0.978</div>
-    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#128293;</span> 0.357 xwOBA</div>
+    <div class="meter-xwoba">0.808</div>
+    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#10052;</span> 0.245 xwOBA</div>
   </div>
 </div>
 <div class="meter-row">
   <div>
-    <div class="meter-name">Matt Shaw</div>
-    <div class="meter-pos"> <span class="tag-warm">Work in Progress</span></div>
+    <div class="meter-name">Nick Allen</div>
+    <div class="meter-pos"> <span class="tag-warm">Glove Guy</span></div>
   </div>
   <div class="bar-track">
-    <div class="bar-fill bar-warm" style="width:55%" aria-label="OPS 0.786, Contact Score 0.308, tier: Work in Progress"></div>
+    <div class="bar-fill bar-warm" style="width:37%" aria-label="OPS 0.576, Contact Score 0.298, tier: Glove Guy"></div>
   </div>
   <div class="meter-right">
-    <div class="meter-xwoba">0.786</div>
-    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#127777;</span> 0.308 xwOBA</div>
+    <div class="meter-xwoba">0.576</div>
+    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#127777;</span> 0.298 xwOBA</div>
   </div>
 </div>
 <div class="meter-row">
   <div>
-    <div class="meter-name">Carson Kelly</div>
-    <div class="meter-pos"> <span class="tag-fire1">Career Year</span></div>
+    <div class="meter-name">Shay Whitcomb</div>
+    <div class="meter-pos"> <span class="tag-cold">Still Waiting</span></div>
   </div>
   <div class="bar-track">
-    <div class="bar-fill bar-fire1" style="width:62%" aria-label="OPS 0.862, Contact Score 0.357, tier: Career Year"></div>
+    <div class="bar-fill bar-cold" style="width:24%" aria-label="OPS 0.419, Contact Score 0.169, tier: Still Waiting"></div>
   </div>
   <div class="meter-right">
-    <div class="meter-xwoba">0.862</div>
-    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#128293;</span> 0.357 xwOBA</div>
+    <div class="meter-xwoba">0.419</div>
+    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#10052;</span> 0.169 xwOBA</div>
   </div>
 </div>
 <div class="meter-row">
   <div>
-    <div class="meter-name">Seiya Suzuki</div>
-    <div class="meter-pos"> <span class="tag-fire1">Heating Up</span></div>
+    <div class="meter-name">Braden Shewmake</div>
+    <div class="meter-pos"> <span class="tag-cold">Hot Hand</span></div>
   </div>
   <div class="bar-track">
-    <div class="bar-fill bar-fire1" style="width:67%" aria-label="OPS 0.928, Contact Score 0.370, tier: Heating Up"></div>
+    <div class="bar-fill bar-cold" style="width:74%" aria-label="OPS 1.000, Contact Score 0.210, tier: Hot Hand"></div>
   </div>
   <div class="meter-right">
-    <div class="meter-xwoba">0.928</div>
-    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#128293;</span> 0.370 xwOBA</div>
+    <div class="meter-xwoba">1.000</div>
+    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#10052;</span> 0.210 xwOBA</div>
   </div>
 </div>
 <div class="meter-row">
   <div>
-    <div class="meter-name">Miguel Amaya</div>
-    <div class="meter-pos"> <span class="tag-warm">Glove First</span></div>
+    <div class="meter-name">Zach Cole</div>
+    <div class="meter-pos"> <span class="tag-fire1">First Look</span></div>
   </div>
   <div class="bar-track">
-    <div class="bar-fill bar-warm" style="width:50%" aria-label="OPS 0.720, Contact Score 0.304, tier: Glove First"></div>
+    <div class="bar-fill bar-fire1" style="width:48%" aria-label="OPS 0.700, Contact Score 0.339, tier: First Look"></div>
   </div>
   <div class="meter-right">
-    <div class="meter-xwoba">0.720</div>
-    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#127777;</span> 0.304 xwOBA</div>
-  </div>
-</div>
-<div class="meter-row">
-  <div>
-    <div class="meter-name">Michael Conforto</div>
-    <div class="meter-pos"> <span class="tag-fire2">Bench Weapon</span></div>
-  </div>
-  <div class="bar-track">
-    <div class="bar-fill bar-fire2" style="width:61%" aria-label="OPS 0.854, Contact Score 0.404, tier: Bench Weapon"></div>
-  </div>
-  <div class="meter-right">
-    <div class="meter-xwoba">0.854</div>
-    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#128293;&#128293;</span> 0.404 xwOBA</div>
+    <div class="meter-xwoba">0.700</div>
+    <div style="font-size:0.72rem;color:#888;text-align:right;line-height:1.4"><span class="meter-emoji">&#128293;</span> 0.339 xwOBA</div>
   </div>
 </div>
 </div>
@@ -475,633 +336,273 @@ footer strong { color: #666; }
   <div class="legend-item"><span class="legend-swatch" style="background:#444" aria-label="Contact Score .290-.329"></span> .290&ndash;.329</div>
   <div class="legend-item"><span class="legend-swatch" style="background:linear-gradient(90deg,#1a3a5c,#2171B5,#4A9EDD)" aria-label="Contact Score below .290"></span> &lt;.290</div>
 </div>
-<p style="font-size:0.75rem;color:#888;margin-top:12px;margin-bottom:0;">Bar size = OPS (actual production). Bar color = Contact Quality (xwOBA). Scale anchored to league leader (Ben Rice (NYY), 1.214 OPS). Wide + warm color: it's real. Narrow + warm color: a breakout may be coming. Wide + cold color: results ahead of the contact.</p>
+<p style="font-size:0.75rem;color:#888;margin-top:12px;margin-bottom:0;">Bar size = OPS (actual production). Bar color = Contact Quality (xwOBA). Wide + warm color: it's real. Narrow + warm color: a breakout may be coming. Wide + cold color: results ahead of the contact.</p>
 <hr class="divider">
 <h2 class="section-title">WHO TO WATCH THIS SERIES<span class="sub">Player cards sorted by production</span></h2>
 <div class="card-grid">
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Alex Bregman</h3>
-      <div class="card-pos">34G / 156 PA</div>
+      <h3 class="card-name">Yordan Alvarez</h3>
+      <div class="card-pos">38G / 168 PA</div>
     </div>
-    <span class="tag-warm">Grinder</span>
+    <span class="tag-fire3">Pure Violence</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">AVG / OBP / SLG</div>
-  <div class="stat-value">.242 / .333 / .352</div>
-  <div class="stat-trend"><span class="trend-flat"></span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">OPS</div>
-  <div class="stat-value">0.686</div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Contact Score</div>
-  <div class="stat-value">.324</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Chase%</div>
-  <div class="stat-value">20.8%</div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Bat Speed</div>
-  <div class="stat-value">70.0</div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">K%</div>
-  <div class="stat-value">15.4%</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">BB%</div>
-  <div class="stat-value">11.5%</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="42.4" x2="256" y2="42.4" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="39.4" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,63.0 L10.8,57.7 L17.6,46.2 L24.4,39.2 L31.2,33.5 L38.1,19.3 L44.9,13.6 L51.7,25.2 L58.5,18.2 L65.3,16.1 L72.1,24.1 L78.9,29.9 L85.7,33.9 L92.5,21.7 L99.4,16.2 L106.2,23.4 L113.0,29.5 L119.8,31.5 L126.6,17.6 L133.4,21.3 L140.2,18.4 L147.0,11.1 L153.8,13.8 L160.6,21.3 L167.5,21.9 L174.3,10.5 L181.1,9.0 L187.9,16.2 L194.7,15.1 L201.5,19.2 L208.3,29.9 L215.1,18.5 L221.9,29.3 L228.8,35.3 L235.6,39.5 L242.4,32.7 L249.2,41.4 L256.0,48.7" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="48.7" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> wOBA</div>
   </div>
   <div class="week-proj">
     <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.9</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.5</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.9</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.1</div></div></div>
-    <div class="week-proj-line">Proj: <span>.247 / .337 / .416 &middot; 16 PA</span></div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">2.2</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.8</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.9</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.1</div></div></div>
+    <div class="week-proj-line">Proj: <span>.292 / .386 / .940 &middot; 14 PA</span></div>
   </div>
-  <div class="card-note"><em>The big free agent signing, and his production has been modest: a .352 slugging without much power so far. <strong>But he almost never chases and almost never strikes out, which makes him dangerous even on a quiet night.</strong> His bat speed is below average, so he wins with timing and plate coverage, not raw power. Do not expect fireworks, but expect him to grind at-bats and find ways on base. He has been dealing with a toe issue, worth watching if it limits him.</em></div>
+  <div class="card-note">The most dangerous hitter Cincinnati will face all season. A left-handed masher who <strong>hits the ball harder than almost anyone alive</strong>, with a swing fast enough and violent enough to turn any mistake into a souvenir. He doesn't run at all, but it doesn't matter because the ball keeps leaving the park. When he comes up with runners on, brace yourself.</div>
 </div>
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Pete Crow-Armstrong</h3>
-      <div class="card-pos">34G / 140 PA</div>
+      <h3 class="card-name">Christian Walker</h3>
+      <div class="card-pos">38G / 155 PA</div>
     </div>
-    <span class="tag-warm">Tools, Not Stats</span>
+    <span class="tag-fire1">Gold Glove Pop</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">AVG / OBP / SLG</div>
-  <div class="stat-value">.236 / .302 / .354</div>
-  <div class="stat-trend"><span class="trend-flat"></span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">OPS</div>
-  <div class="stat-value">0.656</div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Contact Score</div>
-  <div class="stat-value">.302</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Hard-Hit%</div>
-  <div class="stat-value">46.1%</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Barrel%</div>
-  <div class="stat-value">7.9% <span style="font-size:0.65rem;color:#EF5350">(13.0% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Chase%</div>
-  <div class="stat-value">44.1%</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">K%</div>
-  <div class="stat-value">27.9%</div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="50.2" x2="256" y2="50.2" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="47.2" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,27.3 L10.8,35.5 L17.6,29.2 L24.4,26.6 L31.2,30.2 L38.1,25.8 L44.9,32.6 L51.7,45.7 L58.5,29.8 L65.3,28.3 L72.1,30.2 L78.9,26.8 L85.7,26.0 L92.5,34.4 L99.4,35.6 L106.2,48.3 L113.0,53.2 L119.8,31.5 L126.6,39.0 L133.4,39.2 L140.2,51.4 L147.0,61.6 L153.8,61.0 L160.6,42.0 L167.5,53.7 L174.3,50.3 L181.1,45.9 L187.9,40.1 L194.7,17.3 L201.5,14.9 L208.3,30.8 L215.1,32.3 L221.9,32.3 L228.8,15.2 L235.6,10.4 L242.4,26.9 L249.2,18.5 L256.0,26.4" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="26.4" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> wOBA</div>
   </div>
   <div class="week-proj">
     <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.7</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.6</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.8</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.7</div></div></div>
-    <div class="week-proj-line">Proj: <span>.245 / .300 / .439 &middot; 14 PA</span></div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.6</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.7</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.9</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.1</div></div></div>
+    <div class="week-proj-line">Proj: <span>.230 / .301 / .735 &middot; 14 PA</span></div>
   </div>
-  <div class="card-note"><em>The fastest guy on the field, with elite sprint speed and ridiculous range in center. <strong>He hits the ball hard when he connects, but he chases too many pitches and the strikeouts are a problem.</strong> His barrel rate is down from last year, but the tools are obvious. If Reds pitchers get ahead, he will expand the zone. If he gets a fastball early, he can drive it a long way. Always keep an eye on him when he reaches base.</em></div>
+  <div class="card-note">A right-handed power hitter with <strong>a violent bat swing and Gold Glove defense</strong>. He came over from Arizona and has been mashing immediately, hitting the ball as hard as any first baseman in the sport. He crushes fastballs and turns on inside pitches with frightening speed, and there's no rest for Reds hitters when the ball goes to first either.</div>
 </div>
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Nico Hoerner</h3>
-      <div class="card-pos">33G / 152 PA</div>
+      <h3 class="card-name">Cam Smith</h3>
+      <div class="card-pos">37G / 147 PA</div>
     </div>
-    <span class="tag-fire1">Contact Artist</span>
+    <span class="tag-fire1">Tools Monster</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">AVG / OBP / SLG</div>
-  <div class="stat-value">.300 / .375 / .466</div>
-  <div class="stat-trend"><span class="trend-flat"></span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">OPS</div>
-  <div class="stat-value">0.841</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Contact Score</div>
-  <div class="stat-value">.342</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Hard-Hit%</div>
-  <div class="stat-value">26.4%</div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">K%</div>
-  <div class="stat-value">9.2%</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Bat Speed</div>
-  <div class="stat-value">68.2</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">BB%</div>
-  <div class="stat-value">8.6%</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="42.8" x2="256" y2="42.8" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="39.8" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,60.1 L11.0,63.5 L18.0,60.2 L25.0,56.7 L32.0,51.2 L39.0,38.6 L46.0,41.0 L53.0,43.0 L60.0,10.1 L67.0,13.2 L74.0,8.5 L81.0,14.1 L88.0,24.5 L95.0,33.4 L102.0,24.3 L109.0,33.2 L116.0,36.4 L123.0,39.1 L130.0,36.3 L137.0,43.3 L144.0,44.8 L151.0,43.8 L158.0,49.7 L165.0,54.6 L172.0,50.3 L179.0,55.1 L186.0,55.9 L193.0,59.9 L200.0,56.4 L207.0,56.1 L214.0,49.6 L221.0,54.6 L228.0,52.7 L235.0,46.9 L242.0,48.0 L249.0,53.3 L256.0,57.7" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="57.7" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> wOBA</div>
   </div>
   <div class="week-proj">
     <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">2.1</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.3</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.4</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.7</div></div></div>
-    <div class="week-proj-line">Proj: <span>.272 / .332 / .378 &middot; 17 PA</span></div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.2</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.3</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.2</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.2</div></div></div>
+    <div class="week-proj-line">Proj: <span>.232 / .302 / .677 &middot; 12 PA</span></div>
   </div>
-  <div class="card-note"><em>A contact machine, pure and simple. He almost never strikes out and puts the ball in play with precision. <strong>He does not hit the ball hard at all, one of the softest hitters in the league by exit velocity, but he squares it up and uses his speed to beat out grounders.</strong> He is the engine of this lineup: when he is on base, things start happening. Reds pitchers should challenge him in the zone, because he does not miss pitches there.</em></div>
+  <div class="card-note">One of the most physically gifted players in Houston's lineup. <strong>He swings the bat faster and runs faster than almost anyone in this lineup</strong>, and the results haven't fully translated yet, but the tools scream breakout. If he puts it together for a series, he's the kind of player who can beat you in four different ways. Watch for extra-base hits and stolen bases.</div>
 </div>
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Michael Busch</h3>
-      <div class="card-pos">33G / 145 PA</div>
+      <h3 class="card-name">Jose Altuve</h3>
+      <div class="card-pos">34G / 151 PA</div>
     </div>
-    <span class="tag-warm">Power Outage</span>
+    <span class="tag-warm">Still Crafty</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">AVG / OBP / SLG</div>
-  <div class="stat-value">.217 / .317 / .338</div>
-  <div class="stat-trend"><span class="trend-flat"></span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">OPS</div>
-  <div class="stat-value">0.656</div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Contact Score</div>
-  <div class="stat-value">.299</div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Hard-Hit%</div>
-  <div class="stat-value">35.5% <span style="font-size:0.65rem;color:#EF5350">(47.3% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Avg EV</div>
-  <div class="stat-value">86.2 mph <span style="font-size:0.65rem;color:#EF5350">(92.2 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Barrel%</div>
-  <div class="stat-value">8.6% <span style="font-size:0.65rem;color:#EF5350">(17.1% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Bat Speed</div>
-  <div class="stat-value">68.0 <span style="font-size:0.65rem;color:#EF5350">(69.6 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="35.7" x2="256" y2="35.7" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="32.7" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,62.1 L11.6,55.6 L19.3,52.4 L26.9,43.4 L34.5,13.1 L42.2,15.5 L49.8,21.3 L57.5,22.4 L65.1,24.3 L72.7,17.9 L80.4,9.9 L88.0,23.0 L95.6,27.6 L103.3,38.1 L110.9,37.5 L118.5,24.1 L126.2,35.1 L133.8,44.4 L141.5,35.5 L149.1,32.8 L156.7,38.4 L164.4,31.4 L172.0,41.3 L179.6,49.6 L187.3,56.7 L194.9,41.6 L202.5,44.8 L210.2,52.6 L217.8,47.5 L225.5,48.3 L233.1,48.2 L240.7,46.2 L248.4,47.2 L256.0,54.7" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="54.7" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> wOBA</div>
   </div>
   <div class="week-proj">
     <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">2.0</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.7</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.9</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.1</div></div></div>
-    <div class="week-proj-line">Proj: <span>.242 / .331 / .449 &middot; 16 PA</span></div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.6</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.5</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.4</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.2</div></div></div>
+    <div class="week-proj-line">Proj: <span>.253 / .319 / .728 &middot; 14 PA</span></div>
   </div>
-  <div class="card-note"><em>On paper he has been struggling, but the Cubs just swept Arizona and he was right in the middle of it. <strong>His exit velocity, barrel rate, and bat speed are all way down from last year, so the power has genuinely dried up.</strong> He can work a walk and hit the ball to all fields, but right now he is more of a singles hitter than the power threat he was in 2025. Not the matchup to lose sleep over.</em></div>
+  <div class="card-note">The legend at 36. His bat has slowed down noticeably and he's not driving the ball the way he once did, but <strong>the hand-eye coordination still makes him dangerous</strong> in spots. He can still work counts, still puts the bat on the ball, and still has enough foot speed to manufacture runs. Don't expect 2017 Altuve, but don't disrespect him either.</div>
 </div>
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Dansby Swanson</h3>
-      <div class="card-pos">33G / 133 PA</div>
+      <h3 class="card-name">Isaac Paredes</h3>
+      <div class="card-pos">33G / 135 PA</div>
     </div>
-    <span class="tag-fire1">Quiet Producer</span>
+    <span class="tag-warm">Sees Everything</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">AVG / OBP / SLG</div>
-  <div class="stat-value">.212 / .338 / .416</div>
-  <div class="stat-trend"><span class="trend-flat"></span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">OPS</div>
-  <div class="stat-value">0.755</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Contact Score</div>
-  <div class="stat-value">.352</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">BB%</div>
-  <div class="stat-value">15.8% <span style="font-size:0.65rem;color:#4CAF50">(7.3% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">K%</div>
-  <div class="stat-value">21.8%</div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Hard-Hit%</div>
-  <div class="stat-value">48.8%</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Chase%</div>
-  <div class="stat-value">27.2%</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="27.8" x2="256" y2="27.8" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="24.8" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,56.3 L11.9,61.8 L19.8,54.2 L27.6,44.1 L35.5,38.7 L43.4,31.2 L51.2,33.5 L59.1,37.0 L67.0,26.9 L74.9,31.3 L82.8,33.6 L90.6,28.5 L98.5,32.8 L106.4,36.4 L114.2,36.2 L122.1,44.8 L130.0,52.1 L137.9,51.2 L145.8,26.2 L153.6,23.8 L161.5,27.3 L169.4,37.3 L177.2,38.7 L185.1,23.8 L193.0,29.9 L200.9,18.4 L208.8,18.4 L216.6,10.2 L224.5,10.4 L232.4,10.6 L240.2,10.6 L248.1,15.5 L256.0,13.2" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="13.2" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> wOBA</div>
   </div>
   <div class="week-proj">
     <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.6</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.4</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.5</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.3</div></div></div>
-    <div class="week-proj-line">Proj: <span>.225 / .307 / .381 &middot; 14 PA</span></div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.7</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.6</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.7</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.1</div></div></div>
+    <div class="week-proj-line">Proj: <span>.238 / .329 / .757 &middot; 14 PA</span></div>
   </div>
-  <div class="card-note"><em>His batting average is low but everything else tells a better story. His walk rate has more than doubled from last year, and when he connects, he is hitting the ball hard. <strong>Had a minor glute cramp scare recently but is back and moving fine.</strong> A strong defensive shortstop who can change a game with the glove even when the bat is quiet. His power is in there, he just has not tapped into it consistently yet.</em></div>
+  <div class="card-note">The slowest bat swing in baseball, and somehow it works. <strong>He sees everything and rarely misses</strong>, placing the ball where fielders aren't through craft rather than force. He walks a lot, he doesn't strike out, and he hits the ball just hard enough to keep pitchers honest. He won't beat you with power, but he'll beat you by forcing marathon at-bats and grinding your bullpen down.</div>
 </div>
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Ian Happ</h3>
-      <div class="card-pos">32G / 147 PA</div>
+      <h3 class="card-name">Brice Matthews</h3>
+      <div class="card-pos">29G / 85 PA</div>
     </div>
-    <span class="tag-fire1">Patient Power</span>
+    <span class="tag-cold">Never Whiffs</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">AVG / OBP / SLG</div>
-  <div class="stat-value">.247 / .380 / .512</div>
-  <div class="stat-trend"><span class="trend-flat"></span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">OPS</div>
-  <div class="stat-value">0.893</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Contact Score</div>
-  <div class="stat-value">.359</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">BB%</div>
-  <div class="stat-value">16.3%</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">K%</div>
-  <div class="stat-value">27.9% <span style="font-size:0.65rem;color:#EF5350">(22.8% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Barrel%</div>
-  <div class="stat-value">15.0%</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Hard-Hit%</div>
-  <div class="stat-value">40.0%</div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="30.9" x2="256" y2="30.9" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="27.9" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,10.0 L13.0,22.7 L22.0,18.1 L31.0,29.6 L40.0,39.3 L49.0,42.3 L58.0,28.8 L67.0,38.7 L76.0,47.0 L85.0,42.0 L94.0,49.8 L103.0,56.4 L112.0,62.0 L130.0,51.9 L139.0,36.4 L148.0,38.0 L157.0,46.4 L166.0,53.6 L175.0,59.6 L184.0,33.0 L193.0,28.6 L202.0,34.0 L211.0,36.2 L220.0,17.4 L229.0,24.8 L238.0,30.0 L256.0,24.2" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="24.2" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> wOBA</div>
   </div>
   <div class="week-proj">
     <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.9</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.6</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">2.0</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.2</div></div></div>
-    <div class="week-proj-line">Proj: <span>.240 / .354 / .425 &middot; 16 PA</span></div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.1</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.3</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.1</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.5</div></div></div>
+    <div class="week-proj-line">Proj: <span>.206 / .279 / .639 &middot; 11 PA</span></div>
   </div>
-  <div class="card-note"><em>His walk rate is elite, his power is real, and he has the kind of barrel rate that makes pitchers nervous. <strong>Patient enough to work deep counts and dangerous enough to punish mistakes.</strong> His strikeout rate is a bit up from last year, which is the one crack, but the overall package is one of the most complete bats in this Cubs lineup.</em></div>
+  <div class="card-note">He almost never swings and misses, to a degree that's borderline absurd. <strong>He puts the bat on the ball every single time he swings</strong>, runs well, doesn't chase, and makes pitchers throw a lot of pitches. The contact doesn't come off hard, but the ball is always in play, and strange things happen when you hit the ball this often. A nuisance on the basepaths.</div>
 </div>
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Moisés Ballesteros</h3>
-      <div class="card-pos">30G / 92 PA</div>
+      <h3 class="card-name">Christian Vázquez</h3>
+      <div class="card-pos">20G / 67 PA</div>
     </div>
-    <span class="tag-fire1">Young Slugger</span>
+    <span class="tag-cold">Vet Presence</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">AVG / OBP / SLG</div>
-  <div class="stat-value">.317 / .380 / .597</div>
-  <div class="stat-trend"><span class="trend-flat"></span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">OPS</div>
-  <div class="stat-value">0.978</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Contact Score</div>
-  <div class="stat-value">.357</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Hard-Hit%</div>
-  <div class="stat-value">50.0% <span style="font-size:0.65rem;color:#4CAF50">(33.3% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Chase%</div>
-  <div class="stat-value">36.1% <span style="font-size:0.65rem;color:#EF5350">(30.9% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Barrel%</div>
-  <div class="stat-value">11.8% <span style="font-size:0.65rem;color:#4CAF50">(6.7% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">BB%</div>
-  <div class="stat-value">9.8%</div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="44.3" x2="256" y2="44.3" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="41.3" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,9.3 L17.3,22.4 L30.5,21.0 L43.8,32.4 L57.1,27.9 L70.3,32.6 L83.6,24.4 L96.8,21.9 L110.1,10.6 L123.4,14.9 L136.6,22.9 L149.9,22.9 L163.2,28.4 L176.4,38.7 L189.7,36.2 L202.9,45.3 L216.2,41.8 L229.5,50.0 L242.7,56.9 L256.0,62.7" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="62.7" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> wOBA</div>
   </div>
   <div class="week-proj">
     <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.8</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.4</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.5</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.1</div></div></div>
-    <div class="week-proj-line">Proj: <span>.271 / .339 / .438 &middot; 14 PA</span></div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">0.8</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.2</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">0.8</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.1</div></div></div>
+    <div class="week-proj-line">Proj: <span>.220 / .273 / .605 &middot; 8 PA</span></div>
   </div>
-  <div class="card-note"><em>Young catcher with real pop. A .597 slugging and a barrel rate that has nearly doubled from last year. <strong>He swings at too many pitches out of the zone, but when he gets one, it goes a long way.</strong> Think of him as a raw power hitter who is still learning to pick his spots. If Reds pitchers can get him to chase early, they can take the bat out of his hands.</em></div>
+  <div class="card-note">A veteran catcher valued for his game-calling and rapport with the pitching staff. <strong>He's having a quietly decent year at the plate</strong>, which would represent a career high if sustained. Don't expect him to run, but he's proven capable of doing damage when pitchers overlook him.</div>
 </div>
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Matt Shaw</h3>
-      <div class="card-pos">30G / 86 PA</div>
+      <h3 class="card-name">Nick Allen</h3>
+      <div class="card-pos">16G / 27 PA</div>
     </div>
-    <span class="tag-warm">Work in Progress</span>
+    <span class="tag-warm">Glove Guy</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">AVG / OBP / SLG</div>
-  <div class="stat-value">.278 / .317 / .468</div>
-  <div class="stat-trend"><span class="trend-flat"></span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">OPS</div>
-  <div class="stat-value">0.786</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Contact Score</div>
-  <div class="stat-value">.308</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Bat Speed</div>
-  <div class="stat-value">68.0 <span style="font-size:0.65rem;color:#EF5350">(69.6 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Chase%</div>
-  <div class="stat-value">37.9%</div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Hard-Hit%</div>
-  <div class="stat-value">33.8%</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Avg EV</div>
-  <div class="stat-value">86.8 mph</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="9.4" x2="256" y2="9.4" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="6.4" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,62.6 L71.2,62.6 L88.0,39.3 L104.8,42.9 L121.6,33.9 L138.4,38.3 L155.2,42.1 L172.0,45.2 L188.8,29.2 L222.4,34.3 L239.2,30.9 L256.0,35.8" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="35.8" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> wOBA</div>
   </div>
   <div class="week-proj">
     <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">0.7</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.2</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">0.6</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.2</div></div></div>
-    <div class="week-proj-line">Proj: <span>.226 / .308 / .370 &middot; 6 PA</span></div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">0.4</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.1</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">0.3</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.1</div></div></div>
+    <div class="week-proj-line">Proj: <span>.228 / .293 / .604 &middot; 4 PA</span></div>
   </div>
-  <div class="card-note"><em>Athletic infielder with speed and developing power, but his contact quality is still a work in progress. <strong>He chases too many pitches and does not hit the ball especially hard, but the speed makes up for a lot of it.</strong> More likely to beat you with a line drive to the gap than a homer. His bat speed is below average, which limits him on inside fastballs.</em></div>
+  <div class="card-note">A glove-first shortstop who's here to play defense, not hit. <strong>The bat is an afterthought</strong>, but the leather at short is smooth enough to justify the roster spot. If he comes up in a big spot, pitchers should feel confident attacking the zone.</div>
 </div>
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Carson Kelly</h3>
-      <div class="card-pos">25G / 96 PA</div>
+      <h3 class="card-name">Shay Whitcomb</h3>
+      <div class="card-pos">11G / 15 PA</div>
     </div>
-    <span class="tag-fire1">Career Year</span>
+    <span class="tag-cold">Still Waiting</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">AVG / OBP / SLG</div>
-  <div class="stat-value">.325 / .416 / .445</div>
-  <div class="stat-trend"><span class="trend-flat"></span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">OPS</div>
-  <div class="stat-value">0.862</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Contact Score</div>
-  <div class="stat-value">.356</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Hard-Hit%</div>
-  <div class="stat-value">50.0% <span style="font-size:0.65rem;color:#4CAF50">(40.3% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Avg EV</div>
-  <div class="stat-value">91.6 mph</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">K%</div>
-  <div class="stat-value">15.6%</div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Bat Speed</div>
-  <div class="stat-value">71.1</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="9.4" x2="256" y2="9.4" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="6.4" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,62.6 L29.2,44.4 L79.6,47.2 L104.8,36.3 L130.0,40.4 L155.2,43.8 L180.4,46.7 L205.6,49.1 L230.8,51.2 L256.0,52.9" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="52.9" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> wOBA</div>
   </div>
   <div class="week-proj">
     <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.0</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.3</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.0</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.0</div></div></div>
-    <div class="week-proj-line">Proj: <span>.226 / .314 / .369 &middot; 9 PA</span></div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">0.5</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.1</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">0.5</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.1</div></div></div>
+    <div class="week-proj-line">Proj: <span>.207 / .264 / .634 &middot; 4 PA</span></div>
   </div>
-  <div class="card-note"><em>Having a quietly excellent year. Hitting .325, making hard contact at a career-best rate, and <strong>he is hitting the ball harder than he ever has while striking out less, which is exactly the combination you want.</strong> Not a household name, but Reds pitchers should not sleep on him. He can drive fastballs and has been punishing mistakes all season.</em></div>
+  <div class="card-note">A big swing with power potential, but <strong>nothing has clicked yet at this level</strong>. A handful of quiet at-bats so far. The projections believe he has pop, and if he gets hot he can change a game with one swing, but right now he's searching for something to hit.</div>
 </div>
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Seiya Suzuki</h3>
-      <div class="card-pos">21G / 92 PA</div>
+      <h3 class="card-name">Braden Shewmake</h3>
+      <div class="card-pos">8G / 17 PA</div>
     </div>
-    <span class="tag-fire1">Heating Up</span>
+    <span class="tag-cold">Hot Hand</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">AVG / OBP / SLG</div>
-  <div class="stat-value">.307 / .402 / .525</div>
-  <div class="stat-trend"><span class="trend-flat"></span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">OPS</div>
-  <div class="stat-value">0.928</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Contact Score</div>
-  <div class="stat-value">.370</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Barrel%</div>
-  <div class="stat-value">8.9% <span style="font-size:0.65rem;color:#EF5350">(16.6% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Hard-Hit%</div>
-  <div class="stat-value">46.4%</div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Chase%</div>
-  <div class="stat-value">23.6%</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Avg EV</div>
-  <div class="stat-value">90.6 mph</div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="64.4" x2="256" y2="64.4" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="61.4" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,7.6 L40.0,20.3 L76.0,28.8 L220.0,26.0 L256.0,32.1" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="32.1" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> wOBA</div>
   </div>
   <div class="week-proj">
     <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">1.8</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.6</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.9</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.2</div></div></div>
-    <div class="week-proj-line">Proj: <span>.247 / .331 / .440 &middot; 15 PA</span></div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">0.7</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.1</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">0.6</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.1</div></div></div>
+    <div class="week-proj-line">Proj: <span>.209 / .256 / .585 &middot; 7 PA</span></div>
   </div>
-  <div class="card-note"><em>Missed the start of the year on the IL and is still working his way back into full-time action. <strong>When he has played, the results have been excellent: a .928 OPS with a compact swing that plays well anywhere, especially Wrigley.</strong> He does not chase, he barrels the ball, and he looks comfortable in the box. If he is in the lineup, he is one of the most dangerous hitters on either side.</em></div>
+  <div class="card-note">A utility man riding a hot streak on a tiny sample. <strong>The hot start won't hold</strong>, but he can play multiple positions and provides Houston with flexibility off the bench. Not a name to worry about unless he stays hot.</div>
 </div>
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Miguel Amaya</h3>
-      <div class="card-pos">20G / 62 PA</div>
+      <h3 class="card-name">Zach Cole</h3>
+      <div class="card-pos">3G / 10 PA</div>
     </div>
-    <span class="tag-warm">Glove First</span>
+    <span class="tag-fire1">First Look</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">AVG / OBP / SLG</div>
-  <div class="stat-value">.230 / .354 / .365</div>
-  <div class="stat-trend"><span class="trend-flat"></span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">OPS</div>
-  <div class="stat-value">0.720</div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Contact Score</div>
-  <div class="stat-value">.304</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Chase%</div>
-  <div class="stat-value">29.3% <span style="font-size:0.65rem;color:#4CAF50">(39.6% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Bat Speed</div>
-  <div class="stat-value">69.2 <span style="font-size:0.65rem;color:#EF5350">(72.2 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Hard-Hit%</div>
-  <div class="stat-value">23.7% <span style="font-size:0.65rem;color:#EF5350">(32.9% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">BB%</div>
-  <div class="stat-value">12.9% <span style="font-size:0.65rem;color:#4CAF50">(3.9% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="60.8" x2="256" y2="60.8" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="57.8" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,11.2 L130.0,31.2 L256.0,36.4" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="36.4" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> wOBA</div>
   </div>
   <div class="week-proj">
     <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">0.7</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.2</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">0.7</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.0</div></div></div>
-    <div class="week-proj-line">Proj: <span>.225 / .288 / .357 &middot; 6 PA</span></div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">0.9</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.3</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">1.0</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.2</div></div></div>
+    <div class="week-proj-line">Proj: <span>.204 / .271 / .647 &middot; 9 PA</span></div>
   </div>
-  <div class="card-note"><em>The backup catcher who is walking more and chasing less than last year, a real step forward. <strong>But his bat speed has dropped and his hard contact is down, so the ceiling is limited.</strong> Defense-first guy. Reds runners probably should not test his arm.</em></div>
-</div>
-<div class="card">
-  <div class="card-header">
-    <div>
-      <h3 class="card-name">Michael Conforto</h3>
-      <div class="card-pos">17G / 38 PA</div>
-    </div>
-    <span class="tag-fire2">Bench Weapon</span>
-  </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">AVG / OBP / SLG</div>
-  <div class="stat-value">.300 / .421 / .433</div>
-  <div class="stat-trend"><span class="trend-flat"></span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">OPS</div>
-  <div class="stat-value">0.854</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Contact Score</div>
-  <div class="stat-value">.403</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">BB%</div>
-  <div class="stat-value">18.4% <span style="font-size:0.65rem;color:#4CAF50">(11.5% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Avg EV</div>
-  <div class="stat-value">94.1 mph <span style="font-size:0.65rem;color:#4CAF50">(89.9 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Bat Speed</div>
-  <div class="stat-value">72.8</div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Chase%</div>
-  <div class="stat-value">24.1%</div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-  </div>
-  <div class="week-proj">
-    <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">R</div><div class="proj-stat-value">0.5</div></div><div class="proj-stat"><div class="proj-stat-label">HR</div><div class="proj-stat-value">0.1</div></div><div class="proj-stat"><div class="proj-stat-label">RBI</div><div class="proj-stat-value">0.5</div></div><div class="proj-stat"><div class="proj-stat-label">SB</div><div class="proj-stat-value">0.0</div></div></div>
-    <div class="week-proj-line">Proj: <span>.236 / .323 / .392 &middot; 5 PA</span></div>
-  </div>
-  <div class="card-note"><em>Veteran bench bat who has been excellent in limited time: an .854 OPS with exit velocity well above his career norms. <strong>He is walking at nearly a 20 percent clip and making the most of every plate appearance he gets.</strong> Small sample, but the quality of contact says this is legit. If he comes off the bench in a big spot, he is not an easy out.</em></div>
+  <div class="card-note">A handful of at-bats is nothing to judge by. A young outfielder with <strong>balanced tools across the board</strong> getting his first real taste of the big leagues. The raw talent reads solid in every direction, which is a promising foundation. Worth watching if he gets starts in this series.</div>
 </div>
 </div>
 <hr class="divider">
@@ -1110,363 +611,126 @@ footer strong { color: #666; }
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Hoby Milner</h3>
-      <div class="card-pos">LHP &middot; 1 SV, 3 HLD, 16G </div>
+      <h3 class="card-name">Enyel De Los Santos</h3>
+      <div class="card-pos">RHP &middot; 3 SV, 1 HLD, 14G </div>
     </div>
-    <span class="tag-warm">Smoke & Mirrors</span>
+    <span class="tag-fire1">Steady Eddie</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">ERA / WHIP</div>
-  <div class="stat-value">2.25 / 0.94 <span style="font-size:0.65rem;color:#4CAF50">(3.84 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FB Velo</div>
-  <div class="stat-value">87.2</div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">K%-BB%</div>
-  <div class="stat-value">1.6% <span style="font-size:0.65rem;color:#EF5350">(12.6% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FIP</div>
-  <div class="stat-value">5.27 <span style="font-size:0.65rem;color:#EF5350">(3.39 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">xERA</div>
-  <div class="stat-value">4.95 <span style="font-size:0.65rem;color:#EF5350">(3.79 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">GB%</div>
-  <div class="stat-value">45.1% <span style="font-size:0.65rem;color:#EF5350">(52.7% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Chase%</div>
-  <div class="stat-value">33.8% <span style="font-size:0.65rem;color:#4CAF50">(26.4% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="8.2" x2="256" y2="8.2" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="5.2" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,7.8 L23.4,9.1 L42.8,8.1 L62.2,8.0 L81.5,3.5 L100.9,4.3 L120.3,5.3 L139.7,12.9 L159.1,11.0 L178.5,9.7 L197.8,8.7 L217.2,8.0 L236.6,7.4 L256.0,7.6" fill="none" stroke="#888" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <path d="M4.0,6.0 L23.4,7.0 L42.8,6.6 L62.2,6.4 L81.5,6.2 L100.9,6.1 L120.3,6.1 L139.7,65.7 L159.1,41.8 L178.5,33.5 L197.8,22.5 L217.2,17.5 L236.6,12.9 L256.0,10.2" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="10.2" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> ERA <span class="legend-xwoba">&#9632;</span> FIP</div>
   </div>
   <div class="week-proj">
     <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">0.8</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">3.84</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">1</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ SV+H</div><div class="proj-stat-value">0.4</div></div></div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">0.8</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">4.08</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">1</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ SV+H</div><div class="proj-stat-value">0.1</div></div></div>
   </div>
-  <div class="card-note"><em>The 2.25 ERA looks great on paper, but underneath it there is almost no strikeout ability and the expected ERA is close to five runs. <strong>He is surviving on ground balls and good fortune, and the underlying profile says it is not going to last.</strong> If Reds hitters are aggressive early, they can do damage here.</em></div>
+  <div class="card-note">A steady back-end reliever who doesn't walk hitters and doesn't give up home runs. <strong>He won't strike out the side but he won't give the game away either.</strong> The kind of arm managers trust in the sixth and seventh when they need a clean inning. Not flashy, just effective.</div>
 </div>
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Jacob Webb</h3>
-      <div class="card-pos">RHP &middot; 1 SV, 0 HLD, 14G </div>
+      <h3 class="card-name">AJ Blubaugh</h3>
+      <div class="card-pos">RHP &middot; 0 SV, 2 HLD, 14G </div>
     </div>
-    <span class="tag-warm">Thin Ice</span>
+    <span class="tag-cold">Hittable Heat</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">ERA / WHIP</div>
-  <div class="stat-value">4.26 / 1.82 <span style="font-size:0.65rem;color:#EF5350">(3.00 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FB Velo</div>
-  <div class="stat-value">93.4</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">K%-BB%</div>
-  <div class="stat-value">13.6% <span style="font-size:0.65rem;color:#EF5350">(14.6% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">xERA</div>
-  <div class="stat-value">6.80 <span style="font-size:0.65rem;color:#EF5350">(3.23 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Hard-Hit% Allowed</div>
-  <div class="stat-value">51.4% <span style="font-size:0.65rem;color:#EF5350">(34.6% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">GB%</div>
-  <div class="stat-value">45.9% <span style="font-size:0.65rem;color:#4CAF50">(31.9% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FIP</div>
-  <div class="stat-value">5.52 <span style="font-size:0.65rem;color:#EF5350">(4.30 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="14.1" x2="256" y2="14.1" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="11.1" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,20.9 L23.4,15.1 L42.8,11.7 L62.2,20.9 L81.5,27.0 L100.9,20.9 L120.3,31.0 L139.7,24.4 L159.1,15.5 L178.5,15.2 L197.8,11.7 L217.2,17.6 L236.6,13.2 L256.0,15.7" fill="none" stroke="#888" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <path d="M4.0,14.8 L23.4,10.2 L42.8,7.5 L62.2,25.1 L81.5,64.7 L100.9,40.1 L120.3,34.2 L139.7,21.9 L159.1,14.4 L178.5,10.0 L197.8,7.3 L217.2,14.5 L236.6,10.0 L256.0,10.4" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="10.4" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> ERA <span class="legend-xwoba">&#9632;</span> FIP</div>
   </div>
   <div class="week-proj">
     <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">0.8</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">4.34</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">1</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ SV+H</div><div class="proj-stat-value">0.1</div></div></div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">1.0</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">4.3</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">1</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ SV+H</div><div class="proj-stat-value">0.1</div></div></div>
   </div>
-  <div class="card-note"><em>On paper, the closer, but his numbers are ugly. Hitters are making hard contact more than half the time, and his expected ERA is nearly seven runs. <strong>The actual results have been way better than the quality of contact deserves, and regression is knocking on the door.</strong> If the Reds get to the ninth with a shot, this is a very beatable arm.</em></div>
+  <div class="card-note">A fastball-changeup reliever whose fastball is his vulnerability. When hitters sit on the heater, they hit it hard, but <strong>the changeup can get him out of trouble</strong> with its deceptive speed difference. He walks too many guys and the fastball gets punished, which makes for high-stress outings. The Reds should attack the fastball early in counts.</div>
 </div>
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Ben Brown</h3>
-      <div class="card-pos">RHP &middot; 1 SV, 2 HLD, 11G </div>
+      <h3 class="card-name">Bryan Abreu</h3>
+      <div class="card-pos">RHP &middot; 1 SV, 2 HLD, 13G </div>
     </div>
-    <span class="tag-fire3">Best Arm Here</span>
+    <span class="tag-cold">Elite & Wild</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">ERA / WHIP</div>
-  <div class="stat-value">1.82 / 0.97 <span style="font-size:0.65rem;color:#4CAF50">(5.92 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FB Velo</div>
-  <div class="stat-value">96.5</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">K%-BB%</div>
-  <div class="stat-value">16.7% <span style="font-size:0.65rem;color:#EF5350">(18.9% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">xERA</div>
-  <div class="stat-value">2.69 <span style="font-size:0.65rem;color:#4CAF50">(4.53 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Hard-Hit% Allowed</div>
-  <div class="stat-value">36.4% <span style="font-size:0.65rem;color:#4CAF50">(47.3% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">GB%</div>
-  <div class="stat-value">51.5% <span style="font-size:0.65rem;color:#4CAF50">(42.4% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FIP</div>
-  <div class="stat-value">2.66 <span style="font-size:0.65rem;color:#4CAF50">(4.08 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="6.9" x2="256" y2="6.9" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="3.9" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,15.0 L25.0,27.4 L46.0,20.8 L67.0,57.3 L88.0,37.5 L109.0,43.5 L130.0,28.9 L151.0,19.7 L172.0,18.6 L193.0,13.2 L214.0,10.4 L235.0,8.9 L256.0,6.3" fill="none" stroke="#888" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <path d="M4.0,22.1 L25.0,38.7 L46.0,27.3 L67.0,65.7 L88.0,43.5 L109.0,51.6 L130.0,32.6 L151.0,21.3 L172.0,21.6 L193.0,14.7 L214.0,12.9 L235.0,9.4 L256.0,7.4" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="7.4" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> ERA <span class="legend-xwoba">&#9632;</span> FIP</div>
   </div>
   <div class="week-proj">
     <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">1.2</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">3.14</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">2</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ SV+H</div><div class="proj-stat-value">0.3</div></div></div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">0.8</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">2.84</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">1</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ SV+H</div><div class="proj-stat-value">0.2</div></div></div>
   </div>
-  <div class="card-note"><em>Converted from the rotation to high-leverage relief, and it is working. A 1.82 ERA with a fastball that touches 97 and a ground ball rate above 50 percent. <strong>The most dangerous arm in this bullpen, and the stuff plays up in shorter stints.</strong> If the Reds are facing him in a tie game, they are in trouble.</em></div>
+  <div class="card-note">The stuff is electric and the results are a disaster. He misses more bats than almost any reliever in baseball, but <strong>he can't find the strike zone</strong>, and when he does find it the ball is getting crushed. One of the strangest profiles you'll see: dominant ability, ugly results. The Reds should take pitches and let him beat himself with walks.</div>
 </div>
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Phil Maton</h3>
-      <div class="card-pos">RHP &middot; 0 SV, 1 HLD, 8G </div>
+      <h3 class="card-name">Bryan King</h3>
+      <div class="card-pos">LHP &middot; 3 SV, 2 HLD, 13G </div>
     </div>
-    <span class="tag-cold">Rusty Return</span>
+    <span class="tag-fire1">Under the Radar</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">ERA / WHIP</div>
-  <div class="stat-value">10.29 / 2.14 <span style="font-size:0.65rem;color:#EF5350">(2.79 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Sinker Velo</div>
-  <div class="stat-value">88.9</div>
-  <div class="stat-trend"><span class="trend-flat"></span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">K%-BB%</div>
-  <div class="stat-value">12.8% <span style="font-size:0.65rem;color:#EF5350">(23.4% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">xERA</div>
-  <div class="stat-value">6.63 <span style="font-size:0.65rem;color:#EF5350">(2.86 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FIP</div>
-  <div class="stat-value">5.58 <span style="font-size:0.65rem;color:#EF5350">(2.60 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Hard-Hit% Allowed</div>
-  <div class="stat-value">42.9% <span style="font-size:0.65rem;color:#EF5350">(30.7% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Whiff%</div>
-  <div class="stat-value">10.7% <span style="font-size:0.65rem;color:#EF5350">(15.6% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="10.3" x2="256" y2="10.3" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="7.3" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,7.3 L25.0,7.7 L46.0,-0.2 L67.0,1.9 L88.0,5.3 L109.0,7.3 L130.0,6.6 L151.0,7.3 L172.0,21.1 L193.0,15.6 L214.0,13.1 L235.0,11.7 L256.0,9.9" fill="none" stroke="#888" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <path d="M4.0,15.7 L25.0,11.8 L46.0,9.5 L67.0,8.1 L88.0,7.3 L109.0,6.8 L130.0,6.5 L151.0,8.2 L172.0,65.5 L193.0,41.7 L214.0,27.4 L235.0,18.8 L256.0,15.6" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="15.6" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> ERA <span class="legend-xwoba">&#9632;</span> FIP</div>
   </div>
   <div class="week-proj">
     <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">0.8</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">3.66</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">1</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ SV+H</div><div class="proj-stat-value">0.4</div></div></div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">0.8</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">3.47</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">1</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ SV+H</div><div class="proj-stat-value">0.4</div></div></div>
   </div>
-  <div class="card-note"><em>Just came off the IL, and his results have been brutal: a 10.29 ERA with hitters squaring him up. <strong>He was excellent last year, so the talent is real, but the timing and feel might still be off from the layoff.</strong> If he enters the game, Reds hitters should be aggressive.</em></div>
+  <div class="card-note">A four-pitch reliever whose fastball hitters simply cannot square up. <strong>He can attack from multiple angles</strong> with a changeup, sweeper, and sinker all in the mix, the kind of arm that can get both lefties and righties out. Underrated and dangerous.</div>
 </div>
 <div class="card">
   <div class="card-header">
     <div>
-      <h3 class="card-name">Corbin Martin</h3>
-      <div class="card-pos">RHP &middot; 1 SV, 0 HLD, 6G </div>
+      <h3 class="card-name">Bennett Sousa</h3>
+      <div class="card-pos">LHP &middot; 0 SV, 0 HLD, 5G </div>
     </div>
-    <span class="tag-warm">Wild Card</span>
+    <span class="tag-warm">Southpaw Swing</span>
   </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">ERA / WHIP</div>
-  <div class="stat-value">5.40 / 1.40</div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FB Velo</div>
-  <div class="stat-value">95.0</div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">K%-BB%</div>
-  <div class="stat-value">-4.5% <span style="font-size:0.65rem;color:#EF5350">(15.7% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FIP</div>
-  <div class="stat-value">7.15 <span style="font-size:0.65rem;color:#EF5350">(5.30 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">GB%</div>
-  <div class="stat-value">30.8% <span style="font-size:0.65rem;color:#EF5350">(44.2% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Whiff%</div>
-  <div class="stat-value">18.0% <span style="font-size:0.65rem;color:#4CAF50">(12.0% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Chase%</div>
-  <div class="stat-value">37.9% <span style="font-size:0.65rem;color:#4CAF50">(28.5% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
+  <div class="card-chart">
+<svg class="rolling-chart" width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+  <line x1="4" y1="6.2" x2="256" y2="6.2" stroke="#555" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <text x="255" y="3.2" font-size="7" fill="#666" text-anchor="end">LG AVG</text>
+  <path d="M4.0,46.6 L88.0,29.5 L172.0,19.8 L256.0,14.2" fill="none" stroke="#888" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <path d="M4.0,65.8 L88.0,41.4 L172.0,26.8 L256.0,18.0" fill="none" stroke="#EF5350" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256.0" cy="18.0" r="2.5" fill="#EF5350"/>
+</svg>
+<div class="chart-legend"><span class="legend-woba">&#9632;</span> ERA <span class="legend-xwoba">&#9632;</span> FIP</div>
   </div>
   <div class="week-proj">
     <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">0.6</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">4.77</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">1</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ SV+H</div><div class="proj-stat-value">0.1</div></div></div>
+    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">0.6</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">3.6</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">1</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ SV+H</div><div class="proj-stat-value">0.1</div></div></div>
   </div>
-  <div class="card-note"><em>Hard thrower at 95 who cannot find the strike zone. His walk rate is higher than his strikeout rate, which is a recipe for trouble. <strong>The stuff flashes with good chase and whiff numbers, but the command just is not there, and the gap between his best and worst makes him dangerous one night and very hittable the next.</strong></em></div>
-</div>
-<div class="card">
-  <div class="card-header">
-    <div>
-      <h3 class="card-name">Daniel Palencia</h3>
-      <div class="card-pos">RHP &middot; 1 SV, 0 HLD, 5G </div>
-    </div>
-    <span class="tag-fire3">Flamethrower</span>
-  </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">ERA / WHIP</div>
-  <div class="stat-value">0.00 / 1.00 <span style="font-size:0.65rem;color:#4CAF50">(2.91 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FB Velo</div>
-  <div class="stat-value">99.0</div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">K%-BB%</div>
-  <div class="stat-value">15.8% <span style="font-size:0.65rem;color:#EF5350">(20.9% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Whiff%</div>
-  <div class="stat-value">22.5% <span style="font-size:0.65rem;color:#4CAF50">(13.0% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Chase%</div>
-  <div class="stat-value">42.6% <span style="font-size:0.65rem;color:#4CAF50">(32.1% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Hard-Hit% Allowed</div>
-  <div class="stat-value">41.7% <span style="font-size:0.65rem;color:#4CAF50">(48.5% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">GB%</div>
-  <div class="stat-value">33.3% <span style="font-size:0.65rem;color:#EF5350">(38.8% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-  </div>
-  <div class="week-proj">
-    <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">1.0</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">3.4</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">1</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ SV+H</div><div class="proj-stat-value">0.5</div></div></div>
-  </div>
-  <div class="card-note"><em>Just activated from a rehab stint, and the early returns were spectacular: a 0.00 ERA in five appearances with a fastball that hits 99. <strong>The whiff and chase rates are both elite, and if the pre-injury version is fully back, he might be the Cubs' most dominant reliever.</strong> Small sample, but the velocity and movement look real.</em></div>
-</div>
-<div class="card">
-  <div class="card-header">
-    <div>
-      <h3 class="card-name">Ryan Rolison</h3>
-      <div class="card-pos">LHP &middot; 0 SV, 0 HLD, 4G </div>
-    </div>
-    <span class="tag-fire1">Improved Lefty</span>
-  </div>
-  <div class="card-stats">
-    <div class="stat-row">
-  <div class="stat-label">ERA / WHIP</div>
-  <div class="stat-value">4.05 / 1.05 <span style="font-size:0.65rem;color:#4CAF50">(7.02 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FB Velo</div>
-  <div class="stat-value">94.0</div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">K%-BB%</div>
-  <div class="stat-value">16.0% <span style="font-size:0.65rem;color:#4CAF50">(2.6% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8593;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">FIP</div>
-  <div class="stat-value">4.05 <span style="font-size:0.65rem;color:#4CAF50">(6.75 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">xERA</div>
-  <div class="stat-value">3.15 <span style="font-size:0.65rem;color:#4CAF50">(5.71 in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-up">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">GB%</div>
-  <div class="stat-value">33.3% <span style="font-size:0.65rem;color:#EF5350">(47.9% in 2025)</span></div>
-  <div class="stat-trend"><span class="trend-down">&#8595;</span></div>
-</div>
-    <div class="stat-row">
-  <div class="stat-label">Whiff%</div>
-  <div class="stat-value">5.4%</div>
-  <div class="stat-trend"><span class="trend-flat">&mdash;</span></div>
-</div>
-  </div>
-  <div class="week-proj">
-    <div class="week-proj-header">Series Projection</div>
-    <div class="week-proj-stats"><div class="proj-stat"><div class="proj-stat-label">PROJ IP</div><div class="proj-stat-value">0.8</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ ERA</div><div class="proj-stat-value">4.36</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ K</div><div class="proj-stat-value">1</div></div><div class="proj-stat"><div class="proj-stat-label">PROJ SV+H</div><div class="proj-stat-value">0.1</div></div></div>
-  </div>
-  <div class="card-note"><em>A lefty who has been significantly better than last year by every measure. His ERA, expected ERA, and strikeout rate are all improved. <strong>Only four appearances, so the jury is still out, but the early returns are encouraging.</strong> Could see more meaningful innings if the Cubs keep trusting the improvement.</em></div>
+  <div class="card-note">A left-handed reliever with <strong>projections that believe in the strikeout potential</strong> more than the early results suggest. He's got the arm to miss bats, and if the command tightens up he could be a factor late in games. The Reds may see him against their left-handed bats in tight spots.</div>
 </div>
 </div>
 <footer>
-  <strong>Data sources:</strong> FanGraphs, Razzball, Baseball Savant. Generated May 04, 2026.
+  <strong>Data sources:</strong> FanGraphs, Razzball, Baseball Savant. Generated May 08, 2026.
   <div class="glossary">
     <span class="glossary-item"><strong>Contact Score (xwOBA):</strong> Expected production based on quality of contact</span>
     <span class="glossary-item"><strong>OPS:</strong> On-base plus slugging</span>
