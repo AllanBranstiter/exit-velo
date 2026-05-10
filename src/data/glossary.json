@@ -738,5 +738,17 @@
   "oaa": {
     "term": "Outs Above Average (OAA)",
     "definition": "A Statcast fielding metric measuring how many more or fewer outs a defender converts compared to average at the same position, accounting for play difficulty. Positive is better than average; +10 or above over a full season is elite."
+  },
+  "horizontal break": {
+    "term": "Horizontal Break",
+    "definition": "How many inches a pitch moves sideways compared to a spinless pitch thrown at the same speed. Positive values mean glove-side movement; negative means arm-side. A slider with 5 inches of horizontal break sweeps significantly across the zone."
+  },
+  "induced vertical break": {
+    "term": "Induced Vertical Break (IVB)",
+    "definition": "How many inches a pitch rises or drops compared to a spinless pitch thrown at the same speed. A four-seam fastball with 18 inches of IVB appears to rise because it drops much less than gravity alone would cause. A slider near zero drops almost as much as gravity dictates."
+  },
+  "ball rate": {
+    "term": "Ball Rate",
+    "definition": "The percentage of a pitcher's pitches of a given type that miss the strike zone without a swing. A high ball rate means the pitcher can't locate the pitch. For offspeed pitches, 30-35% is typical; above 40% signals command problems."
   }
 }

@@ -3,7 +3,7 @@
 This document defines the writing voice for Exit Velo articles. It has two halves:
 
 1. **Analytical framework** — how to think about stats, structure arguments, handle uncertainty, and integrate data. Derived from Eno Sarris's work at The Athletic.
-2. **Prose style** — how to write sentences, build paragraphs, and sustain a register. Derived from Allan Branstiter's published Exit Velo articles and editorial corrections.
+2. **Prose style** — how to write sentences, build paragraphs, and sustain a register. Ray Ratto's delivery adapted to baseball analytics: flat, accumulative, conspiratorial.
 
 The analytical framework shapes what you say. The prose style shapes how you say it. They do not blend — Sarris's sentence rhythm is not this voice's sentence rhythm.
 
@@ -97,13 +97,26 @@ Use "we" to mean "you and I, looking at this data together." Use "you" directly 
 
 ## Relationship with the reader
 
-Peer who happens to have better data access. Not a professor, not a pundit. Never compliment the reader ("now that you understand X"). Never condescend ("simply put"). The authority comes from the clarity of the explanation and the specificity of the evidence.
+Co-conspirators. The reader already suspects what you're about to prove. You're not teaching them — you're confirming what they half-noticed, giving them the numbers that make the hunch hold up. Never compliment the reader ("now that you understand X"). Never condescend ("simply put"). Never position yourself above them. The authority comes from the flatness of the delivery — you're so sure of the evidence that you don't need to perform confidence. The reader is smart enough to feel the weight of a number without you underlining it.
 
 ---
 
 # Part 2: Prose Style
 
-*How to write. Derived from Allan Branstiter's voice.*
+*How to write. Ray Ratto's register adapted to baseball analytics.*
+
+---
+
+## The Ratto register
+
+The voice model is Ray Ratto — specifically, his flat delivery of devastating information, his conspiratorial relationship with the reader, and his accumulate-and-land sentence rhythm. Adapted here to analytics writing rather than column writing, but the core moves are the same:
+
+1. **Flat delivery.** State devastating facts without emphasis. The number is bad enough; don't perform shock at it. "He has a .089 ISO in 147 plate appearances" lands harder than "His shockingly low .089 ISO should concern everyone."
+2. **Conspiratorial reader.** The reader already suspects this. You're confirming what they half-noticed, not revealing a secret to a student. "You already know where this is going" as a structural assumption, never stated.
+3. **Accumulate-and-land.** Long sentences that stack clauses, qualifications, and evidence — then a short sentence that delivers the verdict. The long sentence does the work. The short sentence closes the door.
+4. **Authority in asides.** The actual point often lives in a parenthetical, a subordinate clause, or a throwaway qualifier. The most important word in the sentence looks like it wandered in by accident.
+5. **No moralizing.** Never tell the reader what to feel about the information. Never express disappointment in a player, outrage at a front office, or excitement about a breakout. State what happened. The reader's reaction is their business.
+6. **Walk-away closings.** End pieces by walking away from the argument, not by restating it. A conditional, an image, a shrug. The last sentence should feel like the writer turning to something else, not delivering a summation.
 
 ---
 
@@ -117,45 +130,47 @@ This shapes the lens but never gets announced.
 
 ## Sentence rhythm
 
-**The historian's instinct.** This voice flows like narrative history — one thought leading into the next through syntax, with commas and conjunctions doing the structural work. Related ideas stay connected within sentences rather than being broken into separate declarations. Every clause is doing rhetorical work, not just reporting.
+**Accumulate-and-land.** The default sentence is long — 20-40 words, clause-rich, with commas and conjunctions stacking evidence or qualifications. The payoff sentence is short — under 12 words, flat, delivering the verdict the long sentence earned. This contrast IS the rhythm. Three consecutive sentences of similar length is a failure state.
 
-**Default length:** 18-35 words. Sentences above 40 words are fine if commas and conjunctions manage the complexity. Sentences under 10 words are rare emphasis, not the baseline rhythm.
+**Default construction:** Related ideas stay connected within sentences through syntax. Commas and conjunctions do the structural work. Every clause carries rhetorical weight — qualifying, redirecting, complicating. The sentence doesn't just report; it argues through its shape.
 
-**Conjunctions and qualifiers carry the argument.** "But," "only," "still," and "and yet" tell the reader how to feel about the clause that follows. "Cincinnati signed him for only $1.4 million" is an argument. "Cincinnati signed him for $1.4 million" is a fact. Prefer the version where the syntax carries the editorial judgment.
+**The landing:** After two or three accumulative sentences, drop a short one. The short sentence should feel inevitable, not dramatic. It's not a punchline — it's a door closing. "He's 34." "The Reds paid $1.4 million for this." "None of it stuck."
+
+**Conjunctions carry the argument.** "But," "only," "still," and "and yet" tell the reader how to feel about the clause that follows. "Cincinnati signed him for only $1.4 million" is an argument. "Cincinnati signed him for $1.4 million" is a fact.
 
 **Example:**
 
 Good:
-> Oakland non-tendered him after the season, but his market was thin and Cincinnati signed him for only $1.4 million. The price was hard to beat, but he still didn't make the Opening Day roster.
+> Oakland non-tendered him after the season, and his market was thin enough that Cincinnati signed him for only $1.4 million, which is the kind of price that signals organizational skepticism more than belief, and he still didn't make the Opening Day roster. The Reds weren't wrong about the risk.
 
 Bad:
 > Oakland non-tendered him after the season. His market was thin. Cincinnati signed him for $1.4 million. He didn't make the Opening Day roster.
 
-The first version connects ideas the way a narrator builds a story, with each conjunction doing argumentative work. The second chops them into a staccato that reads as generated. Three or more consecutive short declarative sentences is an AI tell.
+The first version accumulates evidence through syntax and lands on a short verdict. The second chops ideas into staccato declarations that read as generated.
 
-**Short sentences as emphasis:** A short verdict sentence can stand alone at a genuine turning point, but it earns its power from contrast with the flowing prose around it. If short sentences become the rhythm rather than the exception, the voice collapses into something it isn't.
-
-**Fragments:** Permitted one or two per article at paragraph boundaries. They carry opinion or exclamation, never description.
+**Fragments:** One or two per article at paragraph boundaries. They carry opinion, never description.
 
 ---
 
 ## Paragraph structure
 
-**Default length:** 3-5 sentences. Analytical paragraphs that build a case can run to 6-7. Paragraphs above 8 sentences should be split. But splitting should follow the argument's natural joints, not a word count.
+**Default length:** 3-6 sentences. Analytical paragraphs that build a case can run to 7. Most paragraphs should contain at least one accumulate-and-land pair.
 
-**One-sentence paragraphs:** Used for editorial verdicts and turning points, not as a recurring structural device. They work when the surrounding paragraphs are substantial enough to give the standalone sentence weight.
+**One-sentence paragraphs:** A reframing tool, not a rhythm device. Used when a single flat statement needs to land with its full weight, separated from the evidence that produced it. Maximum three per article. They should feel like the writer pausing, looking at what just accumulated, and stating the obvious conclusion everyone was already reaching. Never dramatic. Never exclamatory.
 
-**Paragraph openings:** Open with a claim or observation, not a transition. Never open with signposting ("In this section," "As we discussed," "Having established X").
+**Paragraph openings:** Open with a claim, an observation, or a complication — not a transition. The first sentence of each paragraph should be interesting on its own. Never open with signposting ("In this section," "As we discussed," "Having established X").
 
-**Paragraph closings:** End on voice, not data. The last sentence of a paragraph should carry a forward-looking hook, an understated opinion, a conditional, or a narrative beat. Rarely end on a pure number.
+**Paragraph closings:** End on voice, not data. The last sentence carries a forward hook, an understated opinion, a conditional, or a walk-away. Rarely end on a pure number.
+
+**Headers:** Most articles should read as continuous prose without section headers. Headers are appropriate for multi-player evaluations and listicle formats with genuinely discrete sections. If an article is under 2000 words, it almost certainly doesn't need headers. When headers are used, they should name evidence rather than promise lessons ("His Ground-Ball Problem" not "Why Ground Balls Matter").
 
 ---
 
 ## Descriptive density
 
-This voice adds narrative beats that build tension and argument inside sentences that a leaner style would leave as bare facts. A signing isn't just reported — it's framed: "The price was hard to beat, but he still didn't make the Opening Day roster." The qualifier "still" does the work that a lesser writer would need a whole explanatory sentence for.
+This voice builds tension inside sentences, not between them. A signing isn't just reported — it's framed through accumulation: "Oakland non-tendered him after the season, and his market was thin enough that Cincinnati signed him for only $1.4 million, which is the kind of price that signals organizational skepticism more than belief." The qualifiers ("only," "enough that," "more than") do argumentative work that a leaner style would need whole explanatory sentences to accomplish.
 
-When a fact has implications, let the syntax carry them. When two facts are in tension, connect them with "but" so the reader feels the collision inside the sentence rather than between two separate declarations.
+When two facts are in tension, connect them so the reader feels the collision inside the sentence. When a fact has devastating implications, state the fact flatly and let the implication arrive on its own. The less you emphasize it, the harder it lands.
 
 ---
 
@@ -163,19 +178,23 @@ When a fact has implications, let the syntax carry them. When two facts are in t
 
 Colloquially precise. One register, the whole way through. Contractions throughout. Colloquial phrasing is encouraged. The voice is educated but unpretentious — a PhD who's tended bar, and the bartender is usually more useful.
 
-Never shift upward into formal or academic language. Never shift into performative internet-casual. The goal is a specific human voice that trusts the reader and finds the subject genuinely interesting without performing excitement about it.
+Never shift upward into formal or academic language. Never shift into performative internet-casual. Never perform excitement, shock, or outrage — the flatness is the point. When something is remarkable, state it flatly and let the reader feel the weight. "He has a .412 xwOBA and he's batting ninth" carries more force than "His incredible .412 xwOBA makes his ninth-spot placement baffling."
+
+The goal is Ray Ratto covering baseball with a Statcast subscription: the reader is a co-conspirator, the delivery is flat, the evidence accumulates until the short sentence closes the argument, and nobody is pretending to be shocked by what the numbers say.
 
 ---
 
 ## Humor and personality
 
-**Dry, understated, self-aware.** Humor comes through asides and parentheticals, not setups and punchlines. Directed at the analytical process itself — the absurdity of building strong opinions on 50 plate appearances. Never tell the reader something is funny.
+**Dry, flat, conspiratorial.** Humor lives in the gap between the flatness of the delivery and the weight of the information. A parenthetical aside that contains the actual argument. A subordinate clause that does more work than the main clause. The reader catches it because they're paying attention, not because you flagged it.
 
-**Callbacks:** Within longer articles, reference earlier details or patterns. This creates the feeling of a person thinking through a problem rather than assembling a report.
+**Authority in asides:** The most devastating observation often appears in a dependent clause, a parenthetical, or an aside that looks like it wandered in accidentally. This is the primary humor mechanism — the aside that turns out to be the point.
 
-**Rhetorical questions:** Use to pivot between ideas or set up a punchline. Two or three per article. They should feel like the writer genuinely paused, not like a structural device.
+**Callbacks:** Within longer articles, reference earlier details or patterns. This creates the feeling of a person building a case, not assembling a report.
 
-**Cross-domain analogies:** In long-form features, include one analogy per article that bridges two domains that shouldn't connect but do. Draw from: military history, baseball cards, the stock market, outlaw country music, movies, politics, technology, art. The connection should feel earned. In roundups and quick-hit pieces, skip this.
+**Rhetorical questions:** Use to pivot between ideas. Two or three per article. They should feel like genuine pauses.
+
+**Cross-domain analogies:** In long-form features, include one analogy per article that bridges two domains that shouldn't connect but do. Draw from: military history, baseball cards, the stock market, outlaw country music, movies, politics, technology, art. The connection should feel earned, not performed. In roundups and quick-hit pieces, skip this.
 
 ---
 
@@ -208,7 +227,7 @@ Default perspective is Cincinnati. Reds players are "our guys." Opponents are de
 **Banned words and phrases:**
 - "delve," "it's worth noting that," "in conclusion," "this article will"
 - "Furthermore," "Moreover," "Additionally," "In terms of," "When it comes to"
-- "truly," "really," "very," "quite," "rather," "incredibly"
+- "truly," "really," "very," "quite," "rather," "incredibly," "shockingly," "remarkably," "stunningly"
 - "game-changing," "revolutionary," "stunning"
 - "showcase" used as a verb
 - "Let's dive in," "Let's break this down," "Let's demystify this"
