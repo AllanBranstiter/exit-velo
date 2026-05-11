@@ -1,16 +1,16 @@
 ---
 layout: article.njk
 title: "Chase Burns Has One Problem Left"
-subtitle: "He redesigned his slider, moved his release point four inches, and there's one matchup separating him from ace."
+subtitle: "He redesigned his slider, moved his release point four inches, and now he needs a changeup that can retire left-handed hitters."
 category: Player Profile
 level: Intermediate
 date: 2026-05-10T12:00:00
-excerpt: "Chase Burns just threw six innings of two-hit ball to snap the Reds' 8-game losing streak, and the breakout narrative is forming. But the interesting question isn't whether he's breaking out — it's what specific problem separates the current version from the version that pitches deep into October."
+excerpt: "Chase Burns just threw six innings of two-hit ball to snap the Reds' 8-game losing streak, and the breakout narrative is forming. But the interesting question isn't whether he's breaking out—it's what specific problem separates the current version from the version that pitches deep into October."
 description: "Chase Burns made three deliberate mechanical changes between 2025 and 2026. His slider is now elite. One specific vulnerability remains."
 permalink: /articles/chase-burns-has-one-problem-left.html
 author: Allan Branstiter
-draft: true
-article_image: /images/chase-burns-hero.jpg
+draft: false
+article_image: /images/chase-burns-hero.png
 article_image_alt: Chase Burns delivering a pitch in his red Reds uniform at Great American Ball Park
 keywords:
   - Chase Burns
@@ -29,27 +29,31 @@ keywords:
 </summary>
 <div class="disclosure-content" style="padding:0.75rem 1rem 1rem;font-size:0.88rem;line-height:1.6;color:#5a1a1a;">
 
-<p>Chase Burns made three deliberate mechanical changes between 2025 and 2026: a <span class="term" data-term="slider">slider</span> redesign that traded sweep for depth, a release point shift of approximately four inches toward center across his entire arsenal, and a <span class="term" data-term="changeup">changeup</span> regrip that improved the pitch's shape but hasn't yet produced command. The slider is now genuinely elite — 49% <span class="term" data-term="whiff%">whiff rate</span>, +2.8 <span class="term" data-term="run value">run value</span> per 100 pitches — and the 2.11 <span class="term" data-term="era">ERA</span> will regress toward the 3.82–3.98 range that <span class="term" data-term="projection systems">projection systems</span> expect. The one remaining problem is specific: left-handed hitters facing Burns for the third time destroy his fastball and he can't throw the changeup for strikes.</p>
+<p>Chase Burns made three deliberate mechanical changes between 2025 and 2026: a <span class="term" data-term="slider">slider</span> redesign that traded sweep for depth, a release point shift of approximately four inches toward center across his entire arsenal, and a <span class="term" data-term="changeup">changeup</span> regrip that improved the pitch's shape but hasn't yet produced command. The slider is now genuinely elite—49% <span class="term" data-term="whiff%">whiff rate</span>, +2.8 <span class="term" data-term="run value">run value</span> per 100 pitches—and the 2.11 <span class="term" data-term="era">ERA</span> will regress toward the 3.82–3.98 range that <span class="term" data-term="projection systems">projection systems</span> expect. The one remaining problem is specific: left-handed hitters facing Burns for the third time destroy his fastball and he can't throw the changeup for strikes.</p>
 
-<p style="margin-top:1rem;"><strong>If you're new to baseball:</strong> A pitcher's slider is a <span class="term" data-term="breaking ball">breaking ball</span> that curves away from the batter. Burns completely changed how his slider moves between last year and this year, making it dive down instead of sliding sideways. It works better now. But his third pitch — the changeup, a slower pitch designed to mess up a hitter's timing — goes where he wants it less than half the time. Until he fixes that, left-handed batters who've seen him twice in a game can ignore everything else and wait for the fastball.</p>
+<p style="margin-top:1rem;"><strong>If you're new to baseball:</strong> A pitcher's slider is a <span class="term" data-term="breaking ball">breaking ball</span> that curves away from the batter. Burns completely changed how his slider moves between last year and this year, making it dive down instead of sliding sideways. It works better now. But his third pitch—the changeup, a slower pitch designed to mess up a hitter's timing—goes where he wants it less than half the time. Until he fixes that, left-handed batters who've seen him twice in a game can ignore everything else and wait for the fastball.</p>
 
-<p style="margin-top:1rem;"><strong>The short version:</strong> Burns is a 23-year-old with elite stuff who proved he can rebuild his own mechanics between seasons. The slider is the best breaking ball on the Reds' staff. The changeup <span class="term" data-term="ball rate">ball rate</span> (42.6% — how often he misses the zone with it) is the one number to track. If it drops below 35% by mid-June, the development is landing and Burns outperforms projections.</p>
+<p style="margin-top:1rem;"><strong>The short version:</strong> Burns is a 23-year-old with elite stuff who proved he can rebuild his own mechanics between seasons. The slider is the best breaking ball on the Reds' staff. The changeup <span class="term" data-term="ball rate">ball rate</span> (42.6%—how often he misses the zone with it) is the one number to track. If it drops below 35% by mid-June, the development is landing and Burns outperforms projections.</p>
 
 </div>
 </details>
 
-Chase Burns threw six innings of two-hit ball last week to snap the Reds' 8-game losing streak, and the breakout narrative is forming on schedule, which is fine, but the interesting question was never whether Burns is breaking out. He's 23, Cincinnati took him second overall in 2024, his <span class="term" data-term="slider">slider</span> now generates a 49% <span class="term" data-term="whiff%">whiff rate</span> and a +2.8 <span class="term" data-term="run value">run value per 100 pitches</span>, and the gap between what he is right now and what he could become by October is exactly one pitch wide. You already know which one.
+This weekend, Chase Burns threw six innings of two-hit ball to snap the Reds' 8-game losing streak. The breakout narrative is forming right on schedule, which is fine, but the more interesting question to me is what's fueling his success.
 
-I pulled all 719 pitches across eight starts from <span class="term" data-term="baseball savant">Baseball Savant</span> and cross-referenced against his 2025 numbers, and what fell out wasn't a breakout story. Burns made three deliberate mechanical changes between seasons — a slider redesign, a release point overhaul, and a <span class="term" data-term="changeup">changeup</span> regrip — and two of them have already landed. The third is mid-process. Until the changeup can be thrown for strikes against left-handed batters the third time through the order, Burns can't pitch seven innings against lineups that stack lefties, and opposing managers will stack them because the data is public. That's the gap between "best two-pitch power arm the Reds have developed since Hunter Greene" and "ace."
+If you're a Reds fan, you're already aware of the basics. Chase Burns is only 23 and has an electric but limited pitch arsenal. Cincinnati took him second overall in 2024, his fastball rides like hell, and his <span class="term" data-term="slider">slider</span> now generates a 49% <span class="term" data-term="whiff%">whiff rate</span> and a +2.8 <span class="term" data-term="run value">run value per 100 pitches</span>. Fans have been clamoring for him to learn a third pitch for a while, especially after a couple uneven starts earlier this season. A lot of people believe it's that missing third pitch that stands between Burns and staff ace status.
 
-The slider first. His <span class="term" data-term="horizontal break">horizontal break</span> dropped from 5.05 inches to 2.76, his <span class="term" data-term="induced vertical break">induced vertical break</span> dropped from 1.33 to 0.55, and his spin rate dropped 118 rpm. He traded sweep for depth at the same velocity — 90.8 mph both years, which means the shape change is a grip change, not an effort change. The 2025 version moved on a wide, flat arc — the kind of pitch that generates chase swings below the zone but can't survive inside it without getting barreled. The 2026 version dives down and in rather than sliding away, and the result is a pitch that works in the zone for the first time in his career. His out-of-zone whiff rate actually dropped, from 76.9% to 67.6%, and the total whiff jumped anyway because the in-zone whiff nearly doubled: 14.9% to 26.7%. He can throw it for strikes now. That changes everything.
+If all of this sounds familiar, it's because that's how the Reds fans talked about Hunter Greene for years. But Greene became the Reds ace by mastering his four-seam fastball and slider. (Yes, he has a splitter and cutter, but he barely throws those.)
 
-Against right-handed hitters, the whiff rate went from 37.5% to 50.0%. Half the right-handers who swing at his slider miss it. The old version slid away on a flat plane, which is what every right-handed hitter has been reading since Single-A, and the new one looks like the <span class="term" data-term="four-seam fastball">four-seam fastball</span> until it drops off the table. The movement axis rotated. He's not asking you to chase wide anymore. He's asking you to swing over the top of it. Best <span class="term" data-term="breaking ball">breaking ball</span> on the Reds' staff, and it wasn't that four months ago.
+We're less than a year into the Chase Burns experiment, so there's no way to know how things will unfold. Our guy's stuck to his fastball-slider combo so far, but I wanted to see if there was anything going on beneath the hood. If he isn't working on a third pitch, is he sharpening his other pitches? If so, are they getting nastier, or is he learning how to throw them in a way that allows him to go deeper in games?
+
+I pulled all 719 pitches across eight starts from <span class="term" data-term="baseball savant">Baseball Savant</span> and cross-referenced against his 2025 numbers. What immediately stood out was that Burns has made three deliberate mechanical changes between seasons—he's redesigned his slider, he changed his release point, and (on the rare occasion he throws it) his <span class="term" data-term="changeup">changeup</span> is behaving differently.
+
+He's managed to land the first two successfully, but the changeup remains a work in progress. Until the changeup can be thrown for strikes against left-handed batters the third time through the order, Burns is going to have a real hard time pitching seven innings. To me, that's the gap between "best power arm the Reds have developed since Hunter Greene" and "ace."
 
 <figure class="diagram" style="margin: 2rem 0; text-align: center;">
 <svg role="img" aria-labelledby="diagram-slider-movement diagram-slider-movement-desc" viewBox="0 0 560 460" width="100%" style="max-width: 540px; display: inline-block;" xmlns="http://www.w3.org/2000/svg">
-  <title id="diagram-slider-movement">Movement profile chart showing Burns' slider horizontal break decreasing from 5.05 to 2.76 inches and induced vertical break from 1.33 to 0.55 inches between 2025 and 2026, while his four-seam fastball remained stationary at approximately -3.6 inches horizontal and 18.2 inches vertical</title>
-  <desc id="diagram-slider-movement-desc">The four-seam fastball plots in the upper-left quadrant at similar positions for both years, serving as an anchor. The 2025 slider plots in the lower-right at 5.05 inches horizontal and 1.33 inches vertical, representing a sweeping shape. The 2026 slider moved left and down to 2.76 inches horizontal and 0.55 inches vertical, a tighter dropping shape. An arrow connects the two slider positions showing the 2.3-inch horizontal and 0.8-inch vertical shift.</desc>
+  <title id="diagram-slider-movement">Movement profile chart showing Burns' slider horizontal break decreasing from 5.05 to 2.76 inches and induced vertical break from 1.33 to 0.55 inches between 2025 and 2026, while his four-seam fastball remained stationary at approximately 3.6 inches of arm-side run and 18.2 inches of induced vertical break</title>
+  <desc id="diagram-slider-movement-desc">The four-seam fastball plots in the upper-right quadrant (arm-side run) at similar positions for both years, serving as an anchor. The 2025 slider plots in the lower-left at 5.05 inches of glove-side break and 1.33 inches vertical, representing a sweeping shape. The 2026 slider moved right and down to 2.76 inches of glove-side break and 0.55 inches vertical, a tighter dropping shape. An arrow connects the two slider positions showing the 2.3-inch horizontal and 0.8-inch vertical shift.</desc>
   <defs>
     <marker id="arrow-sl" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
       <polygon points="0 0, 8 3, 0 6" fill="#d97706"/>
@@ -84,32 +88,32 @@ Against right-handed hitters, the whiff rate went from 37.5% to 50.0%. Half the 
   <text x="278" y="420" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#94a3b8">0</text>
   <text x="447" y="420" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#94a3b8">5</text>
   <!-- Axis titles -->
-  <text x="295" y="445" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#64748b">Horizontal Break (in.) — glove side →</text>
+  <text x="295" y="445" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#64748b">← glove side — Horizontal Break (in.) — arm side →</text>
   <text x="18" y="225" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#64748b" transform="rotate(-90 18 225)">Induced Vertical Break (in.)</text>
   <!-- 2025 Four-seam (faded gray) -->
-  <circle cx="159" cy="77" r="8" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.5"/>
+  <circle cx="431" cy="77" r="8" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.5"/>
   <!-- 2026 Four-seam (bold gray) -->
-  <circle cx="152" cy="72" r="8" fill="#64748b" stroke="#475569" stroke-width="1.5"/>
+  <circle cx="438" cy="72" r="8" fill="#64748b" stroke="#475569" stroke-width="1.5"/>
   <!-- FF label -->
-  <text x="178" y="68" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#475569" font-weight="600">FF</text>
-  <text x="178" y="82" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#94a3b8">'25 &amp; '26</text>
+  <text x="412" y="68" text-anchor="end" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#475569" font-weight="600">FF</text>
+  <text x="412" y="82" text-anchor="end" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#94a3b8">'25 &amp; '26</text>
   <!-- 2025 Slider (faded amber, open) -->
-  <circle cx="449" cy="365" r="9" fill="#fef3c7" stroke="#d97706" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <circle cx="141" cy="365" r="9" fill="#fef3c7" stroke="#d97706" stroke-width="1.5" stroke-dasharray="3,2"/>
   <!-- 2026 Slider (bold amber, filled) -->
-  <circle cx="372" cy="378" r="9" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+  <circle cx="218" cy="378" r="9" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
   <!-- Arrow from 2025 SL to 2026 SL -->
-  <line x1="440" y1="367" x2="382" y2="377" stroke="#d97706" stroke-width="2.5" marker-end="url(#arrow-sl)"/>
+  <line x1="150" y1="367" x2="208" y2="377" stroke="#d97706" stroke-width="2.5" marker-end="url(#arrow-sl)"/>
   <!-- SL labels -->
-  <text x="449" y="350" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#92400e">'25 SL</text>
-  <text x="372" y="400" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#92400e">'26 SL</text>
+  <text x="141" y="350" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#92400e">'25 SL</text>
+  <text x="218" y="400" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#92400e">'26 SL</text>
   <!-- Shift annotation (positioned in empty space above SL cluster) -->
-  <text x="372" y="348" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="10" fill="#92400e" font-weight="600">2.3 in. less sweep</text>
-  <text x="372" y="361" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="10" fill="#92400e">0.8 in. more drop</text>
+  <text x="218" y="348" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="10" fill="#92400e" font-weight="600">2.3 in. less sweep</text>
+  <text x="218" y="361" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="10" fill="#92400e">0.8 in. more drop</text>
   <!-- Legend -->
-  <circle cx="345" cy="54" r="5" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,1"/>
-  <text x="355" y="58" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#64748b">2025</text>
-  <circle cx="395" cy="54" r="5" fill="#64748b" stroke="#475569" stroke-width="1"/>
-  <text x="405" y="58" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#64748b">2026</text>
+  <circle cx="100" cy="54" r="5" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,1"/>
+  <text x="110" y="58" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#64748b">2025</text>
+  <circle cx="150" cy="54" r="5" fill="#64748b" stroke="#475569" stroke-width="1"/>
+  <text x="160" y="58" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#64748b">2026</text>
 </svg>
 <figcaption>Burns' slider movement profile shifted from sweep territory to depth territory between 2025 and 2026. The four-seam fastball (top) stayed put.</figcaption>
 </figure>
@@ -126,7 +130,14 @@ Against right-handed hitters, the whiff rate went from 37.5% to 50.0%. Half the 
   </table>
 </details>
 
-But the slider alone doesn't prove what I think it proves. A grip tweak can change one pitch. What a grip tweak can't explain is that Burns also shifted his release point approximately 4.3 inches toward center on the rubber, across his entire arsenal — four-seam, slider, changeup, all moving together — and the gap between where his fastball and changeup leave his hand compressed from 5.2 inches to 3.2. One pitch changing is an experiment. Three pitches and one arm slot shifting in coordination is a pitcher who decided, at 23, to tear down his delivery and rebuild it from a different position on the rubber. The slider isn't an accident. It's part of a project.
+The slider first. His <span class="term" data-term="horizontal break">horizontal break</span> dropped from 5.05 inches to 2.76, and his <span class="term" data-term="induced vertical break">induced vertical break</span> dropped from 1.33 to 0.55. Meanwhile, his spin rate dropped 118 rpm at the same velo (90.8 mph in both seasons). He traded sweep for depth at the same velocity. This suggests that he's changed his grip and delivery, not throwing the ball harder or softer. He could be doing this for any number of reasons (deception, control, stamina, etc), but the slider is really humming right now.
+
+In 2025 his slider moved on a wide, flat arc. This kind of sweeping slider generates chase swings when they're below the zone. Unfortunately, it can be hard to control and gets hammered when they're left hanging in the zone.
+
+Burns's updated 2026 slider dives down and in on righties, on a slightly tighter trajectory. This allows him to control the pitch more and makes it less susceptible to barrels when thrown in the zone. And while his out-of-zone whiff rate has dropped (from 76.9% to 67.6%), the overall whiff rate has increased. Most importantly, his in-zone whiff rate has nearly doubled (14.9% to 26.7%), which means he can more safely throw his slider for strikes now. It's not just a chase pitch anymore, which gives his two-pitch arsenal a lot more mileage.
+
+His slider is even more deceptive against right-handed hitters. In fact, half, *half*, of the right-handers who swing at his slider miss it. This is because his new slider's tighter trajectory makes it look more like a <span class="term" data-term="four-seam fastball">four-seam fastball</span> until it drops off the table. This causes batters to swing over the top of the ball, which produces whiffs and ground balls. It's an excellent pitch combo, and I'd say his slider is the best <span class="term" data-term="breaking ball">breaking ball</span> on the Reds' staff right now.
+
 
 <figure class="diagram" style="margin: 2rem 0; text-align: center;">
 <svg role="img" aria-labelledby="diagram-release-point diagram-release-point-desc" viewBox="0 0 560 380" width="100%" style="max-width: 540px; display: inline-block;" xmlns="http://www.w3.org/2000/svg">
@@ -191,16 +202,6 @@ But the slider alone doesn't prove what I think it proves. A grip tweak can chan
   <text x="349" y="185" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#92400e" font-weight="600">SL '26</text>
   <text x="144" y="252" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#14532d">CH '25</text>
   <text x="338" y="243" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#14532d" font-weight="600">CH '26</text>
-  <!-- FF-CH gap bracket: 2025 -->
-  <line x1="144" y1="272" x2="144" y2="278" stroke="#64748b" stroke-width="1"/>
-  <line x1="144" y1="275" x2="305" y2="275" stroke="#64748b" stroke-width="1" stroke-dasharray="3,2"/>
-  <line x1="305" y1="272" x2="305" y2="278" stroke="#64748b" stroke-width="1"/>
-  <text x="224" y="270" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#64748b">5.2 in.</text>
-  <!-- FF-CH gap bracket: 2026 -->
-  <line x1="338" y1="287" x2="338" y2="293" stroke="#475569" stroke-width="1.5"/>
-  <line x1="338" y1="290" x2="437" y2="290" stroke="#475569" stroke-width="1.5"/>
-  <line x1="437" y1="287" x2="437" y2="293" stroke="#475569" stroke-width="1.5"/>
-  <text x="388" y="285" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#475569" font-weight="600">3.2 in.</text>
   <!-- Legend -->
   <circle cx="130" cy="54" r="5" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,1"/>
   <text x="140" y="58" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" fill="#64748b">2025</text>
@@ -224,26 +225,34 @@ But the slider alone doesn't prove what I think it proves. A grip tweak can chan
   </table>
 </details>
 
-Burns threw eight <span class="term" data-term="curveball">curveballs</span> in <span class="term" data-term="spring training">spring training</span>, generated three whiffs, and shelved the pitch entirely for the regular season. Zero curveballs in 719 pitches. He's experimenting, discarding, iterating — 23 and already on his second delivery.
+Burns's changes aren't limited to his slider grip, either. He's also shifted his release point approximately 4.3 inches toward the center of the rubber. This has had an effect on his entire arsenal, including the changeup he rarely throws.
 
-I should correct something from an earlier version of this analysis. I'd initially found what looked like a 1.7 mph drop in fastball speed from early to late innings, which looked alarming in a four-start sample and looked like normal fatigue in an eight-start sample. The real number is 0.63 mph from peak velocity (pitches 26–50) to late game (pitches 76–100). The instinct to find something wrong when you're staring at a 2.11 <span class="term" data-term="era">ERA</span> is strong, and the effective velocity thing isn't the problem.
+And speaking of his changeup, I'm wondering if this is the storied third pitch he's working on. His change in release point has compressed the gap between where his fastball and changeup leave his hand by two inches (5.2 to 3.2). His heater and change look more alike than ever before, which makes them both better pitches.
 
-The changeup is the problem. Burns regripped it between seasons, and the shape metrics improved across the board — 1.4 mph slower, creating an 8.3 mph gap off the fastball instead of 7.5, the spin up 316 rpm, the vertical rise increased by 3.38 inches to tunnel tighter off the fastball, and the release point now hiding behind the four-seam instead of announcing itself from a different arm slot. Lab-designed inputs.
+We're looking a small sample, but his changeup's shape and velo are also better than last season. It's now 1.4 mph slower, which creates an 8.3 mph gap off the fastball, and more spin has created 3.38 inches more vertical rise to tunnel it tighter off the fastball. Combine this with the release point similarities, and the fastball-change combo could be a legit weapon.
 
-And the pitch is worse. His <span class="term" data-term="ball rate">ball rate</span> jumped from 27.9% to 42.6%. His chase rate on out-of-zone changeups dropped from 46.4% to 30.0%. The <span class="term" data-term="xwoba">expected weighted on-base average</span> on contact is .435 for the full season, which is bad. But in the third time through the order, when Burns increases changeup usage from about 5% to roughly 16%, the five balls in play against the pitch have averaged 73.4 mph <span class="term" data-term="exit velocity">exit velocity</span> with a 20% <span class="term" data-term="hard-hit rate (pitcher)">hard-hit rate</span>. Five balls in play is nothing. But the soft-contact profile is consistent with what the shape metrics predict. The ingredients are there. The command isn't.
+What's holding the changeup back? Control, mostly. The change's <span class="term" data-term="ball rate">ball rate</span> is up to 42.6%, and the out-of-zone chase rate is down to 30.0%. Its <span class="term" data-term="xwoba">expected weighted on-base average</span> on contact is .435, which is bad. But, when batters do make contact with the changeup, it's not great contact (only 73.4 mph <span class="term" data-term="exit velocity">exit velocity</span> with a 20% <span class="term" data-term="hard-hit rate (pitcher)">hard-hit rate</span>). Yes, five balls in play is nothing, but they suggest the changeup's shape metrics are good. The command just needs to catch up.
 
-Anyone who's rezeroed a rifle at a new range knows the pattern. You make the adjustment and for the first hundred rounds your groupings are wider, not tighter. The muscle memory is fighting the mechanics. Burns is rezeroing — throwing from a new arm slot, at a new speed, with a new spin profile, and not yet knowing where it's going to end up. He throws the changeup 5% of the time in the first time through the order, 10% the second, 16% the third. He's reaching for it when he needs it most. If the ball rate doesn't drop by June, the data will tell us.
+So what should we look out for?
 
-The 2.11 ERA will not survive. His <span class="term" data-term="babip (pitcher)">BABIP</span> is .237, about 60 points below league average, and his <span class="term" data-term="strand rate">strand rate</span> is 93.6%, which is a number elite closers sustain but starters don't. His <span class="term" data-term="fip">FIP</span> is 3.77. Depth Charts projects 3.82 for the rest of the season; ZiPS says 3.98. His <span class="term" data-term="stuff+">Stuff+</span> is 111, his <span class="term" data-term="pitching+">Pitching+</span> is 117 — above-average, not elite-ERA caliber, not with the current arsenal. The performance normalizes. The development doesn't regress. These are physical measurements that will still be there in August.
+First, can Burns get the ball rate on his changeup down. Anyone who's zeroed a new rifle at a range can empathize with what he's trying to do here. Burns is rezeroing—throwing from a new arm slot, at a new speed, with a new spin profile. He hasn't gotten to the point where he can predict exactly where the ball is going and what a great pitch should feel like. Plus, he only throws the changeup 5% of the time in the first time through the order, 10% the second, 16% the third. That's not a lot of opportunities for in-game experience. But he's not afraid to reach for the changeup when he needs it most. That takes moxie. I like a player with moxie.
 
-So if the slider is elite and the ERA regression is expected, what's the actual problem? Left-handed hitters facing Burns for the third time in a game.
+I don't think his 2.11 <span class="term" data-term="era">ERA</span> will survive this learning process—which is totally fine. His <span class="term" data-term="babip (pitcher)">BABIP</span> is .237 (about 60 points below league average) and his <span class="term" data-term="strand rate">strand rate</span> is 93.6%, which is a number elite closers sustain but starters don't. His <span class="term" data-term="fip">FIP</span> is 3.77. Depth Charts projects 3.82 for the rest of the season; ZiPS says 3.98. His <span class="term" data-term="stuff+">Stuff+</span> is 111, his <span class="term" data-term="pitching+">Pitching+</span> is 117—above-average, not elite-ERA caliber, not with the current arsenal. I think his performance will bounce between being lights out one week and uneven the next. Which isn't a bad place to be for a pitcher with less than a year of service time under his belt.
 
-Twenty plate appearances. I need to say the denominator immediately. But those 20 plate appearances produced a 5% <span class="term" data-term="k% (pitcher)">strikeout rate</span>, a 50% hit rate, and three home runs. Five of Burns' six career home runs allowed have come against left-handed batters. Three in the third time through. Three on fastballs located middle-to-high.
+The biggest thing to look out for is how left-handed batters perform against Burns the third time through the order. It hasn't been great so far.
 
-The fastball gets destroyed in the third time through regardless of handedness — 99.5 mph average exit velocity, 67% hard-hit rate on 15 balls in play — but lefties are the ones who capitalize, because the slider's new shape plays worse to them (whiff dropped from 52.5% to 41.3%) and the changeup can't be thrown for strikes. Lefties have seen the fastball and calibrated to it, the slider no longer sweeps away from a left-handed swing plane the way the 2025 version did, and the one pitch designed to neutralize them lands in the zone 57% of the time at best. The specific percentages will move. The pattern won't.
+To be upfront, we have only seen twenty of these plate appearances against Burns so far. But those 20 plate appearances produced a microscopic 5% <span class="term" data-term="k% (pitcher)">strikeout rate</span>, a 50% hit rate, and three home runs. Five of Burns' six career home runs allowed have come against left-handed batters, three of those during the third time through. And three were off fastballs located middle-to-high in the zone.
 
-Against righties in the third time through, Burns is fine: 21% strikeout rate, 16% hit rate, one home run in 19 plate appearances. The slider carries deep into games against same-handed hitters. The problem only shows up when managers stack lefties. They will.
+In general, Burns's fastball gets less effective the deeper he gets into games. Against lefties and righties, we see a 99.5 mph average exit velocity and 67% hard-hit rate off his fastballs the third time through. But lefties are the ones who capitalize on his fatigue and mistakes the most. The slider's new shape plays worse against them (whiff dropped from 52.5% to 41.3%) because it no longer sweeps away as dramatically as the 2025 version did.
 
-Greene is the closest comp on the same roster. He throws 99 with a 54% four-seam usage rate, his slider generated a 46.9% whiff rate in 2025, and Burns' slider now matches or exceeds that. Greene has survived as a two-pitch starter because the slider carries him, but his third pitch — a splitter at 10.8% usage — produced a -2.9 run value per 100 and a .334 xwOBA against. The difference between Burns and Greene isn't talent. It's four years of adaptation versus two. And Skenes is the ceiling, the version that shows where this goes when the changeup arrives — he developed his to 10.9% usage with a 43.9% whiff rate in 2025, the best whiff pitch in his arsenal, and posted a 1.97 ERA over 187 2/3 innings on that depth. Burns is standing where Skenes stood before the bridge was built.
+FWIW Burns is fine against righties the third time through: 21% strikeout rate, 16% hit rate, one home run in 19 plate appearances. The slider carries deep into games against same-handed hitters.
 
-The number is the changeup ball rate. It's 42.6%. If it drops below 35% by mid-June, the development is landing and Burns outperforms projections, because the stuff is already there and only the command of one pitch in one matchup is missing. If it doesn't drop, he's still a 23-year-old who redesigned his slider in a single offseason and might figure out the changeup in the next one. I'm watching the ball rate.
+Let's return to Burns's obvious comp on the roster. Hunter Greene throws 99 with a 54% four-seam usage rate, his slider generated a 46.9% whiff rate in 2025. Burns' slider now matches or exceeds that. Greene has survived as a two-pitch starter because they're nasty and he can locate them (which wasn't the case when he was Burns's age). But his third pitch—a splitter he throws 10.8% of the time—only produced a -2.9 run value per 100 and a .334 xwOBA against.
+
+The difference between Burns and Greene is mostly experience, but both have enormously high ceilings. I think Burns can be as good as Greene, if not better if he proves to be more durable.
+
+But let me go out on a limb to wrap this up—I think for Burns, Paul Skenes is the ceiling. While he'll never have the arsenal that Skenes has, I think mastering a changeup will allow him to be just as productive. Also, insert the obligatory "the splinker is a fake pitch" comment here.
+
+So watch his ball rate on the changeup moving forward, especially going into the fifth and sixth innings. Right now it's 42.6%. If it drops below 35% by mid-June, I think it's developing and Burns will outperform his pre-season and ROS projections. Like I said, the stuff is already there, command just needs to show up.
+
+And if it doesn't drop, he's still a 23-year-old who redesigned his slider in a single offseason and might figure out the changeup in the next one.

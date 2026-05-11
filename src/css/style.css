@@ -799,6 +799,18 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   color: var(--text-muted);
 }
 
+/* --- Article Hero Image --- */
+.article-hero {
+  margin: 1.5rem 0 1.5rem;
+}
+
+.article-hero img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
+
 /* --- Article Body --- */
 .article-body {
   font-family: var(--font-body);
@@ -831,10 +843,20 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 }
 
 .article-body table {
-  width: 100%;
   border-collapse: collapse;
   font-family: var(--font-ui);
   font-size: 0.85rem;
+}
+
+.article-body th,
+.article-body td {
+  padding: 0.4rem 0.75rem;
+  text-align: left;
+}
+
+.article-body th {
+  font-weight: 600;
+  border-bottom: 1px solid var(--border);
 }
 
 .article-body figcaption {

@@ -14,6 +14,15 @@
         <p class="article-header__byline">By {{ author if author else "Exit Velo" }}</p>
       </header>
 
+      {% if article_image %}
+      <figure class="article-hero">
+        <picture>
+          {% if webpExists(article_image) %}<source type="image/webp" srcset="{{ article_image | webpName }}">{% endif %}
+          <img src="{{ article_image }}" alt="{{ article_image_alt if article_image_alt else title }}" loading="eager">
+        </picture>
+      </figure>
+      {% endif %}
+
       <p class="glossary-hint">Tap or click any <span class="term" data-term="statcast" style="pointer-events:none; border-bottom: 1px dotted #e05c1a;">underlined term</span> to see its definition.</p>
 
       <article class="article-body">
