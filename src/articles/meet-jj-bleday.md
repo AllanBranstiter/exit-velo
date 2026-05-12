@@ -22,10 +22,6 @@ keywords:
   - "Eugenio Suarez"
 ---
 
-<figure style="margin:0 0 2rem;">
-  <img src="/images/jj-bleday-louisville-hero.jpeg" alt="JJ Bleday follows through on a swing in a Louisville Bats uniform, watching the ball leave the bat" style="width:100%;border-radius:0.5rem;">
-</figure>
-
 <details style="margin:0 0 2rem;background:#fce8eb;border-left:4px solid #C6011F;border-radius:0.25rem;padding:0;width:100%;box-sizing:border-box;">
 <summary style="cursor:pointer;padding:0.75rem 1rem;font-weight:600;font-size:0.9rem;color:#8B0015;list-style:none;display:flex;align-items:center;gap:0.5rem;">
 <span class="disclosure-arrow">&#9654;</span> TLDR
