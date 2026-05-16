@@ -695,6 +695,10 @@
     "term": "Pull Rate (Pull%)",
     "definition": "The percentage of a batter's balls in play hit to his pull side (left field for a right-handed hitter, right field for a lefty). League average is approximately 38-42%. Pulling the ball generates more home runs but can also signal predictability."
   },
+  "pull-air rate": {
+    "term": "Pull-Air Rate",
+    "definition": "The percentage of a batter's air contact (fly balls and line drives) hit to his pull side. The single best predictor of home run output for non-elite-EV hitters, since pulled air contact lands in the shortest part of the park. League average is approximately 25-30%; power hitters run 38-42%; below 20% is bottom-quartile."
+  },
   "run value": {
     "term": "Run Value (per 100 pitches)",
     "definition": "A measure of how much value a specific pitch generates, expressed as runs above or below average per 100 pitches. For pitchers, positive means the pitch is beating hitters; for batters, positive means they are crushing that pitch type. Needs 200+ pitches to stabilize."

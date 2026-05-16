@@ -58,6 +58,11 @@
   <script src="/js/glossary.js"></script>
 
   <style>
+  /* Hide any legacy inline hero figure in article bodies — the hero image is rendered
+     once at the top of the page from the `article_image` frontmatter (see <figure
+     class="article-hero"> above). An inline <figure class="hero"> in body Markdown
+     would otherwise render the same image twice. */
+  .article-body figure.hero { display: none; }
   .disclosure-arrow {
     display: inline-block;
     transition: transform 0.5s ease;
