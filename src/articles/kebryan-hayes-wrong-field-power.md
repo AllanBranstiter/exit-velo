@@ -225,7 +225,7 @@ Take a look a the diagram below. This shows all of the balls he struck harder th
 <text x="290" y="4" font-family="system-ui,-apple-system,sans-serif" font-size="10" fill="#94a3b8" text-anchor="end">Distances in feet</text>
 </g>
 </svg>
-<figcaption>Hayes's nine deepest air balls in 2026 plotted on a Great American Ball Park outline (328 ft LF / 404 ft CF / 325 ft RF). Both home runs cleared the short corners; the rest died short of the deepest center-field wall in the National League. Source: Baseball Savant.</figcaption>
+<figcaption>Hayes's nine deepest air balls in 2026 plotted on a Great American Ball Park outline (328 ft LF / 404 ft CF / 325 ft RF). Both home runs cleared the short corners; the rest died short of the deepest part of the center-field wall. Source: Baseball Savant.</figcaption>
 </figure>
 
 <div class="viz">
